@@ -8,9 +8,9 @@ oro:
       at:
         label: che
       invalidate_cache_at:
-        label: Invalidare la cache all'indirizzo
+        label: Invalida la cache all'indirizzo
       invalidate_now:
-        label: Invalidare ora
+        label: Invalida ora
       invalidate_service:
         label: Servizio di invalidazione della cache
       action:
