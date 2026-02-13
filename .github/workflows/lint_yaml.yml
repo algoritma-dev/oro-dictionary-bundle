@@ -3,10 +3,10 @@ name: Lint YAML Translations
 on:
   push:
     paths:
-      - 'src/Algoritma/Bundle/DictionaryBundle/Resources/translations/**'
+      - 'Resources/translations/**'
   pull_request:
     paths:
-      - 'src/Algoritma/Bundle/DictionaryBundle/Resources/translations/**'
+      - 'Resources/translations/**'
 
 jobs:
   lint:
