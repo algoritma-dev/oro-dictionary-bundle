@@ -1,0 +1,13 @@
+header:
+    connecting: Connessione in corso
+    success: 'Account "%name%" collegato con successo!'
+    register: 'Registrati con l''account "%name%"'
+    registration_success: 'Account "%username%" registrato e collegato con successo!'
+connect:
+    confirm:
+        cancel: Annulla
+        submit: 'Collega account'
+        text: 'Sei sicuro di voler collegare il tuo account %service% "%name%" al tuo account attuale?'
+    registration:
+        cancel: Annulla
+        submit: 'Registra account'

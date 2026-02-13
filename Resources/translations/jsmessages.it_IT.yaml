@@ -1,0 +1,3479 @@
+sync:
+    message:
+        content:
+            outdated: 'Il contenuto della pagina {{ title }} non è aggiornato, si prega di <a href="#" data-action="page-refresh">aggiornare la pagina</a>'
+oro:
+    platform:
+        maintenance_mode_on_title: 'Modalità manutenzione'
+        maintenance_mode_on_message: "Il sito web non è al momento disponibile per manutenzione e non può rispondere alla tua richiesta. Dovrebbe tornare online a breve, si prega di provare ad accedere nuovamente tra qualche minuto.\n\nSpiacenti per l'inconveniente. Se hai bisogno di maggiori informazioni contatta il tuo Amministratore.\n"
+    ui:
+        delete_confirm_cascade: 'Sei sicuro di voler eliminare questo {{ entity_label }} con altre entità ad esso correlate?'
+        widget_loading_failed: 'Caricamento del contenuto del widget non riuscito'
+        forbidden_error: 'Non hai il permesso di eseguire questa azione.'
+        unexpected_error: 'Si è verificato un errore inaspettato. Si prega di contattare l''amministratore di sistema.'
+        item_add_error: 'Aggiunta dell''articolo non riuscita.'
+        item_delete_error: 'Eliminazione dell''articolo non riuscita.'
+        malformed_url_loading_error: 'Impossibile caricare l''URL malformato'
+        leave_page_with_unsaved_data_confirm: 'Hai delle modifiche non salvate, sei sicuro di voler lasciare questa pagina?'
+        leave_page_save_data_or_discard_title: 'Conferma navigazione'
+        leave_page_save_data_or_discard: 'Hai delle modifiche non salvate. Vuoi salvarle prima di lasciare la pagina?'
+        error:
+            unexpected: 'Formato del contenuto inaspettato.'
+            performing: 'Si è verificato un errore durante l''esecuzione dell''operazione richiesta. Riprova o contattaci per ricevere assistenza.'
+        request_too_large_error: "I dati che stai inviando sono troppo grandi per essere elaborati dal server web. Ciò può accadere a causa di allegati come immagini ad alta risoluzione. Riduci le dimensioni del file o contatta il tuo amministratore per regolare la configurazione del server web.\n"
+        page_header:
+            button:
+                more: Altro
+        datepicker:
+            today: Oggi
+            prev: 'Passa al mese precedente'
+            next: 'Passa al mese successivo'
+            close: Chiudi
+            wk: Sett
+            aria_label: 'Seleziona data...'
+        timepicker:
+            am: am
+            pm: pm
+            AM: AM
+            PM: PM
+            mins: min
+            hr: ora
+            hrs: ore
+        components:
+            initialization_error: 'Si è verificato un errore durante l''aggiornamento del layout. Si prega di contattare l''amministratore di sistema.'
+        unload_message:
+            single: 'Le modifiche sono in fase di salvataggio e potrebbero andare perse'
+            group_title: 'Il server è in fase di aggiornamento e le seguenti modifiche potrebbero andare perse'
+            other: Altro
+        jstree:
+            move_node_error: 'Non puoi spostare il nodo {{ nodeText }} qui.'
+            no_node_selected_error: "Non hai selezionato nessun nodo"
+            actions:
+                label: 'Azioni albero'
+                expand: 'Espandi tutto'
+                collapse: 'Comprimi tutto'
+                move: 'Sposta in'
+                subitems:
+                    itemsLabel: Elementi
+                    select: 'Seleziona sotto-{{ itemsLabel }}'
+                    do_not_select: 'Non selezionare sotto-{{ itemsLabel }}'
+            search:
+                search_no_found: 'Nessun risultato trovato'
+            is_empty: 'Non esistono elementi'
+        select2:
+            input_too_short: '{1}Inserisci {{ number }} altro carattere|[2,Inf[Inserisci {{ number }} altri caratteri'
+            input_too_long: '{1}Elimina {{ number }} carattere|[2,Inf[Elimina {{ number }} caratteri'
+            selection_too_big: '{1}Puoi selezionare solo {{ limit }} elemento|[2,Inf[Puoi selezionare solo {{ limit }} elementi'
+            load_more: 'Caricamento di altri risultati...'
+            clear:
+                aria_label: 'Cancella selezione'
+            search:
+                aria_label: 'Campo di ricerca'
+            remove_selected_item: 'Rimuovi l''elemento {{ name }}'
+        widget_form_component:
+            save_flash_success: 'Salvato con successo'
+        highlight_switcher:
+            show_all_items: 'Mostra elementi nascosti'
+            show_highlighted_items_only: 'Mostra solo i risultati della ricerca'
+        element_value:
+            messages:
+                copied: 'Copiato negli appunti'
+                copy_not_successful: 'Il comando di copia non è andato a buon fine'
+                copy_not_supported: 'Il tuo browser non supporta il comando di copia. Premi Ctrl/Cmd+C per copiare'
+        widget_picker:
+            add: Aggiungi
+            new: Nuovo
+            added: Aggiunto
+            filter:
+                search_no_found: 'Nessun risultato trovato'
+                search_placeholder: 'Ricerca rapida'
+        zoom:
+            in: 'Ingrandisci'
+            out: 'Riduci'
+            auto: 'Zoom automatico'
+            steps: 'Passi dello zoom'
+            scroll_hint: 'Per cambiare la scala premi "Ctrl" e usa la "rotellina di scorrimento"'
+        search: Cerca
+        reset: Azzera
+        close_menu: 'Chiudi menu'
+        tab_view_more: ...
+        scroll_up_label: 'Scorri verso l''alto'
+        scroll_down_label: 'Scorri verso il basso'
+        collapse:
+            more: 'Visualizza di più'
+            less: 'Visualizza di meno'
+        show_more_view:
+            show_more: '{1}E {{ number }} altro elemento|[2,Inf[E {{ number }} altri elementi'
+            show_less: 'Mostra meno elementi'
+        dropdown_option_aria_label: 'Altre azioni'
+        dropdown_main_btn_prefix: Azione
+        status_button:
+            aria_label: 'Visualizza stato'
+    htmlpurifier:
+        formatted_error_line: 'Riga #{{ line }}: {{ message }}'
+        formatted_error: '{{ message }}'
+        messages:
+            'AttrValidator: Attribute removed': 'L''attributo "{{ name }}" con valore duplicato "{{ value }}" su "{{ tagName }}" dovrebbe essere rimosso'
+            reserved_id: 'I valori dell''attributo "id" che iniziano con "{{ id }}" sono riservati, si prega di utilizzare un ID diverso.'
+            exist_id: 'I valori dell''attributo "id" che iniziano con "{{ id }}" esistono già nella pagina, si prega di utilizzare un ID diverso.'
+            invalid_styles: 'Errore di sintassi CSS "{{ reason }}" in una colonna: {{ column }}'
+            invalid_styles_short: 'Errore di sintassi CSS "{{ reason }}"'
+        lock_editor:
+            title: 'La fonte contiene codice non valido.'
+            desc: 'Fai clic sul pulsante in basso per correggerlo.'
+            open_editor: 'Apri editor di contenuti'
+    business_unit:
+        form:
+            choose_business_user: 'Scegli un''unità aziendale...'
+            none_business_user: Nessuna
+    email:
+        smtp_connection:
+            success: 'Connessione stabilita con successo'
+            error: 'Impossibile stabilire la connessione'
+        menu:
+            mark_unread:
+                success:
+                    message: 'Il messaggio è stato contrassegnato come non letto'
+                error:
+                    message: 'Errore nel contrassegnare il messaggio come non letto'
+            shortcut_compose_email:
+                label: 'Componi email'
+        emailtemplate:
+            load_failed: 'Si è verificato un errore durante il caricamento del modello.'
+            variable_title: '{{ variable_label }}. Clicca per inserire la variabile o trascinala.'
+            reference_title: '{{ variable_label }}. Clicca per andare alle variabili correlate.'
+            change_entity_confirmation: 'I dati del modello possono contenere variabili relative all''entità precedentemente selezionata. Vuoi cancellare tutti i dati del modello?'
+            apply_template_confirmation_title: 'Applica conferma modello'
+            apply_template_confirmation_content: 'Il contenuto del corpo verrà sostituito da un modello. Sei sicuro di voler procedere?'
+            cannot_insert_variable: 'Impossibile inserire la variabile, posizionare il cursore nell''oggetto o nel contenuto del modello.'
+        emailtemplateattachment:
+            file_placeholder:
+                choices:
+                    upload_file_group: '-'
+        thread:
+            load_error: 'Spiacenti, il thread di posta elettronica non è stato caricato correttamente.'
+            no_signature: 'Non hai ancora una firma. Aggiungila in <a href="{{ url }}">La mia configurazione</a>.'
+            no_signature_no_permission: "Non hai ancora una firma. Contatta il tuo amministratore per aggiungerla."
+            collapse_all:
+                label: 'Comprimi tutto'
+                tooltip: 'Comprimi tutte le email nel thread'
+            expand_all:
+                label: 'Espandi tutto'
+                tooltip: 'Espandi tutte le email nel thread'
+        to:
+            label: A
+        cc:
+            label: Cc
+        bcc:
+            label: Ccn
+        form:
+            attach: Allega
+            no_attachments: 'Nessun allegato disponibile'
+            record_attachments: 'Allegati record'
+            thread_attachments: 'Allegati thread'
+        attachment:
+            added: 'Allegato aggiunto'
+            select_file: 'Seleziona file'
+        send_email: 'Invia email'
+        action:
+            success_mark_read: 'L''email è stata contrassegnata come letta'
+            success_mark_unread: 'L''email è stata contrassegnata come non letta'
+            error: 'Si è verificato un errore'
+        error:
+            get_email_last: 'Recupero delle ultime email non riuscito'
+            mark_as_read: 'Contrassegno di tutte le email come lette non riuscito'
+        recent_emails_widget:
+            title_all_folders: 'EMAIL RECENTI'
+            settings: 'Impostazioni widget email recenti'
+            mailbox_folder: 'Cartella casella di posta'
+            all_folders: TUTTE
+            mark_visible_read:
+                label: 'Contrassegna visibili come letti'
+            amount_of_emails: 'Quantità di email da visualizzare'
+            default_action: 'Azione predefinita'
+            default_action_hint: 'Azione predefinita per il widget in stato di barra laterale estesa'
+            reply_all: 'Rispondi a tutti'
+            reply: Rispondi
+            forward: Inoltra
+            description: 'Questo widget ti consente di vedere le aggiunte più recenti alla tua casella di posta in arrivo e in uscita'
+            no_subject: 'nessun oggetto'
+        notification:
+            menu_item:
+                hint: 'Email recenti'
+            mark_read:
+                label: 'Segna tutti come letti'
+            user_emails:
+                label: 'Le mie email'
+            empty: "Non hai ancora nessuna email"
+            new_email: 'Hai una nuova email'
+            more_unread: 'Altre non lette'
+    user:
+        suggest_password:
+            label: 'Suggerisci password'
+        show_hide_password:
+            label: 'Mostra/nascondi password'
+        reset_password:
+            flash:
+                success: 'L''email per reimpostare la password è stata inviata all''utente'
+            popup:
+                question: 'L''utente <b>{{ user }}</b> riceverà l''email per reimpostare la password e verrà disabilitato dall''accesso.'
+                title: 'Reimposta password'
+                label: Reimposta
+            mass_action:
+                question: 'Gli utenti selezionati riceveranno la reimpostazione della password via email e verranno disabilitati dall''accesso.'
+                title: 'Reimposta password'
+                label: Reimposta
+        change_password:
+            flash:
+                success: 'La password è stata cambiata'
+        mass_actions:
+            enable_users:
+                confirm_title: 'Disabilita utenti'
+                confirm_content: 'Gli utenti selezionati verranno abilitati.'
+                confirm_ok: Applica
+            disable_users:
+                confirm_title: 'Abilita utenti'
+                confirm_content: 'Gli utenti selezionati verranno disabilitati.'
+                confirm_ok: Applica
+    role:
+        tabs:
+            all:
+                label: Tutte
+            system_capabilities:
+                label: 'Funzionalità di sistema'
+        capability_block:
+            label: Funzionalità
+            select_all: 'Seleziona tutto'
+            no_capabilities_available: 'Questo gruppo non ha funzionalità'
+        content_outdated: 'Il ruolo corrente è stato aggiornato. Per favore, <a href="#" data-action="page-refresh">aggiorna la pagina</a> per visualizzare le nuove modifiche'
+        permission:
+            edit_label: 'Modifica il permesso "{{ label }}"'
+            mass_edit_label: 'Modifica tutti i permessi dell''entità'
+    datagrid:
+        headerCell:
+            selectAll:
+                label: 'Opzioni di selezione delle righe'
+                all: Tutte
+                allVisible: 'Tutte visibili'
+                none: Nessuna
+                input:
+                    aria_label: 'Seleziona tutte le righe'
+            selectAllVisible:
+                input:
+                    aria_label: 'Seleziona tutto sulla pagina'
+        entityHint: Entità
+        'no':
+            entities: 'Non ci sono {{ entityHint }}'
+            results_title: 'Nessun risultato trovato'
+            results: 'Nessun {{ entityHint }} trovato che corrisponda alla tua ricerca.<br>Prova a modificare i criteri di ricerca'
+            columns: 'Nessuna colonna configurata per questa griglia'
+        pagination:
+            input-aria: 'input di impaginazione della griglia dati'
+            input:
+                aria_label: 'Numero di pagina corrente'
+            label: Pagina
+            prev: Prec
+            prev.aria_label: 'Pagina precedente'
+            next: Succ
+            next.aria_label: 'Pagina successiva'
+            totalPages: 'di {{ totalPages }}'
+            visibleItems: 'Visualizzazione di {{ count }} di {{ total }} record'
+            totalRecords: 'Totale di {{ totalRecords }} record'
+            totalRecordsPlural: '{1}Totale di {{ totalRecords }} record|]1,Inf[Totale di {{ totalRecords }} record'
+            totalRecordsShort: '{{ totalRecords }} record totali'
+            totalRecordsShortPlural: '{1}prodotto|]1,Inf[prodotti'
+            totalRecordsLong: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} prodotto|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} prodotti'
+        extension:
+            export:
+                label: 'Esporta griglia'
+                tooltip: 'Con questo pulsante esporterai il contenuto della griglia così come ti appare, con filtri e ordinamento applicati. Tutte le pagine verranno esportate.'
+        action:
+            save_grid_view: Salva
+            rename_grid_view: Rinomina
+            discard_grid_view_changes: 'Annulla modifiche'
+            save_grid_view_as: 'Salva come'
+            share_grid_view: 'Condividi con altri'
+            unshare_grid_view: 'Non condividere'
+            delete_grid_view: Elimina
+            set_as_default_grid_view: 'Imposta come predefinito'
+            select_row: 'Seleziona una riga'
+            default_postfix: 'azione riga'
+        name_modal:
+            title: 'Visualizzazione griglia'
+        row_actions:
+            label: 'Azioni riga'
+        card_actions:
+            label: 'Azioni scheda'
+        gridView:
+            all: Tutte
+            default: Predefinita
+            created: 'La vista è stata creata con successo'
+            updated: 'La vista è stata aggiornata con successo'
+            deleted: 'La vista è stata eliminata con successo'
+            name: Nome
+            actions: Opzioni
+            data_edited: Modificato
+            save_name: Salva
+            error:
+                not_found: 'Vista non trovata'
+        loading_failed_message: 'Caricamento dati non riuscito, prova a ricaricare la pagina. Se il problema persiste, contatta il tuo amministratore.'
+        toolbar_sorting:
+            label: 'Ordinato per'
+        settings:
+            tab:
+                grid: Griglia
+                filters: Filtri
+            header:
+                title: Impostazioni
+            title: 'Impostazioni griglia'
+            title_aria_label: 'Espandi o comprime le impostazioni della griglia'
+            tooltip: 'Usa il trascinamento per ordinare gli elementi'
+            select_all: 'Seleziona tutto'
+            unselect_all: 'Deseleziona tutto'
+            deselect_all: 'Deseleziona tutto'
+            reset: 'Reimposta griglia'
+            filter:
+                all: Tutti
+                selected: Selezionati
+                select_all: 'Seleziona tutto'
+                unselect_all: 'Seleziona predefinito'
+                search_placeholder: 'Ricerca rapida'
+                clear_search_tooltip: 'Cancella ricerca rapida'
+            column:
+                name: Nome
+                show: Mostra
+                sort: Ordina
+            close_tooltip: 'Chiudi Gestione colonne'
+            empty_list: 'Nessuna colonna trovata'
+            close:
+                label: Chiudi
+        btn:
+            show_all:
+                aria_label: 'Mostra tutti gli elementi aggiunti in una pagina'
+                label: 'Mostra tutto'
+            show_less:
+                aria_label: 'Mostra tutti gli elementi aggiunti con impaginazione'
+                label: 'Mostra meno'
+            group_similar:
+                aria_label: 'Raggruppa varianti di prodotto'
+                label: 'Raggruppa varianti di prodotto'
+            ungroup_similar:
+                aria_label: 'Mostra varianti di prodotto separatamente'
+                label: 'Separa varianti di prodotto'
+        not_number: 'Non è un numero'
+        inline_editing:
+            message:
+                save_field:
+                    permission_denied: 'Non hai il permesso di modificare il campo {{ fieldLabel }}.'
+            refresh_confirm_modal:
+                title: Conferma
+            help: "<ul style=\"margin-bottom:0px;\">\n    <li><span style=\"font-family:monospace;\">Invio</span>, <span style=\"font-family:monospace;\">Maiusc + Invio</span> - Salva e modifica la cella successiva/precedente nella colonna</li>\n    <li><span style=\"font-family:monospace;\">Tab</span>, <span style=\"font-family:monospace;\">Maiusc + Tab</span> - Salva e modifica la cella successiva/precedente nella riga</li>\n    <li><span style=\"font-family:monospace;\">Alt + ←/↑/→/↓  </span> - Naviga tra le celle</li>\n    <li><span style=\"font-family:monospace;\">Ctrl + Invio</span> - Salva e chiudi</li>\n    <li><span style=\"font-family:monospace;\">Esc</span> - Esci</li>\n</ul>\n"
+        mass_action:
+            title: 'Azioni di massa'
+            button_title: ...
+            delete:
+                selected_message: 'Hai selezionato {{ selected }} record.<br> Sei sicuro di volerlo eliminare?|Hai selezionato {{ selected }} record.<br> Sei sicuro di volerli eliminare?'
+                max_limit_message: "Il numero massimo di record che possono essere eliminati in una volta è {{ max_limit }}.<br> Sei sicuro di voler eliminare i primi {{ max_limit }} record nella selezione?\n"
+                restricted_access_message: "Hai i permessi per eliminare {{ deletable }} record su {{ selected }} selezionati.<br> Sei sicuro di volerli eliminare?\n"
+                restricted_access_empty_message: "Non hai i permessi per eliminare nessuno dei record selezionati.\n"
+        grid_views:
+            shared_by:
+                label: 'Condiviso da {{ name }}'
+        sorters:
+            not_selected: Rilevanza
+            undefined:
+                ascending: 'Dal più basso al più alto'
+                descending: 'Dal più alto al più basso'
+            string:
+                ascending: 'Dalla A alla Z'
+                descending: 'Dalla Z alla A'
+            number:
+                ascending: 'Dal più basso al più alto'
+                descending: 'Dal più alto al più basso'
+            currency:
+                ascending: 'Dal più basso al più alto'
+                descending: 'Dal più alto al più basso'
+            decimal:
+                ascending: 'Dal più basso al più alto'
+                descending: 'Dal più alto al più basso'
+            datetime:
+                ascending: 'Dal più vecchio al più recente'
+                descending: 'Dal più recente al più vecchio'
+        export:
+            success:
+                message: 'Esportazione avviata con successo. Riceverai una notifica via email al completamento.'
+            fail:
+                message: 'Impossibile avviare l''esportazione, riprova.'
+            max_limit_message: "Il numero massimo di record che possono essere esportati in una volta è {{ max_limit }}.<br> Sei sicuro di voler esportare {{ total }} record?\n"
+        cell:
+            blank:
+                aria_label: Vuoto
+                placeholder: N/D
+            action_header:
+                aria_label: 'Azioni riga'
+        drag_n_drop:
+            helper: '{1}1 elemento|]1,Inf[{{ count }} elementi'
+            items_selected: '{{ count }} elementi selezionati'
+            unselect_all: 'Deseleziona tutto'
+            cancel_hint: 'Rilascia il pulsante del mouse per annullare il trascinamento'
+        drop_zones:
+            move_to_top: 'Sposta in cima'
+            mode_to_bottom: 'Sposta in fondo'
+            remove_sort_order: 'Rimuovi da ordinati'
+    translation:
+        action:
+            reset:
+                message: 'Reimpostare il valore tradotto?'
+                confirm_title: 'Conferma reimpostazione'
+                confirm_content: 'Sei sicuro di voler reimpostare le traduzioni selezionate ai loro valori originali?'
+                confirm_ok: Reimposta
+    draft:
+        operations:
+            publish:
+                label: 'Pubblica bozza'
+                message: 'Sei sicuro di voler pubblicare la bozza?'
+    entity:
+        field_choice:
+            fields: Campi
+            relations: 'Entità correlate'
+            attachments: Allegati
+            none: nessuno
+        form:
+            choose_entity_field: 'Scegli un campo...'
+        not_exist: 'L''entità utilizzata o il suo campo non esiste'
+        structure_outdated:
+            message: 'Le informazioni sulla struttura delle entità non sono aggiornate, per favore <a href="#" data-action="page-refresh">aggiorna la pagina</a>'
+    locale:
+        localization:
+            delete_confirm: 'Tutti i dati localizzati correlati verranno eliminati. Sei sicuro di voler eliminare questo {{ entityLabel }}?'
+    entity_config:
+        attributes_grid:
+            delete_attribute:
+                confirm_content: 'Sei sicuro di voler eliminare questo attributo?'
+        content_preview:
+            message_prevent_click: 'Questo clic non può essere elaborato in modalità anteprima.'
+    attribute:
+        attributes_moved_to_default_group: 'Gli attributi di sistema sono stati spostati nel gruppo predefinito'
+        move_from: 'sposta da'
+        noname: 'Nessun nome'
+        remove_confirmation_title: 'Rimuovi gruppo di attributi con attributi di sistema'
+        remove_confirmation_text: 'Sei sicuro di voler eliminare questo gruppo di attributi? Tutti gli attributi di sistema verranno spostati automaticamente nel primo.'
+        attributes_import_has_finished: 'L''importazione degli attributi è terminata, per favore <a href="#" data-action="page-refresh">aggiorna la pagina</a>'
+    entity_extend:
+        schema_updated: 'Schema aggiornato.'
+        schema_updating: 'Aggiornamento schema...'
+        schema_update_failed: 'Aggiornamento schema non riuscito.'
+        delete_field:
+            confirm_content: 'Sei sicuro di voler eliminare questo campo?'
+        enum_value_collection:
+            clear_default: 'Non impostare predefinito'
+    digitalasset:
+        dam:
+            form:
+                choose_file:
+                    label: 'Scegli file'
+                choose_image:
+                    label: 'Scegli immagine'
+            choose_another:
+                label: 'Scegli un altro'
+            remove:
+                label: Rimuovi
+            dialog:
+                select_file: 'Seleziona file'
+                cancel:
+                    label: Annulla
+                delete_confirmation:
+                    title: 'Conferma eliminazione'
+                    message: 'Sei sicuro di voler eliminare questo elemento?'
+    integration:
+        error: 'Si è verificato un errore, riprova più tardi.'
+        submit: 'Sei sicuro di voler cambiare tipo?'
+        change_type: 'Cambia tipo'
+        delete_sync_integration_window:
+            content: 'Attenzione: la rimozione dell''integrazione eliminerà tutti i dati correlati'
+            button_ok: 'Sì, elimina'
+            title: 'Conferma eliminazione'
+            success: 'Integrazione e tutti i dati correlati sono stati eliminati'
+        channel:
+            sync_priority:
+                tooltip: "Seleziona se la tua versione locale dei dati o i dati dell'applicazione remota hanno la priorità nel caso in cui entrambi siano stati aggiornati dall'ultimo processo di sincronizzazione.\n"
+        force_sync:
+            title: 'Conferma risincronizzazione completa dell''integrazione'
+            message: 'Attenzione: questa azione avvierà la risincronizzazione completa di tutti i dati di {{ integration_name }}. Potrebbe richiedere del tempo per essere completata.'
+            ok: 'Esegui risincronizzazione'
+            cancel: Annulla
+        activate:
+            fail:
+                message: 'Impossibile attivare l''integrazione.'
+        deactivate:
+            fail:
+                message: 'Impossibile disattivare l''integrazione.'
+    importexport:
+        export:
+            success:
+                message: 'Esportazione avviata con successo. Riceverai una notifica via email al completamento.'
+            fail:
+                message: 'Impossibile avviare l''esportazione, riprova.'
+            error_template_download:
+                message: 'Si sono verificati errori durante il download del modello.'
+        import:
+            widget:
+                title: Importa
+            starting:
+                message: 'Avvio importazione...'
+            success:
+                message: 'Importazione avviata con successo. Riceverai una notifica via email al completamento.'
+            fail:
+                message: 'Impossibile avviare l''importazione, riprova.'
+            form_fail:
+                message: 'Errore: file non valido o mancante, scegliere un file valido da importare.'
+        import_validation:
+            starting:
+                message: 'Avvio convalida importazione...'
+            success:
+                message: 'Convalida importazione avviata con successo. Riceverai una notifica via email al completamento.'
+            fail:
+                message: 'Impossibile avviare la convalida dell''importazione, riprova.'
+            form_fail:
+                message: 'Errore: file non valido o mancante, scegliere un file valido per la convalida dell''importazione.'
+    action:
+        confirm_title: 'Conferma azione'
+        confirm_content: 'Sei sicuro di voler eseguire questa azione?'
+        delete_entity: 'Elimina {{ entityLabel }}'
+        delete_confirm: 'Sei sicuro di voler eliminare questo {{ entityLabel }}?'
+        button:
+            delete: 'Sì, elimina'
+    activity:
+        contexts:
+            added: 'Il contesto è stato aggiunto'
+            removed: 'Il contesto è stato rimosso'
+    activitylist:
+        edit_title: 'Aggiorna elemento attività'
+        delete_title: 'Elimina elemento attività'
+        item_saved: 'Elemento attività salvato'
+        item_removed: 'Elemento attività eliminato'
+        delete_confirmation: 'Sei sicuro di voler eliminare questo elemento attività?'
+        delete_error: 'Spiacenti, l''eliminazione dell''elemento attività non è riuscita.'
+        load_error: 'Spiacenti, la lista attività non è stata caricata correttamente.'
+        forbidden_error: 'Non hai il permesso di eseguire questa azione.'
+        forbidden_activity_data_view_error: "Non hai il permesso di visualizzare i dati di questo record di attività"
+        widget:
+            filter:
+                date_picker:
+                    title: 'Intervallo di date'
+                activity:
+                    title: 'Tipo di attività'
+        comment:
+            quantity_label: 'Quantità di commenti'
+        created_at:
+            label: 'Creato il'
+        updated_at:
+            label: 'Aggiornato il'
+    activityCondition:
+        hasActivity: 'Ha attività'
+        hasNotActivity: 'Non ha attività'
+    address_validation:
+        validation_widget:
+            title: 'Conferma il tuo indirizzo'
+        dialog:
+            title_short: 'Conferma il tuo indirizzo'
+            title_long: 'Conferma il tuo indirizzo - {{ label }}'
+        frontend:
+            dialog:
+                title_short: 'Conferma il tuo indirizzo'
+                title_long: 'Conferma il tuo indirizzo - {{ label }}'
+    chart:
+        flow_chart:
+            label_fromatter:
+                nozzle: '{{ label }} (dal {{ date }}): {{ value }}'
+                tick: '{{ label }}: {{ value }}'
+    dataaudit:
+        data_audit_condition:
+            changed: 'è stato modificato'
+            changed_to_value: 'è stato modificato in'
+            in_the_interval: 'nell''intervallo di tempo'
+            value: valore
+            value_that: 'valore che'
+    entity_merge:
+        mass_action:
+            validation:
+                maximum_records_error: 'Troppi record selezionati. La fusione supporta un massimo di {{ number }} record.'
+                minimum_records_error: 'Seleziona da 2 a {{ number }} record.'
+    filter:
+        by: 'Filtra per'
+        reset:
+            label: 'Cancella tutti i filtri'
+            short_label: 'Cancella tutto'
+        wrapper:
+            reset:
+                hint: Reimposta
+                tooltip: 'Reimposta questo filtro'
+                aria_label:
+                    text_reset: Reimposta
+                    text_filter: Filtra
+        date:
+            variable:
+                title: 'Preimpostazioni di tempo'
+                tooltip_title: 'Puoi anche usarli per creare espressioni.'
+                tooltip: "Ad esempio:<br> \"oggi - 2\" sarà valutato come il giorno prima di ieri.\n"
+            days:
+                title: Giorni
+            months:
+                title: Mesi
+            tab:
+                calendar: Calendario
+                variables: Variabili
+                days: Giorni
+                months: Mesi
+            info: "Oltre alle date esatte, il filtro supporta l'inserimento di giorni e mesi. Elimina l'anno dalla data per filtrare i record che cadono in questa data di qualsiasi anno (ad es. clienti che compiono gli anni il 15 novembre); elimina l'anno e il giorno per filtrare i record per mesi interi (ad es. tutti gli ordini effettuati tra gennaio e marzo). Sono supportati sia i nomi dei mesi lunghi che quelli brevi.\n"
+            placeholder:
+                value: 'Scegli una data'
+                dayofweek: 'Scegli un giorno'
+                week: 'Digita una settimana'
+                day: 'Digita un giorno'
+                month: 'Digita un mese'
+                quarter: 'Digita un trimestre'
+                dayofyear: 'Digita un giorno dell''anno'
+                year: 'Digita un anno'
+            part:
+                week:
+                    tooltip: 'Numero della settimana (1 - 53)'
+                day:
+                    tooltip: 'Numero del giorno del mese (1 - 31)'
+                quarter:
+                    tooltip: 'Numero del trimestre dell''anno (1 - 4)'
+                dayofyear:
+                    tooltip: 'Numero del giorno dell''anno (1 - 366)'
+                year:
+                    tooltip: 'Anno gregoriano, a partire dal 1 d.C.'
+            start_field:
+                aria_label: 'Valore data da del filtro {{ label }}'
+            end_field:
+                aria_label: 'Valore data a del filtro {{ label }}'
+            later_than: 'più tardi di'
+            earlier_than: 'prima di'
+            and: e
+            before: prima
+            after: dopo
+            from: da
+            to: a
+        datetime:
+            start_field:
+                aria_label: 'Valore ora da del filtro {{ label }}'
+            end_field:
+                aria_label: 'Valore ora a del filtro {{ label }}'
+        select:
+            options_list:
+                aria_label: 'Valori del filtro {{ label }}'
+        embedded:
+            choice:
+                field_to_value: 'valore del campo'
+            date:
+                field_to_value: campo
+            select:
+                field_to_value: 'il valore del campo è'
+        choice-tree:
+            all: Tutti
+            selected: Selezionati
+        warning:
+            min_length: 'Inserisci almeno {{ min_length }} caratteri'
+            max_length: 'Inserisci al massimo {{ max_length }} caratteri'
+        datagrid-toolbar:
+            filters: 'Attiva/disattiva filtro'
+            filters_overlay: 'Filtra per'
+            filters_overlay_entity_hint: 'Filtra {{ entityHint }} per'
+            aria_label: 'Espandi o comprimi i filtri della griglia'
+            filters_count: 'Filtri ({{ count }})'
+            save_filters: 'Salva filtri'
+        dialog:
+            filter_results: 'Filtra risultati'
+            reset_all: 'Reimposta tutto'
+            close: Chiudi
+        filter_results_trigger: 'Filtra risultati'
+        filter_reset: Reimposta
+        no_found: 'Nessuna corrispondenza trovata'
+        clear: '{0} Cancella campo di ricerca|[1,Inf[ Cancella filtro "{{ label }}"'
+        input_field:
+            aria_label: 'Valore del filtro {{ label }}'
+        number_range:
+            less_than: 'meno di'
+            greater_than: 'più di'
+        range_fields:
+            start_field:
+                aria_label: 'Valore da del filtro {{ label }}'
+            end_field:
+                aria_label: 'Valore a del filtro {{ label }}'
+        select_field:
+            aria_label: 'Condizione {{ label }}'
+        updateButton:
+            aria_label: 'Applica {{ label }}'
+            text: Applica
+        clearFilterButton:
+            aria_label: 'Cancella {{ label }}'
+            text: 'Cancella filtro'
+    form:
+        choose_date: 'Scegli una data'
+        choose_time: ora
+        new: Nuovo
+        add_new: 'Aggiungi nuovo'
+        inlineEditing:
+            inline_edits: 'Modifiche in linea'
+            successMessage: 'Record aggiornato con successo'
+            helpMessage: 'Doppio clic sulla cella per modificare'
+            loadingError: 'Impossibile caricare il componente o la vista per l''editor della griglia in linea'
+            saving_progress: 'Le modifiche in linea sono in fase di salvataggio'
+            action:
+                save: 'Salva modifiche'
+                cancel: Annulla
+            multi_checkbox_editor:
+                filter:
+                    placeholder: 'Filtra valori...'
+        tinymce:
+            paragraph: 'Testo normale'
+            h1: 'Titolo 1'
+            h2: 'Titolo 2'
+            h3: 'Titolo 3'
+            h4: 'Titolo 4'
+            h5: 'Titolo 5'
+            h6: 'Titolo 6'
+        expression_editor:
+            side_panel:
+                title: 'Clicca per inserire'
+            fields:
+                entity: Entità
+                select_placeholder: Campo
+                breadcrumbs_placeholder: 'Scegli un campo'
+            operators:
+                detail:
+                    equal: Uguale
+                    not_equal: 'Non uguale'
+                    greater_than_or_equal: 'Maggiore o uguale'
+                    greater_than: 'Maggiore di'
+                    less_than_or_equal: 'Minore o uguale'
+                    less_than: 'Minore di'
+                    multiplication: Moltiplicazione
+                    division: Divisione
+                    remainder: Resto
+                    addition: Addizione
+                    subtraction: Sottrazione
+                    parentheses: Parentesi
+                    in: In
+                    not_in: 'Non in'
+                    and: E
+                    match: Corrisponde
+                    does_not_match: 'Non corrisponde'
+                    or: O
+                    is_empty: Vuoto
+                    is_not_empty: 'Non vuoto'
+                    between: Tra
+                    not_between: 'Non tra'
+                    'yes': 'Sì'
+                    'no': 'No'
+            validation:
+                has_errors: 'Espressione non valida'
+                conditional: 'Costruzione condizionale vietata utilizzata nell''espressione.'
+                forbidden_operator: 'Operatore vietato `{{ operator }}` utilizzato nell''espressione.'
+                forbidden_operators: 'Operatori vietati `{{ operators }}` utilizzati nell''espressione.'
+                entity_name: "Nome entità `{{ entityName }}` non supportato"
+                property_path:
+                    like_variable: 'Tentativo di utilizzare l''entità `{{ name }}` come una variabile.'
+                    like_single_entity: 'Tentativo di utilizzare la raccolta `{{ name }}` come una singola entità.'
+                    like_collection: 'Tentativo di utilizzare l''entità `{{ name }}` come una raccolta.'
+                    field_not_present: "Campo `{{ fieldName }}` non presente in `{{ source }}`."
+                    level_limit: 'Il tentativo di utilizzare il campo `{{ fieldName }}` di `{{ source }}` supera il limite di livello di profondità.'
+                    not_field: "Il `{{ source }}` non può essere utilizzato come campo."
+                brackets:
+                    non_closed: 'Parentesi non chiusa'
+                    non_opened: 'Parentesi non aperta'
+                braces:
+                    non_closed: 'Parentesi graffa non chiusa'
+                    non_opened: 'Parentesi graffa non aperta'
+                array:
+                    open: 'Dichiarazione di array non corretta. Manca la parentesi quadra di apertura'
+                    close: 'Dichiarazione di array non corretta. Manca la parentesi quadra di chiusura'
+                    comma: 'Manca la virgola tra gli elementi dell''array'
+    imap:
+        connection:
+            success: 'La connessione è stata stabilita con successo!'
+            error: 'I parametri non sono validi!'
+            imap:
+                success: 'La connessione IMAP è stata stabilita con successo'
+                error: 'Impossibile stabilire la connessione IMAP'
+            smtp:
+                success: 'La connessione SMTP è stata stabilita con successo'
+                error: 'Impossibile stabilire la connessione SMTP'
+            microsoft:
+                oauth:
+                    error:
+                        access_deny: 'Accesso negato'
+                        request: 'Qualcosa è andato storto.'
+                        closed_auth: 'Qualcosa è andato storto. Rivolgiti al tuo amministratore per controllare le impostazioni della chiave API.'
+                        blocked_popup: 'Qualcosa è andato storto. Assicurati che i pop-up siano abilitati.'
+                        token: 'L''autenticazione non è riuscita. Se hai fornito credenziali Microsoft non valide, verificane la correttezza con l''amministratore di sistema. Se non sei riuscito a concedere a Microsoft l''accesso all''applicazione, prova a connetterti di nuovo per accettare la richiesta di accesso.'
+            google:
+                oauth:
+                    error:
+                        access_deny: 'Accesso negato'
+                        request: 'Qualcosa è andato storto.'
+                        closed_auth: 'Qualcosa è andato storto. Rivolgiti al tuo amministratore per controllare le impostazioni della chiave API di Google.'
+                        blocked_popup: 'Qualcosa è andato storto. Assicurati che i pop-up siano abilitati.'
+        sync:
+            flash_message:
+                user_box_failed: 'La sincronizzazione con la tua casella di posta (nome utente "{{ username }}" ospitata su "{{ host }}") non è riuscita. Controlla le credenziali di connessione nella pagina di configurazione dell''email.'
+                system_box_failed: 'La sincronizzazione con la casella di posta di sistema (nome utente "{{ username }}" ospitata su "{{ host }}") non è riuscita. Controlla le credenziali di connessione nella pagina di configurazione dell''email.'
+    note:
+        add_note_title: 'Aggiungi nota'
+        edit_note_title: 'Aggiorna nota'
+        note_saved: 'Nota salvata'
+        note_removed: 'Nota eliminata'
+        note_delete_confirmation: 'Sei sicuro di voler eliminare questa nota?'
+        load_notes_error: 'Spiacenti, le note non sono state caricate correttamente.'
+        delete_note_error: 'Spiacenti, l''eliminazione della nota non è riuscita.'
+        forbidden_error: 'Non hai il permesso di eseguire questa azione.'
+    querydesigner:
+        field_not_found: 'Il campo non esiste più'
+        field_condition:
+            filter_not_supported: 'Questo filtro non è supportato.'
+            lifetimevalue_filter_not_supported: 'Il filtraggio per LifetimeValue non è ancora supportato.'
+        condition_operation: Operazione
+        label_func: '{{ label }} (Funzione "{{ funcName }}")'
+    query_type_switcher:
+        modes:
+            simple: 'Editor visuale'
+            advanced: 'Editor di espressioni'
+        messages:
+            simple: 'L''espressione corrente è troppo complessa per l''Editor visuale.'
+            advanced: 'L''Editor di espressioni non è compatibile con i filtri di attività, controllo dati e segmento.'
+    report:
+        change_entity_confirmation: 'La modifica dell''entità cancellerà tutti i filtri e le colonne del report. Vuoi continuare?'
+        view_sql:
+            show_sql_query: 'Mostra query SQL'
+            hide_sql_query: 'Nascondi query SQL'
+            messages:
+                copied: 'Copiato negli appunti.'
+                copy_not_successful: 'La copia non è andata a buon fine.'
+                copy_not_supported: 'Il tuo browser non supporta la copia. Premi Ctrl/Cmd+C per copiare.'
+    segment:
+        change_entity_confirmation: 'La modifica dell''entità cancellerà tutti i filtri e le colonne del segmento. Vuoi continuare?'
+        refresh_dialog:
+            title: 'Conferma azione'
+            content: 'Conferma di voler aggiornare questo segmento.'
+            success: 'Segmento elaborato con successo.'
+            error: 'Si è verificato un errore non identificato. Contatta il tuo amministratore.'
+            okText: 'Sì'
+        confirm:
+            data_issue:
+                unsaved_changes: 'modifiche non salvate in {{ components }}'
+                invalid_data: 'dati non validi in {{ components }}'
+            dialog:
+                title: 'I dati andranno persi'
+                message: 'Hai {{ data_issue }} che andranno persi. Procedere comunque?'
+        report_column_editor: 'l''Editor colonne report'
+        grouping_editor: 'l''Editor raggruppamenti'
+    sidebar:
+        widget:
+            add:
+                dialog:
+                    title: 'Widget barra laterale'
+                content:
+                    section_title: 'Aggiungi widget'
+            actions: 'Azioni widget'
+            action:
+                remove: Rimuovi
+                configure: Configura
+                refresh: Aggiorna
+                close: Chiudi
+            remove:
+                confirm:
+                    message: 'Il widget verrà rimosso'
+            setup:
+                dialog:
+                    title: 'Configurazione widget'
+        sticky_note_widget:
+            settings: 'Impostazioni nota adesiva'
+            content: 'Contenuto nota'
+            description: 'Questo widget ti consente di creare note rapidamente'
+    tag:
+        added_by: ' - aggiunto da {{ first_name }} {{ last_name }}'
+        inline_editing:
+            new_tag: 'Nuovo tag'
+            existing_tag: 'Questo tag è già stato aggiunto'
+            loading: Caricamento in corso...
+            no_matches: 'Nessuna corrispondenza trovata'
+        taxonomy:
+            label: Tassonomia
+            owner:
+                label: Proprietario
+            created_by:
+                label: 'Creato da'
+            entity_label: Tassonomia
+            entity_plural_label: Tassonomie
+            id:
+                label: Id
+            name:
+                label: Nome
+            tagging:
+                label: Tagging
+            tags:
+                label: Tag
+            updated_by:
+                label: 'Aggiornato da'
+            organization:
+                label: Organizzazione
+            background_color:
+                label: Colore
+            no_color: 'Nessun colore disponibile'
+        form:
+            choose_tag: 'Scegli un tag'
+    taxonomy:
+        inline_editing:
+            new_taxonomy: 'Nuova tassonomia'
+            existing_tag: 'Questa tassonomia è già stata aggiunta'
+            loading: Caricamento in corso...
+            no_matches: 'Nessuna corrispondenza trovata'
+    orowindows:
+        dialog:
+            close:
+                aria_label: 'Chiudi la finestra di dialogo'
+    workflow:
+        change_entity_confirmation: 'Sei sicuro di voler cambiare entità?'
+        activated: 'Flusso di lavoro attivato'
+        deactivated_list: 'Flussi di lavoro disattivati: '
+        workflowdefinition:
+            activate: 'Attiva flusso di lavoro "{{ label }}"'
+            deactivate: 'Disattiva flusso di lavoro "{{ label }}"'
+            reset_workflow_data_message: 'Attenzione: questa azione reimposterà i dati del flusso di lavoro per questo flusso di lavoro.'
+            deactivate_button_text: 'Sì, disattiva'
+            reset: 'Reimpostazione flusso di lavoro'
+            reset_message: 'Attenzione: questa azione reimposterà i dati del flusso di lavoro per questo flusso di lavoro.'
+            reset_button_text: 'Sì, reimposta'
+        error:
+            complexity: 'Per lavorare con passaggi e transizioni, utilizzare la griglia sopra. Il grafico corrente è troppo complesso e non può essere visualizzato nel designer.'
+            unknown: 'Si è verificato un errore durante il rendering del grafico. Contattare l''amministratore di sistema. Per lavorare con passaggi e transizioni, utilizzare la griglia sopra.'
+            maxconnections: 'Numero massimo di connessioni ({{ maxConnections }}) raggiunto'
+            cannot:
+                set:
+                    step: 'Impossibile impostare il passaggio finale sul passaggio <i>(Inizio)</i>. Selezionarne un altro'
+        flowchart:
+            step:
+                actions_label: 'Azioni passaggio'
+            transition:
+                actions_label: 'Azioni transizione'
+    comment:
+        plural_label: Commento
+        entity_plural_label: Commenti
+        actions_label: 'Azioni commento'
+        no_data_found: 'Non ci sono commenti'
+        action:
+            delete: 'Elimina commento'
+            update: 'Aggiorna commento'
+        dialog:
+            add_comment:
+                title: 'Aggiungi commento'
+            edit_comment:
+                title: 'Modifica commento'
+        from:
+            button:
+                send_comment:
+                    label: Aggiungi
+                add_comment:
+                    label: 'Aggiungi commento'
+                edit_comment:
+                    label: 'Salva commento'
+                cancel_comment:
+                    label: Annulla
+        attachment:
+            tooltip: 'File allegato {{ filename }}'
+            delete_message: 'L''allegato del commento è stato rimosso con successo'
+            delete_confirmation: 'Sei sicuro di voler eliminare questo allegato?'
+            download: Scarica
+            view: Visualizza
+        item:
+            added: '{{ user }} ha aggiunto il {{ time }}'
+            update: 'aggiornato da {{ user }} il {{ time }}'
+        deleteConfirmation: 'Sei sicuro di voler eliminare questo commento?'
+        noData: 'Nessun commento trovato.'
+        loadMore: 'Carica {{ count }} in più'
+        loadMoreWithTotals: 'Carica {{ count }} in più di {{ total }}'
+    dashboard:
+        widget_configuration_label: Configurazione
+        widget_configuration_success: 'Il widget è stato configurato con successo'
+        drop_placeholder_label: 'Trascina qui il tuo widget.'
+        add_dashboard_widgets:
+            title: 'Widget dashboard'
+            adding: Aggiunta in corso...
+        widget:
+            move: Sposta
+            remove: Elimina
+            configure: Configura
+            delete_confirmation: 'Sei sicuro di voler rimuovere questo widget?'
+        show_more_actions: 'mostra altre azioni'
+    calendar:
+        control:
+            all_day: ' '
+            today: Oggi
+            month: Mese
+            week: Settimana
+            day: Giorno
+        error_message:
+            event_model:
+                end_date_earlier_than_start: "La data di fine non può essere precedente alla data di inizio"
+        flash_message:
+            calendar_already_exists: 'Questo calendario esiste già'
+            calendar_adding: 'Aggiunta calendario, attendere prego...'
+            calendar_added: 'Calendario aggiunto'
+            calendar_removing: 'Rimozione calendario, attendere prego...'
+            calendar_removed: 'Calendario rimosso'
+            calendar_updating: 'Aggiornamento calendario, attendere prego...'
+            calendar_updated: 'Calendario aggiornato'
+        select: 'Seleziona calendari'
+        event:
+            na: N/D
+            recurrence:
+                repeat:
+                    daily: Giornaliero
+                    weekly: Settimanale
+                    monthly: Mensile
+                    yearly: Annuale
+                instance:
+                    first: Primo
+                    second: Secondo
+                    third: Terzo
+                    fourth: Quarto
+                    last: Ultimo
+                control-label:
+                    repeat: Ripeti
+                    repeats: Ripetizioni
+                    repeat-every: 'Ripeti ogni'
+                    repeat-on: 'Ripeti il'
+                    ends: Termina
+                    summary: Riepilogo
+                control-modes:
+                    weekday: Giorno feriale
+                    never: Mai
+                    after: Dopo
+                    by: Entro
+                controls:
+                    occurrences: occorrenze
+                    days: giorno/i
+                    weeks: settimana/e
+                    months: mese/i
+                    years: anno/i
+                    monthly-repeat-on:
+                        day: Giorno
+                        first: Primo
+                        second: Secondo
+                        third: Terzo
+                        fourth: Quarto
+                        last: Ultimo
+                    day: Giorno
+                    weekday: Giorno feriale
+                    weekend-day: 'Giorno del fine settimana'
+                warning:
+                    some-months-have-fewer-days: 'Alcuni mesi hanno meno di {{ number }} giorni. Per questi mesi, l''occorrenza cadrà l''ultimo giorno del mese.'
+                    removing-all-series: 'Nota che tutti gli eventi della serie verranno rimossi se deselezioni l''opzione Ripeti.'
+                    removing-all-exceptions: 'Nota che tutte le eccezioni della serie verranno rimosse se modifichi il modello di ricorrenza.'
+                validation:
+                    dayOfWeek:
+                        minMessage: 'Devi selezionare almeno {{ limit }} giorno'
+                patterns:
+                    occurrences: '{1} , termina dopo 1 occorrenza|]1,Inf[ , termina dopo {{ count }} occorrenze'
+                    end-date: ', termina entro il {{ date }}'
+                    timezone: '({{ timeZone }} GMT{{ timezone_offset }})'
+                    daily: '{1} Giornaliero ogni 1 giorno|]1,Inf[ Giornaliero ogni {{ count }} giorni'
+                    weekly: '{1} Settimanale ogni 1 settimana il {{ day }}|]1,Inf[ Settimanale ogni {{ count }} settimane il {{ day }}'
+                    monthly: '{1} Mensile il giorno {{ day }} di ogni 1 mese|]1,Inf[ Mensile il giorno {{ day }} di ogni {{ count }} mesi'
+                    monthnth: '{1} Mensile il {{ instance }} {{ day }} di ogni 1 mese|]1,Inf[ Mensile il {{ instance }} {{ day }} di ogni {{ count }} mesi'
+                    yearly: '{1} Annuale ogni 1 anno il {{ day }}|]1,Inf[ Annuale ogni {{ count }} anni il {{ day }}'
+                    yearnth: '{1} Annuale ogni 1 anno il {{ instance }} {{ day }} di {{ month }}|]1,Inf[ Annuale ogni {{ count }} anni il {{ instance }} {{ day }} di {{ month }}'
+                    weekday: 'Giornaliero, ogni giorno feriale'
+                days:
+                    weekday: giorno feriale
+                    weekend: fine settimana
+                    day: giorno
+            select-edit-type:
+                only-this-event:
+                    title: 'Solo questo evento'
+                    description: 'Tutti gli altri eventi della serie rimarranno invariati.'
+                all-events:
+                    title: 'Tutti gli eventi'
+                    description: 'Tutti gli eventi della serie verranno modificati.<br>Eventuali modifiche apportate ad altri eventi verranno mantenute.'
+                apply: Applica
+            select-delete-type:
+                all-events:
+                    description: 'Tutti gli eventi della serie verranno eliminati.'
+                apply: Elimina
+        reminder_template:
+            due_message: '{{ subject }} inizia alle {{ expireAt }}'
+    websitesearchterm:
+        searchterm:
+            grid:
+                delete_success: 'Il termine di ricerca è stato eliminato'
+            dialog:
+                run_original_search:
+                    title: 'Risultati della ricerca originale per "{{ term }}"'
+    navigation:
+        menuupdate:
+            reload_link:
+                label: ricarica
+            moved_success_message: 'Il menu è stato aggiornato. Per favore {{ reload_link }} la pagina per vedere le modifiche applicate.'
+    redirect:
+        confirm_slug_change:
+            title: 'Modifica degli URL della pagina'
+            message: "Alcuni degli slug della pagina verranno modificati:"
+            changed_slug_item: '- "{{ old_slug }}" a "{{ new_slug }}"'
+            changed_localized_slug_item: '- "{{ old_slug }}" a "{{ new_slug }}" per "{{ purpose }}"'
+            apply: Applica
+            cancel: Annulla
+            checkbox_label: 'Crea reindirizzamento 301 dai vecchi ai nuovi URL'
+        slugify_error: 'Generazione slug impossibile per "{{ string }}"'
+    webcatalog:
+        jstree:
+            add_new_root_warning: 'Non è possibile creare un nuovo nodo di contenuto radice.'
+            please_choose_web_catalog: 'Scegli un catalogo web'
+            web_catalog_is_empty: "{{ webCatalog }} non ha nodi di contenuto"
+    commercemenu:
+        menuupdate:
+            hide_success_message: 'La voce di menu è ora nascosta.'
+            show_success_message: 'La voce di menu è ora visibile.'
+            moved_success_message: 'Il menu è stato aggiornato.'
+            divider_created: 'Divisore creato.'
+    product:
+        search:
+            search_in_category:
+                tooltip: '{0} Tutti i prodotti in {{ category }}|[1,Inf] Cerca "{{ text }}" in {{ category }}'
+        grid:
+            delete_entity_title: 'Elimina prodotto'
+            delete_success: 'Prodotto eliminato'
+            navigation_bar:
+                sorting:
+                    label: 'ordinato per %column% %direction%'
+                    asc: crescente
+                    desc: decrescente
+                pagination:
+                    label: '%start%-%end% di %total%'
+            select_product: 'Seleziona articolo'
+            action:
+                sort_products:
+                    label: 'Gestisci ordine di visualizzazione'
+                    aria_label: 'Ordina prodotti'
+        sort_products:
+            dialog:
+                title: 'Ordina prodotti'
+                save_warning: 'Tutte le modifiche apportate in questa finestra di dialogo verranno applicate immediatamente. È possibile chiudere questa finestra di dialogo in qualsiasi momento, non sono richieste azioni aggiuntive prima della chiusura.'
+                limit_warning: 'Ci sono più di {{ limit }} prodotti inclusi in questa raccolta di prodotti. Qui vengono mostrati solo i primi {{ limit }} prodotti.'
+            confirm:
+                title: 'Salvare tutte le modifiche?'
+                content: 'Tutte le modifiche non salvate devono essere inviate prima di procedere alla gestione dell''ordinamento dei prodotti'
+                ok: 'Invia e continua'
+                cancel: Annulla
+        drop_zones:
+            excludeFromCollection: 'Escludi dalla raccolta'
+        sidebar_filters:
+            title: 'Filtra per'
+            button:
+                text: Filtra
+                title:
+                    collapse: 'Comprimi filtri'
+                    expand: 'Espandi filtri'
+        productunit:
+            delete:
+                confirmation: 'Sei sicuro di voler eliminare questa unità di prodotto?'
+                error:
+                    title: 'L''unità di quantità non può essere eliminata'
+                    message: 'L''unità selezionata è attualmente utilizzata per definire il prezzo del prodotto.<br>Rivedi e modifica prima i prezzi.'
+            removed:
+                suffix: rimosso
+        product_unit:
+            each:
+                label:
+                    full: ciascuno
+                    full_plural: ciascuno
+                    short: cad.
+                    short_plural: cad.
+                value:
+                    full: '{0} nessuno|{1} {{ count }} ciascuno|]1,Inf]{{ count }} ciascuno'
+                    short: '{0} nessuno|{1} {{ count }} cad.|]1,Inf]{{ count }} cad.'
+                    label: '{0} nessuno|{1} cad.|]1,Inf] cad.'
+                    label_long: '{0} nessuno|{1} ciascuno|]1,Inf] ciascuno'
+            hour:
+                label:
+                    full: ora
+                    full_plural: ore
+                    short: h
+                    short_plural: h
+                value:
+                    full: '{0} nessuno|]0,1] {{ count }} ora|]1,Inf]{{ count }} ore'
+                    short: '{0} nessuno|]0,1] {{ count }} h|]1,Inf]{{ count }} h'
+                    label: '{0} nessuno|]0,1] h|]1,Inf] h'
+                    label_long: '{0} nessuno|{1} ora|]1,Inf] ore'
+            item:
+                label:
+                    full: articolo
+                    full_plural: articoli
+                    short: art.
+                    short_plural: art.
+                value:
+                    full: '{0} nessuno|]0,1] {{ count }} articolo|]1,Inf]{{ count }} articoli'
+                    short: '{0} nessuno|]0,1] {{ count }} art.|]1,Inf]{{ count }} art.'
+                    label: '{0} nessuno|]0,1] art.|]1,Inf] art.'
+                    label_long: '{0} nessuno|{1} articolo|]1,Inf] articoli'
+            kg:
+                label:
+                    full: chilogrammo
+                    full_plural: chilogrammi
+                    short: kg
+                    short_plural: kg
+                value:
+                    full: '{0} nessuno|]0,1] {{ count }} chilogrammo|]1,Inf]{{ count }} chilogrammi'
+                    short: '{0} nessuno|]0,1] {{ count }} kg|]1,Inf]{{ count }} kg'
+                    label: '{0} nessuno|]0,1] kg|]1,Inf] kg'
+                    label_long: '{0} nessuno|{1} chilogrammo|]1,Inf] chilogrammi'
+            piece:
+                label:
+                    full: pezzo
+                    full_plural: pezzi
+                    short: pz
+                    short_plural: pz
+                value:
+                    full: '{0} nessuno|]0,1] {{ count }} pezzo|]1,Inf]{{ count }} pezzi'
+                    short: '{0} nessuno|]0,1] {{ count }} pz|]1,Inf]{{ count }} pz'
+                    label: '{0} nessuno|]0,1] pz|]1,Inf] pz'
+                    label_long: '{0} nessuno|{1} pezzo|]1,Inf] pezzi'
+            set:
+                label:
+                    full: set
+                    full_plural: set
+                    short: set
+                    short_plural: set
+                value:
+                    full: '{0} nessuno|]0,1] {{ count }} set|]1,Inf]{{ count }} set'
+                    short: '{0} nessuno|]0,1] {{ count }} set|]1,Inf]{{ count }} set'
+                    label: '{0} nessuno|]0,1] set|]1,Inf] set'
+                    label_long: '{0} nessuno|{1} set|]1,Inf] set'
+            liter:
+                label:
+                    full: litro
+                    full_plural: litri
+                    short: l
+                    short_plural: l
+                value:
+                    full: '{0} nessuno|]0,1] %count% litro|]1,Inf] %count% litri'
+                    short: '{0} nessuno|]0,1] %count% l|]1,Inf] %count% l'
+                    label: '{0} nessuno|]0,1] l|]1,Inf] l'
+                    label_long: '{0} nessuno|{1} litro|]1,Inf] litri'
+            milliliter:
+                label:
+                    full: millilitro
+                    full_plural: millilitri
+                    short: ml
+                    short_plural: ml
+                value:
+                    full: '{0} nessuno|]0,1] %count% millilitro|]1,Inf] %count% millilitri'
+                    short: '{0} nessuno|]0,1] %count% ml|]1,Inf] %count% ml'
+                    label: '{0} nessuno|]0,1] ml|]1,Inf] ml'
+                    label_long: '{0} nessuno|{1} millilitro|]1,Inf] millilitri'
+            box:
+                label:
+                    full: scatola
+                    full_plural: scatole
+                    short: scat.
+                    short_plural: scat.
+                value:
+                    full: '{0} nessuno|]0,1] %count% scatola|]1,Inf] %count% scatole'
+                    short: '{0} nessuno|]0,1] %count% scat.|]1,Inf] %count% scat.'
+                    label: '{0} nessuno|]0,1] scat.|]1,Inf] scat.'
+                    label_long: '{0} nessuno|{1} scatola|]1,Inf] scatole'
+            bottle:
+                label:
+                    full: bottiglia
+                    full_plural: bottiglie
+                    short: bott.
+                    short_plural: bott.
+                value:
+                    full: '{0} nessuno|]0,1] %count% bottiglia|]1,Inf] %count% bottiglie'
+                    short: '{0} nessuno|]0,1] %count% bott.|]1,Inf] %count% bott.'
+                    label: '{0} nessuno|]0,1] bott.|]1,Inf] bott.'
+                    label_long: '{0} nessuno|{1} bottiglia|]1,Inf] bottiglie'
+        product_variants:
+            default_variant:
+                no_default_variant:
+                    label: ' - Nessuna variante predefinita - '
+        validation:
+            sku:
+                not_found: 'Numero articolo non trovato'
+            unit:
+                required: 'Unità richiesta'
+                invalid: "L'unità '{{ unit }}' non esiste per il prodotto {{ sku }}."
+            quantity:
+                required: 'Quantità richiesta'
+                greaterThanZero: 'La quantità deve essere maggiore di 0'
+            configurable:
+                required: 'Fornisci almeno un valore prima di aggiungere il prodotto alla tua lista della spesa'
+        frontend:
+            quick_add:
+                import_from_file:
+                    title: 'Importa da file'
+                validation:
+                    not_in_range: 'La quantità deve essere compresa tra {{ min }} e {{ max }}.'
+                import_validation:
+                    title: 'Convalida importazione'
+                    subtitle: '{0} nessuno|]0,1] {{ count }} articolo|]1,Inf[ {{ count }} articoli'
+                form:
+                    unit:
+                        default: '--'
+                    has_non_configured_product_kit: 'Alcuni prodotti richiedono una configurazione aggiuntiva prima di creare un ordine. Aggiungi tutti i prodotti a una lista della spesa per completare la configurazione o richiedi invece un preventivo.'
+                copy_paste:
+                    error: 'Alcuni SKU, unità o quantità di prodotto non sono validi. Apporta le correzioni e riprova.'
+            choose_action: 'Scegli azione'
+            importexport:
+                product_data_export:
+                    success_message: 'L''esportazione dei dati del prodotto è iniziata. Riceverai istruzioni per il download via email al termine dell''esportazione.'
+            actions_panel:
+                action_postfix: Predefinito
+                discard_selection: 'Annulla selezione'
+                selected_view: '{{ count }} selezionato'
+            datagrid:
+                toolbar_sorting:
+                    label: 'Ordina per:'
+                    aria_label: 'Ordina per'
+        dialog:
+            quick_add:
+                confirm:
+                    title: 'Crea ordine'
+                    content: 'Puoi avere solo {{ count }} lista/e della spesa. Se procedi, la tua lista della spesa predefinita verrà sovrascritta con gli articoli del tuo ordine.'
+                    continue: 'Crea ordine'
+                    cancel: Annulla
+        product_collection:
+            filter_query:
+                continue: Continua
+                confirmation_modal_content: 'Hai modifiche nella sezione Filtri che non sono state applicate. Fai clic su Annulla se vuoi rivedere e applicare queste modifiche prima di salvare, oppure fai clic su Continua se vuoi salvare tutte le modifiche.'
+        product_filters:
+            collapse:
+                label: 'Filtri prodotto'
+        widgets:
+            select_related_items:
+                limit_has_been_reached: 'È stato raggiunto il limite di articoli correlati'
+        images:
+            zoom:
+                label: 'Ingrandisci immagine prodotto'
+        search_widget:
+            cancel: Annulla
+        autocomplete:
+            popup:
+                button:
+                    all:
+                        label: '{1} Vedi risultato|]1,Inf] Vedi tutti i {{ productCount }} risultati'
+            no_found: 'Nessun prodotto trovato che corrisponda alla tua ricerca'
+        frontend_importexport:
+            product_data_export:
+                success_message: 'L''esportazione dei dati del prodotto è iniziata. Riceverai istruzioni per il download via email al termine dell''esportazione.'
+        product_kit:
+            confirmation:
+                title: 'Elimina prodotto'
+                desc: 'Sei sicuro di voler eliminare questo prodotto?'
+            dialog:
+                select:
+                    title: 'Seleziona prodotto'
+            drop_placeholder_label: 'Trascina qui il tuo articolo.'
+        brand:
+            entity_plural_label: Marchi
+            visible_on_homepage:
+                label: 'Visibile in homepage'
+            position:
+                label: Posizione
+        is_orderable:
+            label: Ordinabile
+    catalog:
+        jstree:
+            add_new_root_warning: 'Non è possibile creare una nuova categoria radice.'
+        drop_zones:
+            excludeFromCategory: 'Escludi dalla categoria'
+        product:
+            sort_products:
+                dialog:
+                    limit_warning: 'Ci sono più di {{ limit }} prodotti assegnati a questa categoria. Qui vengono mostrati solo i primi {{ limit }} prodotti.'
+    marketing:
+        list:
+            change_entity_confirmation: 'I dati del modello possono contenere variabili relative all''entità precedentemente selezionata. Vuoi cancellare tutti i dati del modello?'
+    marketinglist:
+        refresh_dialog:
+            content: 'Conferma di voler aggiornare questa lista'
+            success: 'Lista marketing aggiornata con successo'
+        remove_dialog:
+            confirm_title: 'Conferma rimozione'
+            confirm_ok: 'Sì'
+            confirm_cancel: Annulla
+            content: 'Sei sicuro di voler rimuovere questo articolo?'
+            success: Rimosso.
+        unremove_dialog:
+            confirm_title: 'Annulla conferma rimozione'
+            confirm_ok: 'Sì'
+            confirm_cancel: Annulla
+            content: 'Sei sicuro di voler annullare la rimozione per questo articolo?'
+            success: Rimosso.
+    customer:
+        address:
+            edit: Modifica
+            remove: Rimuovi
+            primary: Primario
+            default_type: '{{ type_name }} predefinito'
+        customer_user_role:
+            change_customer_confirmation_title: 'Cliente modificato'
+            continue: Continua
+            cancel: Annulla
+            content: 'Attualmente ci sono alcuni utenti dall''account cliente originariamente associato a questo ruolo. Una volta confermata la modifica di un cliente, questi utenti non saranno più associati al ruolo. Desideri procedere con la modifica del cliente?'
+        customer_user:
+            delete_confirm: 'Sei sicuro di voler eliminare l''utente cliente?'
+            entity_plural_label: Utenti
+            role:
+                entity_plural_label: Ruoli
+                users: Utenti
+            reset_password:
+                flash:
+                    success: 'L''email per reimpostare la password è stata inviata all''utente cliente'
+                popup:
+                    question: 'L''utente cliente <b>{{ user }}</b> riceverà l''email per reimpostare la password e verrà disabilitato dall''accesso.'
+                    title: 'Reimposta password'
+                    label: Reimposta
+        customer_address_book:
+            customer_addresses: 'Indirizzi azienda'
+        customer_user_address_book:
+            customer_user_addresses: 'I miei indirizzi'
+        mass_actions:
+            enable_customers:
+                confirm_title: 'Abilita utenti'
+                confirm_content: 'Gli utenti selezionati verranno abilitati.'
+                confirm_ok: 'Sì, abilita'
+            disable_customers:
+                confirm_title: 'Disabilita utenti'
+                confirm_content: 'Gli utenti selezionati verranno disabilitati.'
+                confirm_ok: 'Sì, disabilita'
+            delete_customers:
+                confirm_title: 'Elimina utenti'
+                confirm_content: '{1}L''utente selezionato verrà eliminato|[2,Inf[Gli utenti selezionati verranno eliminati.'
+                confirm_ok: 'Sì, elimina'
+            delete_customer_addresses:
+                confirm_title: 'Elimina indirizzi'
+                confirm_content: '{1}L''indirizzo selezionato verrà eliminato|[2,Inf[Gli indirizzi selezionati verranno eliminati.'
+                confirm_ok: 'Sì, elimina'
+    channel:
+        form:
+            entity: 'Seleziona entità'
+        confirmation:
+            delete_confirmation: 'Attenzione: la rimozione dell''integrazione dal canale la eliminerà completamente dal sistema. Procedere?'
+            text: 'Sei sicuro di voler cambiare il tipo di canale?'
+            title: 'Cambia tipo di canale'
+            agree: 'Sì'
+        entity_owner:
+            System: Sistema
+            Custom: Personalizzato
+    frontend_importexport:
+        export:
+            success:
+                message: 'Esportazione avviata con successo. Riceverai una notifica via email al completamento.'
+            fail:
+                message: 'Impossibile avviare l''esportazione, riprova.'
+    payment:
+        validation:
+            expiration_date: 'Data di scadenza non valida.'
+            month: 'Scegli un mese corretto.'
+            credit_card: 'Numero di carta non valido.'
+            credit_card_type: 'Tipo di carta di credito non accettato.'
+        payment_transaction:
+            capture:
+                title: 'Addebita il cliente'
+                message: 'Al cliente verranno addebitati {{ amount }}. Sei sicuro di voler continuare?'
+                button:
+                    okText: 'Sì, addebita'
+    reminder:
+        dismiss:
+            label: ignora
+        reminder_template:
+            due_message: '{{ subject }} inizia alle {{ expireAt }}'
+    task:
+        assigned_tasks_widget:
+            settings: 'Impostazioni widget attività'
+            number_of_tasks: 'Numero di attività da mostrare'
+            description: 'Questo widget ti consente di vedere le attività a te assegnate'
+        reminder_template:
+            due_message: '{{ subject }} scade il {{ expireAt }}'
+    websiteelasticsearch:
+        savedsearch:
+            toggle_button:
+                label: 'Salva questa ricerca'
+                saved_label: 'Salvata come {{ name }}'
+                title:
+                    save: 'Salva questa ricerca come'
+                    edit: 'Modifica ricerca salvata'
+                    aria_label:
+                        save: 'Espandi o comprimi il menu a discesa Ricerca salvata per salvare una query di ricerca'
+                        edit: 'Espandi o comprimi il menu a discesa Ricerca salvata per modificare una query di ricerca'
+            close_button:
+                aria_label: 'Chiudi il menu a discesa Ricerca salvata'
+            title:
+                create: 'Salva questa ricerca come'
+                view: 'Modifica ricerca salvata'
+            form_title: 'Ricevi notifiche email su'
+            notifications:
+                title: Notifiche
+                message: 'Le notifiche di nuovi prodotti non possono essere abilitate per query di ricerca che producono più di {{ limit }} risultati.'
+                new_product: 'Nuovi prodotti'
+                back_in_stock: 'Stato inventario'
+                delete_confirmation: 'Eliminare la ricerca salvata “{{ name }}”?'
+            flash_messages_by_name:
+                created: 'Risultati della ricerca salvati con successo come {{ name }}'
+                updated: 'Risultati della ricerca salvati con successo come {{ name }}'
+            flash_messages:
+                created: 'La ricerca salvata è stata creata con successo'
+                updated: 'La ricerca salvata è stata aggiornata con successo'
+                deleted: 'La ricerca salvata è stata eliminata con successo'
+                limit_reached: 'Hai raggiunto il numero massimo di ricerche salvate che possono essere memorizzate nel tuo account, {{ limit_reached_link_text }} per rivedere quelle esistenti.'
+                limit_reached_link_text: 'clicca qui'
+            form:
+                save_aria_label: 'Aggiungi ricerca salvata'
+                update_aria_label: 'Aggiorna ricerca salvata'
+                input:
+                    aria_label: 'Nuovo nome ricerca salvata'
+                    placeholder: 'Inserisci il titolo della tua ricerca'
+                saveButton:
+                    save_label: Salva
+                    update_label: Salva
+                    save_aria_label: 'Aggiungi nuova ricerca salvata'
+                    update_aria_label: 'Salva ricerca salvata'
+                cancelButton:
+                    save_label: Annulla
+                    update_label: Annulla
+                    save_aria_label: 'Annulla aggiunta nuova ricerca salvata'
+                    update_aria_label: 'Annulla aggiornamento ricerca salvata'
+            url_params:
+                content_variant_id:
+                    label: '{{ value }}'
+                category_content_variant_id:
+                    label: '{{ value }}'
+                category_id:
+                    label: '{{ value }}'
+                search:
+                    label: 'Risultati della ricerca per "{{ value }}"'
+                exclusive:
+                    label: 'Incluso {{ value }}'
+                include_subcategories:
+                    label: sottocategorie
+                override_variant_configuration:
+                    label: 'varianti di prodotto'
+    analytics:
+        less: 'Meno di'
+        more: 'Più di'
+        from: Da
+        to: A
+        na: N/D
+        best: migliore
+        worst: peggiore
+        delete_row: 'Elimina segmento'
+    cms:
+        wysiwyg:
+            external_markup_mode:
+                confirmation:
+                    title: 'Lasciare la modalità di markup esterno?'
+                    desc: 'Se esci dalla modalità di markup esterno, l''editor potrebbe modificare il codice sorgente e interrompere il markup e gli stili del contenuto importato.'
+                message: 'Gestione stili è disabilitato in modalità di markup esterno'
+                label: 'Abilita markup esterno'
+                info: 'L''opzione disabilita il gestore di stili integrato di GrapeJs per evitare che interrompa gli stili CSS importati. Utilizzare la finestra di dialogo Codice sorgente per aggiungere/modificare gli stili.'
+            option_panel:
+                show_borders: 'Mostra bordi'
+                preview: Anteprima
+                fullscreen: Schermo intero
+                export: Esporta
+                import: 'Codice sorgente'
+                undo: Annulla
+                redo: Ripeti
+                clear_canvas: 'Pulisci area di disegno'
+                settings: Impostazioni
+                open_Blocks: 'Apri blocchi'
+                open_style_manager: 'Apri gestore stili'
+                open_layer_manager: 'Apri gestore livelli'
+            settings_panel:
+                title: Impostazioni
+            theme_selector:
+                placeholder: 'Digita il nome del tema'
+            exclude_content_block: 'Stai cercando di aggiungere il blocco di contenuto corrente all''interno di se stesso. Scegline un altro'
+            content_block:
+                title: 'Seleziona blocco di contenuto'
+                type: 'Blocco di contenuto'
+            forms:
+                label_input_name: Input
+                label_textarea_name: Textarea
+                label_select_name: Seleziona
+                label_checkbox_name: Casella di controllo
+                label_radio_name: Pulsante di opzione
+                label_button_name: Pulsante
+                label_type_text: Testo
+                label_type_email: Email
+                label_type_password: Password
+                label_type_number: Numero
+                label_type_submit: Invia
+                label_type_reset: Reimposta
+                label_type_button: Pulsante
+                label_name_label: Etichetta
+                label_form: Modulo
+                label_select_option: '- Seleziona opzione -'
+                label_option: Opzione
+                label_state_normal: Normale
+                label_state_success: Successo
+                label_state_error: Errore
+            content_widget:
+                title: 'Seleziona widget di contenuto'
+                type: 'Widget di contenuto'
+            digital_asset:
+                image:
+                    title: 'Seleziona immagine'
+                file:
+                    title: 'Seleziona file'
+            component:
+                content_block: 'Blocco di contenuto'
+                content_widget: 'Widget di contenuto'
+                code:
+                    label: 'Esempio di codice'
+                    placeholder: 'Digita qui l''esempio di codice'
+                table:
+                    label: Tabella
+                    header_cell_label: 'Cella di intestazione'
+                    body_cell_label: 'Cella del corpo'
+                table_responsive:
+                    label: 'Tabella reattiva'
+                table_head:
+                    label: 'Intestazione tabella'
+                table_body:
+                    label: 'Corpo tabella'
+                table_row:
+                    label: 'Riga tabella'
+                table_cell:
+                    label: 'Cella tabella'
+                digital_asset:
+                    image: Immagine
+                    file: File
+                text_basic:
+                    label: 'Sezione di testo'
+                    heading: 'Inserisci qui il titolo'
+                    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua'
+                column1:
+                    label: '1 colonna'
+                column2:
+                    label: '2 colonne'
+                column3:
+                    label: '3 colonne'
+                column37:
+                    label: '2 colonne 3/7'
+                text:
+                    label: Testo
+                    content: 'Inserisci qui il tuo testo'
+                link:
+                    label: Link
+                    content: Link
+                link_block:
+                    label: 'Blocco di link'
+                link_button:
+                    label: 'Pulsante di link'
+                    content: 'Pulsante di link'
+                    icon_enabled: 'Icona abilitata'
+                    icon_before: 'Icona prima'
+                image:
+                    label: Immagine
+                video:
+                    label: Video
+                map:
+                    label: Mappa
+                input:
+                    label: Input
+                quote:
+                    label: Citazione
+                    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ipsum dolor sit'
+                text_wrapper:
+                    label: 'Stile testo'
+                customCode:
+                    label: 'Codice personalizzato'
+                    confirmation:
+                        title: 'Unisci codice personalizzato al contenuto'
+                        desc: 'Il codice personalizzato verrà analizzato e unito al resto del contenuto'
+                columns:
+                    label: Colonne
+                    sub_columns_label: 'Sottocolonne'
+                    resizer_span: '{{ spans }} Span'
+                    dialog_title: Colonne
+                columns_item:
+                    label: 'Elemento colonne'
+                container:
+                    label: 'Blocco Div'
+                tiles:
+                    label: Tasselli
+                    dialog_title: Tasselli
+                tiles_item:
+                    label: Tassello
+                icon:
+                    label: Icona
+                    search_not_found: 'Nessun risultato trovato'
+                    search:
+                        placeholder: 'Trova icona...'
+            validation:
+                import: 'Rimuovi i tag HTML non consentiti nel campo del contenuto: {{ tags }}'
+            import:
+                label: 'Incolla qui il tuo HTML/CSS e fai clic su Importa'
+                title: 'Codice sorgente'
+                button: 'Applica modifiche'
+                export_button: Scarica
+                message:
+                    twig_exp: 'Si è verificato un errore imprevisto durante la conversione del contenuto wysiwyg'
+            code:
+                label: 'Incolla qui il tuo codice'
+                title: 'Editor di codice'
+                button: Salva
+            export:
+                title: Codice
+                btn_label: 'Esporta in ZIP'
+                confirmation:
+                    title: 'Applica modifiche?'
+                    content: 'Il file scaricato includerà solo le modifiche già applicate'
+                    okText: 'Applica e scarica'
+            toolbar:
+                selectParent: 'Seleziona genitore'
+                move: Sposta
+                clone: Clona
+                delete: Elimina
+                widgetSetting: 'Impostazioni widget'
+                blockSetting: 'Impostazioni blocco'
+                fileSetting: 'Impostazioni file'
+                pictureSettings: 'Gestore sorgenti immagini'
+                table:
+                    row:
+                        before: 'Inserisci riga prima'
+                        after: 'Inserisci riga dopo'
+                        delete: 'Elimina riga'
+                    column:
+                        before: 'Inserisci colonna prima'
+                        after: 'Inserisci colonna dopo'
+                        delete: 'Elimina colonna'
+                    delete: 'Elimina tabella'
+                exposeCode: 'Unisci codice personalizzato al contenuto'
+                editCode: 'Modifica codice personalizzato'
+            asset_manager:
+                add_button: 'Aggiungi immagine'
+                input_plh: 'http://percorso/alla/immagine.jpg'
+                modal_title: 'Seleziona immagine'
+                upload_title: 'Trascina qui i file o fai clic per caricarli'
+            block_manager:
+                categories:
+                    basic: Base
+                    forms: Moduli
+                    layout: Layout
+                    legacy: Legacy
+                    ui_components: 'Componenti UI'
+            selector_manager:
+                label: Classi
+                selected: Selezionato
+                empty_state: '- Stato -'
+                states:
+                    hover: Hover
+                    active: Clic
+                    even_odd: Pari/Dispari
+            style_manager:
+                settings: Attributi
+                empty: 'Seleziona un elemento prima di utilizzare Gestione stili'
+                unsupport: 'Il componente selezionato non supporta Gestione selettori'
+                layer: Livello
+                enable: Abilita
+                disable: Disabilita
+                auto: Automatico
+                file_button: Immagini
+                flex_container: 'Contenitore flessibile'
+                sectors:
+                    general: Generale
+                    layout: Layout
+                    typography: Tipografia
+                    decorations: Decorazioni
+                    extra: Extra
+                    flex: Flessibile
+                    dimension: Dimensione
+                    columns_settings: 'Impostazioni colonne'
+                    columns_item_settings: 'Impostazioni elemento colonne'
+                    sub_columns_settings: 'Impostazioni sottocolonne'
+                    tiles_settings: 'Impostazioni tasselli'
+                properties:
+                    float:
+                        name: Allineamento
+                        list:
+                            none: Nessuno
+                            left: Sinistra
+                            right: Destra
+                    display:
+                        name: Visualizzazione
+                    position:
+                        name: Posizione
+                    top:
+                        name: Superiore
+                    right:
+                        name: Destra
+                    bottom:
+                        name: Inferiore
+                    left:
+                        name: Sinistra
+                    width:
+                        name: Larghezza
+                    max_width:
+                        name: Larghezza massima
+                    min_width:
+                        name: Larghezza minima
+                    height:
+                        name: Altezza
+                    Max_height:
+                        name: Altezza massima
+                    min_height:
+                        name: Altezza minima
+                    margin:
+                        name: Margine
+                    margin_top:
+                        name: Superiore
+                    margin_right:
+                        name: Destra
+                    margin_inline_end:
+                        name: 'Margine in linea fine'
+                    margin_bottom:
+                        name: Inferiore
+                    margin_left:
+                        name: Sinistra
+                    margin_inline_start:
+                        name: 'Margine in linea inizio'
+                    padding:
+                        name: Spaziatura interna
+                    padding_top:
+                        name: Superiore
+                    padding_right:
+                        name: Destra
+                    padding_inline_end:
+                        name: 'Spaziatura interna in linea fine'
+                    padding_bottom:
+                        name: Inferiore
+                    padding_left:
+                        name: Sinistra
+                    padding_inline_start:
+                        name: 'Spaziatura interna in linea inizio'
+                    font_family:
+                        name: Carattere
+                    font_size:
+                        name: 'Dimensione carattere'
+                    font_weight:
+                        name: Spessore
+                    letter_spacing:
+                        name: 'Spaziatura lettere'
+                    color:
+                        name: 'Colore carattere'
+                    line_height:
+                        name: 'Altezza linea'
+                    text_align:
+                        name: 'Allineamento testo'
+                    text_align_left:
+                        name: Sinistra
+                    text_align_center:
+                        name: Centro
+                    text_align_right:
+                        name: Destra
+                    text_align_justify:
+                        name: Giustificato
+                    text_decoration:
+                        name: 'Decorazione testo'
+                    text_decoration_none:
+                        name: Nessuna
+                    text_decoration_underline:
+                        name: Sottolineato
+                    text_decoration_line_through:
+                        name: 'Barrato'
+                    text_shadow:
+                        name: 'Ombra testo'
+                    text_shadow_h:
+                        name: 'Posizione X'
+                    text_shadow_v:
+                        name: 'Posizione Y'
+                    text_shadow_blur:
+                        name: Sfocatura
+                    text_shadow_color:
+                        name: Colore
+                    opacity:
+                        name: Opacità
+                    mix_blend_mode:
+                        name: 'Modalità di fusione'
+                        options:
+                            normal: normale
+                            multiply: moltiplica
+                            screen: schermo
+                            overlay: sovrapponi
+                            darken: scurire
+                            lighten: schiarire
+                            color_dodge: scherma colore
+                            color_burn: brucia colore
+                            hard_light: luce intensa
+                            soft_light: luce soffusa
+                            difference: differenza
+                            exclusion: esclusione
+                            hue: tonalità
+                            saturation: saturazione
+                            color: colore
+                            luminosity: luminosità
+                    background_color:
+                        name: 'Colore di sfondo'
+                    border:
+                        name: Bordo
+                    border_width:
+                        name: Larghezza
+                    border_style:
+                        name: Stile
+                    border_color:
+                        name: Colore
+                    border_radius:
+                        name: 'Raggio bordo'
+                    border_radius_top:
+                        name: Superiore
+                    border_radius_right:
+                        name: Destra
+                    border_radius_bottom:
+                        name: Inferiore
+                    border_radius_left:
+                        name: Sinistra
+                    box_shadow:
+                        name: 'Ombra riquadro'
+                    box_shadow_h:
+                        name: 'Posizione X'
+                    box_shadow_v:
+
+                        name: 'Posizione Y'
+                    box_shadow_blur:
+                        name: Sfocatura
+                    box_shadow_spread:
+                        name: Diffusione
+                    box_shadow_color:
+                        name: Colore
+                    box_shadow_type:
+                        name: 'Tipo di ombra'
+                    background:
+                        name: Sfondo
+                    background_image:
+                        name: Immagine
+                    background_repeat:
+                        name: Ripeti
+                    background_position:
+                        name: Posizione
+                    background_attachment:
+                        name: Allegato
+                    background_size:
+                        name: Dimensione
+                    transition:
+                        name: Transizione
+                    transition_property:
+                        name: Proprietà
+                    transition_duration:
+                        name: Durata
+                    transition_timing_function:
+                        name: Interpolazione
+                    perspective:
+                        name: Prospettiva
+                    transform_origin:
+                        name: 'Origine trasformazione'
+                    transform_origin_x_offset:
+                        name: 'Offset X'
+                    transform_origin_y_offset:
+                        name: 'Offset Y'
+                    transform:
+                        name: Trasformazione
+                    transform_type:
+                        name: Tipo
+                    transform_value:
+                        name: 'Valore trasformazione'
+                    transform_translate_x:
+                        name: 'Traslazione X'
+                    transform_translate_y:
+                        name: 'Traslazione Y'
+                    transform_translate_z:
+                        name: 'Traslazione Z'
+                    transform_rotate_x:
+                        name: 'Rotazione X'
+                    transform_rotate_y:
+                        name: 'Rotazione Y'
+                    transform_rotate_z:
+                        name: 'Rotazione Z'
+                    transform_rotate:
+                        name: Ruota
+                    transform_scale_x:
+                        name: 'Scala X'
+                    transform_scale_y:
+                        name: 'Scala Y'
+                    transform_scale_z:
+                        name: 'Scala Z'
+                    transform_skew_x:
+                        name: 'Inclinazione X'
+                    transform_skew_y:
+                        name: 'Inclinazione Y'
+                    label_parent_flex:
+                        name: 'Genitore flessibile'
+                    label_children_flex:
+                        name: 'Figli flessibili'
+                    flex:
+                        name: Flessibile
+                    flex_order:
+                        name: Ordine
+                    flex_direction:
+                        name: Direzione
+                    flex_direction_row:
+                        name: Riga
+                    flex_direction_reverse:
+                        name: 'Riga inversa'
+                    flex_direction_column:
+                        name: Colonna
+                    flex_direction_column_reverse:
+                        name: 'Colonna inversa'
+                    flex_start:
+                        name: Inizio
+                    flex_end:
+                        name: Fine
+                    flex_space_between:
+                        name: 'Spazio tra'
+                    flex_space_around:
+                        name: 'Spazio intorno'
+                    flex_center:
+                        name: Centro
+                    flex_stretch:
+                        name: Allunga
+                    flex_align_items:
+                        name: Centro
+                    flex_grow:
+                        name: Crescita
+                    flex_shrink:
+                        name: Riduzione
+                    flex_basis:
+                        name: Base
+                    flex_align_self:
+                        name: Allineamento
+                    justify_content:
+                        name: Giustificazione
+                    columns_count:
+                        name: 'Conteggio colonne'
+                    gaps:
+                        name: Spazi
+                    row_gaps:
+                        name: 'Spazio tra righe'
+                    column_gaps:
+                        name: 'Spazio tra colonne'
+                    place_content:
+                        name: 'Posiziona contenuto'
+                    align_content:
+                        name: 'Allinea contenuto'
+                    grid_justify_content:
+                        name: 'Giustifica contenuto'
+                    place_items:
+                        name: 'Posiziona elementi'
+                    align_items:
+                        name: 'Allinea elementi'
+                    justify_items:
+                        name: 'Giustifica elementi'
+                    column_span:
+                        name: 'Estensione colonna'
+                    place_self:
+                        name: 'Posiziona te stesso'
+                    align_self:
+                        name: 'Allinea te stesso'
+                    justify_self:
+                        name: 'Giustifica te stesso'
+                    grid_start:
+                        name: Inizio
+                    grid_center:
+                        name: Centro
+                    grid_end:
+                        name: Fine
+                    tiles_count:
+                        name: 'Conteggio tasselli'
+                    tiles_row_gaps:
+                        name: 'Spazio tra righe'
+                    tiles_column_gaps:
+                        name: 'Spazio tra colonne'
+            trait_manager:
+                empty: 'Seleziona un elemento prima di utilizzare Gestione tratti'
+                label: 'Impostazioni componente'
+                traits:
+                    id:
+                        label: Id
+                        placeholder: 'es. Testo qui'
+                    alt:
+                        label: Alt
+                        placeholder: 'es. Testo qui'
+                    title:
+                        label: Titolo
+                        placeholder: 'es. Testo qui'
+                    href:
+                        label: Href
+                        placeholder: 'es. https://google.com'
+                    provider:
+                        label: Fornitore
+                    target:
+                        label: Target
+                    src:
+                        label: Sorgente
+                        placeholder: 'es. ./media/video.mp4'
+                    poster:
+                        label: Poster
+                        placeholder: 'es. ./media/immagine.jpg'
+                    videoId:
+                        label: 'ID video'
+                        placeholder: 'es. jNQXAC9IVRw'
+                    rel:
+                        label: Correlato
+                    modestbranding:
+                        label: Modesto
+                    color:
+                        label: Colore
+                        placeholder: 'es. FF0000'
+                    autoplay:
+                        label: Autoplay
+                        title: 'La riproduzione automatica (deve essere consentita da un utente nelle impostazioni del browser)'
+                    loop:
+                        label: Loop
+                    controls:
+                        label: Controlli
+                    options:
+                        target:
+                            this_window: 'Questa finestra'
+                            blank: 'Nuova finestra'
+            device_manager:
+                devices:
+                    desktop: Desktop
+                    tablet: Tablet
+                    tablet_small: 'Tablet piccolo'
+                    mobile: Mobile
+                    mobile_small: 'Mobile piccolo'
+                    mobile_landscape: 'Mobile orizzontale'
+                    mobile_big: 'Mobile grande'
+            format_block:
+                title: 'Formato testo'
+                normal: 'Testo normale'
+                p: Paragrafo
+                h1: 'Titolo 1'
+                h2: 'Titolo 2'
+                h3: 'Titolo 3'
+                h4: 'Titolo 4'
+                h5: 'Titolo 5'
+                h6: 'Titolo 6'
+            simple_actions:
+                bold:
+                    title: Grassetto
+                italic:
+                    title: Corsivo
+                underline:
+                    title: Sottolineato
+                strikethrough:
+                    title: Barrato
+                insert_ordered_list:
+                    title: 'Elenco ordinato'
+                insert_unordered_list:
+                    title: 'Elenco non ordinato'
+                subscript:
+                    title: Pedice
+                superscript:
+                    title: Apice
+                inline_widget:
+                    title: 'Widget in linea'
+                indent:
+                    title: 'Aumenta rientro'
+                outdent:
+                    title: 'Riduci rientro'
+            wrap_action:
+                title:
+                    default: 'Applica stili'
+                    active: 'Rimuovi stili'
+                    disabled: 'Seleziona testo per applicare stili'
+            color_picker:
+                choose_text: Ok
+                cancel_text: ⨯
+            settings:
+                label: Impostazioni
+                sw_visibility:
+                    label: 'Mostra contorni componenti'
+                    info: 'Attiva/disattiva la visibilità dei contorni attorno ai componenti sull''area di disegno dell''editor'
+                show_offsets_setting:
+                    label: 'Mostra spaziatura'
+                    info: 'Visualizza margini e spaziatura interna'
+            create_link_dialog:
+                href: Href
+                text: Testo
+                title: Titolo
+                target:
+                    label: Target
+                    this_window: 'Questa finestra'
+                    new_window: 'Nuova finestra'
+                apply: Applica
+                insert: Inserisci
+                add_new_link: 'Inserisci un link'
+                add_edit_link: 'Modifica un link'
+            mobile:
+                flash_message: 'L''editor visuale non può essere visualizzato sul dispositivo corrente.'
+            dialog:
+                picture_settings:
+                    not_created: 'Nessuna fonte creata'
+                    add: 'Aggiungi fonte'
+                    type: Tipo
+                    media: 'Media Query'
+                    hi_res: Hi-Res
+                    sizes: Dimensioni
+                    media_hint: 'L''attributo media accetta qualsiasi media query valida che verrebbe normalmente definita in un CSS. <a href="{{ url }}" target="_blank">Ulteriori informazioni sulla media query</a>'
+                    hi_res_hint: 'Le immagini ad alta risoluzione verranno visualizzate su schermi ad alta DPI (Retina), grandi monitor desktop e dispositivi mobili moderni, garantendo immagini nitide e dettagliate. <a href="{{ url }}" target="_blank">Ulteriori informazioni sulle immagini reattive </a>'
+                    save: Salva
+                    cancel: Annulla
+                    remove_confirmation: 'Sei sicuro di voler eliminare questo elemento della fonte dell''immagine?'
+                    actions:
+                        update: 'Aggiorna fonte'
+                        remove: 'Rimuovi fonte'
+                    main_image: 'Immagine principale'
+                    select_breakpoints: 'Fai clic per selezionare il punto di interruzione'
+                    unknown_type: sconosciuto
+                    hi_res_assets: 'Immagini ad alta risoluzione'
+                    add_hi_res_assets_hint: 'Aggiungi immagine ad alta risoluzione'
+                    select_image: 'Seleziona immagine'
+                component_settings:
+                    label: 'Impostazioni {{ name }}'
+            screenshot_plugin:
+                onerror: 'Qualcosa è andato storto durante la creazione dell''anteprima del modello'
+            content_template_plugin:
+                button_title: 'Apri modelli di contenuto'
+                no_found: 'Nessun risultato trovato'
+                no_items: 'Non ci sono modelli di contenuto'
+                collapse_all: 'Comprimi tutto'
+                expand_all: 'Espandi tutto'
+                quick_search_placeholder: 'Ricerca rapida'
+                quick_search_label: 'Ricerca rapida di modelli di contenuto'
+                reset_search: 'Reimposta campo di ricerca'
+                content_template:
+                    not_found: 'Impossibile caricare il modello di contenuto {{ name }}'
+            commands:
+                clear_canvas:
+                    confirm: 'Sei sicuro di voler pulire l''area di disegno?'
+        change_type:
+            confirmation:
+                title: 'Cambia tipo'
+                body: 'Sei sicuro di voler cambiare il tipo di widget di contenuto?'
+    marketingactivity:
+        widget:
+            filter:
+                campaign:
+                    title: Campagna
+    paymentterm:
+        autocomplete:
+            customer: 'predefinito cliente'
+            customer_group: 'predefinito gruppo clienti'
+    pricing:
+        filter:
+            product_price:
+                per: /
+                units_select:
+                    label: Unità
+                min: min
+                max: max
+                units_list:
+                    aria_label: 'Filtra unità prodotto {{ label }}'
+        click_to_select: 'Fai clic per selezionare il prezzo per unità'
+        qty: qtà
+        unit_price: 'Prezzo unitario'
+        product_prices:
+            price_is_overridden: 'Il prezzo è stato sovrascritto'
+            reset_price: 'Reimposta prezzo'
+            applicable_from: 'Il prezzo è applicabile a partire da {{ amount }}'
+            your_price: 'Il tuo prezzo:'
+            listed_price: 'Prezzo di listino:'
+            price_not_found: 'Prezzo non disponibile per questa quantità'
+            price_not_found.short_label: N/D
+            empty_prices: 'Prezzo non disponibile'
+            product_kit:
+                not_configured: 'Il prezzo non può essere visualizzato per un kit di prodotti che non è stato configurato.'
+        price:
+            label: Prezzo
+            formatted:
+                unit: '{{ formattedUnit }} ({{ formattedPrice }} Ciascuno)'
+            not_available: N/D
+        pricelist:
+            delete:
+                message_default: 'Sei sicuro di voler eliminare il listino prezzi "{{ priceListName }}" utilizzato nella configurazione di sistema come predefinito?'
+                message: 'Sei sicuro di voler eliminare il listino prezzi "{{ priceListName }}"?'
+        view_all_prices: 'Visualizza tutti i prezzi'
+        view_all_prices_extended: 'Visualizza tutti i prezzi per {{ product_attrs }}'
+        matched_price: 'Prezzo di listino'
+        per_item: 'per {{ unit }}'
+        frontend:
+            product:
+                quantity:
+                    short_label: Qtà
+                    long_label: Quantità
+    totals:
+        no_data: 'Nessun dato'
+    rfp:
+        request:
+            btn:
+                delete:
+                    label: Elimina
+                cancel:
+                    label: Annulla
+    sales:
+        form:
+            add_new_customer: 'Aggiungi nuovo {{ account }}'
+            new_customer: Nuovo
+    order:
+        shipping_method:
+            label: 'Metodo di spedizione'
+        previous_shipping_method:
+            label: 'Metodo di spedizione precedentemente selezionato'
+        possible_shipping_methods:
+            no_method: 'Nessun metodo di spedizione disponibile'
+            confirmation:
+                title: 'Rivedi costo di spedizione'
+                content: 'Poiché il contenuto dell''ordine è stato modificato, i totali dell''ordine e i costi di spedizione potrebbero essere cambiati. Rivedi la selezione del metodo di spedizione prima di salvare l''ordine per assicurarti che il costo di spedizione sia accettabile.'
+        notes_widget:
+            edit: 'Modifica note'
+            add: 'Aggiungi note'
+            remove: 'Rimuovi note'
+        continue_editing: 'Continua a modificare'
+        past_orders:
+            label: 'Ordini passati'
+        action:
+            order:
+                cancel_confirm_title: 'Annulla ordine'
+                cancel_confirm_message: 'Sei sicuro di voler annullare questo ordine? Nota che una volta annullato l''ordine, non può essere modificato.'
+                close_confirm_title: 'Chiudi ordine'
+                close_confirm_message: 'Sei sicuro di voler chiudere questo ordine? Nota che una volta chiuso l''ordine, non può essere modificato.'
+    checkout:
+        open_order:
+            plural_label: 'Ordini aperti'
+        billing_address:
+            label: 'Indirizzo di fatturazione'
+        shipping_address:
+            label: 'Indirizzo di spedizione'
+        please_wait_message: 'Attendere prego... il tuo ordine è in fase di elaborazione. Sarai avvisato una volta completato. Non ricaricare o chiudere questa pagina'
+        multishipping:
+            label_for: 'Metodo di spedizione per {{ label }}'
+        grid:
+            toolbar:
+                pageSize:
+                    all:
+                        label: Tutti
+    consent:
+        frontend:
+            dialog:
+                accept:
+                    label: Accetta
+                cancel:
+                    label: Annulla
+                close:
+                    label: Chiudi
+            confirm_modal:
+                title: 'Protezione dei dati'
+                message: 'Sei sicuro di voler rifiutare i consensi accettati in precedenza?'
+                ok: 'Sì, rifiuta'
+                cancel: 'No, annulla'
+    sale:
+        quote:
+            actions:
+                quote_expire_title: 'Conferma azione'
+                quote_expire_confirm: 'Sei sicuro di voler far scadere questo preventivo?'
+                mark_as_expired: 'Segna come scaduto'
+            label: Preventivi
+    shoppinglist:
+        entity_label: 'Lista della spesa'
+        line_item_save:
+            flash:
+                success: 'La riga dell''articolo è stata salvata'
+        menu:
+            add_products:
+                success:
+                    message: 'Aggiunto con successo alla lista della spesa'
+                error:
+                    message: 'Impossibile aggiungere alla lista della spesa'
+        widget:
+            add_to_new_shopping_list: 'Crea nuova lista della spesa'
+        datagrid:
+            add_to_shopping_list: 'Aggiungi alla lista della spesa'
+            toolbar:
+                pageSize:
+                    all:
+                        label: Tutti
+        actions:
+            add_to_shopping_list: 'Aggiungi a {{ shoppingList }}'
+            add_to_shopping_list_short: 'Aggiungi a'
+            line_items_in_shopping_list: '{{ lineItems }} in {{ shoppingList }}'
+            in_shopping_list_plural: 'In {{ shoppingListsCount }} liste della spesa'
+            in_shopping_lists: 'Nelle liste della spesa'
+            in_shopping_list: 'Nella lista della spesa'
+            update_shopping_list: 'Aggiorna {{ shoppingList }}'
+            update_shopping_list_short: Aggiorna
+            shopping_list_set_as_default: 'La lista della spesa {{ shoppingList }} è stata impostata come predefinita.'
+            delete_line_item:
+                confirm_title: 'Elimina "{{ name }}"'
+                confirm_content: 'Sei sicuro di voler eliminare questo prodotto?'
+                confirm_ok: 'Sì, elimina'
+                success: 'Il prodotto "{{ name }}" è stato eliminato con successo'
+            save_for_later:
+                confirm_title: 'Salva "{{ name }}" per dopo'
+                confirm_content: 'Sei sicuro di voler salvare questo prodotto per dopo?'
+                confirm_ok: 'Sì, salva'
+                success: 'Il prodotto "{{ name }}" è stato salvato per dopo.'
+            remove_from_saved_for_later:
+                confirm_title: 'Rimuovi "{{ name }}" da "Salvati per dopo"'
+                confirm_content: 'Sei sicuro di voler rimuovere questo prodotto da "Salvati per dopo"?'
+                confirm_ok: 'Sì, rimuovi'
+                success: 'Il prodotto "{{ name }}" è stato rimosso da "Salvati per dopo".'
+        mass_actions:
+            delete_line_items:
+                confirm_content: '{1}L''articolo selezionato verrà eliminato|[2,Inf[Gli articoli selezionati verranno eliminati.'
+                confirm_ok: 'Sì, elimina'
+                confirm_title: 'Elimina articoli'
+                selected_message: 'Hai selezionato {{ selected }} articolo.<br> Sei sicuro di volerlo eliminare?|Hai selezionato {{ selected }} articoli.<br> Sei sicuro di volerli eliminare?'
+            save_for_later:
+                confirm_title: 'Salva prodotti per dopo'
+                confirm_content: 'I prodotti selezionati verranno salvati per dopo.'
+                confirm_ok: 'Sì, salva'
+            remove_from_saved_for_later:
+                confirm_title: 'Rimuovi prodotti da "Salvati per dopo"'
+                confirm_content: 'I prodotti selezionati verranno rimossi da "Salvati per dopo".'
+                confirm_ok: 'Sì, rimuovi'
+        create_order_confirmation:
+            title: Conferma
+            message: 'Questa lista della spesa contiene prodotti configurabili senza varianti. Procedere al checkout senza questi prodotti?'
+            accept_button_title: Procedi
+            cancel_button_title: Annulla
+        create_rfp_confirmation:
+            title: Conferma
+            message: 'Questa lista della spesa contiene prodotti configurabili senza varianti. Procedere alla richiesta di preventivo senza questi prodotti?'
+            accept_button_title: Procedi
+            cancel_button_title: Annulla
+        checkout_errors_modal:
+            title: 'Articoli non validi nella lista della spesa'
+            message_can_edit: 'Alcuni articoli nella tua lista della spesa non sono validi e devono essere aggiornati. Vai alla tua lista della spesa per correggere questi articoli prima di procedere al checkout.'
+            message_cannot_edit: 'Alcuni articoli nella tua lista della spesa non sono validi. Non hai il permesso di modificare la lista della spesa. Chiedi all''amministratore di risolvere questo problema.'
+        rfq_errors_modal:
+            title: 'Articoli non validi nella lista della spesa'
+            message_can_edit: 'Alcuni articoli nella tua lista della spesa non sono validi e devono essere aggiornati. Vai alla tua lista della spesa per correggere questi articoli prima di procedere alla richiesta di preventivo.'
+            message_cannot_edit: 'Alcuni articoli nella tua lista della spesa non sono validi. Non hai il permesso di modificare la lista della spesa. Chiedi all''amministratore di risolvere questo problema.'
+        lineitem:
+            empty_configurable_product: 'Fai clic su "configura" per selezionare le varianti'
+    frontend:
+        shoppinglist:
+            product_variants: 'Varianti di prodotto'
+            messages:
+                delete_title: 'Conferma eliminazione'
+                line_items_not_available: 'Alcuni articoli di questa lista della spesa non sono più disponibili e sono stati rimossi ({{ skus }}).'
+            matrix_grid_order:
+                item_number: 'Articolo n.'
+            matrix_grid_update:
+                title: 'Modifica "{{ product }}" in "{{ shoppinglist }}"'
+            label: 'Articolo n.:'
+            initial_subtotal:
+                label: 'Subtotale iniziale'
+            discount:
+                label: Sconto
+            btn:
+                duplicate:
+                    aria_label: 'Duplica la lista della spesa corrente'
+            btn_more:
+                label: 'E {{ count }} in più'
+                aria_label: 'E {{ count }} altre varianti del prodotto {{ name }}'
+            btn_expand_kits:
+                label_expanded: 'Nascondi prodotti del kit'
+                label_collapsed: 'Mostra prodotti del kit'
+                aria_label: 'Mostra o nascondi altri prodotti del kit del prodotto {{ name }}'
+            dialog:
+                cancel:
+                    label: Annulla
+                assign:
+                    label: Assegna
+                duplicate_confirmation:
+                    label: 'Conferma duplicazione'
+                    message: 'Sei sicuro di voler duplicare questa lista della spesa?'
+                duplicate_ok:
+                    label: 'Sì, duplica'
+                delete_confirmation:
+                    label: 'Conferma eliminazione'
+                    message: 'Sei sicuro di voler eliminare questa lista della spesa?'
+                delete_ok:
+                    label: 'Sì, elimina'
+                set_as_default_confirmation:
+                    label: 'Conferma imposta come predefinita'
+                    message: 'Sei sicuro di voler impostare come predefinita questa lista della spesa?'
+                set_as_default_ok:
+                    label: 'Sì, imposta come predefinita'
+                notes:
+                    add: 'Aggiungi una nota a "{{ shoppingList }}"'
+                    add_btn_label: 'Aggiungi nota'
+                    success: 'La nota della lista della spesa è stata aggiornata con successo'
+                    remove_title: 'Elimina per "{{ shoppingList }}"'
+                    remove: 'Sei sicuro di voler eliminare la nota?'
+                    delete_btn: 'Elimina nota'
+                configurable_product:
+                    delete:
+                        label: 'Rimuovi dalla lista della spesa'
+                    cancel:
+                        label: Annulla
+                    accept:
+                        label: 'Salva modifiche'
+            actions:
+                update_all: 'Aggiorna tutto'
+                update_configurable_line_item:
+                    select_variant_label: 'Seleziona varianti'
+            lineitem:
+                updated:
+                    label: 'Il prodotto è stato aggiornato in "<a href="{{ shoppinglistPath }}">{{ shoppinglistLabel }}</a>"'
+                dialog:
+                    add:
+                        title: 'Aggiungi una nota al prodotto "{{ productName }}"'
+                        sku_title: 'Aggiungi una nota a "{{ productSku }} - {{ productName }}"'
+                        label: Aggiungi
+                    add_note:
+                        title: 'Aggiungi una nota al prodotto "{{ productName }}"'
+                        label: 'Aggiungi nota'
+                    edit:
+                        title: 'Modifica una nota per il prodotto "{{ productName }}"'
+                        sku_title: 'Modifica una nota per "{{ productSku }} - {{ productName }}"'
+                        label: Salva
+                    cancel:
+                        label: Annulla
+                    edit_note:
+                        label: 'Salva nota'
+                    notes:
+                        success: 'La nota della riga dell''articolo è stata aggiornata con successo'
+                sku:
+                    label: QTÀ
+                image:
+                    alt: '{{ name }} prodotto {{ sku }}'
+                status:
+                    is_upcoming: 'Prossimamente'
+                    is_low_inventory: 'Scorte in esaurimento'
+            inline_editing:
+                quantity:
+                    aria_label: Quantità
+                unit:
+                    aria_label: 'Seleziona unità'
+    case:
+        private: Privato
+    entityextend:
+        delete_field:
+            confirm_content: 'Sei sicuro di voler eliminare questo campo? Per il campo di tipo di archiviazione serializzato, questa azione non può essere annullata.'
+    inventory:
+        inventory_level_save:
+            flash:
+                success: 'L''inventario è stato aggiornato'
+        is_upcoming:
+            notification: 'Questo prodotto sarà disponibile più tardi'
+            notification_with_date: 'Questo prodotto sarà disponibile il {{ date }}'
+        low_inventory:
+            label: 'Scorte in esaurimento'
+    promotion:
+        coupon:
+            violation:
+                disabled: 'Il coupon è disabilitato'
+                absent_promotion: 'Non c''è nessuna promozione per questo coupon'
+                not_started: 'La data di inizio del coupon non è ancora iniziata'
+                expired: 'Il coupon è scaduto'
+                usage_limit_exceeded: 'Il limite di utilizzo del coupon è stato superato'
+                customer_user_usage_limit_exceeded: 'Il limite di utilizzo del coupon per utente cliente è stato superato'
+                coupon_already_added: 'Questo coupon è già stato aggiunto'
+                coupon_promotion_already_applied: "Lo sconto di questo coupon è già stato applicato"
+                coupon_promotion_not_applicable: "Lo sconto di questo coupon non è applicabile"
+                invalid_coupon_code: 'Codice coupon non valido, provane un altro'
+                remove_coupon:
+                    not_found: "Il coupon non è stato applicato, quindi non può essere eliminato."
+            messages:
+                coupon_code_applied_successfully: 'Il codice coupon è stato applicato con successo, controlla gli sconti'
+                removed: 'Il codice coupon è stato rimosso'
+        ui:
+            unassign_coupon:
+                confirmation:
+                    message: 'Sei sicuro di voler rimuovere un coupon dalla promozione corrente?'
+    zendesk:
+        reverse_sync:
+            success_message: 'La pubblicazione su Zendesk è stata programmata'
+            fail_message: 'Impossibile programmare la pubblicazione su Zendesk'
+    dotmailer:
+        datafieldmapping:
+            change_entity_confirmation: 'La modifica dell''entità cancellerà tutta la configurazione di mappatura. Vuoi continuare?'
+            change_channel_confirmation: 'La modifica dell''integrazione cancellerà tutta la configurazione di mappatura. Vuoi continuare?'
+            editor: 'l''Editor di mappatura'
+    oauth2server:
+        client:
+            deactivate_confirm_title: 'Conferma disattivazione'
+            deactivate_confirm_message: 'Sei sicuro di voler disattivare l''applicazione?'
+            deactivate_success: 'Disattivata con successo'
+            activate_success: 'Attivata con successo'
+            delete_confirm_message: 'Sei sicuro di voler eliminare l''applicazione?'
+            delete_success: 'Eliminata con successo'
+    shipping:
+        delete_shipping_rule_window:
+            content: 'Attenzione: la rimozione della regola di spedizione eliminerà tutti i dati correlati'
+            button_ok: 'Sì, elimina'
+            title: 'Conferma eliminazione'
+            success: 'Regola di spedizione e tutti i dati correlati sono stati eliminati'
+        method:
+            flat_rate:
+                label: 'Tariffa fissa'
+                type:
+                    label: 'Tariffa fissa'
+                price:
+                    label: Prezzo
+                handling_fee:
+                    label: 'Spese di gestione'
+                processing_type:
+                    label: Tipo
+                    per_item:
+                        label: 'Per articolo'
+                    per_order:
+                        label: 'Per ordine'
+        methods_table:
+            method:
+                label: Metodo
+            option:
+                label: Opzione
+            price:
+                label: Prezzo
+        method_type:
+            backend:
+                method:
+                    label: '{{ translatedMethod }}'
+                method_type:
+                    label: '{{ translatedMethodType }}'
+                method_with_type_and_price:
+                    label: '{{ translatedMethod }}, {{ translatedMethodType }}: {{ price }}'
+                method_type_and_price:
+                    label: '{{ translatedMethodType }}: {{ price }}'
+        integration:
+            deactivate:
+                message: 'Alcuni metodi di spedizione nelle <a href="{{ linkGrid }}" target="_blank">seguenti</a> regole di spedizione dipendono dall''integrazione che viene disabilitata. I metodi di spedizione interessati verranno disabilitati. Anche la regola di spedizione verrà disabilitata se nessuno dei suoi metodi di spedizione rimane abilitato.'
+                title: 'Disattiva integrazione'
+                button:
+                    okText: Disattiva
+            delete:
+                message: 'Alcuni metodi di spedizione nelle <a href="{{ linkGrid }}" target="_blank">seguenti</a> regole di spedizione dipendono dall''integrazione che viene eliminata. I metodi di spedizione interessati verranno disabilitati. Anche la regola di spedizione verrà disabilitata se nessuno dei suoi metodi di spedizione rimane abilitato.'
+                title: 'Elimina integrazione'
+                button:
+                    okText: Elimina
+    conversation:
+        new_conversation: 'Nuova conversazione'
+        send: Invia
+        text_field:
+            placeholder: 'Digita qui il tuo messaggio'
+        unread_messages: 'Messaggi non letti'
+        ask_new_question: 'Fai una nuova domanda'
+        no_data: 'Non ci sono conversazioni'
+        notification:
+            menu_item:
+                hint: 'Messaggi di conversazione recenti'
+            mark_read:
+                label: 'Segna tutti come letti'
+            user_conversations:
+                label: 'Le mie conversazioni aperte'
+            empty: "Non hai nuove conversazioni con messaggi"
+            more_unread: 'Altre non lette'
+    websitesearch:
+        autocomplete:
+            popup:
+                header:
+                    products:
+                        label: 'Prodotti suggeriti'
+                    categories:
+                        label: 'Categorie suggerite'
+                button:
+                    all:
+                        label: '{1} Vedi risultato|]1,Inf] Vedi tutti i {{ productCount }} risultati'
+            product:
+                item_number: 'Articolo n.: {{ sku }}'
+'Yes': 'Sì'
+'Yes, Delete': 'Sì, elimina'
+'Yes, I Agree': 'Sì, accetto'
+'Yes, do it': 'Sì, fallo'
+'No': 'No'
+'Ok, got it': 'Ok, capito'
+Cancel: Annulla
+Back: Indietro
+'Delete Confirmation': 'Conferma eliminazione'
+Edit: Modifica
+Expand: Espandi
+Collapse: Comprimi
+Loading.: Caricamento in corso...
+Saving.: Salvataggio in corso...
+Deleting.: Eliminazione in corso...
+'View more.': 'Visualizza altro...'
+'An unexpected error has occurred':
+    ' Please contact the system administrator.': 'Si è verificato un errore imprevisto. Si prega di contattare l''amministratore di sistema.'
+Now: Adesso
+Prev: Prec
+Next: Succ
+Today: Oggi
+Wk: Sett
+Done: Fatto
+Close: Chiudi
+AM: AM
+A: A
+PM: PM
+P: P
+'Choose Time': 'Scegli ora'
+Time: Ora
+Hour: Ora
+Minute: Minuto
+Second: Secondo
+Millisecond: Millisecondo
+Microsecond: Microsecondo
+'Time Zone': 'Fuso orario'
+'Server error': 'Errore del server'
+'User input error': 'Errore di input dell''utente'
+'Error! Incorrect server response.': 'Errore! Risposta del server non corretta.'
+'Sorry, an unexpected error has occurred.': 'Spiacenti, si è verificato un errore imprevisto.'
+'Please select a file.': 'Seleziona un file...'
+'Choose File': 'Scegli file'
+Clear: Cancella
+Searching.: Ricerca in corso...
+'No matches found': 'Nessuna corrispondenza trovata'
+'Loading more results.': 'Caricamento di altri risultati...'
+OK: OK
+N/A: N/D
+maximize: massimizza
+restore: ripristina
+minimize: minimizza
+close: chiudi
+Save: Salva
+Discard: Annulla
+'Copy to Clipboard': 'Copia negli appunti'
+articles: un|uno|una|il|lo|la|i|gli|le|alcuni|ogni|qualsiasi|nessun
+abbreviate_ignore_list: un|uno|una|il|lo|la|i|gli|le|di|a|da|in|con|su|per|tra|fra
+postpositions: fa|a parte|da parte|via|quindi|attraverso
+prepositions: un|uno|una|per|a bordo|riguardo|su|sopra|a fianco|all'estero|attraverso|dopo|contro|di nuovo|lungo|in mezzo|tra|intorno|come|a cavallo|a|in cima|su|barra|prima|davanti|B4|dietro|dietro|sotto|sotto|sotto|accanto|inoltre|tra|oltre|ma|da|vieni|nonostante|dispetto|giù|durante|eccetto|per|4|da|in|dentro|in|meno|come|meno|vicino|di|spento|su|su|opposto|fuori|fuori|sopra|passato|per|post|pre|pro|re|corto|da|di|attraverso|attraverso|in tutto|in tutto|a|2|@|il|verso|verso|sotto|sotto|a differenza|fino a|fino a|fino a|su|su|a testa in giù|contro|tramite|vice|con|dentro|senza|valore
+orosecurity:
+    switch_organization_modal:
+        title: 'Conferma cambio organizzazione'
+        unsaved_data_text: 'Stai per passare a una nuova organizzazione. Tutti i dati non salvati andranno persi e verrai reindirizzato alla dashboard della nuova organizzazione in tutte le schede aperte.'
+        saved_data_text: 'Stai per passare a una nuova organizzazione. Tutti i dati sono stati salvati.'
+        question: 'Sei sicuro di voler procedere?'
+'Attachment created successfully': 'Allegato creato con successo'
+'Item updated successfully': 'Articolo aggiornato con successo'
+'Attachment updated successfully': 'Allegato aggiornato con successo'
+'Update item': 'Aggiorna articolo'
+'Update attachment': 'Aggiorna allegato'
+Preview: Anteprima
+'Yes, Proceed': 'Sì, procedi'
+'Not Found': 'Non trovato'
+'Successfully removed': 'Rimosso con successo'
+Read: Leggi
+Running: In esecuzione
+'Not running': 'Non in esecuzione'
+'Could not perform action': 'Impossibile eseguire l''azione'
+'Item deleted': 'Articolo eliminato'
+'Are you sure you want to delete this item?': 'Sei sicuro di voler eliminare questo articolo?'
+'Delete Error': 'Errore di eliminazione'
+'Are you sure you want to delete these items?': 'Sei sicuro di voler eliminare questi articoli?'
+'Are you sure you want to remove this item?': 'Sei sicuro di voler rimuovere questo articolo?'
+'Selected items were deleted.': 'Gli articoli selezionati sono stati eliminati.'
+'Selected items were not deleted.': 'Gli articoli selezionati non sono stati eliminati.'
+'Please select items to delete.': 'Seleziona gli articoli da eliminare.'
+'You do not have permission to perform this action.': 'Non hai il permesso di eseguire questa azione.'
+'Refresh Confirmation': 'Conferma aggiornamento'
+'Your local changes will be lost':
+    ' Are you sure you want to refresh grid?': 'Le tue modifiche locali andranno perse. Sei sicuro di voler aggiornare la griglia?'
+    ' Are you sure you want to reset grid?': 'Le tue modifiche locali andranno perse. Sei sicuro di voler reimpostare la griglia?'
+    ' Are you sure you want to refresh the page?': 'Le tue modifiche locali andranno perse. Sei sicuro di voler aggiornare la pagina?'
+'Reset Confirmation': 'Conferma reimpostazione'
+Confirmation: Conferma
+edit: modifica
+copy: copia
+remove: rimuovi
+Status: Stato
+'only short': 'solo breve'
+'this is long text for test': 'questo è un testo lungo per il test'
+'View per page': 'Visualizza per pagina'
+'Per page': 'Per pagina'
+'Mass Action Confirmation': 'Conferma azione di massa'
+'Mass action performed.': 'Azione di massa eseguita.'
+'Mass action is not performed.': 'L''azione di massa non è stata eseguita.'
+'Please, select items to perform mass action.': 'Seleziona gli articoli per eseguire l''azione di massa.'
+'Execution Confirmation': 'Conferma esecuzione'
+'Are you sure you want to do this?': 'Sei sicuro di volerlo fare?'
+'Action performed.': 'Azione eseguita.'
+'Action is not performed.': 'L''azione non è stata eseguita.'
+'Please, select item to perform action.': 'Seleziona l''articolo per eseguire l''azione.'
+'Please select view': 'Seleziona vista'
+oro_datagrid:
+    label_add_filter: 'Gestisci filtri'
+    label_reset_button: 'Reimposta filtro'
+    action:
+        reset: Reimposta
+        reset.aria_label: 'Azione di reimpostazione della griglia'
+        refresh: Aggiorna
+        refresh.aria_label: 'Azione di aggiornamento della griglia'
+        appearance: 'Aspetto dei dati'
+'Unexpected format': 'Formato imprevisto'
+'Export Confirmation': 'Conferma esportazione'
+Enable: Abilita
+Disable: Disabilita
+unknown: sconosciuto
+'Could not download translations, error: ': 'Impossibile scaricare le traduzioni, errore: '
+'Download finished.': 'Download terminato.'
+'Update finished.': 'Aggiornamento terminato.'
+'Up to date': 'Aggiornato'
+'Change Entity Confirmation': 'Conferma modifica entità'
+am: am
+pm: pm
+'Sorry, calendar events were not loaded correctly': 'Spiacenti, gli eventi del calendario non sono stati caricati correttamente'
+'Sorry, calendar event was not saved correctly': 'Spiacenti, l''evento del calendario non è stato salvato correttamente'
+Yesterday: Ieri
+'Schema update confirmation': 'Conferma aggiornamento schema'
+'Your config changes will be applied to schema.': 'Le modifiche alla configurazione verranno applicate allo schema.'
+'It may take a few minutes.': 'Potrebbero volerci alcuni minuti...'
+'Field successfully deleted': 'Campo eliminato con successo'
+'Field was restored': 'Il campo è stato ripristinato'
+'This field cannot be restored because a field with similar name exists.': 'Questo campo non può essere ripristinato perché esiste un campo con un nome simile.'
+Remove: Rimuovi
+Primary: Primario
+More: Altro
+'Create Address': 'Crea indirizzo'
+'Update Address': 'Aggiorna indirizzo'
+'Add Address': 'Aggiungi indirizzo'
+'Address saved': 'Indirizzo salvato'
+'Address actions': 'Azioni indirizzo'
+'Empty Address Book': 'La rubrica è vuota'
+map:
+    unknown:
+        location: 'L''indirizzo non è riconosciuto. Controlla le informazioni sull''indirizzo fornite.'
+        unavailable: 'La mappa non può essere visualizzata. Riprova più tardi o contatta il tuo amministratore.'
+'You have unsaved changes, are you sure you want to leave this page?': 'Hai delle modifiche non salvate, sei sicuro di voler lasciare questa pagina?'
+'Settings will be restored to saved values':
+    ' Please confirm you want to continue.': 'Le impostazioni verranno ripristinate ai valori salvati. Conferma di voler continuare.'
+'Please wait for the page to reload.': 'Attendere il ricaricamento della pagina...'
+embedded_form:
+    confirm_box:
+        title: 'Cambia tipo di modulo'
+        ok_text: 'Sì, continua'
+        content: 'Le tue modifiche andranno perse.'
+Update: Aggiorna
+'Selected Rows': 'Righe selezionate'
+'Choose values': 'Scegli valori'
+All: Tutti
+'Input Label': 'Etichetta di input'
+before: prima
+after: dopo
+from: da
+to: a
+and: e
+'Filter criteria': 'Criteri di filtro'
+Default: Predefinito
+Add: Aggiungi
+'Select {{ entity }}': 'Seleziona {{ entity }}'
+'Create {{ entity }}': 'Crea {{ entity }}'
+'Please select': 'Seleziona'
+'Choose a condition': 'Scegli una condizione'
+'Choose a column first': 'Scegli prima una colonna'
+oro_stylebook:
+    autogenerate:
+        mixins-direct-link:
+            title: collegamento-diretto
+        mixins-placeholder:
+            title: segnaposto
+        mixins-appearance:
+            title: aspetto
+        mixins-base-disabled-style:
+            title: stile-disabilitato-base
+        mixins-base-ui-element:
+            title: elemento-ui-base
+        mixins-after:
+            title: dopo
+        mixins-ellipsis:
+            title: puntini di sospensione
+        mixins-clearfix:
+            title: clearfix
+        mixins-list-normalize:
+            title: normalizza-elenco
+        mixins-breakpoint:
+            title: punto di interruzione
+        mixins-font-face:
+            title: font-face
+        mixins-only-desktop:
+            title: solo-desktop
+        mixins-only-mobile:
+            title: solo-mobile
+        mixins-fullscreen-mode:
+            title: modalità-schermo-intero
+        mixins-disable-search-styles:
+            title: disabilita-stili-ricerca
+        mixins-aspect-ratio:
+            title: rapporto-aspetto
+        mixins-element-state:
+            title: stato-elemento
+        mixins-safe-area-offset:
+            title: offset-area-sicura
+        mixins-link:
+            title: collegamento
+        mixins-fa-icon:
+            title: icona-fa
+        mixins-caret:
+            title: cursore
+        mixins-border:
+            title: bordo
+        mixins-nav-tabs:
+            title: schede-navigazione
+        mixins-list-separator:
+            title: separatore-elenco
+        mixins-base-transition:
+            title: transizione-base
+        mixins-table-base:
+            title: base-tabella
+        mixins-mosaic-grid:
+            title: griglia-mosaico
+        mixins-badge:
+            title: badge
+        mixins-slick-arrow:
+            title: freccia-slick
+        mixins-slick-dots:
+            title: punti-slick
+        mixins-block-substrate:
+            title: substrato-blocco
+        mixins-keyframe:
+            title: fotogramma-chiave
+        mixins-grid-cell-align:
+            title: allineamento-cella-griglia
+        mixins-font-smoothing:
+            title: levigatura-caratteri
+        mixins-flexible-arrow:
+            title: freccia-flessibile
+        mixins-line-clamp:
+            title: morsetto-linea
+        mixins-skeleton:
+            title: scheletro
+        mixins-loading-blur:
+            title: sfocatura-caricamento
+        mixins-loading-blur-overlay:
+            title: sovrapposizione-sfocatura-caricamento
+        mixins-utils:
+            title: utilità
+    groups:
+        ui_elements:
+            form_text:
+                title: 'Input di testo'
+                one_line:
+                    title: 'Una riga'
+                textarea:
+                    title: 'Più righe'
+                password:
+                    title: Password
+            form_datetime:
+                title: 'Selettore di data e ora'
+            form_select:
+                title: 'Selezione opzione singola'
+                drop_down:
+                    title: 'Tramite menu a discesa'
+                checkbox:
+                    title: 'Tramite casella di controllo'
+                checkboxes_disabled:
+                    title: 'Casella di controllo disabilitata'
+                radio:
+                    title: 'Tramite un pulsante di opzione'
+                radios_disabled:
+                    title: 'Pulsante di opzione disabilitato'
+                radio_list:
+                    title: 'Tramite elenco di pulsanti di opzione'
+                switch:
+                    title: 'Interruttore a levetta'
+            form_checkboxes:
+                title: 'Selezione opzione multipla'
+                checkbox:
+                    title: 'Tramite casella di controllo'
+                drop_down:
+                    title: 'Tramite menu a discesa'
+            buttons:
+                title: Pulsanti
+                types:
+                    title: 'Tipi di pulsanti'
+                variants:
+                    title: 'Varianti di pulsanti'
+                sizes:
+                    title: 'Dimensioni pulsante'
+                colors:
+                    title: 'Colori pulsanti'
+                disabled:
+                    title: 'Pulsanti disabilitati'
+                inversed:
+                    title: 'Pulsanti invertiti'
+                icon_and_text:
+                    title: 'Icona con testo'
+            buttons_group:
+                title: 'Gruppo di pulsanti'
+                drop_down_group:
+                    title: 'Pulsante diviso'
+            icon_buttons:
+                title: 'Pulsanti icona'
+                icon_button_with_bg:
+                    title: 'Con uno sfondo'
+                icon_button_without_bg_default:
+                    title: 'Senza sfondo (nello stato predefinito)'
+                icon_button_without_bg_all_states:
+                    title: 'Senza sfondo (in tutti gli stati)'
+                icon_button_circle:
+                    title: 'Pulsante icona cerchio'
+            status_label:
+                title: 'Etichette di stato'
+            notifications:
+                title: Notifiche
+                error:
+                    title: Errore
+                success:
+                    title: Successo
+                warning:
+                    title: Avviso
+            notification_message:
+                title: 'Messaggio di notifica'
+                error:
+                    title: Errore
+                warning:
+                    title: Avviso
+                success:
+                    title: Successo
+            toggler:
+                title: Commutatore
+        configs:
+            title: 'Configurazione componenti'
+            colors:
+                title: Colori
+            typography:
+                title: Tipografia
+            custom_fonts:
+                title: 'Caratteri personalizzati'
+            headings:
+                title: Intestazioni
+            sizes:
+                title: Dimensioni
+            functions:
+                title: Funzioni
+            mixins:
+                title: Mixin
+            animation:
+                title: Animazione
+        grid:
+            how_it_works:
+                title: 'Come funziona'
+            grid_gap:
+                title: 'Spazio tra griglie'
+            columns:
+                title: Colonne
+                three_columns:
+                    title: 'Tre colonne'
+                columns_count:
+                    title: 'Conteggio colonne'
+            starts:
+                title: Inizi
+            template:
+                title: 'Modello di colonna della griglia'
+            alignment:
+                title: Allineamenti
+            responsive:
+                title: Reattivo
+        tiles:
+            title: Tasselli
+        jscomponent:
+            modal:
+                title: Modale
+            datagrid:
+                title: Griglia dati
+            loading_mask:
+                title: 'Maschera di caricamento'
+            dialog_widget:
+                title: 'Widget di dialogo'
+            collapse_widgets:
+                title: 'Widget a scomparsa'
+                simple:
+                    title: 'Scomparsa semplice'
+                simple_hide_trigger:
+                    title: 'Nascondi elemento trigger'
+                overflow:
+                    title: 'Scomparsa per overflow'
+                dynamic:
+                    title: 'Scomparsa dinamica'
+                accordion:
+                    title: Fisarmonica
+            responsive_dropdown:
+                title: 'Menu a discesa reattivo'
+            simple_responsive_dropdown:
+                title: 'Menu a discesa reattivo semplice'
+            responsive_dropdown_with_responsive_classes:
+                title: 'Menu a discesa reattivo con classi reattive'
+            responsive_styler:
+                title: 'Styler reattivo'
+            fullscreen_popup_view:
+                title: 'Visualizzazione popup a schermo intero'
+            scroll_view:
+                title: 'Visualizzazione a scorrimento'
+            scroll_shadow_view:
+                title: 'Visualizzazione ombra a scorrimento'
+            googlemaps_view:
+                title: 'Visualizzazione Google Maps'
+            list_slider:
+                title: 'Componente slider elenco'
+            sticky_panel_view:
+                title: 'Elemento appiccicoso'
+                button:
+                    sticky_on: 'Disattiva appiccicoso'
+                    sticky_off: 'Attiva appiccicoso'
+                set_bottom:
+                    'on': 'Imposta in alto'
+                    'off': 'Imposta in basso'
+            mediator:
+                title: Mediatore
+            dom_relocation:
+                title: 'Rilocazione DOM'
+            popup_gallery:
+                title: 'Galleria popup'
+            viewport_manager:
+                title: 'Gestore viewport'
+            lazy_init:
+                title: 'Visualizzazione inizializzazione lenta'
+            zoom_widget:
+                title: 'Widget zoom'
+            input_widgets:
+                title: 'Widget di input'
+                number:
+                    title: 'Widget numero di input'
+                select2:
+                    title: 'Widget Select2'
+        icons:
+            title: Icone
+            usage: Utilizzo
+    color_pallet:
+        used_for: 'Utilizzato per'
+        primary: 'Utilizzare un colore primario solo per elementi primari come pulsanti di invito all''azione, pulsanti icona, selettori nello stato selezionato, in elementi di navigazione attivi (ad esempio, schede). Questo colore deve essere utilizzato con parsimonia per far risaltare gli elementi più importanti. Evitare di utilizzarlo per azioni secondarie o elementi non interattivi. Spesso, ma non necessariamente, è uno dei colori del marchio. Se il tuo marchio ha più colori primari, scegline uno che verrà utilizzato per le azioni primarie all''interno di un''unica interfaccia utente.'
+        primary-main: 'Azioni primarie nello stato predefinito; Bordi di caselle di controllo e pulsanti di opzione nello stato selezionato; Schede attive nello stato predefinito;'
+        primary-hover: 'Azioni primarie nello stato hover; Bordi di caselle di controllo e pulsanti di opzione nello stato hover selezionato; Schede attive nello stato hover;'
+        primary-active: 'CTA nello stato attivo;'
+        primary-disabled: 'Azioni primarie nello stato disabilitato; Bordi di caselle di controllo e pulsanti di opzione nello stato disabilitato;'
+        primary-light: 'Sfondo di pulsanti con contorno e di testo nello stato hover/attivo; Sfondo di voci di menu nello stato hover;'
+        secondary: 'I colori secondari di solito evidenziano o completano il colore primario, ma non lo mettono in ombra. Possono essere utilizzati in elementi secondari, come accenti (in elementi decorativi, illustrazioni, icone) o in alcuni casi come sfondo di un contenitore. Spesso, ma non necessariamente, sono uno o più colori del marchio. Di solito possono esserci 1-6 colori secondari, ma è buona norma limitarne il numero a tre all''interno di un''unica interfaccia utente per garantire maggiore riconoscibilità e coerenza.'
+        secondary-c1: 'Elementi decorativi'
+        secondary-c2: 'Elementi decorativi'
+        secondary-c3: 'Elementi decorativi'
+        secondary-c4: 'Elementi decorativi'
+        secondary-c5: 'Elementi decorativi'
+        secondary-c6: 'Colore per stato in magazzino'
+        secondary-sale: 'Colore per un badge di vendita e un prezzo'
+        neutral-white-100: 'Sfondo pagina predefinito'
+        neutral-white-50: 'Sfondi al passaggio del mouse per elementi come interruttori (pulsanti segmentati); Divisori;'
+        neutral-white-30: 'Sfondo al passaggio del mouse per pulsanti inversi con contorno e di testo; Divisori;'
+        neutral-white-12: Divisori;
+        neutral-grey1: 'Sfondo contenitore;'
+        neutral-grey2: 'Bordi contenitore; Divisori; Bordi di pulsanti con contorno nello stato disabilitato;'
+        neutral-grey3: 'Bordi di caselle di controllo e pulsanti di opzione nello stato non selezionato; bordi di campi di input nello stato predefinito;'
+        neutral-dark: 'Colore di sfondo (ad es. intestazione);'
+        text: 'Questi sono i colori di tutti gli elementi di testo, ad eccezione di quelli che appartengono ai colori di sistema ➡>.'
+        text-primary: 'Testo primario; Corpo del testo; Intestazioni'
+        text-secondary: 'Testo secondario; Intestazioni di celle di tabella; Segnaposto di input;'
+        text-disable: 'Testo disabilitato su sfondo chiaro;'
+        text-inverse: 'Testo su sfondo scuro;'
+        text-inverse-70: 'Secondario su sfondo scuro; Testo segnaposto di input su sfondo scuro;'
+        text-link: 'Colore del testo del link su sfondo bianco;'
+        text-link-hover: 'Colore del testo del link su sfondo bianco al passaggio del mouse;'
+        text-Link-hover-on-dark: 'Colore del testo del link su sfondo scuro al passaggio del mouse'
+        destructive: 'I colori distruttivi vengono utilizzati per gli stati di errore degli elementi (ad es. campi di input), notifiche di errore, stati negativi (ad es. "esaurito") e azioni che possono portare alla perdita di dati (ad es. pulsante Elimina). I colori di sistema non sono influenzati da quelli del marchio, quindi non è necessario modificarli.'
+        destructive-light: 'Sfondo avviso di errore; Sfondo badge di stato negativo; Sfondo di un pulsante distruttivo con contorno e di testo nello stato al passaggio del mouse;'
+        destructive-light-on-dark: 'Sfondo di un campo di input nello stato di errore su sfondo scuro'
+        destructive-base: 'Sfondo di un pulsante distruttivo contenuto nello stato predefinito; Caselle di controllo e pulsanti di opzione in stato di errore;'
+        destructive-main: 'Testo e icona di errore su sfondo bianco (ad es. nei campi di input con errore); Bordo di un campo di input in stato di errore; Asterisco per i campi obbligatori (*); Sfondo di un pulsante distruttivo contenuto nello stato al passaggio del mouse;'
+        destructive-main-on-dark: 'Testo e icona di errore su sfondo scuro (ad es. nei campi di input con errore); Bordo di un campo di input in stato di errore; Asterisco per i campi obbligatori (*);'
+        destructive-dark: 'Testo e icona di errore su sfondo rosa (ad es. in avvisi di errore e badge di stato); Sfondo di un pulsante distruttivo contenuto nello stato attivo (premuto); Sfondo di un pulsante distruttivo contenuto nello stato attivo;'
+        destructive-disabled: 'Sfondo di un pulsante distruttivo contenuto nello stato predefinito;'
+        success: 'I colori di successo vengono utilizzati per le notifiche di successo (ad es. merci aggiunte o ordinate con successo, ecc.) e stati positivi (ad es. "in magazzino"). I colori di sistema non sono influenzati da quelli del marchio, quindi non è necessario modificarli.'
+        success-light: 'Sfondo avviso di successo; Sfondo badge di stato positivo;'
+        success-dark: 'Testo e icona di successo su sfondo bianco e verde chiaro (ad es. in avvisi di successo, badge di stato, ecc.);'
+        warning: 'I colori di avviso vengono utilizzati per le notifiche di avviso e gli stati di avviso. I colori di sistema non sono influenzati da quelli del marchio, quindi non è necessario modificarli.'
+        warning-light: 'Sfondo avviso di avvertimento; Sfondo badge di stato di avvertimento;'
+        warning-base: 'Indicatori di avviso (non testo, non icone);'
+        warning-dark: 'Testo e icona di avviso su sfondo bianco e giallo chiaro (ad es. in avvisi di avvertimento, badge di stato, ecc.)'
+        info: 'I colori informativi vengono utilizzati per le notifiche informative, possono essere utilizzati per un badge di stato (ad es. "in corso"). I colori di sistema non sono influenzati da quelli del marchio, quindi non è necessario modificarli.'
+        info-light: 'Sfondo avviso informativo; Sfondo badge di stato informativo;'
+        info-dark: 'Testo e icona informativi su sfondo bianco e azzurro (ad es. in avvisi informativi, badge di stato, ecc.);'
+'Not tagged': 'Non taggato'
+'Gray button': 'Pulsante grigio'
+'Navy blue button': 'Pulsante blu navy'
+'Blue button': 'Pulsante blu'
+'Green button': 'Pulsante verde'
+'Yellow button': 'Pulsante giallo'
+'Red button': 'Pulsante rosso'
+'Black button': 'Pulsante nero'
+Link: Link
+(Start): (Inizio)
+Warning: Avviso
+'Choose field.': 'Scegli campo...'
+'Choose step.': 'Scegli passaggio...'
+'Edit transition': 'Modifica transizione'
+'Add new transition': 'Aggiungi nuova transizione'
+'Edit step': 'Modifica passaggio'
+'Add new step': 'Aggiungi nuovo passaggio'
+'Are you sure you want to delete this step?': 'Sei sicuro di voler eliminare questo passaggio?'
+'Are you sure you want to delete this transition?': 'Sei sicuro di voler eliminare questa transizione?'
+'Are you sure you want to delete this field?': 'Sei sicuro di voler eliminare questo campo?'
+'Could not save workflow':
+    ' Please set workflow name.': 'Impossibile salvare il flusso di lavoro. Imposta il nome del flusso di lavoro.'
+    ' Please set related entity.': 'Impossibile salvare il flusso di lavoro. Imposta l''entità correlata.'
+    ' Please add at least one step and one transition.': 'Impossibile salvare il flusso di lavoro. Aggiungi almeno un passaggio e una transizione.'
+    ' Please either set default step or add transitions to starting point.': 'Impossibile salvare il flusso di lavoro. Imposta il passaggio predefinito o aggiungi transizioni al punto di partenza.'
+'Workflow saved.': 'Flusso di lavoro salvato.'
+'Could not save workflow.': 'Impossibile salvare il flusso di lavoro.'
+'Related entity must be selected to add step.': 'È necessario selezionare l''entità correlata per aggiungere il passaggio.'
+'Related entity must be selected to add transition.': 'È necessario selezionare l''entità correlata per aggiungere la transizione.'
+'At least one step should be added to add transition.': 'È necessario aggiungere almeno un passaggio per aggiungere la transizione.'
+'Could not perform transition': 'Impossibile eseguire la transizione'
+Clone: Clona
+Undo: Annulla
+Redo: Ripristina
+Delete: Elimina
+'Clone transition': 'Clona transizione'
+'Step saved.': 'Passaggio salvato.'
+'Copy of': 'Copia di'
+'Clone step': 'Clona passaggio'
+'Cannot reset workflow item data.': 'Impossibile reimpostare i dati dell''elemento del flusso di lavoro.'
+'Show Transition Labels': 'Mostra etichette di transizione'
+'Unmet conditions': 'Condizioni non soddisfatte'
+'Add New Event': 'Aggiungi nuovo evento'
+'View Event': 'Visualizza evento'
+'Edit Event': 'Modifica evento'
+'Delete Event': 'Elimina evento'
+'Sorry, the calendar addition has failed.': 'Spiacenti, l''aggiunta del calendario non è riuscita.'
+'Sorry, the calendar excluding was failed': 'Spiacenti, la rimozione del calendario non è riuscita.'
+'Sorry, the calendar update has failed.': 'Spiacenti, l''aggiornamento del calendario non è riuscito.'
+'Sorry, a synchronization error has occurred.': 'Spiacenti, si è verificato un errore di sincronizzazione.'
+'The calendar cannot be changed because the event has guests': 'Il calendario non può essere modificato perché l''evento ha ospiti'
+'Notify guests title': 'Conferma notifica'
+'Notify guests message': 'Vuoi inviare inviti agli ospiti selezionati?'
+'Notify about update message': 'Vuoi notificare agli utenti attualmente invitati le modifiche?'
+Notify: Notifica
+"Don't notify": "Non notificare"
+'Not responded': 'Nessuna risposta'
+'Tentatively accepted': 'Accettato provvisoriamente'
+Accepted: Accettato
+Reminders: Promemoria
+'Only this particular event will be deleted from the series.': 'Solo questo particolare evento verrà eliminato dalla serie.'
+"Calendar event doesn't exist":
+    ' Please refresh page.': "L'evento del calendario non esiste. Aggiorna la pagina."
+oro_frontend:
+    form:
+        inlineEditing:
+            action:
+                save: Salva
+                cancel: Annulla
+        password:
+            aria_label:
+                to_show: 'Mostra password'
+                to_hide: 'Nascondi password'
+    unexpected_error: 'Si è verificato un errore imprevisto. Contatta l''amministratore di sistema.'
+    item_deleted: 'L''articolo è stato eliminato.'
+    widget_form_component:
+        save_flash_success: 'Salvato con successo'
+    settings:
+        title: 'Gestisci griglia'
+        title_aria_label: 'Espandi o comprime le impostazioni della griglia'
+        close:
+            aria_label: 'Chiudi il menu a discesa Gestisci griglia'
+    datagrid:
+        settings:
+            label: 'Gestisci tabella'
+        refreshAction:
+            label: 'Aggiorna tabella'
+        resetAction:
+            label: 'Reimposta tabella'
+        action_column:
+            label: Azioni
+        pagination:
+            totalRecords:
+                quotePageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} preventivo|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} preventivi'
+                rfqPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} ordine|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} ordini'
+                invoicesPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} fattura|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} fatture'
+                usersPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} utente|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} utenti'
+                rolesPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} ruolo|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} ruoli'
+                shoppingListPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} lista della spesa|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} liste della spesa'
+                companyAddressesPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} indirizzo aziendale|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} indirizzi aziendali'
+                userAddressesPageInfo: '{1}{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} indirizzo|]1,Inf[{{ minRangeThreshold }}-{{ maxRangeThreshold }} di {{ totalRecords }} indirizzi'
+                totalRecordsShort: '{{ totalRecords }} articoli'
+                products: '{{ totalRecords }} prodotti totali'
+                companyAddresses: '{{ totalRecords }} indirizzi aziendali totali'
+                addresses: '{{ totalRecords }} indirizzi totali'
+                users: '{{ totalRecords }} utenti totali'
+                roles: '{{ totalRecords }} ruoli totali'
+                rfq: '{{ totalRecords }} richieste di preventivo totali'
+                orders: '{{ totalRecords }} ordini totali'
+                quotes: '{{ totalRecords }} preventivi totali'
+                shopping_lists: '{{ totalRecords }} liste della spesa totali'
+                shopping_list_line_items: '{{ totalRecords }} articoli totali'
+                totalRecordsShortPlural: '{1}articolo|]1,Inf[articoli'
+                productsPlural: '{1}prodotto|]1,Inf[prodotti'
+                companyAddressesPlural: '{1}indirizzo aziendale|]1,Inf[indirizzi aziendali'
+                addressesPlural: '{1}indirizzo|]1,Inf[indirizzi'
+                usersPlural: '{1}utente|]1,Inf[utenti'
+                rolesPlural: '{1}ruolo|]1,Inf[ruoli'
+                rfqPlural: '{1}richiesta di preventivo|]1,Inf[richieste di preventivo'
+                ordersPlural: '{1}ordine|]1,Inf[ordini'
+                quotesPlural: '{1}preventivo|]1,Inf[preventivi'
+                invoicesPlural: '{1}fattura|]1,Inf[fatture'
+                shoppingListsPlural: '{1}lista della spesa|]1,Inf[liste della spesa'
+                shoppingListLineItemsPlural: '{1}articolo|]1,Inf[articoli'
+                totalOfSelected: '{0}{{ totalRecords }}|]0,Inf[{{ selectedRecords }} di {{ totalRecords }}'
+            click_to_go_page: 'Fai clic per inserire il numero di pagina'
+            page_to: 'Pagina {{ page }}'
+        pageSize:
+            groupTitle: 'Mostra per pagina:'
+            label: 'Per pagina:'
+            aria_label: 'Per pagina'
+        manage_grid: 'Gestisci griglia'
+        requires:
+            data: 'L''attributo dati "data-server-render" deve essere definito'
+            options: 'Le opzioni per il componente datagrid devono essere definite'
+        'no':
+            results: 'Nessun {{ entityHint }} trovato che corrisponda alla tua ricerca. Prova a modificare i criteri di ricerca...'
+    dialog:
+        cancel:
+            label: Annulla
+        accept:
+            label: Accetta
+    filter_manager:
+        checkAll: 'Seleziona tutto'
+        unCheckAll: 'Deseleziona tutto'
+        label: 'Gestisci filtri'
+        placeholder: 'Cerca filtri'
+        searchAriaLabel: 'Cerca filtri'
+        title: 'Gestione filtri'
+        button_label: 'Gestisci filtri'
+        button_aria_label: 'Espandi o comprimi il menu a discesa Gestione filtri'
+        listAriaLabel: 'Gestisci valori filtri'
+        resetFilter: 'Ripristina impostazione predefinita'
+        close:
+            aria_label: 'Chiudi il menu a discesa Gestione filtri'
+        close_sidebar:
+            aria_label: 'Chiudi impostazioni filtro'
+    filters:
+        apply_all: 'Applica filtri'
+        show_all: '{0} Mostra|]0,Inf[Mostra ({{ count }})'
+        clear_all: 'Cancella tutto'
+        aria_label: 'Espandi o comprimi filtri'
+        no_found: 'Nessuna corrispondenza trovata'
+        multiselect:
+            placeholder: Cerca
+            aria_label: 'Cerca valori filtro'
+        label: Filtro
+        title: 'Attiva/disattiva filtro'
+    datagrid_views:
+        all: 'Tutti '
+        add: Aggiungi
+        save: Salva
+        view: 'Visualizza:'
+        defaultLabel: Predefinita
+        cancel: Annulla
+        save_as_new: 'Salva come nuovo'
+        add.aria_label: 'Aggiungi nuova vista griglia'
+        cancel.aria_label: 'Annulla aggiunta nuova vista griglia'
+        input:
+            aria_label: 'Nuovo nome vista griglia'
+        save_as_new.aria_label: 'Salva la vista griglia corrente come nuova'
+        set_as_default: 'Imposta come predefinita'
+        set_as_default.aria_label: 'Imposta nuova vista griglia come predefinita'
+        placeholder: 'Inserisci nuovo nome elenco'
+        placeholder_view_name: 'Inserisci nome vista'
+        toggleAriaLabel: 'Gestisci viste griglia. La vista corrente è {{ choiceName }}'
+        inline:
+            rename:
+                label: 'Nome vista'
+        choice:
+            aria_text: 'Imposta come attiva la vista {{ choiceName }}'
+        status:
+            default: Predefinita
+        choices:
+            non_configurable: 'Viste non configurabili'
+            configurable: 'Viste configurabili'
+        shared:
+            public: 'Condiviso con altri'
+            private: 'Solo tu puoi vedere'
+            system: 'Solo tu puoi vedere'
+        form_title:
+            new: 'Aggiungi nuova vista'
+            edit: 'Modifica vista'
+    fullscreen_popup:
+        actions:
+            labels:
+                close: Chiudi
+    gallery_popup:
+        label: 'Popup galleria'
+    rows_collapse:
+        trigger:
+            label:
+                normal: 'Mostra meno articoli'
+                truncated: 'E {{ hiddenRows }} altri articoli'
+    notification:
+        close:
+            aria_label: 'Chiudi la notifica'
+    btn:
+        show_all:
+            aria_label: 'Mostra tutti i prodotti aggiunti in una pagina'
+            label: 'Mostra tutto'
+        show_less:
+            aria_label: 'Mostra tutti i prodotti aggiunti con impaginazione'
+            label: 'Mostra meno'
+        group_similar:
+            aria_label: 'Raggruppa varianti di prodotto'
+            label: 'Raggruppa varianti di prodotto'
+        ungroup_similar:
+            aria_label: 'Mostra varianti di prodotto separatamente'
+            label: 'Separa varianti di prodotto'
+    dropdown:
+        quick_search:
+            clear: 'Cancella campo'
+            placeholder: 'Ricerca rapida'
+            aria_label: 'Cerca liste della spesa'
+            no_match: 'Nessuna corrispondenza trovata'
+        currency_localization_form:
+            save: Salva
+            cancel: Annulla
+            more_actions: 'Altre azioni'
+            localization_title: Localizzazione
+            currency_title: Valuta
+    responsive_dropdown:
+        aria_label: 'Mostra o nascondi azioni aggiuntive'
+    input_widget:
+        step_input:
+            aria_label: 'Inserisci la quantità che desideri ordinare.'
+            decrease: 'Diminuisci quantità'
+            increase: 'Aumenta quantità'
+'This value should contain only latin letters.': 'Questo valore deve contenere solo lettere latine.'
+'This value should contain only latin letters and numbers.': 'Questo valore deve contenere solo lettere e numeri latini.'
+'This value should contain only latin letters, numbers and symbols "-" or "_".': 'Questo valore deve contenere solo lettere latine, numeri e simboli "-" o "_".'
+'This value should contain only latin letters, numbers and symbols "-':
+    '_~".': 'Questo valore deve contenere solo lettere latine, numeri e simboli "-._~".'
+'This value should be decimal number.': 'Questo valore deve essere un numero decimale.'
+'This value should be integer number.': 'Questo valore deve essere un numero intero.'
+synolia:
+    frontend:
+        payment_method:
+            checkout:
+                payplug:
+                    minimum_amount:
+                        label: 'I pagamenti con carta di credito sono limitati a un minimo di 0,99 € per ordine'
+                    maximum_amount:
+                        label: 'I pagamenti con carta di credito sono limitati a un massimo di 20.000 € per ordine'
+'Sorry, page was not loaded correctly': 'Spiacenti, la pagina non è stata caricata correttamente'
+'Content of pinned page is outdated': 'Il contenuto della pagina bloccata non è aggiornato'
+Phone: Telefono
+Email: Email
+'Configure integration': 'Configura integrazione'
+Actions: Azioni
+Entity: Entità
+View: Visualizza
+'There is no entities selected': 'Non ci sono entità selezionate'
+'Task created successfully': 'Attività creata con successo'
+'Create task': 'Crea attività'
+'Change Integration Confirmation': 'Conferma modifica integrazione'
+oro_cookie_banner:
+    accept_button:
+        label: 'Sì, accetto'
+        aria_label: 'Sì, accetto e chiudo il banner dei cookie'
+    close:
+        aria_label: 'Chiudi il banner dei cookie'
+pricing:
+    qty: Qtà
+    unit_price: Prezzo

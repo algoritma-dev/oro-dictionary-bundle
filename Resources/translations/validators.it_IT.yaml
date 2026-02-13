@@ -1,0 +1,1498 @@
+'This value should be false.': 'Questo valore deve essere falso.'
+'This value should be true.': 'Questo valore deve essere vero.'
+'This value should be of type {{ type }}.': 'Questo valore deve essere di tipo {{ type }}.'
+'This value should be blank.': 'Questo valore deve essere vuoto.'
+'The value you selected is not a valid choice.': 'Il valore selezionato non è una scelta valida.'
+'You must select at least {{ limit }} choice':
+    '|You must select at least {{ limit }} choices.': 'Devi selezionare almeno {{ limit }} opzione.|Devi selezionare almeno {{ limit }} opzioni.'
+'You must select at most {{ limit }} choice':
+    '|You must select at most {{ limit }} choices.': 'Devi selezionare al massimo {{ limit }} opzione.|Devi selezionare al massimo {{ limit }} opzioni.'
+'One or more of the given values is invalid.': 'Uno o più dei valori forniti non sono validi.'
+'This field was not expected.': 'Questo campo non era previsto.'
+'This field is missing.': 'Questo campo manca.'
+'This value is not a valid date.': 'Questo valore non è una data valida.'
+'This value is not a valid datetime.': 'Questo valore non è una data e ora valida.'
+'This value is not a valid email address.': 'Questo valore non è un indirizzo email valido.'
+'The file could not be found.': 'Il file non è stato trovato.'
+'The file is not readable.': 'Il file non è leggibile.'
+'The file is too large ({{ size }} {{ suffix }})':
+    ' Allowed maximum size is {{ limit }} {{ suffix }}.': 'Il file è troppo grande ({{ size }} {{ suffix }}). La dimensione massima consentita è {{ limit }} {{ suffix }}.'
+'The mime type of the file is invalid ({{ type }})':
+    ' Allowed mime types are {{ types }}.': 'Il tipo mime del file non è valido ({{ type }}). I tipi mime consentiti sono {{ types }}.'
+'This value should be {{ limit }} or less.': 'Questo valore deve essere {{ limit }} o inferiore.'
+'This value is too long':
+    ' It should have {{ limit }} character or less':
+        '|This value is too long':
+            ' It should have {{ limit }} characters or less.': 'Questo valore è troppo lungo. Deve avere {{ limit }} carattere o meno.|Questo valore è troppo lungo. Deve avere {{ limit }} caratteri o meno.'
+    ' It should contain one word':
+        '|This value is too long':
+            ' It should contain {{ max }} words or less.': 'Questo valore è troppo lungo. Deve contenere una parola.|Questo valore è troppo lungo. Deve contenere {{ max }} parole o meno.'
+'This value should be {{ limit }} or more.': 'Questo valore deve essere {{ limit }} o superiore.'
+'This value is too short':
+    ' It should have {{ limit }} character or more':
+        '|This value is too short':
+            ' It should have {{ limit }} characters or more.': 'Questo valore è troppo corto. Deve avere {{ limit }} carattere o più.|Questo valore è troppo corto. Deve avere {{ limit }} caratteri o più.'
+    ' It should contain at least one word':
+        '|This value is too short':
+            ' It should contain at least {{ min }} words.': 'Questo valore è troppo corto. Deve contenere almeno una parola.|Questo valore è troppo corto. Deve contenere almeno {{ min }} parole.'
+'This value should not be blank.': 'Questo valore non deve essere vuoto.'
+'This value should not be null.': 'Questo valore non deve essere nullo.'
+'This value should be null.': 'Questo valore deve essere nullo.'
+'This value is not valid.': 'Questo valore non è valido.'
+'This value is not a valid time.': 'Questo valore non è un orario valido.'
+'This value is not a valid URL.': 'Questo valore non è un URL valido.'
+'The two values should be equal.': 'I due valori devono essere uguali.'
+'The file is too large':
+    ' Allowed maximum size is {{ limit }} {{ suffix }}.': 'Il file è troppo grande. La dimensione massima consentita è {{ limit }} {{ suffix }}.'
+'The file is too large.': 'Il file è troppo grande.'
+'The file could not be uploaded.': 'Il file non può essere caricato.'
+'This value should be a valid number.': 'Questo valore deve essere un numero valido.'
+'This file is not a valid image.': 'Questo file non è un\'immagine valida.'
+'This is not a valid IP address.': 'Questo valore non è un indirizzo IP valido.'
+'This value is not a valid language.': 'Questo valore non è una lingua valida.'
+'This value is not a valid locale.': 'Questo valore non è una localizzazione valida.'
+'This value is not a valid country.': 'Questo valore non è un paese valido.'
+'This value is already used.': 'Questo valore è già in uso.'
+'The size of the image could not be detected.': 'Non è stato possibile rilevare la dimensione dell\'immagine.'
+'The image width is too big ({{ width }}px)':
+    ' Allowed maximum width is {{ max_width }}px.': 'La larghezza dell\'immagine è troppo grande ({{ width }}px). La larghezza massima consentita è {{ max_width }}px.'
+'The image width is too small ({{ width }}px)':
+    ' Minimum width expected is {{ min_width }}px.': 'La larghezza dell\'immagine è troppo piccola ({{ width }}px). La larghezza minima prevista è {{ min_width }}px.'
+'The image height is too big ({{ height }}px)':
+    ' Allowed maximum height is {{ max_height }}px.': 'L\'altezza dell\'immagine è troppo grande ({{ height }}px). L\'altezza massima consentita è {{ max_height }}px.'
+'The image height is too small ({{ height }}px)':
+    ' Minimum height expected is {{ min_height }}px.': 'L\'altezza dell\'immagine è troppo piccola ({{ height }}px). L\'altezza minima prevista è {{ min_height }}px.'
+"This value should be the user's current password.": "Questo valore deve essere la password corrente dell'utente."
+'This value should have exactly {{ limit }} character':
+    '|This value should have exactly {{ limit }} characters.': 'Questo valore deve avere esattamente {{ limit }} carattere.|Questo valore deve avere esattamente {{ limit }} caratteri.'
+'The file was only partially uploaded.': 'Il file è stato caricato solo parzialmente.'
+'No file was uploaded.': 'Nessun file è stato caricato.'
+'No temporary folder was configured in php':
+    ini.: 'Nessuna cartella temporanea è stata configurata in php.ini, o la cartella configurata non esiste.'
+'Cannot write temporary file to disk.': 'Impossibile scrivere il file temporaneo su disco.'
+'A PHP extension caused the upload to fail.': 'Un\'estensione PHP ha causato il fallimento del caricamento.'
+'This collection should contain {{ limit }} element or more':
+    '|This collection should contain {{ limit }} elements or more.': 'Questa raccolta deve contenere {{ limit }} elemento o più.|Questa raccolta deve contenere {{ limit }} elementi o più.'
+'This collection should contain {{ limit }} element or less':
+    '|This collection should contain {{ limit }} elements or less.': 'Questa raccolta deve contenere {{ limit }} elemento o meno.|Questa raccolta deve contenere {{ limit }} elementi o meno.'
+'This collection should contain exactly {{ limit }} element':
+    '|This collection should contain exactly {{ limit }} elements.': 'Questa raccolta deve contenere esattamente {{ limit }} elemento.|Questa raccolta deve contenere esattamente {{ limit }} elementi.'
+'Invalid card number.': 'Numero di carta non valido.'
+'Unsupported card type or invalid card number.': 'Tipo di carta non supportato o numero di carta non valido.'
+'This is not a valid International Bank Account Number (IBAN).': 'Questo valore non è un numero di conto bancario internazionale (IBAN) valido.'
+'This value is not a valid ISBN-10.': 'Questo valore non è un ISBN-10 valido.'
+'This value is not a valid ISBN-13.': 'Questo valore non è un ISBN-13 valido.'
+'This value is neither a valid ISBN-10 nor a valid ISBN-13.': 'Questo valore non è né un ISBN-10 né un ISBN-13 valido.'
+'This value is not a valid ISSN.': 'Questo valore non è un ISSN valido.'
+'This value is not a valid currency.': 'Questo valore non è una valuta valida.'
+'This value should be equal to {{ compared_value }}.': 'Questo valore deve essere uguale a {{ compared_value }}.'
+'This value should be greater than {{ compared_value }}.': 'Questo valore deve essere maggiore di {{ compared_value }}.'
+'This value should be greater than or equal to {{ compared_value }}.': 'Questo valore deve essere maggiore o uguale a {{ compared_value }}.'
+'This value should be identical to {{ compared_value_type }} {{ compared_value }}.': 'Questo valore deve essere identico a {{ compared_value_type }} {{ compared_value }}.'
+'This value should be less than {{ compared_value }}.': 'Questo valore deve essere minore di {{ compared_value }}.'
+'This value should be less than or equal to {{ compared_value }}.': 'Questo valore deve essere minore o uguale a {{ compared_value }}.'
+'This value should not be equal to {{ compared_value }}.': 'Questo valore non deve essere uguale a {{ compared_value }}.'
+'This value should not be identical to {{ compared_value_type }} {{ compared_value }}.': 'Questo valore non deve essere identico a {{ compared_value_type }} {{ compared_value }}.'
+'The image ratio is too big ({{ ratio }})':
+    ' Allowed maximum ratio is {{ max_ratio }}.': 'Il rapporto dell\'immagine è troppo grande ({{ ratio }}). Il rapporto massimo consentito è {{ max_ratio }}.'
+'The image ratio is too small ({{ ratio }})':
+    ' Minimum ratio expected is {{ min_ratio }}.': 'Il rapporto dell\'immagine è troppo piccolo ({{ ratio }}). Il rapporto minimo previsto è {{ min_ratio }}.'
+'The image is square ({{ width }}x{{ height }}px)':
+    ' Square images are not allowed.': 'L\'immagine è quadrata ({{ width }}x{{ height }}px). Le immagini quadrate non sono consentite.'
+'The image is landscape oriented ({{ width }}x{{ height }}px)':
+    ' Landscape oriented images are not allowed.': 'L\'immagine è orientata orizzontalmente ({{ width }}x{{ height }}px). Le immagini orientate orizzontalmente non sono consentite.'
+'The image is portrait oriented ({{ width }}x{{ height }}px)':
+    ' Portrait oriented images are not allowed.': 'L\'immagine è orientata verticalmente ({{ width }}x{{ height }}px). Le immagini orientate verticalmente non sono consentite.'
+'An empty file is not allowed.': 'Un file vuoto non è consentito.'
+'The host could not be resolved.': 'L\'host non può essere risolto.'
+'This value does not match the expected {{ charset }} charset.': 'Questo valore non corrisponde al set di caratteri previsto {{ charset }}.'
+'This is not a valid Business Identifier Code (BIC).': 'Questo valore non è un codice identificativo bancario (BIC) valido.'
+Error: Errore
+'This is not a valid UUID.': 'Questo valore non è un UUID valido.'
+'This value should be a multiple of {{ compared_value }}.': 'Questo valore deve essere un multiplo di {{ compared_value }}.'
+'This Business Identifier Code (BIC) is not associated with IBAN {{ iban }}.': 'Questo codice identificativo bancario (BIC) non è associato all\'IBAN {{ iban }}.'
+'This value should be valid JSON.': 'Questo valore deve essere un JSON valido.'
+'This collection should contain only unique elements.': 'Questa raccolta deve contenere solo elementi unici.'
+'This value should be positive.': 'Questo valore deve essere positivo.'
+'This value should be either positive or zero.': 'Questo valore deve essere positivo o zero.'
+'This value should be negative.': 'Questo valore deve essere negativo.'
+'This value should be either negative or zero.': 'Questo valore deve essere negativo o zero.'
+'This value is not a valid timezone.': 'Questo valore non è un fuso orario valido.'
+'This password has been leaked in a data breach, it must not be used':
+    ' Please use another password.': 'Questa password è stata compromessa in una violazione dei dati, non deve essere utilizzata. Si prega di utilizzare un\'altra password.'
+'This value should be between {{ min }} and {{ max }}.': 'Questo valore deve essere compreso tra {{ min }} e {{ max }}.'
+'This value is not a valid hostname.': 'Questo valore non è un nome host valido.'
+'The number of elements in this collection should be a multiple of {{ compared_value }}.': 'Il numero di elementi in questa raccolta deve essere un multiplo di {{ compared_value }}.'
+'This value should satisfy at least one of the following constraints:': 'Questo valore deve soddisfare almeno uno dei seguenti vincoli:'
+'Each element of this collection should satisfy its own set of constraints.': 'Ogni elemento di questa raccolta deve soddisfare il proprio insieme di vincoli.'
+'This value is not a valid International Securities Identification Number (ISIN).': 'Questo valore non è un numero di identificazione dei titoli internazionale (ISIN) valido.'
+'This value should be a valid expression.': 'Questo valore deve essere un\'espressione valida.'
+'This value is not a valid CSS color.': 'Questo valore non è un colore CSS valido.'
+'This value is not a valid CIDR notation.': 'Questo valore non è una notazione CIDR valida.'
+'The value of the netmask should be between {{ min }} and {{ max }}.': 'Il valore della netmask deve essere compreso tra {{ min }} e {{ max }}.'
+'The filename is too long':
+    ' It should have {{ filename_max_length }} character or less':
+        '|The filename is too long':
+            ' It should have {{ filename_max_length }} characters or less.': 'Il nome del file è troppo lungo. Deve avere {{ filename_max_length }} carattere o meno.|Il nome del file è troppo lungo. Deve avere {{ filename_max_length }} caratteri o meno.'
+'The password strength is too low':
+    ' Please use a stronger password.': 'La sicurezza della password è troppo bassa. Si prega di utilizzare una password più forte.'
+'This value contains characters that are not allowed by the current restriction-level.': 'Questo valore contiene caratteri non consentiti dal livello di restrizione corrente.'
+'Using invisible characters is not allowed.': 'L\'uso di caratteri invisibili non è consentito.'
+'Mixing numbers from different scripts is not allowed.': 'Non è consentito mescolare numeri da script diversi.'
+'Using hidden overlay characters is not allowed.': 'L\'uso di caratteri sovrapposti nascosti non è consentito.'
+'The extension of the file is invalid ({{ extension }})':
+    ' Allowed extensions are {{ extensions }}.': 'L\'estensione del file non è valida ({{ extension }}). Le estensioni consentite sono {{ extensions }}.'
+'The detected character encoding is invalid ({{ detected }})':
+    ' Allowed encodings are {{ encodings }}.': 'La codifica dei caratteri rilevata non è valida ({{ detected }}). Le codifiche consentite sono {{ encodings }}.'
+'This value is not a valid MAC address.': 'Questo valore non è un indirizzo MAC valido.'
+'This URL is missing a top-level domain.': 'Questo URL manca di un dominio di primo livello.'
+'This value does not represent a valid week in the ISO 8601 format.': 'Questo valore non rappresenta una settimana valida nel formato ISO 8601.'
+'This value is not a valid week.': 'Questo valore non è una settimana valida.'
+'This value should not be before week "{{ min }}".': 'Questo valore non deve essere prima della settimana "{{ min }}".'
+'This value should not be after week "{{ max }}".': 'Questo valore non deve essere dopo la settimana "{{ max }}".'
+'This value is not a valid Twig template.': 'Questo valore non è un template Twig valido.'
+'This file is not a valid video.': 'Questo file non è un video valido.'
+'The size of the video could not be detected.': 'Non è stato possibile rilevare la dimensione del video.'
+'The video width is too big ({{ width }}px)':
+    ' Allowed maximum width is {{ max_width }}px.': 'La larghezza del video è troppo grande ({{ width }}px). La larghezza massima consentita è {{ max_width }}px.'
+'The video width is too small ({{ width }}px)':
+    ' Minimum width expected is {{ min_width }}px.': 'La larghezza del video è troppo piccola ({{ width }}px). La larghezza minima prevista è {{ min_width }}px.'
+'The video height is too big ({{ height }}px)':
+    ' Allowed maximum height is {{ max_height }}px.': 'L\'altezza del video è troppo grande ({{ height }}px). L\'altezza massima consentita è {{ max_height }}px.'
+'The video height is too small ({{ height }}px)':
+    ' Minimum height expected is {{ min_height }}px.': 'L\'altezza del video è troppo piccola ({{ height }}px). L\'altezza minima prevista è {{ min_height }}px.'
+'The video has too few pixels ({{ pixels }} pixels)':
+    ' Minimum amount expected is {{ min_pixels }} pixels.': 'Il video ha troppo pochi pixel ({{ pixels }} pixel). Il numero minimo previsto è {{ min_pixels }} pixel.'
+'The video has too many pixels ({{ pixels }} pixels)':
+    ' Maximum amount expected is {{ max_pixels }} pixels.': 'Il video ha troppi pixel ({{ pixels }} pixel). Il numero massimo previsto è {{ max_pixels }} pixel.'
+'The video ratio is too big ({{ ratio }})':
+    ' Allowed maximum ratio is {{ max_ratio }}.': 'Il rapporto del video è troppo grande ({{ ratio }}). Il rapporto massimo consentito è {{ max_ratio }}.'
+'The video ratio is too small ({{ ratio }})':
+    ' Minimum ratio expected is {{ min_ratio }}.': 'Il rapporto del video è troppo piccolo ({{ ratio }}). Il rapporto minimo previsto è {{ min_ratio }}.'
+'The video is square ({{ width }}x{{ height }}px)':
+    ' Square videos are not allowed.': 'Il video è quadrato ({{ width }}x{{ height }}px). I video quadrati non sono consentiti.'
+'The video is landscape oriented ({{ width }}x{{ height }}px)':
+    ' Landscape oriented videos are not allowed.': 'Il video è orientato orizzontalmente ({{ width }}x{{ height }}px). I video orientati orizzontalmente non sono consentiti.'
+'The video is portrait oriented ({{ width }}x{{ height }}px)':
+    ' Portrait oriented videos are not allowed.': 'Il video è orientato verticalmente ({{ width }}x{{ height }}px). I video orientati verticalmente non sono consentiti.'
+'The video file is corrupted.': 'Il file video è corrotto.'
+'The video contains multiple streams':
+    ' Only one stream is allowed.': 'Il video contiene più flussi. È consentito un solo flusso.'
+'Unsupported video codec "{{ codec }}".': 'Codec video non supportato "{{ codec }}".'
+'Unsupported video container "{{ container }}".': 'Contenitore video non supportato "{{ container }}".'
+'The image file is corrupted.': 'Il file immagine è corrotto.'
+'The image has too few pixels ({{ pixels }} pixels)':
+    ' Minimum amount expected is {{ min_pixels }} pixels.': 'L\'immagine ha troppo pochi pixel ({{ pixels }} pixel). Il numero minimo previsto è {{ min_pixels }} pixel.'
+'The image has too many pixels ({{ pixels }} pixels)':
+    ' Maximum amount expected is {{ max_pixels }} pixels.': 'L\'immagine ha troppi pixel ({{ pixels }} pixel). Il numero massimo previsto è {{ max_pixels }} pixel.'
+'This filename does not match the expected charset.': 'Questo nome di file non corrisponde al set di caratteri previsto.'
+'This form should not contain extra fields.': 'Questo modulo non deve contenere campi extra.'
+'The uploaded file was too large':
+    ' Please try to upload a smaller file.': 'Il file caricato è troppo grande. Si prega di provare a caricare un file più piccolo.'
+'The CSRF token is invalid':
+    ' Please try to resubmit the form.': 'Il token CSRF non è valido. Si prega di provare a inviare nuovamente il modulo.'
+'This value is not a valid HTML5 color.': 'Questo valore non è un colore HTML5 valido.'
+'Please enter a valid birthdate.': 'Si prega di inserire una data di nascita valida.'
+'The selected choice is invalid.': 'La scelta selezionata non è valida.'
+'The collection is invalid.': 'La raccolta non è valida.'
+'Please select a valid color.': 'Si prega di selezionare un colore valido.'
+'Please select a valid country.': 'Si prega di selezionare un paese valido.'
+'Please select a valid currency.': 'Si prega di selezionare una valuta valida.'
+'Please choose a valid date interval.': 'Si prega di scegliere un intervallo di date valido.'
+'Please enter a valid date and time.': 'Si prega di inserire una data e un\'ora valide.'
+'Please enter a valid date.': 'Si prega di inserire una data valida.'
+'Please select a valid file.': 'Si prega di selezionare un file valido.'
+'The hidden field is invalid.': 'Il campo nascosto non è valido.'
+'Please enter an integer.': 'Si prega di inserire un numero intero.'
+'Please select a valid language.': 'Si prega di selezionare una lingua valida.'
+'Please select a valid locale.': 'Si prega di selezionare una localizzazione valida.'
+'Please enter a valid money amount.': 'Si prega di inserire un importo valido.'
+'Please enter a number.': 'Si prega di inserire un numero.'
+'The password is invalid.': 'La password non è valida.'
+'Please enter a percentage value.': 'Si prega di inserire un valore percentuale.'
+'The values do not match.': 'I valori non corrispondono.'
+'Please enter a valid time.': 'Si prega di inserire un orario valido.'
+'Please select a valid timezone.': 'Si prega di selezionare un fuso orario valido.'
+'Please enter a valid URL.': 'Si prega di inserire un URL valido.'
+'Please enter a valid search term.': 'Si prega di inserire un termine di ricerca valido.'
+'Please provide a valid phone number.': 'Si prega di fornire un numero di telefono valido.'
+'The checkbox has an invalid value.': 'La casella di controllo ha un valore non valido.'
+'Please enter a valid email address.': 'Si prega di inserire un indirizzo email valido.'
+'Please select a valid option.': 'Si prega di selezionare un\'opzione valida.'
+'Please select a valid range.': 'Si prega di selezionare un intervallo valido.'
+'Please enter a valid week.': 'Si prega di inserire una settimana valida.'
+'The given value {{ value }} cannot be set as {{ owner }} for given entity for security reason.': 'Il valore fornito {{ value }} non può essere impostato come {{ owner }} per l\'entità data per motivi di sicurezza.'
+"Business Unit can't set self as Parent.": "L'unità aziendale non può impostare se stessa come genitore."
+'Business Unit cannot have a child as a Parent Business Unit.': 'L\'unità aziendale non può avere un figlio come unità aziendale genitore.'
+oro:
+    organization:
+        validation:
+            business_unit:
+                website_url:
+                    message: 'Questo valore non è un URL valido. I protocolli URL consentiti sono: http, https.'
+    logger:
+        system_configuration:
+            fields:
+                email_notification_recipients:
+                    error: '{1} "{{ value }}" non è un indirizzo email valido.|]1,Inf[ "{{ value }}" non sono indirizzi email validi.'
+    security:
+        permission:
+            constraints:
+                name_contains_illegal_characters: "'La proprietà \"name\" contiene caratteri non consentiti. Il valore valido deve iniziare con una lettera e contenere solo lettere, ' 'numeri, trattini bassi (\"_\"), trattini (\"-\") e due punti (\":\").'\n"
+        validator:
+            not_dangerous_protocol:
+                message: 'Il pseudo-protocollo "{{ protocol }}" non è consentito negli URI dei menu.'
+    attachment:
+        max_number_of_files:
+            files: 'Non è consentito più di {{max}} file in questo campo.|Non sono consentiti più di {{max}} file in questo campo.'
+            images: 'Non è consentita più di {{max}} immagine in questo campo.|Non sono consentite più di {{max}} immagini in questo campo.'
+        mimetypes:
+            not_allowed: 'Il tipo MIME {{ notAllowedMimeTypes }} non è consentito, contattare l\'amministratore di sistema.|I tipi MIME {{ notAllowedMimeTypes }} non sono consentiti, contattare l\'amministratore di sistema.'
+            invalid_mime_type: 'Il tipo MIME del file non è valido ({{ type }}). I tipi MIME consentiti sono {{ types }}.'
+        external_file:
+            invalid_url: 'L\'URL specificato non è accessibile. Motivo: "{{ reason }}"'
+            invalid_mime_type: 'Il tipo MIME del file non è valido ({{ type }}). I tipi MIME consentiti sono {{ types }}.'
+            does_not_match_regexp: 'L\'URL fornito non corrisponde agli URL consentiti nella configurazione di sistema.'
+            empty_regexp: 'Non sono consentiti file e immagini esterni. L\'espressione regolare degli URL consentiti può essere configurata nella seguente pagina: Sistema -> Configurazione -> Configurazione generale -> Impostazioni di caricamento.'
+            invalid_regexp: 'L\'espressione regolare degli URL consentiti non è valida. Cercare il codice {{ code }} nei log dell\'applicazione per ulteriori dettagli.'
+        incompatible_field:
+            external_file: 'Il file esterno specificato non è compatibile con il campo {{ field }} che è configurato per caricare file.'
+            regular_file: 'Il file specificato non è compatibile con il campo {{ field }} che è configurato per archiviare file esternamente.'
+        filename_with_path:
+            not_allowed: 'Il nome del file non deve avere un percorso.'
+        parent:
+            change_not_allowed: 'Questo file è già utilizzato in un\'altra entità.'
+        sort_order:
+            invalid_type: 'L\'ordine di ordinamento deve essere un numero intero.'
+            not_in_range: 'L\'ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}.'
+    email:
+        message_id_conflict:
+            message: 'L\'email con questo Message-ID esiste già.'
+        attachments_without_body:
+            message: 'Gli allegati non possono essere aggiunti a un\'email senza corpo.'
+        body_remove_not_allowed:
+            message: 'Non è consentito rimuovere il corpo.'
+        body_change_not_allowed:
+            message: 'Non è consentito modificare il corpo.'
+        validator:
+            configuration:
+                connection:
+                    smtp: 'Impossibile stabilire la connessione SMTP'
+            email_template:
+                unique_entity:
+                    message: 'Questo nome è già in uso. La combinazione dei seguenti campi deve essere unica: {{ unique_fields }}'
+            email_template_attachment:
+                one_field_not_blank: 'Uno dei seguenti campi non deve essere vuoto: File, Segnaposto file'
+    cron:
+        validators:
+            schedule_intervals_overlap:
+                message: 'Gli intervalli di pianificazione non devono sovrapporsi'
+    user:
+        message:
+            user_without_role: 'Non puoi rimuovere l\'ultimo ruolo da {{ userName }}'
+            password_mismatch: 'Le password devono corrispondere.'
+            invalid_username: 'Questa email è già registrata da un altro utente. Si prega di fornire un indirizzo email univoco.'
+            invalid_password:
+                min_length: 'La password deve essere lunga almeno {{ length }} caratteri'
+                lower_case: 'La password deve includere una lettera minuscola'
+                upper_case: 'La password deve includere una lettera maiuscola'
+                numbers: 'La password deve includere un numero'
+                special_chars: 'La password deve includere un carattere speciale'
+                min_length_lower_case: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola'
+                min_length_upper_case: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera maiuscola'
+                min_length_numbers: 'La password deve essere lunga almeno {{ length }} caratteri e includere un numero'
+                min_length_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere un carattere speciale'
+                min_length_upper_case_numbers: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera maiuscola e un numero'
+                min_length_upper_case_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera maiuscola e un carattere speciale'
+                min_length_numbers_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere un numero e un carattere speciale'
+                min_length_upper_case_numbers_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera maiuscola, un numero e un carattere speciale'
+                upper_case_numbers: 'La password deve includere una lettera maiuscola e un numero'
+                upper_case_special_chars: 'La password deve includere una lettera maiuscola e un carattere speciale'
+                numbers_special_chars: 'La password deve includere un numero e un carattere speciale'
+                upper_case_numbers_special_chars: 'La password deve includere una lettera maiuscola, un numero e un carattere speciale'
+                min_length_lower_case_upper_case: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola e una lettera maiuscola'
+                min_length_lower_case_numbers: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola e un numero'
+                min_length_lower_case_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola e un carattere speciale'
+                min_length_lower_case_upper_case_numbers: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola, una lettera maiuscola e un numero'
+                min_length_lower_case_upper_case_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola, una lettera maiuscola e un carattere speciale'
+                min_length_lower_case_numbers_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola, un numero e un carattere speciale'
+                min_length_lower_case_upper_case_numbers_special_chars: 'La password deve essere lunga almeno {{ length }} caratteri e includere una lettera minuscola, una lettera maiuscola, un numero e un carattere speciale'
+                lower_case_upper_case: 'La password deve includere una lettera minuscola e una lettera maiuscola'
+                lower_case_numbers: 'La password deve includere una lettera minuscola e un numero'
+                lower_case_special_chars: 'La password deve includere una lettera minuscola e un carattere speciale'
+                lower_case_upper_case_numbers: 'La password deve includere una lettera minuscola, una lettera maiuscola e un numero'
+                lower_case_upper_case_special_chars: 'La password deve includere una lettera minuscola, una lettera maiuscola e un carattere speciale'
+                lower_case_numbers_special_chars: 'La password deve includere una lettera minuscola, un numero e un carattere speciale'
+                lower_case_upper_case_numbers_special_chars: 'La password deve includere una lettera minuscola, una lettera maiuscola, un numero e un carattere speciale'
+            user_email_exists: 'Questa email è già registrata da un altro utente. Si prega di fornire un indirizzo email univoco.'
+            user_username_exists: 'Questo nome utente è già registrato da un altro utente. Si prega di fornire un nome utente univoco.'
+            system_configuration:
+                case_insensitive:
+                    collation: 'Impossibile disabilitare "Indirizzi email senza distinzione tra maiuscole e minuscole" - le colonne "email" nella tabella del database "oro_user" hanno una collation senza distinzione tra maiuscole e minuscole.'
+                    duplicated_emails:
+                        message: 'Impossibile abilitare "Indirizzi email senza distinzione tra maiuscole e minuscole" - ci sono utenti esistenti che hanno email minuscole identiche. Si prega di risolvere questi conflitti e riprovare. %click_here% per vedere alcuni degli utenti in conflitto.'
+                        click_here: 'Clicca qui'
+        user:
+            birthday:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    datagrid:
+        gridview:
+            unique: 'Questo nome esiste già.'
+            notBlank: 'Questo valore non deve essere vuoto.'
+    entity:
+        entity_field_fallback_value:
+            invalid: 'Il valore selezionato non è valido.'
+            invalid_with_hint: 'Il valore non è valido. Valori accettabili: %values%.'
+            not_null: 'Il valore non deve essere nullo.'
+    locale:
+        localization:
+            parent:
+                circular_reference: 'Riferimento circolare trovato.'
+            titles:
+                blank: 'Il titolo della localizzazione non deve essere vuoto.'
+        validators:
+            is_not_enabled: "La localizzazione '%localization%' non può essere utilizzata come predefinita, perché non è abilitata"
+            unknown_localization: 'Localizzazione "#%localization_id%" non trovata'
+            not_blank_default_localized_value:
+                error_message: 'Il valore localizzato predefinito è vuoto'
+    entity_config:
+        validator:
+            attribute_family:
+                labels:
+                    blank: 'Le etichette sono vuote'
+                empty_groups: 'La famiglia di attributi deve contenere almeno un gruppo.'
+                same_labels: 'Più gruppi non possono avere la stessa etichetta predefinita'
+                many_default_groups: 'La famiglia di attributi deve contenere solo un gruppo predefinito.'
+                default_group_is_not_exist: 'La famiglia di attributi deve contenere un gruppo predefinito.'
+                duplicate_attributes: 'La famiglia di attributi non deve contenere gli stessi attributi.'
+                missing_system_attributes: 'La famiglia di attributi deve contenere tutti gli attributi di sistema.'
+    entity_extend:
+        enum:
+            options_error:
+                message: 'Opzioni enum non valide fornite'
+            options_duplicates:
+                message: 'L\'opzione {{ value }} è duplicata.|Le opzioni {{ value }} sono duplicate.'
+        change_type_not_allowed:
+            message: 'Non è consentito modificare il nome o il tipo del campo esistente {{ field }}.'
+        attribute_field:
+            message: 'Il campo esistente "{{ field }}" non è un attributo.'
+        validator:
+            attribute_configuration:
+                error_configuration: 'L\'attributo con tipo {{ type }} non può essere {{ option }}.'
+            not_less_than_original: 'Il valore non deve essere inferiore al valore originale {{ originalValue }}.'
+            scale:
+                range:
+                    not_in_range: 'Questo valore deve essere compreso tra "{{ min }}" e {{ max }}.'
+            enum_option:
+                not_found: 'Il valore "{{ value }}" non è un\'opzione enum valida.'
+    digitalasset:
+        validator:
+            mime_type_cannot_be_non_image:
+                message: 'Impossibile caricare il file non immagine "%file_name%" perché la risorsa digitale corrente è già utilizzata nel campo immagine "%field_name%" dell\'entità "%entity_class%" con id "%entity_id%".'
+            mime_type_cannot_be_non_image_in_entity:
+                message: 'Impossibile caricare il file non immagine "%file_name%" perché la risorsa digitale corrente è già utilizzata nel campo immagine "%field_name%" di questa <a href="%entity_url%" target="_blank">entità</a>.'
+            digital_asset:
+                invalid: 'La risorsa digitale scelta non esiste o è stata eliminata'
+    rule:
+        expression_language_syntax: '{{ syntax_error }}'
+    notification:
+        validators:
+            recipient_list:
+                empty:
+                    message: 'È necessario specificare almeno un destinatario.'
+    address:
+        validation:
+            invalid_first_name_field: 'Questo valore non deve essere vuoto'
+            invalid_last_name_field: 'Questo valore non deve essere vuoto'
+            invalid_organization_field: 'Questo valore non deve essere vuoto'
+            invalid_country_region: 'La regione {{ region }} non appartiene al paese {{ country }}'
+            invalid_region_text: 'La regione personalizzata può essere utilizzata solo per paesi senza regioni predefinite.'
+            invalid_customer_and_address_organization: 'Il cliente e il suo indirizzo appartengono a organizzazioni diverse.'
+            owner_changed: 'Il proprietario dell\'indirizzo non può essere modificato una volta impostato.'
+            contains_primary: 'Uno degli indirizzi deve essere impostato come principale.'
+            emails:
+                contains_primary: 'Una delle email deve essere impostata come principale.'
+            phones:
+                contains_primary: 'Uno dei telefoni deve essere impostato come principale.'
+            existing_address_used: 'Non è possibile utilizzare un indirizzo esistente.'
+    api:
+        form:
+            extra_fields: 'Questo modulo non deve contenere campi extra: {{ extra_fields }}.'
+            no_access: 'Il permesso "{{ permission }}" è negato per la risorsa correlata.'
+            no_adder_and_remover: 'La classe "{{ class }}" deve avere entrambi i metodi "{{ adder }}" e "{{ remover }}".'
+            no_adder_and_remover_multiple: 'La classe "{{ class }}" deve avere una delle seguenti coppie di metodi: {{ methodPairs }}.'
+            invalid_datetime: '"{{ value }}" non è una data e ora valida.'
+            invalid_date: '"{{ value }}" non è una data valida.'
+            invalid_time: '"{{ value }}" non è un orario valido.'
+            invalid_entity_type: 'Tipo di entità non valido.'
+            invalid_entity_id: 'Identificativo entità non valido.'
+            no_acceptable_entities: 'Non ci sono entità accettabili.'
+            not_acceptable_entity: 'L\'entità non è accettabile.'
+            not_manageable_entity: 'Tipo di entità inatteso.'
+            load_entity_failed: 'L\'entità non può essere caricata.'
+            entity_does_not_exist: 'L\'entità non esiste.'
+        new_entity_in_includes: 'La creazione di una nuova entità inclusa che può portare a una dipendenza circolare è vietata.'
+        openapi_public_slug:
+            regex: 'Questo valore deve contenere solo simboli alfabetici, trattino basso, trattino e numeri.'
+            duplicate: 'Esiste già una specifica OpenAPI con questo slug.'
+        openapi_server_url:
+            regex: 'Questo valore non deve contenere virgole.'
+    form:
+        extra_fields: 'Questo modulo non deve contenere campi extra: {{ extra_fields }}.'
+        number:
+            min: ']-Inf,Inf[Il valore non deve essere inferiore a {{ limit }}.'
+            max: ']-Inf,Inf[Il valore non deve essere superiore a {{ limit }}.'
+            exect: ']-Inf,Inf[Il valore deve essere uguale a {{ limit }}.'
+            nan: 'Si prega di inserire un numero valido.'
+        datetime:
+            invalid: 'Questo valore non è una data e ora valida.'
+            min: 'Il valore non deve essere precedente a {{ limit }}.'
+            max: 'Il valore non deve essere successivo a {{ limit }}.'
+        regexp_syntax:
+            error: 'Questo valore non è un\'espressione regolare valida. Motivo: {{ reason }}'
+        captcha:
+            captcha_not_verified: 'Il modulo non può essere inviato perché non hai superato la validazione anti-bot. Se sei un essere umano, contattaci.'
+        unchangeable_field:
+            error: 'Questo campo non può essere modificato una volta impostato.'
+    imap:
+        validator:
+            configuration:
+                folders_are_not_selected: 'È necessario selezionare almeno una cartella della casella di posta.'
+                connection:
+                    imap: 'Impossibile stabilire la connessione IMAP'
+                    smtp: 'Impossibile stabilire la connessione SMTP'
+    query_designer:
+        condition_builder:
+            condition_item:
+                not_blank: 'Questa condizione non deve essere vuota.'
+            conditions_group:
+                not_blank: 'Questo gruppo non deve essere vuoto.'
+            filters:
+                not_empty: 'I filtri non devono essere vuoti.'
+        entity:
+            not_accessible: 'La classe %className% non è accessibile.'
+        columns:
+            not_empty: 'È necessario specificare almeno una colonna.'
+            duplicates: 'Stai cercando di aggiungere più copie di colonna/e %duplicates%. È possibile aggiungere solo una copia della colonna. Rivedi l\'elenco delle colonne per rimuovere i duplicati.'
+            not_accessible: 'La colonna %columnName% di %className% non è accessibile.'
+        grouping:
+            column_exists: 'La/e colonna/e %columns% deve essere aggiunta alla sezione "Raggruppamento".'
+        date_grouping:
+            group_by:
+                not_blank: 'Il filtro di raggruppamento per data richiede la configurazione di una colonna di raggruppamento. Specificare una colonna univoca (es. id) dall\'entità principale nella sezione "Raggruppamento".'
+            date_field:
+                not_blank: 'Specificare un campo su cui può essere applicato il filtro di raggruppamento per data.'
+        invalid_query: 'Query non valida.'
+    report:
+        date_grouping:
+            group_by_mandatory: 'Il filtro di raggruppamento per data richiede la configurazione di una colonna di raggruppamento. Si prega di selezionare una colonna univoca (es. id) dall\'entità principale nella sezione "Raggruppamento"'
+            date_field:
+                mandatory: 'Si prega di selezionare un campo su cui può essere applicato il filtro di raggruppamento per data'
+    segment:
+        validation:
+            sorting: 'Si prega di specificare l\'ordinamento per almeno una colonna.'
+            unique:
+                name: 'C\'è un altro segmento con un nome simile.'
+    theme:
+        themeconfiguration:
+            message:
+                error:
+                    type: 'Scegli un tipo valido.'
+    workflow:
+        validator:
+            entity:
+                message:
+                    update: 'L\'entità non può essere modificata a causa delle restrizioni del flusso di lavoro.'
+            field:
+                message:
+                    create: 'Impossibile creare l\'entità con questo valore a causa delle restrizioni del flusso di lavoro.'
+                    update: 'Il campo non può essere modificato a causa delle restrizioni del flusso di lavoro.'
+            transition:
+                unknown: '"La transizione {{ transition }}" non esiste nel flusso di lavoro.'
+                not_start: '"{{ transition }}" non è una transizione di inizio.'
+                step_not_allowed: '"La transizione {{ transition }}" non è consentita al passaggio "{{ step }}".'
+                some_conditions_not_met: 'Alcune condizioni di transizione non sono soddisfatte.'
+    calendar:
+        calendar_event:
+            start:
+                type:
+                    message: 'Questo valore non è una data valida.'
+            end:
+                type:
+                    message: 'Questo valore non è una data valida.'
+            reminder:
+                date_start_less_than_now:
+                    message: 'La data di inizio del promemoria è precedente a ora.'
+        recurrence:
+            start_time:
+                type:
+                    message: 'Questo valore non è una data valida.'
+            end_time:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    contact:
+        validators:
+            contact:
+                has_information: 'È necessario definire almeno uno dei campi Nome, Cognome, Email o Telefoni.'
+            emails:
+                contains_primary: 'Una delle email deve essere impostata come principale.'
+                delete:
+                    more_one: "L'indirizzo email non è stato eliminato, il contatto ha più di un indirizzo email, impossibile impostare il nuovo principale."
+            phones:
+                contains_primary: 'Uno dei telefoni deve essere impostato come principale.'
+                delete:
+                    more_one: "Il numero di telefono non è stato eliminato, il contatto ha più di un numero di telefono, impossibile impostare il nuovo principale."
+            addresses:
+                contains_primary: 'Uno degli indirizzi deve essere impostato come principale.'
+        contact:
+            birthday:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    currency:
+        price:
+            value:
+                blank: 'Il valore del prezzo non deve essere vuoto.'
+    navigation:
+        validator:
+            unique_pinbar_tab_url:
+                error: 'Questo pin esiste già'
+            menu_update:
+                not_dangerous_protocol:
+                    message: 'Il pseudo-protocollo "{{ protocol }}" non è consentito negli URI dei menu.'
+                max_nested_level:
+                    message: 'L\'elemento {{ label }} non può essere salvato. È stato raggiunto il livello massimo di annidamento.'
+    webcatalog:
+        scope:
+            unique:
+                message: 'Le varianti di contenuto contengono regole di restrizione sovrapposte'
+            empty:
+                message: 'Le regole di restrizione non devono essere vuote'
+        contentnode:
+            slug_prototype:
+                unique:
+                    message: 'Lo slug dell\'URL deve essere univoco all\'interno dello stesso nodo di contenuto genitore'
+            scope:
+                empty:
+                    message: 'Il nodo di contenuto deve avere almeno una restrizione'
+                not_empty:
+                    message: 'Il nodo di contenuto non può avere restrizioni'
+            content_variants:
+                blank: 'Si prega di aggiungere una o più varianti di contenuto.'
+            denied_deletion_due_to_child: 'Questo nodo non può essere eliminato perché il suo nodo figlio "%nodeName%" è referenziato in "%key%" %subject%'
+            denied_deletion_itself: 'Questo nodo non può essere eliminato perché è referenziato in "%key%" %subject%'
+        contentvariant:
+            same_organization:
+                message: 'La variante di contenuto e il catalogo web devono appartenere alla stessa organizzazione.'
+    commercemenu:
+        validator:
+            menu_update:
+                not_dangerous_protocol:
+                    message: 'Il pseudo-protocollo "{{ protocol }}" non è consentito negli URI dei menu.'
+                content_node_empty:
+                    message: 'Si prega di scegliere un catalogo web e un nodo di contenuto'
+                system_page_route_empty:
+                    message: 'Si prega di scegliere una pagina di sistema'
+                uri_empty:
+                    message: 'Si prega di fornire un URI'
+                category_empty:
+                    message: 'Si prega di scegliere una categoria'
+    product:
+        validators:
+            logical_expression:
+                message: 'Espressione logica non valida'
+            logical_expression_disallowed:
+                message: 'Le espressioni logiche non sono consentite'
+            division_by_zero:
+                message: 'L\'espressione contiene una divisione per zero'
+            field_is_not_allowed:
+                message: 'Il campo "%fieldName%" non è consentito per essere utilizzato'
+            field_is_not_allowed_as:
+                message: 'Il campo "%fieldName%" non è consentito per essere utilizzato come "%inputName%"'
+            only_product_kit_can_have_kit_items:
+                message: "La colonna 'Articoli Kit' deve essere elaborata solo per i prodotti classificati come tipo 'Kit'."
+            product_kit_line_item_contains_required_kit_items:
+                missing_required_kit_item: 'Il kit prodotto {{ product_kit_sku }} manca dell\'articolo kit richiesto {{ product_kit_item_label }}'
+        product_variant_links:
+            unique_variants_combination:
+                message: "Impossibile salvare le varianti di prodotto. Le combinazioni di attributi configurabili devono essere uniche."
+            variant_field_required:
+                message: "Impossibile salvare le varianti di prodotto. L'attributo configurabile deve essere selezionato"
+            has_no_filled_field:
+                message: 'Impossibile salvare le varianti di prodotto. Il prodotto "%product_sku%" non ha campo/i compilato/i "%fields%" '
+            belongs_another_family:
+                message: 'Impossibile salvare le varianti di prodotto. Il prodotto configurabile e la/e variante/i di prodotto "%products_sku%" devono appartenere alla stessa famiglia di prodotti.'
+            default_variant_is_not_product_variant:
+                message: 'La variante predefinita deve essere una delle varianti di prodotto selezionate.'
+        attribute_family:
+            used_in_product_variant_field:
+                message: 'Gli attributi %names% sono utilizzati come attributi configurabili nei prodotti: %products%'
+            empty_configurable_attributes:
+                message: 'Il prodotto configurabile richiede almeno un attributo filtrabile di tipo Select o Boolean per abilitare le varianti di prodotto. La famiglia di prodotti fornita non è adatta per i prodotti configurabili.'
+            ignored_attributes:
+                message: "{1} La riga contiene un valore non vuoto nella colonna \"%attributes%\". Questo prodotto non ha l'attributo \"%attributes%\" e questo valore è stato ignorato.| ]1,Inf[ La riga contiene valori non vuoti nelle colonne \"%attributes%\". Questo prodotto non ha gli attributi \"%attributes%\" e questi valori sono stati ignorati.\n"
+        attribute_value:
+            used_in_product_variant_field:
+                message: 'Le opzioni "%optionLabels%" non possono essere eliminate perché sono utilizzate nei seguenti prodotti configurabili: %productSkus%'
+        product_variant_field:
+            unique_variants_combination_simple_product:
+                message: 'I valori dei campi aggiuntivi forniti non possono essere salvati perché violeranno il vincolo univoco dei campi varianti in questi prodotti configurabili: %products%'
+            message: 'Impossibile salvare l\'attributo configurabile. Il campo "{{ field }}" non esiste nel prodotto'
+            unique_variant_links_when_empty_variant_field_in_simple: 'Il campo "%variantField%" non può essere vuoto. È utilizzato nei seguenti prodotti configurabili: %products%'
+        product_by_sku:
+            not_found: 'SKU non trovato'
+        at_least_one_item: 'Si prega di aggiungere almeno un articolo'
+        sku:
+            blank: 'Lo SKU non deve essere vuoto.'
+            not_match_regex: 'Questo valore deve contenere solo lettere latine, numeri e simboli "-" o "_".'
+        type:
+            not_allowed: '{1} Il tipo {{ type }} non è consentito. L\'unico tipo consentito è {{ allowed_types }}.|]1,Inf[ Il tipo {{ type }} non è consentito. I tipi consentiti sono {{ allowed_types }}.'
+        shipping_calculation_method:
+            not_allowed: 'Il metodo di calcolo {{ method }} non è consentito per {{ type }}. L\'unico metodo consentito è {{ allowed_methods }}.'
+        kit_items:
+            not_owned: 'L\'articolo kit {{ kit_item_label }} non può essere utilizzato perché appartiene già al kit prodotto {{ product_kit_sku }}.'
+            last_one: 'L\'articolo kit {{ kit_item_label }} non può essere eliminato perché è l\'ultimo nel kit prodotto {{ product_kit_sku }}.'
+        names:
+            blank: 'Il nome del prodotto non deve essere vuoto.'
+            default:
+                blank: 'Il nome predefinito del prodotto è vuoto'
+        productlineitem:
+            quantity:
+                greaterThanZero: 'La quantità deve essere maggiore di 0'
+                invalid_precision: 'La precisione per l\'unità "{{ unit }}" non è valida.'
+        productunit:
+            invalid: 'L\'unità prodotto non esiste per il prodotto.'
+            precision:
+                blank: 'La precisione non deve essere vuota.'
+            unit:
+                blank: 'L\'unità non deve essere vuota.'
+                referenced_by_product_kits: 'L\'unità non può essere modificata perché è utilizzata nei seguenti kit prodotto: {{ product_kits_skus }}.'
+        unit_precisions_items:
+            blank: 'Si prega di aggiungere una o più unità di prodotto.'
+            primary_precision_not_in_collection: 'Una precisione dell\'unità di prodotto primaria deve essere nella raccolta di precisioni dell\'unità di prodotto.'
+            referenced_by_product_kits: 'L\'unità prodotto "{{ product_unit }}" non può essere rimossa perché è utilizzata nei seguenti kit prodotto: {{ product_kits_skus }}.'
+        referenced_by_product_kits: 'Il prodotto "{{ product_sku }}" non può essere eliminato perché è utilizzato nei seguenti kit prodotto: {{ product_kits_skus }}.'
+        productkititem:
+            product_unit:
+                not_empty: 'L\'unità di quantità non può essere vuota.'
+            products:
+                not_empty: 'Ogni opzione kit deve avere almeno un prodotto specificato.'
+                only_simple: 'Solo i prodotti semplici possono essere utilizzati nelle opzioni kit.'
+            kititemproducts:
+                invalid_message: 'Impossibile elaborare i dati dei prodotti dell\'articolo kit.'
+            collection:
+                not_empty: 'Il kit prodotto deve avere almeno un articolo kit completamente specificato.'
+            unit:
+                available_for_all_specified_products: 'L\'unità di quantità deve essere disponibile per tutti i prodotti specificati.'
+            minimum_quantity:
+                invalid_precision: 'La quantità minima {{ value }} non corrisponde alla precisione consentita dell\'unità prodotto {{ precision }}.'
+            maximum_quantity:
+                invalid_precision: 'La quantità massima {{ value }} non corrisponde alla precisione consentita dell\'unità prodotto {{ precision }}.'
+        productkititemproduct:
+            product:
+                not_found: 'Il prodotto #%product_id% non è stato trovato.'
+        productkititemlineitem:
+            product:
+                not_available:
+                    message: 'Il prodotto selezionato non è consentito'
+            unit:
+                not_available:
+                    message: 'L\'unità prodotto selezionata non è consentita'
+            quantity:
+                invalid_precision:
+                    message: '{0} Sono consentiti solo numeri interi per l\'unità {{ unit }}|{1} È consentita solo %count% cifra decimale per l\'unità {{ unit }}|]1,Inf[ Sono consentite solo %count% cifre decimali per l\'unità {{ unit }}'
+        frontend:
+            quick_add:
+                invalid_file_type: 'Questo tipo di file non è consentito'
+                invalid_format: 'Formato non valido'
+                validation:
+                    empty_file: 'Non siamo stati in grado di identificare alcun riferimento prodotto nel file caricato.'
+                    not_found: 'Il numero articolo non può essere trovato.'
+                    product_not_found: 'Il numero articolo non può essere trovato.'
+                    invalid_precision: "Precisione non valida per l'unità '{{ unit }}'."
+                    unit_not_blank: 'L\'unità non può essere vuota.'
+                    invalid_unit: "L'unità '{{ unit }}' non esiste per il prodotto {{ sku }}."
+                    quantity_min: 'La quantità deve essere maggiore di 0.'
+                    quantity_max: 'La quantità deve essere inferiore a {{ compared_value }}.'
+                    not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}.'
+                    component_not_accessible: "Impossibile elaborare la richiesta, componente non accessibile"
+                    invalid_product_type: 'Questo prodotto non può essere aggiunto tramite il modulo d\'ordine rapido. Utilizzare invece la pagina dei dettagli del prodotto.'
+                    component:
+                        oro_shopping_list_to_checkout_quick_add_processor:
+                            error: 'Alcuni articoli selezionati necessitano di una revisione rapida. Aggiornali o rimuovili per procedere al checkout.'
+                        oro_rfp_quick_add_processor:
+                            error: 'Alcuni articoli selezionati necessitano di una revisione rapida. Aggiornali o rimuovili per procedere con la richiesta di preventivo.'
+                        oro_shopping_list_quick_add_processor:
+                            error: 'Alcuni articoli selezionati necessitano di una revisione rapida. Aggiornali o rimuovili per procedere alla lista della spesa.'
+        product_image:
+            not_blank: 'Il file non può essere vuoto'
+            type_restriction: 'Non puoi scegliere più di %maxNumber% immagini con tipo "%type%"'
+        product_image_type:
+            invalid_type: 'Il tipo di immagine prodotto fornito "%type%" non è valido'
+            already_exists: 'Il tipo di immagine prodotto fornito "%type%" esiste già nella raccolta immagini prodotto'
+            type_restriction: 'Non puoi scegliere più tipi con lo stesso valore "%type%"'
+        product_collection:
+            unique_segment_name:
+                message: 'C\'è un altro segmento con un nome simile.'
+            blank_filters_or_included: 'Devono essere specificati filtri o aggiunti alcuni prodotti manualmente.'
+            blank_condition_item: 'Le condizioni nei filtri non devono essere vuote.'
+            blank_condition_group: 'I gruppi di condizioni nei filtri non devono essere vuoti.'
+            invalid_content_variant_type: 'La variante di contenuto deve essere una raccolta di prodotti'
+            append_products_invalid: 'I prodotti specificati per l\'aggiunta non possono essere trovati'
+            remove_products_invalid: 'I prodotti specificati per la rimozione non possono essere trovati'
+            sort_order_invalid: 'I valori dell\'ordine di ordinamento specificati non possono essere elaborati'
+        related_items:
+            related_product:
+                relation_already_exists: 'La relazione tra i prodotti esiste già.'
+        import:
+            sku:
+                column_missing: 'La colonna SKU manca'
+            related_sku:
+                column_missing: 'La colonna SKU correlati manca'
+                empty_sku: 'La raccolta SKU correlati contiene uno SKU vuoto. Dati articolo: %data%'
+                self_relation: 'Non è possibile creare relazioni dal prodotto a se stesso.'
+                max_relations: 'Non è possibile aggiungere più articoli, a causa del limite di relazioni.'
+            kit_item:
+                not_found: 'L\'articolo kit prodotto con ID #%id% non è stato trovato.'
+                unknown_fields: 'L\'articolo kit prodotto alla riga %line% ha campi sconosciuti: "{{ fields }}".'
+                invalid_value:
+                    optional: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "optional": previsto booleano (true, false, yes, no, 1, 0), ottenuto "{{ value }}".'
+                    id: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "id": previsto valore vuoto o intero, ottenuto "{{ value }}".'
+                    min_qty: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "min_qty": previsto valore vuoto o float (1, 0, 1.0, 0.0), ottenuto "{{ value }}".'
+                    max_qty: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "max_qty": previsto valore vuoto o float (1, 0, 1.0, 0.0), ottenuto "{{ value }}".'
+    catalog:
+        category:
+            title:
+                blank: 'Il titolo della categoria non deve essere vuoto.'
+            products:
+                append_products_invalid: 'I prodotti specificati per l\'aggiunta non possono essere trovati'
+                remove_products_invalid: 'I prodotti specificati per la rimozione non possono essere trovati'
+                sort_order_invalid: 'I valori dell\'ordine di ordinamento specificati non possono essere elaborati'
+            parent_category:
+                parent_category_id_same_as_id: 'L\'id genitore della categoria è uguale all\'id della categoria'
+    marketinglist:
+        contact_information_required: 'Almeno una colonna deve contenere informazioni di contatto'
+        contact_information_type: 'Almeno una colonna deve contenere informazioni di contatto di tipo %type%'
+    customer:
+        message:
+            owner: 'L\'utente cliente non appartiene al cliente.'
+            password_mismatch: 'I campi password devono corrispondere.'
+            circular_customer_reference: "Riferimento circolare rilevato. '{{ parentName }}' non può essere un genitore di '{{ customerName }}' perché è suo figlio."
+            circular_child_customer_reference: "Riferimento circolare rilevato. '{{ childName }}' non può essere un figlio di '{{ customerName }}' perché è suo genitore."
+            customer_reference_to_itself: "Riferimento circolare rilevato. '{{ customerName }}' non può essere il proprio genitore."
+            user_without_role: 'Si prega di selezionare almeno un ruolo prima di abilitare l\'utente cliente.'
+            user_customer_exists: 'Questa email è già in uso.'
+            scope_with_customer_and_group: 'Deve essere scelto solo un campo. Gruppo clienti o Cliente.'
+            no_permission_for_customer_related_entities: "Impossibile modificare il cliente perché non hai i permessi per aggiornare le seguenti entità correlate: {{ entityNames }}"
+            system_configuration:
+                case_insensitive:
+                    duplicated_emails:
+                        message: 'Impossibile abilitare "Indirizzi email senza distinzione tra maiuscole e minuscole" - ci sono utenti clienti esistenti che hanno email minuscole identiche. Si prega di risolvere questi conflitti e riprovare. %click_here% per vedere alcuni degli utenti clienti in conflitto.'
+                        click_here: 'Clicca qui'
+        customer_user:
+            birthday:
+                type:
+                    message: 'Questo valore non è una data valida.'
+        system_configuration:
+            login_redirect:
+                uri:
+                    relative_only: 'Questo valore deve essere un percorso relativo.'
+    visibility:
+        category:
+            visibility:
+                message:
+                    invalid_data: 'I dati non sono validi'
+        wrong_type:
+            message: 'Il valore deve essere uno di {{ available_types }}.'
+        conflict:
+            message: 'L\'entità di visibilità esiste già.'
+    call:
+        phone:
+            required:
+                message: 'Il telefono è un campo obbligatorio'
+        duration:
+            not_in_range:
+                message: 'La durata deve essere compresa tra {{ min }} e {{ max }}'
+        call:
+            call_date_time:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    campaign:
+        campaign:
+            start_date:
+                type:
+                    message: 'Questo valore non è una data valida.'
+            end_date:
+                type:
+                    message: 'Questo valore non è una data valida.'
+        email_campaign:
+            scheduled_for:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    channel:
+        form:
+            customer_identity_selected_not_correctly:
+                label: 'Identità cliente selezionata in modo non corretto'
+            integration_invalid:
+                label: 'L\'integrazione è richiesta per il tipo di canale scelto'
+    payment:
+        number:
+            error: 'Questo valore deve essere un numero.'
+        paymentrule:
+            type:
+                config:
+                    count:
+                        message: 'Devi selezionare almeno {{ limit }} tipo di metodo di pagamento|Devi selezionare almeno {{ limit }} tipi di metodo di pagamento'
+            method:
+                config:
+                    count:
+                        message: 'Devi selezionare almeno {{ limit }} metodo di pagamento|Devi selezionare almeno {{ limit }} metodi di pagamento'
+    task:
+        due_date_required: 'La data di scadenza deve essere impostata per {{ field }}'
+        due_date_not_in_the_past: 'La data di scadenza non deve essere nel passato'
+        task:
+            due_date:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    websiteelasticsearch:
+        savedsearch:
+            name:
+                limit: 'Questo valore è troppo lungo. Deve avere {{ limit }} carattere o meno.'
+                notBlank: 'Questo valore non deve essere vuoto.'
+        synonym:
+            synonyms_arrow_notation: 'La notazione con freccia (=>) può essere utilizzata solo una volta nel campo elenco sinonimi.'
+            synonym_aware_entity_aliases: '{1} L\'entità con alias {{ not_synonym_aware }} non supporta i sinonimi di ricerca. I sinonimi di ricerca sono supportati da {{ synonym_aware }}.|]1,Inf[ Le entità con alias {{ not_synonym_aware }} non supportano i sinonimi di ricerca. I sinonimi di ricerca sono supportati da {{ synonym_aware }}.'
+            websites:
+                empty: 'Si prega di specificare almeno un sito web.'
+    analytics:
+        validator:
+            categories:
+                order: 'I valori devono essere in ordine %order%'
+                count: 'Sono richiesti almeno %count%'
+                blank: 'I valori non devono essere vuoti'
+    cms:
+        contentblock:
+            alias:
+                regex:
+                    message: 'Questo valore deve contenere solo simboli alfabetici, trattino basso, trattino e numeri.'
+            content_variants:
+                empty:
+                    message: 'Si prega di aggiungere almeno una variante di contenuto.'
+                scopes:
+                    empty:
+                        message: 'Le regole di restrizione non devono essere vuote'
+        contentwidget:
+            alias:
+                regex:
+                    message: 'Questo valore deve contenere solo simboli alfabetici, trattino basso, trattino e numeri.'
+        image_slider:
+            url:
+                not_dangerous_protocol:
+                    message: 'Il pseudo-protocollo "{{ protocol }}" non è consentito negli URI delle diapositive.'
+            image:
+                has_at_least_one_size_image:
+                    message: 'È richiesta almeno un\'immagine. [{{ fields }}]'
+        wysiwyg:
+            field_name_exist: 'Questo nome di campo non può essere utilizzato.'
+            not_permitted_content:
+                message: "Si prega di rimuovere i tag HTML non consentiti nel campo contenuto:\n{{ errorsList }}.\n"
+            not_permitted_style:
+                message: "Si prega di correggere l'errore negli stili CSS:\n{{ errorsList }}.\n"
+            twig_content:
+                message: 'Il contenuto inserito contiene costrutti twig non validi.'
+    paypal:
+        express_checkout_name:
+            differs_from_integration_name: 'Express Checkout non può avere lo stesso nome dell\'integrazione stessa.'
+            unique_integration_name: 'I nomi dei metodi di pagamento devono essere univoci. "%name%" è utilizzato da un\'integrazione di pagamento diversa.'
+    pricing:
+        validators:
+            price_attribute_price_list:
+                fieldName:
+                    message: 'Il nome del campo non può contenere caratteri speciali o spazi e deve contenere almeno una lettera'
+            price_list:
+                product_price_currency:
+                    message: 'Impossibile rimuovere la valuta "%invalidCurrency%". Si prega di eliminare prima tutti i punti prezzo in "%invalidCurrency%".'
+                unique_price_list:
+                    message: 'Il listino prezzi è duplicato.'
+                not_empty_price_lists:
+                    message: 'Deve essere definito almeno un listino prezzi.'
+                schedules_intersection:
+                    message: 'I segmenti di pianificazione del listino prezzi non devono intersecarsi'
+            product_price:
+                unique_entity:
+                    message: 'Il prodotto ha una duplicazione dei prezzi del prodotto. L\'insieme dei campi "Listino prezzi", "Quantità", "Unità" e "Valuta" deve essere univoco.'
+                currency:
+                    message: 'La valuta "%invalidCurrency%" non è valida per il listino prezzi corrente.'
+                    blank: 'La valuta non deve essere vuota.'
+                not_allowed_unit:
+                    message: 'L\'unità "%unit%" non è consentita per il prodotto "%product%".'
+                not_existing_product:
+                    message: 'Il prodotto non esiste.'
+                not_existing_unit:
+                    message: 'L\'unità prodotto non esiste.'
+                quantity:
+                    blank: 'La quantità non deve essere vuota.'
+                expression_is_invalid:
+                    message: 'Regola non valida'
+            price_attribute_product_price:
+                unique_entity:
+                    message: 'Questo valore è utilizzato. Vincolo univoco: {{ unique_key }}'
+            default_currency:
+                message: 'La valuta "%invalidCurrency%" non è una valuta predefinita valida. La valuta selezionata deve essere nell\'elenco abilitato'
+            price_for_product_unit_exists:
+                message: "Le unità: '%units%', sono utilizzate nei prezzi degli attributi di prezzo e non possono essere rimosse"
+            field_is_not_allowed_as:
+                message: 'Il campo "%fieldName%" non è consentito per essere utilizzato come "%inputName%"'
+            invalid_price_rule_expression:
+                message: 'Espressione non valida'
+            invalid_product_assignment_rule_expression:
+                message: 'Espressione non valida'
+            circular_reference:
+                message: 'I riferimenti circolari non sono consentiti'
+                invalid_node_message: 'Espressione non valida'
+            relation_not_in_rule:
+                message: 'Il campo "%fieldName%" contiene la relazione "%relationName%" che non è utilizzata nella regola'
+            only_price_relations_available:
+                message: 'Solo le relazioni di prezzo sono disponibili nel campo "%fieldName%"'
+            one_expression_allowed:
+                message: 'È consentito un solo elemento nell\'espressione per il campo "%fieldName%"'
+            too_many_relations:
+                message: 'Troppe relazioni nell\'espressione per il campo "%fieldName%"'
+    rfp:
+        requestproduct:
+            product:
+                blank: 'Il prodotto non può essere vuoto.'
+            request_product_items:
+                blank: 'Si prega di aggiungere una o più richieste.'
+            kit_item_line_items:
+                general_error:
+                    message: 'La configurazione kit selezionata non è valida. Si prega di modificarla o rimuoverla.'
+        request:
+            ship_until:
+                type:
+                    message: 'Questo valore non è una data valida.'
+        requestproductkititemlineitem:
+            request_product:
+                blank:
+                    message: 'Il prodotto richiesto non deve essere vuoto'
+            kit_item:
+                blank:
+                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+                required:
+                    message: 'La selezione originale non è più disponibile'
+            product:
+                blank:
+                    optional:
+                        message: 'La selezione originale non è più disponibile'
+                    required:
+                        message: 'Selezione richiesta'
+                not_enabled:
+                    message: 'Il prodotto selezionato non è abilitato'
+                required:
+                    message: 'La selezione originale non è più disponibile'
+            quantity:
+                decimal:
+                    message: 'La quantità deve essere un numero decimale'
+                greater_than_zero:
+                    message: 'La quantità deve essere maggiore di 0'
+                range:
+                    min_message: 'La quantità deve essere {{ limit }} o superiore'
+                    max_message: 'La quantità deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}'
+            product_unit:
+                blank:
+                    message: 'L\'unità prodotto non deve essere vuota'
+            price:
+                blank:
+                    message: 'Il prezzo non deve essere vuoto'
+            sort_order:
+                blank:
+                    message: 'L\'ordine di ordinamento non deve essere vuoto'
+                type:
+                    message: 'L\'ordine di ordinamento deve essere un numero intero'
+                range:
+                    min_message: 'L\'ordine di ordinamento deve essere {{ limit }} o superiore'
+                    max_message: 'L\'ordine di ordinamento deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'L\'ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}'
+    sales:
+        validation:
+            lead:
+                website_url:
+                    message: 'Questo valore non è un URL valido. I protocolli URL consentiti sono: http, https.'
+                emails:
+                    delete:
+                        more_one: "L'indirizzo email non è stato eliminato, il lead ha più di un indirizzo email, impossibile impostare il nuovo principale."
+                phones:
+                    delete:
+                        more_one: "Il numero di telefono non è stato eliminato, il lead ha più di un numero di telefono, impossibile impostare il nuovo principale."
+            b2bcustomer:
+                emails:
+                    delete:
+                        more_one: "L'indirizzo email non è stato eliminato, il cliente B2B ha più di un indirizzo email, impossibile impostare il nuovo principale."
+                phones:
+                    delete:
+                        more_one: "Il numero di telefono non è stato eliminato, il cliente B2B ha più di un numero di telefono, impossibile impostare il nuovo principale."
+    order:
+        total:
+            max:
+                error:
+                    label: 'L\'importo totale non può superare {{ limit }}.'
+            min:
+                error:
+                    label: 'L\'importo totale non può essere inferiore a {{ limit }}.'
+            range:
+                not_in_range_message: 'L\'importo totale deve essere compreso tra {{ min }} e {{ max }}'
+        subtotal:
+            max:
+                error:
+                    label: 'L\'importo del subtotale non può superare {{ limit }}.'
+            min:
+                error:
+                    label: 'L\'importo del subtotale non può essere inferiore a {{ limit }}.'
+            range:
+                not_in_range_message: 'L\'importo del subtotale deve essere compreso tra {{ min }} e {{ max }}'
+        discounts:
+            sum:
+                error:
+                    not_in_range:
+                        label: 'La somma di tutti gli sconti non può superare l\'importo totale dell\'ordine. Si prega di rivedere alcuni sconti sopra e apportare le modifiche necessarie.'
+                    single_discount:
+                        label: 'La somma di tutti gli sconti non può superare l\'importo totale dell\'ordine. Si prega di rivedere l\'importo dello sconto.'
+                    label: 'La somma di tutti gli sconti non può superare l\'importo totale dell\'ordine. Si prega di rivedere alcuni sconti sopra e apportare le modifiche necessarie.'
+            item:
+                error:
+                    label: 'L\'importo dello sconto non può superare l\'importo totale dell\'ordine.'
+            type:
+                error:
+                    label: 'Il tipo di sconto non è valido. I tipi validi sono: %valid_types%.'
+            range:
+                not_in_range_message: 'L\'importo dello sconto deve essere compreso tra {{ min }} e {{ max }}'
+            order:
+                changed: 'Lo sconto non può essere spostato in un altro ordine.'
+        orderlineitem:
+            count: 'Si prega di aggiungere almeno una voce'
+            product:
+                blank: 'Si prega di scegliere un prodotto.'
+            product_price:
+                blank: 'Nessun prezzo corrispondente trovato.'
+                not_match: 'Il prezzo specificato deve essere uguale a {{ expected_value }}.'
+            currency:
+                not_match: 'La valuta specificata deve essere uguale a "{{ expected_value }}".'
+            order:
+                changed: 'L\'ordine della voce non può essere modificato una volta impostato.'
+        orderaddress:
+            multiple: 'Possono essere impostati solo i campi dell\'indirizzo dell\'ordine, un indirizzo utente cliente o un indirizzo cliente.'
+            not_allowed: 'Non è consentito utilizzare questo indirizzo per l\'ordine.'
+        order:
+            ship_until:
+                type:
+                    message: 'Questo valore non è una data valida.'
+        orderproductkititemlineitem:
+            line_item:
+                changed: 'La voce della voce articolo kit prodotto non può essere modificata una volta impostata.'
+            product_price:
+                blank: 'Nessun prezzo corrispondente trovato.'
+                not_match: 'Il prezzo specificato deve essere uguale a {{ expected_value }}.'
+            currency:
+                not_match: 'La valuta specificata deve essere uguale a "{{ expected_value }}".'
+            kit_item:
+                blank:
+                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+                changed: 'L\'articolo kit della voce articolo kit prodotto non può essere modificato una volta impostato.'
+            product:
+                blank:
+                    message: 'Si prega di scegliere un prodotto'
+                not_enabled:
+                    message: 'Il prodotto selezionato non è abilitato'
+            quantity:
+                greater_than_zero:
+                    message: 'La quantità deve essere maggiore di 0'
+                range:
+                    min_message: 'La quantità deve essere {{ limit }} o superiore'
+                    max_message: 'La quantità deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}'
+        inventory_status:
+            not_supported: 'Lo stato dell\'inventario specificato non è supportato.'
+        status:
+            unchangeable:
+                message: 'Lo stato dell\'ordine non può essere modificato quando l\'opzione di configurazione "Abilita gestione stato esterno" è disabilitata.'
+        order_limits:
+            minimum_order_amount: 'È richiesto un subtotale minimo dell\'ordine di %amount% per procedere al checkout. Si prega di aggiungere %difference% in più per procedere.'
+            maximum_order_amount: 'Il subtotale dell\'ordine non può superare %amount%. Si prega di rimuovere almeno %difference% per procedere.'
+    shoppinglist:
+        lineitem:
+            inventory_status:
+                checkout_not_supported: "Questo articolo non può essere aggiunto al checkout perché lo stato dell'inventario non è supportato."
+                rfq_not_supported: "Questo articolo non può essere aggiunto alla RFQ perché lo stato dell'inventario non è supportato."
+            already_exists: 'Esiste già una voce con lo stesso prodotto e unità'
+            quantity:
+                greater_than_zero: 'La quantità deve essere maggiore di 0'
+            product:
+                type:
+                    configurable:
+                        message: 'Si prega di selezionare le varianti di prodotto prima di effettuare un ordine o richiedere un preventivo.'
+            only_one_required_list:
+                message: 'La voce deve essere assegnata alla lista della spesa o alla lista salvata per dopo.'
+        validators:
+            product_kit_item_collection_is_available_for_purchase:
+                required_not_available: 'Il kit prodotto {{ product_kit_sku }} non è disponibile per l\'acquisto: {{ reason }}'
+                no_available: 'Il kit prodotto non è disponibile per l\'acquisto: non ci sono articoli kit disponibili'
+            product_kit_item_product_collection_is_available_for_purchase:
+                message: 'Non ci sono prodotti disponibili per l\'acquisto nell\'articolo kit {{ product_kit_item_label }}'
+                empty_message: 'Non ci sono prodotti disponibili per l\'acquisto nell\'articolo kit'
+            line_item_has_price:
+                message: "Questo articolo non può essere aggiunto al checkout perché il prezzo non è disponibile"
+        not_empty: 'L\'etichetta della lista della spesa non deve essere vuota'
+        subtotal:
+            range:
+                not_in_range_message: 'L\'importo del subtotale della lista della spesa deve essere compreso tra {{ min }} e {{ max }}.'
+            max:
+                error:
+                    label: 'L\'importo del subtotale della lista della spesa non può superare {{ limit }}.'
+            min:
+                error:
+                    label: 'L\'importo del subtotale della lista della spesa non può essere inferiore a {{ limit }}.'
+        create_not_allowed: 'Non è consentito creare una nuova lista della spesa.'
+        product_kit_is_available_for_purchase:
+            product:
+                type:
+                    kit:
+                        message: 'Questo prodotto non è un kit prodotto.'
+                status:
+                    enabled:
+                        message: 'Questo prodotto non è attivo.'
+                inventory_status:
+                    in_stock:
+                        message: 'Questo prodotto non è disponibile in magazzino.'
+                has_price:
+                    message: 'Questo prodotto non ha un valore di prezzo.'
+            line_item:
+                kit_item_line_items:
+                    count:
+                        min_message: 'Questo kit prodotto non contiene articoli disponibili per l\'acquisto.'
+        product_kit_line_item:
+            general_error:
+                message: 'La configurazione kit selezionata non è disponibile per l\'acquisto. Si prega di modificare o rimuovere questa configurazione dalla lista della spesa.'
+        product_kit_item_line_item:
+            quantity:
+                not_blank:
+                    message: 'La quantità non può essere vuota'
+                greater_than_zero:
+                    message: 'La quantità deve essere maggiore di 0.'
+                range:
+                    min_message: 'La quantità deve essere {{ limit }} o superiore.'
+                    max_message: 'La quantità deve essere {{ limit }} o inferiore. '
+                    not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}.'
+            product:
+                status_optional:
+                    message: 'La selezione originale non è più disponibile'
+                status_required:
+                    message: 'Selezione richiesta'
+    tax:
+        validator:
+            constraints:
+                single_or_range: 'Il codice postale deve avere solo il codice o l\'intervallo'
+                range_start_and_end_required: 'L\'intervallo del codice postale deve avere inizio e fine'
+                only_numeric_ranges_supported: 'Gli intervalli sono supportati solo per i codici postali numerici'
+                zip_code_can_not_be_empty: "Il codice postale non può essere vuoto"
+                tax_rate_to_many_decimal_places: "L'aliquota fiscale non può avere più di 4 cifre decimali"
+                not_unique_tax_code: 'Questo valore è già in uso.'
+    checkout:
+        checkoutlineitem:
+            unique_entity:
+                message: 'Il checkout deve contenere solo voci univoche.'
+            quantity:
+                greater_than_zero:
+                    message: 'La quantità deve essere maggiore di 0.'
+        checkoutproductkititemlineitem:
+            unique_entity:
+                message: 'La voce kit prodotto deve contenere solo voci articolo kit univoche.'
+            kit_item:
+                blank:
+                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+            product:
+                blank:
+                    message: 'Si prega di scegliere un prodotto'
+                not_enabled:
+                    message: 'Il prodotto selezionato non è abilitato'
+            quantity:
+                greater_than_zero:
+                    message: 'La quantità deve essere maggiore di 0.'
+                range:
+                    min_message: 'La quantità deve essere {{ limit }} o superiore.'
+                    max_message: 'La quantità deve essere {{ limit }} o inferiore. '
+                    not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}.'
+        validator:
+            start_transition:
+                captcha_not_verified:
+                    message: 'Verifica fallita: Il tuo invio non ha superato il controllo anti-bot. Si prega di riprovare o contattare l\'assistenza se si continua a riscontrare problemi.'
+            order_line_items_not_empty:
+                allow_rfp:
+                    message: 'Nessun prodotto può essere aggiunto a questo ordine. Si prega di creare una RFQ per richiedere il prezzo.'
+                not_allow_rfp:
+                    message: 'Nessun prodotto può essere aggiunto a questo ordine.'
+            has_applicable_payment_methods:
+                message: 'Il metodo di pagamento non è stato selezionato o non ci sono metodi di pagamento applicabili disponibili.'
+            payment_method_is_applicable:
+                message: 'Il metodo di pagamento selezionato non è disponibile.'
+            payment_method_is_not_selected:
+                message: 'Il metodo di pagamento non è selezionato.'
+            shipping_method_is_not_selected:
+                message: 'Il metodo di spedizione non è selezionato.'
+            shipping_method_is_invalid:
+                message: 'Il metodo di spedizione non è valido.'
+            shipping_method_type_is_invalid:
+                message: 'Il tipo di metodo di spedizione non è valido.'
+            has_applicable_shipping_rules:
+                message: 'Il metodo di spedizione selezionato non è disponibile.'
+            allowed_by_checkout_validation_event:
+                message: 'Si è verificato un errore durante l\'elaborazione dell\'ordine.'
+            invalid_checkout_addresses:
+                message: 'Gli indirizzi di checkout non sono validi.'
+        workflow:
+            condition:
+                invalid_billing_address:
+                    message: 'Si prega di inserire l\'indirizzo di fatturazione corretto.'
+                invalid_shipping_address:
+                    message: 'Si prega di inserire l\'indirizzo di spedizione corretto.'
+        system_configuration:
+            order_limits:
+                message: 'Sono consentiti solo valori numerici positivi'
+    consent:
+        validators:
+            consent:
+                unique_consent:
+                    message: 'Il consenso è duplicato.'
+                required_consents:
+                    message: 'Per procedere è necessario accettare tutti i consensi richiesti: ({{ consent_names }})!'
+                removed_consents:
+                    message: 'Alcuni consensi sono stati modificati. Si prega di ricaricare la pagina.'
+                removed_landing_pages:
+                    message: 'Alcuni consensi sono stati modificati. Si prega di ricaricare la pagina.'
+    sale:
+        quoteaddress:
+            multiple: 'Possono essere impostati solo i campi dell\'indirizzo, un indirizzo utente cliente o un indirizzo cliente.'
+        quoteproduct:
+            product:
+                blank: 'Il prodotto non può essere vuoto.'
+            free_form_product:
+                blank: 'Si prega di fornire il titolo del prodotto.'
+            product_replacement:
+                blank: 'Il prodotto non può essere vuoto.'
+            quote_product_items:
+                blank: 'Si prega di aggiungere una o più offerte.'
+        quoteproductoffer:
+            configurable:
+                offer:
+                    blank: 'Si prega di inserire una quantità valida secondo le opzioni dell\'offerta'
+                quantity:
+                    equal: 'La quantità deve essere uguale alla quantità offerta'
+                    less: 'La quantità deve essere maggiore o uguale alla quantità offerta'
+            quote_product:
+                unchangeable: 'L\'offerta non può essere spostata in un altro prodotto preventivo.'
+        quoteproductrequest:
+            quote_product:
+                unchangeable: 'La richiesta non può essere spostata in un altro prodotto preventivo.'
+            request_product_item:
+                invalid: 'La richiesta può essere creata dalla stessa RFQ del preventivo.'
+        quoteproductkititemlineitem:
+            quote_product:
+                blank:
+                    message: 'Il prodotto preventivo non deve essere vuoto'
+            kit_item:
+                blank:
+                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+                required:
+                    message: 'La selezione originale non è più disponibile'
+            product:
+                blank:
+                    message: 'Il prodotto non deve essere vuoto'
+                not_enabled:
+                    message: 'Il prodotto selezionato non è abilitato'
+                required:
+                    message: 'La selezione originale non è più disponibile'
+            quantity:
+                decimal:
+                    message: 'La quantità deve essere un numero decimale'
+                greater_than_zero:
+                    message: 'La quantità deve essere maggiore di 0'
+                range:
+                    min_message: 'La quantità deve essere {{ limit }} o superiore'
+                    max_message: 'La quantità deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}'
+            product_unit:
+                blank:
+                    message: 'L\'unità prodotto non deve essere vuota'
+            sort_order:
+                blank:
+                    message: 'L\'ordine di ordinamento non deve essere vuoto'
+                type:
+                    message: 'L\'ordine di ordinamento deve essere un numero intero'
+                range:
+                    min_message: 'L\'ordine di ordinamento deve essere {{ limit }} o superiore'
+                    max_message: 'L\'ordine di ordinamento deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'L\'ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}'
+        quote:
+            ship_until:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    product_unavailable: 'Questo articolo non è disponibile'
+    non_valid_precision: 'Questo valore deve essere decimale con una precisione {{ precision }}'
+    inventory:
+        checkout:
+            validators:
+                ship_until: 'Questo ordine non può essere spedito in tempo, poiché contiene prodotti che non saranno ancora disponibili. Si prega di regolare la data Non spedire dopo, o rimuovere i prodotti in arrivo'
+        product:
+            validators:
+                quantity_min_over_max: 'La quantità massima da ordinare deve essere superiore o uguale alla quantità minima da ordinare'
+        quick_add_row:
+            quantity_to_order:
+                max_message: 'Non puoi ordinare più di %limit% unità del prodotto "%sku%".'
+                min_message: 'Non puoi ordinare meno di %limit% unità del prodotto "%sku%".'
+        has_enough_inventory_level:
+            not_enough_quantity: 'Non c\'è abbastanza quantità per questo prodotto'
+        reorder:
+            quantity_to_order:
+                max_message: 'Non puoi ordinare più di %limit% unità del prodotto "%sku%".'
+                min_message: 'Non puoi ordinare meno di %limit% unità del prodotto "%sku%".'
+    promotion:
+        coupon:
+            validators:
+                max_possible_code_length_exceeded: "I codici coupon non devono essere più lunghi di {{ maxAllowedLength }} simboli, inclusi prefisso, suffisso e trattini. Con le impostazioni correnti, i codici coupon sono {{ actualLength }} simboli più lunghi.\nSi prega di regolare i valori dei campi Lunghezza codice, Prefisso codice, Suffisso codice e/o Aggiungi trattini ogni X simboli per ridurre la lunghezza del codice coupon al massimo consentito.\n"
+                case_insensitive_duplicates_found: 'I codici coupon senza distinzione tra maiuscole e minuscole non possono essere abilitati a causa di codici duplicati esistenti con casi di lettere diversi.'
+                case_insensitive_duplicate_found: 'Un codice coupon con gli stessi caratteri ma diverse maiuscole/minuscole esiste già a causa dell\'impostazione Case-Insensitive abilitata.'
+            valid_from:
+                type:
+                    message: 'Questo valore non è una data valida.'
+            valid_until:
+                type:
+                    message: 'Questo valore non è una data valida.'
+    dotmailer:
+        validators:
+            address_book:
+                unique_entity:
+                    message: 'L\'integrazione ha una duplicazione di rubriche. Il campo "Nome" deve essere univoco.'
+            data_field_mapping:
+                unique_entity:
+                    message: 'La mappatura per questa entità esiste già in questa integrazione dotdigital'
+    oauth2server:
+        client:
+            name:
+                unique:
+                    message: 'L\'applicazione con il nome specificato esiste già.'
+            grants:
+                count:
+                    message: 'Deve essere specificata una concessione.'
+            owner:
+                not_null:
+                    message: 'Questo valore non deve essere vuoto.'
+            redirectUris:
+                not_empty:
+                    message: 'Deve essere specificato almeno un URL di reindirizzamento.'
+    shipping:
+        validators:
+            product_unit_shipping_options:
+                unique_entity:
+                    message: 'Il prodotto ha una duplicazione delle opzioni di spedizione. Il campo "Unità" deve essere univoco.'
+        shippingrule:
+            type:
+                config:
+                    count:
+                        message: 'Devi selezionare almeno {{ limit }} tipo di metodo di spedizione|Devi selezionare almeno {{ limit }} tipi di metodo di spedizione'
+            method:
+                config:
+                    count:
+                        message: 'Devi selezionare almeno {{ limit }} metodo di spedizione|Devi selezionare almeno {{ limit }} metodi di spedizione'
+            enabled:
+                message: 'Nessuna configurazione di metodo è abilitata per questa regola di spedizione'
+    ups:
+        settings:
+            shipping_service:
+                blank:
+                    message: 'Deve essere selezionato almeno un servizio di spedizione.'
+                wrong_country:
+                    message: '"%shipping_service%" il servizio di spedizione si riferisce a %shipping_service_country%. Il paese dell\'integrazione Ups è %settings_country%'
+'The template for {{ field }} ({{ locale }}) has syntax error: {{ error }}': 'Il template per {{ field }} ({{ locale }}) ha un errore di sintassi: {{ error }}'
+'This value contains not valid email address.': 'Questo valore contiene un indirizzo email non valido.'
+'Recipient can not be empty': 'Il destinatario non può essere vuoto'
+'You must select at least {{ limit }} role': 'Devi selezionare almeno {{ limit }} ruolo.|Devi selezionare almeno {{ limit }} ruoli.'
+'The password fields must match.': 'I campi password devono corrispondere.'
+'This value cannot be in the future.': 'Questo valore non può essere nel futuro.'
+'The birth date cannot be in the future.': 'La data di nascita non può essere nel futuro.'
+'This value should start with a symbol and contain only alphabetic symbols, underscore and numbers.': 'Questo valore deve iniziare con un simbolo e contenere solo simboli alfabetici, trattino basso e numeri.'
+"The '{{ value }}' cannot be used as a code value.": "Il valore '{{ value }}' non può essere utilizzato come valore di codice."
+'This value should contain only alphabetic symbols and numbers.': 'Questo valore deve contenere solo simboli alfabetici e numeri.'
+'This value should contain only lower case alphabetic symbols, underscore and numbers.': 'Questo valore deve contenere solo simboli alfabetici minuscoli, trattino basso e numeri.'
+'This value should contain only alphabetic symbols, underscore, hyphen, spaces and numbers.': 'Questo valore deve contenere solo simboli alfabetici, trattino basso, trattino, spazi e numeri.'
+"The '{{ value }}' cannot be used as a field name.": "Il valore '{{ value }}' non può essere utilizzato come nome di campo."
+'This value should not be the reserved SQL word.': 'Questo valore non deve essere una parola riservata SQL.'
+'This value should not be the reserved PHP word.': 'Questo valore non deve essere una parola riservata PHP.'
+'Name and keys combination should be unique.': 'La combinazione di nome e chiavi deve essere univoca.'
+'An enum with this name already exist.': 'Un set di opzioni con questo nome esiste già.'
+'A field with this name is already exist.': 'Un campo con questo nome esiste già.'
+"This name conflicts with existing '{{ field }}' field.": "Questo nome è in conflitto con il campo esistente '{{ field }}'."
+'This field name is duplicated snapshot of multi-select.': "Questo nome è già utilizzato dal campo Multi-Select '{{ field }}' per memorizzare il valore 'snapshot'."
+'This multi-select name is duplicated a field.': "Questo nome non può essere utilizzato per il campo Multi-Select perché un campo autogenerato utilizzato per memorizzare il valore 'snapshot' è in conflitto con il campo esistente '{{ field }}'."
+'This name is duplicated default field of relation.': "Questo nome è già utilizzato dalla relazione '{{ field }}' per memorizzare il valore predefinito."
+'This relation name is duplicated a field.': "Questo nome non può essere utilizzato per una relazione perché un campo autogenerato utilizzato per memorizzare il valore predefinito è in conflitto con il campo esistente '{{ field }}'."
+"The '{{ value }}' word is reserved for system purposes.": "La parola '{{ value }}' è riservata per scopi di sistema."
+"The field name must be '{{ field }}'.": "Il nome del campo deve essere '{{ field }}'."
+"The field can't be set to 'Yes' when target entity isn't extended": "Il campo non può essere impostato su 'Sì' quando l'entità di destinazione non è estesa."
+'One of the items must be set as primary.': 'Uno degli elementi deve essere impostato come principale.'
+'Several addresses have the same type {{ types }}.': 'Più indirizzi hanno lo stesso tipo {{ types }}.'
+'State is required for country {{ country }}': 'Lo stato è richiesto per il paese {{ country }}'
+'Value should not contain HTML tags.': 'Il valore non deve contenere tag HTML.'
+'You need minimum {{ limit }} entities to merge.': 'Hai bisogno di almeno {{ limit }} entità da unire.'
+'You can merge only {{ limit }} entities at once.': 'Puoi unire solo {{ limit }} entità alla volta.'
+'Add entity before setting it as master.': 'Aggiungi l\'entità prima di impostarla come principale.'
+'Add entity before setting it as a source entity for {{ field }} field.': 'Aggiungi l\'entità prima di impostarla come entità di origine per il campo {{ field }}.'
+'Merge entities should be unique.': 'Le entità da unire devono essere univoche.'
+'This value should be entity class or alias.': 'Questo valore deve essere una classe di entità o un alias.'
+'The entity was not found.': 'L\'entità non è stata trovata.'
+'This value should be an integer number.': 'Questo valore deve essere un numero intero.'
+"This date can't be earlier than {{ field }} date.": "Questa data non può essere precedente alla data {{ field }}."
+'This value should be a multiple of {{ multiple_of_value }}.': 'Questo valore deve essere un multiplo di {{ multiple_of_value }}.'
+'This value should be one of the values: {{ allowed_values }}.': 'Questo valore deve essere uno dei valori: {{ allowed_values }}.'
+'One or more of the given values is not one of the values: {{ allowed_values }}.': 'Uno o più dei valori forniti non sono tra i valori: {{ allowed_values }}.'
+"Parameter 'recurringEventId' can't have the same value as calendar event ID.": "Il parametro 'recurringEventId' non può avere lo stesso valore dell'ID dell'evento calendario."
+"Parameter 'recurringEventId' can be set only for recurring calendar events.": "Il parametro 'recurringEventId' può essere impostato solo per eventi calendario ricorrenti."
+'Calendar of calendar event exception can not be changed.': 'Il calendario dell\'eccezione evento calendario non può essere modificato.'
+'Unexpected error was occurred': 'Si è verificato un errore inaspettato'
+oro_frontend:
+    regex:
+        backend_prefix: 'Il prefisso deve iniziare con / e contenere simboli alfanumerici'
+    css_variables:
+        css_color: 'Questo valore deve essere un colore CSS valido'
+        css_background: 'Questo valore deve essere uno sfondo CSS valido'
+        css_border_radius: 'Questo valore deve essere un raggio del bordo CSS valido'
+        css_box_shadow: 'Questo valore deve essere un\'ombra CSS valida'
+        css_font_size: 'Questo valore deve essere una dimensione del carattere CSS valida'
+        css_gap: 'Questo valore deve essere un gap CSS valido'
+        css_length: 'Questo valore deve essere una lunghezza CSS valida'
+        css_line_height: 'Questo valore deve essere un\'altezza di riga CSS valida'
+        css_min_height: 'Questo valore deve essere un\'altezza minima CSS valida'
+        css_outline: 'Questo valore deve essere un contorno CSS valido'
+        css_padding: 'Questo valore deve essere un padding CSS valido'
+'This value should contain only latin letters.': 'Questo valore deve contenere solo lettere latine.'
+'This value should contain only latin letters and numbers.': 'Questo valore deve contenere solo lettere latine e numeri.'
+'This value should contain only latin letters, numbers and symbols "-" or "_".': 'Questo valore deve contenere solo lettere latine, numeri e simboli "-" o "_".'
+'This value should contain only latin letters, numbers and symbols "-':
+    '_~".': 'Questo valore deve contenere solo lettere latine, numeri e simboli "-._~".'
+'This value should not start or end with "/" and should contain only latin letters, numbers and symbols "-':
+    '_~/".': 'Questo valore non deve iniziare o terminare con "/" e deve contenere solo lettere latine, numeri e simboli "-._~/".'
+'This value should be decimal number.': 'Questo valore deve essere un numero decimale.'
+'This value should be integer number.': 'Questo valore deve essere un numero intero.'
+'{{ later }} date should follow after {{ earlier }}': 'la data successiva deve seguire quella precedente.'
+payplug:
+    constraints:
+        payment_rule:
+            euro_currency: 'Può essere selezionato solo l\'EURO (€) come valuta'
+'Related Items functionality is disabled.': 'La funzionalità articoli correlati è disabilitata.'
+'It is not possible to create relations from product to itself.': 'Non è possibile creare relazioni dal prodotto a se stesso.'
+'It is not possible to add more items, because of the limit of relations.': 'Non è possibile aggiungere più articoli, a causa del limite di relazioni.'
+'Role with this name already exists': 'Un ruolo con questo nome esiste già'
+'This value should contain only alphabetic symbols, underscore, hyphen and numbers.': 'Questo valore deve contenere solo simboli alfabetici, trattino basso, trattino e numeri.'
+'This date should be earlier than End date': 'Questa data deve essere precedente alla data di fine'
+'This value is not a valid captcha.': 'Questo valore non è un captcha valido.'
+'The captcha was not resolved on the right domain.': 'Il captcha non è stato risolto sul dominio corretto.'
+'This name is reserved to store values of serialized fields.': 'Questo nome è riservato per memorizzare i valori dei campi serializzati.'

@@ -1,0 +1,1093 @@
+oro:
+    workflow:
+        task_flow:
+            step:
+                open:
+                    label: Open
+                in_progress:
+                    label: 'In progress'
+                closed:
+                    label: Closed
+            transition:
+                start_progress:
+                    label: 'Start progress'
+                    warning_message: ''
+                stop_progress:
+                    label: 'Stop progress'
+                    warning_message: ''
+                close:
+                    label: Close
+                    warning_message: ''
+                reopen:
+                    label: Reopen
+                    warning_message: ''
+            label: 'Task Flow'
+        b2b_rfq_backoffice_default:
+            label: 'RFQ Management Flow'
+            step:
+                open:
+                    label: Open
+                processed:
+                    label: Processed
+                more_info_requested:
+                    label: 'More Information Requested'
+                declined:
+                    label: Declined
+                cancelled:
+                    label: Cancelled
+                deleted:
+                    label: Deleted
+            attribute:
+                notes:
+                    label: Notes
+                internal_status_before_deletion:
+                    label: 'Internal Status Before Deletion'
+            transition:
+                __start__:
+                    label: Open
+                    warning_message: ''
+                process_transition:
+                    label: 'Mark as Processed'
+                    warning_message: ''
+                request_more_information_transition:
+                    label: 'Request More Information'
+                    warning_message: ''
+                    attribute:
+                        notes:
+                            label: Notes
+                decline_transition:
+                    label: Decline
+                    warning_message: ''
+                delete_transition:
+                    label: Delete
+                    warning_message: ''
+                cancel_transition:
+                    label: Cancel
+                    warning_message: ''
+                info_provided_transition:
+                    label: 'Info Provided'
+                    warning_message: ''
+                reprocess_transition:
+                    label: Reprocess
+                    warning_message: ''
+                undelete_to_cancelled_transition:
+                    label: Undelete
+                    warning_message: ''
+                undelete_to_open_transition:
+                    label: Undelete
+                    warning_message: ''
+                undelete_to_more_information_requested_transition:
+                    label: Undelete
+                    warning_message: ''
+        b2b_rfq_frontoffice_default:
+            label: 'RFQ Submission Flow'
+            step:
+                submitted:
+                    label: Submitted
+                requires_attention:
+                    label: 'Requires Attention'
+                cancelled:
+                    label: Cancelled
+            attribute:
+                notes:
+                    label: Notes
+            transition:
+                __start__:
+                    label: Submit
+                    warning_message: ''
+                more_information_requested_transition:
+                    label: 'Request More Information'
+                    warning_message: ''
+                provide_more_information_transition:
+                    label: 'Provide More Information'
+                    warning_message: ''
+                    attribute:
+                        notes:
+                            label: Notes
+                cancel_transition:
+                    label: Cancel
+                    warning_message: ''
+                decline_transition:
+                    label: Decline
+                    warning_message: ''
+                resubmit_transition:
+                    label: Resubmit
+                    warning_message: ''
+                reopen_transition:
+                    label: Reopen
+                    warning_message: ''
+        b2b_flow_lead:
+            step:
+                new:
+                    label: New
+                qualified:
+                    label: Qualified
+                cancelled:
+                    label: Cancelled
+            attribute:
+                opportunity_name:
+                    label: 'Opportunity name'
+                account:
+                    label: Account
+                customer_association:
+                    label: Account
+                b2bcustomer:
+                    label: 'Business customer'
+                company_name:
+                    label: 'Company name'
+                notes:
+                    label: 'Additional comments'
+            transition:
+                qualify:
+                    label: Qualify
+                    warning_message: ''
+                    attribute:
+                        company_name:
+                            label: 'Company name'
+                        opportunity_name:
+                            label: 'Opportunity name'
+                        customer_association:
+                            label: Account
+                        notes:
+                            label: 'Additional comments'
+                cancel:
+                    label: Disqualify
+                    warning_message: ''
+                reactivate:
+                    label: Reactivate
+                    warning_message: ''
+            label: 'Unqualified Sales Lead'
+        opportunity_flow:
+            step:
+                open:
+                    label: Open
+                won:
+                    label: Won
+                lost:
+                    label: Lost
+            attribute:
+                close_reason_name:
+                    label: 'Close reason'
+                close_date:
+                    label: 'Expected close date'
+                status:
+                    label: Status
+                budget_amount:
+                    label: 'Budget Amount'
+                close_revenue:
+                    label: 'Close Revenue'
+                close_reason:
+                    label: ''
+                contact:
+                    label: ''
+                customer_need:
+                    label: ''
+                notes:
+                    label: ''
+                opportunity_name:
+                    label: ''
+                probability:
+                    label: Probability
+                proposed_solution:
+                    label: ''
+            transition:
+                __start__:
+                    label: 'Start Opportunity Management Flow'
+                    warning_message: ''
+                    attribute:
+                        probability:
+                            label: Probability
+                        status:
+                            label: Status
+                develop:
+                    label: Develop
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Budget Amount'
+                        close_date:
+                            label: 'Expected close date'
+                        contact:
+                            label: Contact
+                        customer_need:
+                            label: 'Customer need'
+                        probability:
+                            label: Probability
+                        proposed_solution:
+                            label: 'Proposed solution'
+                        status:
+                            label: Status
+                close_won:
+                    label: 'Close as Won'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Expected close date'
+                        close_revenue:
+                            label: 'Close Revenue'
+                close_lost:
+                    label: 'Close as Lost'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Expected close date'
+                        close_reason_name:
+                            label: 'Close reason'
+                reopen:
+                    label: Reopen
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Budget Amount'
+                        close_date:
+                            label: 'Expected close date'
+                        contact:
+                            label: Contact
+                        customer_need:
+                            label: 'Customer need'
+                        notes:
+                            label: 'Additional comments'
+                        probability:
+                            label: Probability
+                        proposed_solution:
+                            label: 'Proposed solution'
+                        status:
+                            label: Status
+            label: 'Opportunity Management Flow'
+        orocrm_contact_us_contact_request:
+            label: 'Contact Request'
+            step:
+                open:
+                    label: Open
+                resolved:
+                    label: Resolved
+                converted_to_opportunity:
+                    label: 'Converted to Opportunity'
+                converted_to_lead:
+                    label: 'Converted to Lead'
+            attribute:
+                opportunity_name:
+                    label: 'Opportunity name'
+                opportunity_owner:
+                    label: Owner
+                opportunity_budget:
+                    label: 'Budget amount'
+                lead_owner:
+                    label: Owner
+                lead_name:
+                    label: 'Lead name'
+                lead_first_name:
+                    label: 'First name'
+                lead_last_name:
+                    label: 'Last name'
+                lead_phone:
+                    label: 'Phone number'
+                lead_email:
+                    label: Email
+                lead_phone_entity:
+                    label: 'Lead Phone'
+                feedback:
+                    label: Feedback
+                account:
+                    label: Account
+                contact:
+                    label: Contact
+                customer_association:
+                    label: Account
+            transition:
+                convert_to_opportunity:
+                    label: 'Convert to Opportunity'
+                    warning_message: ''
+                    attribute:
+                        contact:
+                            label: Contact
+                        feedback:
+                            label: Feedback
+                        opportunity_budget:
+                            label: 'Budget amount'
+                        opportunity_name:
+                            label: 'Opportunity name'
+                        opportunity_owner:
+                            label: Owner
+                convert_to_lead:
+                    label: 'Convert to Lead'
+                    warning_message: ''
+                    attribute:
+                        contact:
+                            label: Contact
+                        feedback:
+                            label: Feedback
+                        lead_email:
+                            label: Email
+                        lead_first_name:
+                            label: 'First name'
+                        lead_last_name:
+                            label: 'Last name'
+                        lead_name:
+                            label: 'Lead name'
+                        lead_owner:
+                            label: Owner
+                        lead_phone:
+                            label: 'Phone number'
+                resolve:
+                    label: Resolve
+                    warning_message: ''
+                    attribute:
+                        feedback:
+                            label: Feedback
+        order_processing_flow:
+            label: 'Order Processing'
+            step:
+                new:
+                    label: New
+                confirmed:
+                    label: Confirmed
+                processing:
+                    label: Processing
+                completed:
+                    label: Completed
+                declined:
+                    label: Declined
+            transition:
+                __start__:
+                    label: 'Start Order Processing'
+                    warning_message: ''
+                confirm:
+                    label: Confirm
+                    warning_message: ''
+                process:
+                    label: Process
+                    warning_message: ''
+                mark_as_shipped:
+                    label: 'Mark As Shipped'
+                    warning_message: ''
+                complete:
+                    label: Complete
+                    warning_message: ''
+                decline:
+                    label: Decline
+                    warning_message: ''
+        checkout:
+            captcha:
+                warning:
+                    message: 'Please complete the CAPTCHA challenge to confirm that you are not a robot. This simple step helps ensure an enjoyable browsing experience for genuine users.'
+                recaptcha:
+                    warning:
+                        message: 'We are performing a quick check to confirm that you are not a robot. Thank you for your patience.'
+                verification_dialog:
+                    title: 'Additional Verification'
+            state_token:
+                attribute_label: 'Token to track checkout state'
+                form_label: ''
+        b2b_flow_checkout:
+            label: Checkout
+            step:
+                customer_consents:
+                    label: Agreements
+                enter_billing_address:
+                    label: 'Billing Information'
+                enter_shipping_address:
+                    label: 'Shipping Information'
+                enter_shipping_method:
+                    label: 'Shipping Method'
+                enter_payment:
+                    label: Payment
+                order_review:
+                    label: 'Order Review'
+                order_created:
+                    label: 'Order Created'
+                enter_credentials_step:
+                    label: 'Enter Credentials'
+            attribute:
+                additional_data:
+                    label: 'Additional Data'
+                billing_address_has_shipping:
+                    label: 'If billing address also shipping'
+                allow_manual_source_remove:
+                    label: 'Allow manual source entity removal'
+                disallow_billing_address_edit:
+                    label: 'Disallow billing address edit'
+                disallow_shipping_address_edit:
+                    label: 'Disallow shipping address edit'
+                disallow_shipping_method_edit:
+                    label: 'Disallow shipping method edit'
+                remove_source:
+                    label: 'Remove Source Entity'
+                clear_source:
+                    label: 'Clear Source Entity'
+                auto_remove_source:
+                    label: 'Always remove source entity automatically'
+                source_remove_label:
+                    label: 'Label for remove source'
+                edit_order_link:
+                    label: 'Edit Order Link'
+                user_input:
+                    label: 'User Input'
+                payment_in_progress:
+                    label: 'Flag indicates that payment is in progress'
+                payment_validate:
+                    label: 'Payment validation required'
+                payment_save_for_later:
+                    label: 'Save payment data for later use'
+                order:
+                    label: 'Instance of Order entity'
+                save_billing_address:
+                    label: 'Save Billing Address'
+                save_shipping_address:
+                    label: 'Save Shipping Address'
+                ship_to_billing_address:
+                    label: 'Ship to this address'
+                po_number:
+                    label: 'PO Number'
+                ship_until:
+                    label: 'Do Not Ship Later Than'
+                customer_notes:
+                    label: 'Customer Notes'
+                payment_method:
+                    label: 'Payment Method'
+                shipping_method:
+                    label: 'Shipping method'
+                shipping_method_type:
+                    label: 'Shipping method type'
+                billing_address:
+                    label: 'Billing address'
+                shipping_address:
+                    label: 'Shipping address'
+                visitor:
+                    label: Visitor
+                email:
+                    label: Email
+                late_registration:
+                    label: 'Late Registration Enabled'
+                customer_consents:
+                    label: 'Customer consents'
+                consents_available:
+                    label: 'Is consents available'
+                line_items_shipping_methods:
+                    label: 'Line items shipping methods'
+                line_item_groups_shipping_methods:
+                    label: 'Line item groups shipping methods'
+                grouped_line_items:
+                    label: 'Grouped line items'
+                shipping_data_ready:
+                    label: 'Shipping data is ready'
+                captcha:
+                    label: CAPTCHA
+            transition:
+                __start__:
+                    label: 'Start Checkout (System)'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote:
+                    label: 'Start Checkout From Quote'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote_as_guest:
+                    label: 'Start Checkout From Quote As Guest'
+                    button_label: Checkout
+                    button_title: ''
+                    warning_message: ''
+                start_from_shoppinglist:
+                    label: 'Start Checkout From Shopping List'
+                    button_label: Checkout
+                    button_title: ''
+                    warning_message: ''
+                start_from_quickorderform:
+                    label: 'Start Checkout From Quick Order Form'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                continue_to_billing_address_as_guest:
+                    label: Continue
+                continue_to_billing_address:
+                    label: Continue
+                    customerConsents:
+                        label: 'Customer consents'
+                continue_to_shipping_address:
+                    label: Continue
+                    warning_message: ''
+                    attribute:
+                        save_billing_address:
+                            label: 'Save address'
+                        ship_to_billing_address:
+                            label: 'Ship to this address'
+                        billing_address:
+                            label: 'Billing address'
+                continue_checkout_as_guest:
+                    label: Continue
+                continue_to_shipping_method:
+                    label: Continue
+                    warning_message: ''
+                    attribute:
+                        save_shipping_address:
+                            label: 'Save address'
+                        ship_to_billing_address:
+                            label: 'Use billing address'
+                        shipping_address:
+                            label: 'Shipping address'
+                continue_to_payment:
+                    label: Continue
+                    warning_message: ''
+                    attribute:
+                        shipping_method:
+                            label: ''
+                        shipping_method_type:
+                            label: ''
+                continue_to_order_review:
+                    label: Continue
+                    warning_message: ''
+                    attribute:
+                        payment_method:
+                            label: ''
+                        payment_save_for_later:
+                            label: ''
+                        payment_validate:
+                            label: ''
+                        additional_data:
+                            label: ''
+                back_to_enter_credentials:
+                    label: 'Back to Enter Credentials'
+                    warning_message: ''
+                back_to_customer_consents:
+                    label: 'Edit Agreements'
+                    warning_message: ''
+                back_to_billing_address:
+                    label: 'Edit Billing Information'
+                    warning_message: ''
+                back_to_shipping_address:
+                    label: 'Edit Shipping Information'
+                    warning_message: ''
+                back_to_shipping_address_on_fail_address:
+                    label: 'Edit Shipping Information'
+                    warning_message: ''
+                back_to_shipping_method:
+                    label: 'Edit Shipping Method'
+                    warning_message: ''
+                back_to_payment:
+                    label: 'Edit Payment'
+                    warning_message: ''
+                verify_customer_consents:
+                    label: 'Verify Customer Consents'
+                    warning_message: ''
+                verify_payment:
+                    label: 'Verify Payment'
+                    warning_message: ''
+                place_order:
+                    label: 'Submit Order'
+                    warning_message: ''
+                    attribute:
+                        remove_source:
+                            label: 'Remove Source Entity'
+                        po_number:
+                            label: 'PO Number'
+                        ship_until:
+                            label: 'Do Not Ship Later Than'
+                        customer_notes:
+                            label: 'Customer Notes'
+                finish_checkout:
+                    label: 'Finish checkout'
+                    warning_message: ''
+                payment_error:
+                    label: 'Payment error'
+                    warning_message: ''
+                paid_partially:
+                    label: 'Paid partially'
+        b2b_flow_checkout_single_page:
+            label: 'Single Page Checkout'
+            step:
+                checkout:
+                    label: Checkout
+                order_created:
+                    label: 'Order Created'
+            attribute:
+                billing_address:
+                    label: 'Billing address'
+                save_billing_address:
+                    label: 'Save Billing Address'
+                ship_to_billing_address:
+                    label: 'Use billing address'
+                shipping_address:
+                    label: 'Shipping address'
+                save_shipping_address:
+                    label: 'Save Shipping Address'
+                shipping_method:
+                    label: 'Shipping method'
+                shipping_method_type:
+                    label: 'Shipping method type'
+                billing_address_has_shipping:
+                    label: 'If billing address also shipping'
+                payment_method:
+                    label: 'Payment Method'
+                payment_validate:
+                    label: 'Payment validation required'
+                additional_data:
+                    label: 'Additional Data'
+                po_number:
+                    label: 'PO Number'
+                ship_until:
+                    label: 'Do Not Ship Later Than'
+                customer_notes:
+                    label: 'Customer Notes'
+                allow_manual_source_remove:
+                    label: 'Allow manual source entity removal'
+                disallow_billing_address_edit:
+                    label: 'Disallow billing address edit'
+                disallow_shipping_address_edit:
+                    label: 'Disallow shipping address edit'
+                disallow_shipping_method_edit:
+                    label: 'Disallow shipping method edit'
+                remove_source:
+                    label: 'Remove Source Entity'
+                clear_source:
+                    label: 'Clear Source Entity'
+                auto_remove_source:
+                    label: 'Always remove source entity automatically'
+                source_remove_label:
+                    label: 'Label for remove source'
+                edit_order_link:
+                    label: 'Edit Order Link'
+                payment_in_progress:
+                    label: 'Flag indicates that payment is in progress'
+                payment_save_for_later:
+                    label: 'Save payment data for later use'
+                save_state_url:
+                    label: 'Save state url'
+                order:
+                    label: 'Instance of Order entity'
+                visitor:
+                    label: Visitor
+                email:
+                    label: Email
+                late_registration:
+                    label: 'Late Registration Enabled'
+                customer_consents:
+                    label: 'Customer consents'
+                consents_available:
+                    label: 'Is consents available'
+                shipping_data_ready:
+                    label: 'Shipping data is ready'
+                captcha:
+                    label: CAPTCHA
+                state_token:
+                    label: 'Token to track checkout state'
+                internal_state_token:
+                    label: 'Internal checkout state token'
+            transition:
+                __start__:
+                    label: 'Start Checkout (System)'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote:
+                    label: 'Start Checkout From Quote'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote_as_guest:
+                    label: 'Start Checkout From Quote As Guest'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                start_from_shoppinglist:
+                    label: 'Start Checkout From Shopping List'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quickorderform:
+                    label: 'Start Checkout From Quick Order Form'
+                    button_label: 'Create Order'
+                    button_title: ''
+                    warning_message: ''
+                save_state:
+                    label: 'Save State'
+                    button_label: ''
+                    button_title: ''
+                    warning_message: ''
+                create_order:
+                    label: 'Submit Order'
+                    button_label: ''
+                    button_title: ''
+                    warning_message: ''
+                purchase:
+                    label: Purchase
+                    button_label: ''
+                    button_title: ''
+                    warning_message: ''
+                finish_checkout:
+                    label: 'Finish checkout'
+                    warning_message: ''
+                payment_error:
+                    label: 'Payment error'
+                    warning_message: ''
+                paid_partially:
+                    label: 'Paid partially'
+        b2b_quote_backoffice_default:
+            label: 'Quote Management Flow'
+            step:
+                draft:
+                    label: Draft
+                sent_to_customer:
+                    label: 'Sent to Customer'
+                closed:
+                    label: Closed
+                deleted:
+                    label: Deleted
+            attribute:
+                copy_notes:
+                    label: 'Copy All Notes'
+                expire_quote:
+                    label: 'Expire Existing Quote'
+                    'no':
+                        label: 'Do Not Expire'
+                    'yes':
+                        label: Immediately
+                    after_accept:
+                        label: 'Upon Acceptance'
+                original_quote:
+                    label: 'Original Quote'
+                email:
+                    label: Email
+                append_signature:
+                    label: 'Append Email Signature'
+                has_empty_price:
+                    label: 'Has empty price'
+            transition:
+                edit_transition:
+                    label: Edit
+                    warning_message: ''
+                clone_transition:
+                    label: Clone
+                    warning_message: ''
+                delete_transition:
+                    label: Delete
+                    warning_message: ''
+                undelete_transition:
+                    label: Undelete
+                    warning_message: ''
+                send_to_customer_transition:
+                    label: 'Send to Customer'
+                    warning_message: ''
+                    attribute:
+                        email:
+                            label: Email
+                cancel_transition:
+                    label: Cancel
+                    warning_message: ''
+                expire_transition:
+                    label: Expire
+                    warning_message: ''
+                auto_expire_transition:
+                    label: 'Auto Expire'
+                    warning_message: ''
+                create_new_quote_transition:
+                    label: 'Create new Quote'
+                    warning_message: ''
+                    attribute:
+                        copy_notes:
+                            label: 'Copy All Notes'
+                        expire_quote:
+                            label: 'Expire Existing Quote'
+                accept_transition:
+                    label: Accept
+                    warning_message: ''
+                decline_transition:
+                    label: Decline
+                    warning_message: ''
+                decline_by_customer_transition:
+                    label: 'Declined by Customer'
+                    warning_message: ''
+                reopen_transition:
+                    label: Reopen
+                    warning_message: ''
+                verify_transition:
+                    label: Edit
+        b2b_quote_backoffice_approvals:
+            label: 'Backoffice Quote Flow with Approvals'
+            step:
+                draft:
+                    label: Draft
+                submitted_for_review:
+                    label: 'Submitted for Review'
+                under_review:
+                    label: 'Under Review'
+                approved:
+                    label: Approved
+                not_approved:
+                    label: 'Not Approved'
+                sent_to_customer:
+                    label: 'Sent to Customer'
+                closed:
+                    label: Closed
+                deleted:
+                    label: Deleted
+            attribute:
+                copy_notes:
+                    label: 'Copy All Notes'
+                expire_quote:
+                    label: 'Expire Existing Quote'
+                    'no':
+                        label: 'Do Not Expire'
+                    'yes':
+                        label: Immediately
+                    after_accept:
+                        label: 'Upon Acceptance'
+                original_quote:
+                    label: 'Original Quote'
+                email:
+                    label: Email
+                append_signature:
+                    label: 'Append Email Signature'
+                comment:
+                    label: Comment
+                approved:
+                    label: Approved
+                has_empty_price:
+                    label: 'Has empty price'
+            transition:
+                __start__:
+                    label: Start
+                    warning_message: ''
+                edit_transition:
+                    label: Edit
+                    warning_message: ''
+                clone_transition:
+                    label: Clone
+                    warning_message: ''
+                delete_transition:
+                    label: Delete
+                    warning_message: ''
+                undelete_transition:
+                    label: Undelete
+                    warning_message: ''
+                submit_for_review_transition:
+                    label: 'Submit for Review'
+                    warning_message: ''
+                review_transition:
+                    label: Review
+                    warning_message: ''
+                return_transition:
+                    label: Return
+                    warning_message: ''
+                decline_by_reviewer_transition:
+                    label: Decline
+                    warning_message: ''
+                approve_and_send_to_customer_transition:
+                    label: 'Approve and Send to Customer'
+                    warning_message: ''
+                approve_transition:
+                    label: Approve
+                    warning_message: ''
+                decline_transition:
+                    label: Decline
+                    warning_message: ''
+                decline_by_customer_transition:
+                    label: 'Declined by Customer'
+                    warning_message: ''
+                reopen_transition:
+                    label: Reopen
+                    warning_message: ''
+                send_to_customer_transition:
+                    label: 'Send to Customer'
+                    warning_message: ''
+                    attribute:
+                        email:
+                            label: Email
+                cancel_transition:
+                    label: Cancel
+                    warning_message: ''
+                accept_transition:
+                    label: Accept
+                    warning_message: ''
+                expire_transition:
+                    label: Expire
+                    warning_message: ''
+                auto_expire_transition:
+                    label: 'Auto Expire'
+                    warning_message: ''
+                create_new_quote_transition:
+                    label: 'Create new Quote'
+                    warning_message: ''
+                    attribute:
+                        copy_notes:
+                            label: 'Copy All Notes'
+                        expire_quote:
+                            label: 'Expire Existing Quote'
+                verify_transition:
+                    label: Edit
+            variable:
+                price_override_triggers_approval:
+                    label: 'Price override requires approval'
+                    tooltip: 'If a Quote price has been changed this flag will trigger review approval requirement for the Quote.'
+        quote_flow:
+            label: 'Quote flow'
+            step:
+                open:
+                    label: Open
+                quote_created:
+                    label: 'Quote created'
+            attribute:
+                status:
+                    label: Status
+                quote:
+                    label: Quote
+                customer:
+                    label: Customer
+            transition:
+                quote_send:
+                    label: 'To Quote Sent Step'
+                    warning_message: ''
+                quote_create:
+                    label: 'Create Quote'
+                    warning_message: ''
+                quote_add:
+                    label: 'Create Quote'
+                    warning_message: ''
+        commerce_opportunity_flow:
+            label: 'OroCommerce Opportunity Flow'
+            step:
+                'step:starting_point':
+                    label: 'Start Opportunity Management Flow'
+                open:
+                    label: Open
+                quote_created:
+                    label: 'Quote created'
+                won:
+                    label: Won
+                lost:
+                    label: Lost
+            attribute:
+                opportunity_name:
+                    label: 'Opportunity name'
+                notes:
+                    label: Notes
+                contact:
+                    label: Contact
+                probability:
+                    label: Probability
+                budget_amount:
+                    label: 'Budget Amount'
+                customer_need:
+                    label: Customer
+                proposed_solution:
+                    label: 'Proposed Solution'
+                close_reason_name:
+                    label: 'Close reason name'
+                close_reason:
+                    label: 'Close Reason'
+                close_revenue:
+                    label: 'Close revenue'
+                close_date:
+                    label: 'Close Date'
+                status:
+                    label: Status
+                quote:
+                    label: Quote
+                customer:
+                    label: Customer
+            transition:
+                __start__:
+                    label: 'Start Opportunity Management Flow'
+                    warning_message: ''
+                    attribute:
+                        probability:
+                            label: Probability
+                        status:
+                            label: Status
+                develop:
+                    label: Develop
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Budget Amount'
+                        close_date:
+                            label: 'Close Date'
+                        contact:
+                            label: Contact
+                        customer_need:
+                            label: Customer
+                        probability:
+                            label: Probability
+                        proposed_solution:
+                            label: 'Proposed Solution'
+                        status:
+                            label: Status
+                close_won:
+                    label: 'Close as won'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Close Date'
+                        close_revenue:
+                            label: 'Close revenue'
+                close_lost:
+                    label: 'Close as lost'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Close Date'
+                        close_reason_name:
+                            label: 'Close reason name'
+                reopen:
+                    label: Reopen
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Budget Amount'
+                        close_date:
+                            label: 'Close Date'
+                        contact:
+                            label: Contact
+                        customer_need:
+                            label: Customer
+                        notes:
+                            label: Notes
+                        probability:
+                            label: Probability
+                        proposed_solution:
+                            label: 'Proposed Solution'
+                        status:
+                            label: Status
+                quote_create:
+                    label: 'Create quote'
+                    warning_message: ''
+                quote_develop:
+                    label: Develop
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Budget Amount'
+                        close_date:
+                            label: 'Close Date'
+                        contact:
+                            label: Contact
+                        customer_need:
+                            label: Customer
+                        probability:
+                            label: Probability
+                        proposed_solution:
+                            label: 'Proposed Solution'
+                        status:
+                            label: Status
+        conversation_flow:
+            step:
+                active:
+                    label: Active
+                closed:
+                    label: Closed
+            transition:
+                activate:
+                    label: Activate
+                close:
+                    label: Close
+                reopen:
+                    label: Reopen
+            label: 'Conversation Flow'
+'Billing Information': 'Billing Information'
+Payment: Payment
+'Shipping Information': 'Shipping Information'
+'Shipping Method': 'Shipping Method'
+'Order Review': 'Order Review'
+'Alternative Checkout': 'Alternative Checkout'
+Checkout: Checkout

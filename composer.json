@@ -1,0 +1,38 @@
+{
+    "name": "algoritma/oro-dictionary-bundle",
+    "description": "Dictionary Bundle for OroCommerce",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Algoritma srl",
+            "email": "commerciale@algoritma.it",
+            "homepage": "https://www.algoritma.it"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "oro/platform": "6.1.*"
+    },
+    "repositories": {
+        "composer": {
+            "type": "composer",
+            "url": "https://packagist.orocrm.com"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Algoritma\\Bundle\\AlgoritmaDictionaryBundle\\": ""
+        }
+    },
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.1-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    }
+}

@@ -1,0 +1,1093 @@
+oro:
+    workflow:
+        task_flow:
+            step:
+                open:
+                    label: Aperto
+                in_progress:
+                    label: 'In corso'
+                closed:
+                    label: Chiuso
+            transition:
+                start_progress:
+                    label: 'Avvia progresso'
+                    warning_message: ''
+                stop_progress:
+                    label: 'Ferma progresso'
+                    warning_message: ''
+                close:
+                    label: Chiudi
+                    warning_message: ''
+                reopen:
+                    label: Riapri
+                    warning_message: ''
+            label: 'Flusso Attività'
+        b2b_rfq_backoffice_default:
+            label: 'Flusso Gestione RDO'
+            step:
+                open:
+                    label: Aperto
+                processed:
+                    label: Elaborato
+                more_info_requested:
+                    label: 'Richieste Maggiori Informazioni'
+                declined:
+                    label: Rifiutato
+                cancelled:
+                    label: Annullato
+                deleted:
+                    label: Eliminato
+            attribute:
+                notes:
+                    label: Note
+                internal_status_before_deletion:
+                    label: 'Stato Interno Prima dell''Eliminazione'
+            transition:
+                __start__:
+                    label: Apri
+                    warning_message: ''
+                process_transition:
+                    label: 'Segna come Elaborato'
+                    warning_message: ''
+                request_more_information_transition:
+                    label: 'Richiedi Maggiori Informazioni'
+                    warning_message: ''
+                    attribute:
+                        notes:
+                            label: Note
+                decline_transition:
+                    label: Rifiuta
+                    warning_message: ''
+                delete_transition:
+                    label: Elimina
+                    warning_message: ''
+                cancel_transition:
+                    label: Annulla
+                    warning_message: ''
+                info_provided_transition:
+                    label: 'Informazioni Fornite'
+                    warning_message: ''
+                reprocess_transition:
+                    label: Rielabora
+                    warning_message: ''
+                undelete_to_cancelled_transition:
+                    label: Ripristina
+                    warning_message: ''
+                undelete_to_open_transition:
+                    label: Ripristina
+                    warning_message: ''
+                undelete_to_more_information_requested_transition:
+                    label: Ripristina
+                    warning_message: ''
+        b2b_rfq_frontoffice_default:
+            label: 'Flusso Invio RDO'
+            step:
+                submitted:
+                    label: Inviato
+                requires_attention:
+                    label: 'Richiede Attenzione'
+                cancelled:
+                    label: Annullato
+            attribute:
+                notes:
+                    label: Note
+            transition:
+                __start__:
+                    label: Invia
+                    warning_message: ''
+                more_information_requested_transition:
+                    label: 'Richiedi Maggiori Informazioni'
+                    warning_message: ''
+                provide_more_information_transition:
+                    label: 'Fornisci Maggiori Informazioni'
+                    warning_message: ''
+                    attribute:
+                        notes:
+                            label: Note
+                cancel_transition:
+                    label: Annulla
+                    warning_message: ''
+                decline_transition:
+                    label: Rifiuta
+                    warning_message: ''
+                resubmit_transition:
+                    label: Reinvia
+                    warning_message: ''
+                reopen_transition:
+                    label: Riapri
+                    warning_message: ''
+        b2b_flow_lead:
+            step:
+                new:
+                    label: Nuovo
+                qualified:
+                    label: Qualificato
+                cancelled:
+                    label: Annullato
+            attribute:
+                opportunity_name:
+                    label: 'Nome opportunità'
+                account:
+                    label: Azienda
+                customer_association:
+                    label: Azienda
+                b2bcustomer:
+                    label: 'Cliente business'
+                company_name:
+                    label: 'Nome azienda'
+                notes:
+                    label: 'Commenti aggiuntivi'
+            transition:
+                qualify:
+                    label: Qualifica
+                    warning_message: ''
+                    attribute:
+                        company_name:
+                            label: 'Nome azienda'
+                        opportunity_name:
+                            label: 'Nome opportunità'
+                        customer_association:
+                            label: Azienda
+                        notes:
+                            label: 'Commenti aggiuntivi'
+                cancel:
+                    label: Squalifica
+                    warning_message: ''
+                reactivate:
+                    label: Riattiva
+                    warning_message: ''
+            label: 'Lead Vendita Non Qualificato'
+        opportunity_flow:
+            step:
+                open:
+                    label: Aperto
+                won:
+                    label: Vinto
+                lost:
+                    label: Perso
+            attribute:
+                close_reason_name:
+                    label: 'Motivo chiusura'
+                close_date:
+                    label: 'Data chiusura prevista'
+                status:
+                    label: Stato
+                budget_amount:
+                    label: 'Importo Budget'
+                close_revenue:
+                    label: 'Ricavo Chiusura'
+                close_reason:
+                    label: ''
+                contact:
+                    label: ''
+                customer_need:
+                    label: ''
+                notes:
+                    label: ''
+                opportunity_name:
+                    label: ''
+                probability:
+                    label: Probabilità
+                proposed_solution:
+                    label: ''
+            transition:
+                __start__:
+                    label: 'Avvia Flusso Gestione Opportunità'
+                    warning_message: ''
+                    attribute:
+                        probability:
+                            label: Probabilità
+                        status:
+                            label: Stato
+                develop:
+                    label: Sviluppa
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Importo Budget'
+                        close_date:
+                            label: 'Data chiusura prevista'
+                        contact:
+                            label: Contatto
+                        customer_need:
+                            label: 'Esigenza cliente'
+                        probability:
+                            label: Probabilità
+                        proposed_solution:
+                            label: 'Soluzione proposta'
+                        status:
+                            label: Stato
+                close_won:
+                    label: 'Chiudi come Vinto'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Data chiusura prevista'
+                        close_revenue:
+                            label: 'Ricavo Chiusura'
+                close_lost:
+                    label: 'Chiudi come Perso'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Data chiusura prevista'
+                        close_reason_name:
+                            label: 'Motivo chiusura'
+                reopen:
+                    label: Riapri
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Importo Budget'
+                        close_date:
+                            label: 'Data chiusura prevista'
+                        contact:
+                            label: Contatto
+                        customer_need:
+                            label: 'Esigenza cliente'
+                        notes:
+                            label: 'Commenti aggiuntivi'
+                        probability:
+                            label: Probabilità
+                        proposed_solution:
+                            label: 'Soluzione proposta'
+                        status:
+                            label: Stato
+            label: 'Flusso Gestione Opportunità'
+        orocrm_contact_us_contact_request:
+            label: 'Richiesta Contatto'
+            step:
+                open:
+                    label: Aperto
+                resolved:
+                    label: Risolto
+                converted_to_opportunity:
+                    label: 'Convertito in Opportunità'
+                converted_to_lead:
+                    label: 'Convertito in Lead'
+            attribute:
+                opportunity_name:
+                    label: 'Nome opportunità'
+                opportunity_owner:
+                    label: Proprietario
+                opportunity_budget:
+                    label: 'Importo budget'
+                lead_owner:
+                    label: Proprietario
+                lead_name:
+                    label: 'Nome lead'
+                lead_first_name:
+                    label: 'Nome'
+                lead_last_name:
+                    label: 'Cognome'
+                lead_phone:
+                    label: 'Numero di telefono'
+                lead_email:
+                    label: Email
+                lead_phone_entity:
+                    label: 'Telefono Lead'
+                feedback:
+                    label: Feedback
+                account:
+                    label: Azienda
+                contact:
+                    label: Contatto
+                customer_association:
+                    label: Azienda
+            transition:
+                convert_to_opportunity:
+                    label: 'Converti in Opportunità'
+                    warning_message: ''
+                    attribute:
+                        contact:
+                            label: Contatto
+                        feedback:
+                            label: Feedback
+                        opportunity_budget:
+                            label: 'Importo budget'
+                        opportunity_name:
+                            label: 'Nome opportunità'
+                        opportunity_owner:
+                            label: Proprietario
+                convert_to_lead:
+                    label: 'Converti in Lead'
+                    warning_message: ''
+                    attribute:
+                        contact:
+                            label: Contatto
+                        feedback:
+                            label: Feedback
+                        lead_email:
+                            label: Email
+                        lead_first_name:
+                            label: 'Nome'
+                        lead_last_name:
+                            label: 'Cognome'
+                        lead_name:
+                            label: 'Nome lead'
+                        lead_owner:
+                            label: Proprietario
+                        lead_phone:
+                            label: 'Numero di telefono'
+                resolve:
+                    label: Risolvi
+                    warning_message: ''
+                    attribute:
+                        feedback:
+                            label: Feedback
+        order_processing_flow:
+            label: 'Elaborazione Ordine'
+            step:
+                new:
+                    label: Nuovo
+                confirmed:
+                    label: Confermato
+                processing:
+                    label: 'In Elaborazione'
+                completed:
+                    label: Completato
+                declined:
+                    label: Rifiutato
+            transition:
+                __start__:
+                    label: 'Avvia Elaborazione Ordine'
+                    warning_message: ''
+                confirm:
+                    label: Conferma
+                    warning_message: ''
+                process:
+                    label: Elabora
+                    warning_message: ''
+                mark_as_shipped:
+                    label: 'Segna come Spedito'
+                    warning_message: ''
+                complete:
+                    label: Completa
+                    warning_message: ''
+                decline:
+                    label: Rifiuta
+                    warning_message: ''
+        checkout:
+            captcha:
+                warning:
+                    message: 'Si prega di completare la sfida CAPTCHA per confermare che non sei un robot. Questo semplice passaggio aiuta a garantire un''esperienza di navigazione piacevole per gli utenti reali.'
+                recaptcha:
+                    warning:
+                        message: 'Stiamo eseguendo un rapido controllo per confermare che non sei un robot. Grazie per la pazienza.'
+                verification_dialog:
+                    title: 'Verifica Aggiuntiva'
+            state_token:
+                attribute_label: 'Token per tracciare lo stato del checkout'
+                form_label: ''
+        b2b_flow_checkout:
+            label: Checkout
+            step:
+                customer_consents:
+                    label: Consensi
+                enter_billing_address:
+                    label: 'Informazioni Fatturazione'
+                enter_shipping_address:
+                    label: 'Informazioni Spedizione'
+                enter_shipping_method:
+                    label: 'Metodo Spedizione'
+                enter_payment:
+                    label: Pagamento
+                order_review:
+                    label: 'Riepilogo Ordine'
+                order_created:
+                    label: 'Ordine Creato'
+                enter_credentials_step:
+                    label: 'Inserisci Credenziali'
+            attribute:
+                additional_data:
+                    label: 'Dati Aggiuntivi'
+                billing_address_has_shipping:
+                    label: 'Se l''indirizzo di fatturazione è anche di spedizione'
+                allow_manual_source_remove:
+                    label: 'Consenti rimozione manuale entità sorgente'
+                disallow_billing_address_edit:
+                    label: 'Non consentire modifica indirizzo fatturazione'
+                disallow_shipping_address_edit:
+                    label: 'Non consentire modifica indirizzo spedizione'
+                disallow_shipping_method_edit:
+                    label: 'Non consentire modifica metodo spedizione'
+                remove_source:
+                    label: 'Rimuovi Entità Sorgente'
+                clear_source:
+                    label: 'Cancella Entità Sorgente'
+                auto_remove_source:
+                    label: 'Rimuovi sempre automaticamente entità sorgente'
+                source_remove_label:
+                    label: 'Etichetta per rimuovere sorgente'
+                edit_order_link:
+                    label: 'Link Modifica Ordine'
+                user_input:
+                    label: 'Input Utente'
+                payment_in_progress:
+                    label: 'Flag indica che il pagamento è in corso'
+                payment_validate:
+                    label: 'Validazione pagamento richiesta'
+                payment_save_for_later:
+                    label: 'Salva dati pagamento per uso futuro'
+                order:
+                    label: 'Istanza entità Ordine'
+                save_billing_address:
+                    label: 'Salva Indirizzo Fatturazione'
+                save_shipping_address:
+                    label: 'Salva Indirizzo Spedizione'
+                ship_to_billing_address:
+                    label: 'Spedisci a questo indirizzo'
+                po_number:
+                    label: 'Numero OA'
+                ship_until:
+                    label: 'Non Spedire Oltre Il'
+                customer_notes:
+                    label: 'Note Cliente'
+                payment_method:
+                    label: 'Metodo Pagamento'
+                shipping_method:
+                    label: 'Metodo spedizione'
+                shipping_method_type:
+                    label: 'Tipo metodo spedizione'
+                billing_address:
+                    label: 'Indirizzo fatturazione'
+                shipping_address:
+                    label: 'Indirizzo spedizione'
+                visitor:
+                    label: Visitatore
+                email:
+                    label: Email
+                late_registration:
+                    label: 'Registrazione Tardiva Abilitata'
+                customer_consents:
+                    label: 'Consensi cliente'
+                consents_available:
+                    label: 'I consensi sono disponibili'
+                line_items_shipping_methods:
+                    label: 'Metodi spedizione righe articoli'
+                line_item_groups_shipping_methods:
+                    label: 'Metodi spedizione gruppi righe articoli'
+                grouped_line_items:
+                    label: 'Righe articoli raggruppate'
+                shipping_data_ready:
+                    label: 'I dati spedizione sono pronti'
+                captcha:
+                    label: CAPTCHA
+            transition:
+                __start__:
+                    label: 'Avvia Checkout (Sistema)'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote:
+                    label: 'Avvia Checkout da Preventivo'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote_as_guest:
+                    label: 'Avvia Checkout da Preventivo come Ospite'
+                    button_label: Checkout
+                    button_title: ''
+                    warning_message: ''
+                start_from_shoppinglist:
+                    label: 'Avvia Checkout da Lista Spesa'
+                    button_label: Checkout
+                    button_title: ''
+                    warning_message: ''
+                start_from_quickorderform:
+                    label: 'Avvia Checkout da Modulo Ordine Rapido'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                continue_to_billing_address_as_guest:
+                    label: Continua
+                continue_to_billing_address:
+                    label: Continua
+                    customerConsents:
+                        label: 'Consensi cliente'
+                continue_to_shipping_address:
+                    label: Continua
+                    warning_message: ''
+                    attribute:
+                        save_billing_address:
+                            label: 'Salva indirizzo'
+                        ship_to_billing_address:
+                            label: 'Spedisci a questo indirizzo'
+                        billing_address:
+                            label: 'Indirizzo fatturazione'
+                continue_checkout_as_guest:
+                    label: Continua
+                continue_to_shipping_method:
+                    label: Continua
+                    warning_message: ''
+                    attribute:
+                        save_shipping_address:
+                            label: 'Salva indirizzo'
+                        ship_to_billing_address:
+                            label: 'Usa indirizzo fatturazione'
+                        shipping_address:
+                            label: 'Indirizzo spedizione'
+                continue_to_payment:
+                    label: Continua
+                    warning_message: ''
+                    attribute:
+                        shipping_method:
+                            label: ''
+                        shipping_method_type:
+                            label: ''
+                continue_to_order_review:
+                    label: Continua
+                    warning_message: ''
+                    attribute:
+                        payment_method:
+                            label: ''
+                        payment_save_for_later:
+                            label: ''
+                        payment_validate:
+                            label: ''
+                        additional_data:
+                            label: ''
+                back_to_enter_credentials:
+                    label: 'Torna a Inserisci Credenziali'
+                    warning_message: ''
+                back_to_customer_consents:
+                    label: 'Modifica Consensi'
+                    warning_message: ''
+                back_to_billing_address:
+                    label: 'Modifica Informazioni Fatturazione'
+                    warning_message: ''
+                back_to_shipping_address:
+                    label: 'Modifica Informazioni Spedizione'
+                    warning_message: ''
+                back_to_shipping_address_on_fail_address:
+                    label: 'Modifica Informazioni Spedizione'
+                    warning_message: ''
+                back_to_shipping_method:
+                    label: 'Modifica Metodo Spedizione'
+                    warning_message: ''
+                back_to_payment:
+                    label: 'Modifica Pagamento'
+                    warning_message: ''
+                verify_customer_consents:
+                    label: 'Verifica Consensi Cliente'
+                    warning_message: ''
+                verify_payment:
+                    label: 'Verifica Pagamento'
+                    warning_message: ''
+                place_order:
+                    label: 'Invia Ordine'
+                    warning_message: ''
+                    attribute:
+                        remove_source:
+                            label: 'Rimuovi Entità Sorgente'
+                        po_number:
+                            label: 'Numero OA'
+                        ship_until:
+                            label: 'Non Spedire Oltre Il'
+                        customer_notes:
+                            label: 'Note Cliente'
+                finish_checkout:
+                    label: 'Completa checkout'
+                    warning_message: ''
+                payment_error:
+                    label: 'Errore pagamento'
+                    warning_message: ''
+                paid_partially:
+                    label: 'Pagato parzialmente'
+        b2b_flow_checkout_single_page:
+            label: 'Checkout Pagina Singola'
+            step:
+                checkout:
+                    label: Checkout
+                order_created:
+                    label: 'Ordine Creato'
+            attribute:
+                billing_address:
+                    label: 'Indirizzo fatturazione'
+                save_billing_address:
+                    label: 'Salva Indirizzo Fatturazione'
+                ship_to_billing_address:
+                    label: 'Usa indirizzo fatturazione'
+                shipping_address:
+                    label: 'Indirizzo spedizione'
+                save_shipping_address:
+                    label: 'Salva Indirizzo Spedizione'
+                shipping_method:
+                    label: 'Metodo spedizione'
+                shipping_method_type:
+                    label: 'Tipo metodo spedizione'
+                billing_address_has_shipping:
+                    label: 'Se l''indirizzo di fatturazione è anche di spedizione'
+                payment_method:
+                    label: 'Metodo Pagamento'
+                payment_validate:
+                    label: 'Validazione pagamento richiesta'
+                additional_data:
+                    label: 'Dati Aggiuntivi'
+                po_number:
+                    label: 'Numero OA'
+                ship_until:
+                    label: 'Non Spedire Oltre Il'
+                customer_notes:
+                    label: 'Note Cliente'
+                allow_manual_source_remove:
+                    label: 'Consenti rimozione manuale entità sorgente'
+                disallow_billing_address_edit:
+                    label: 'Non consentire modifica indirizzo fatturazione'
+                disallow_shipping_address_edit:
+                    label: 'Non consentire modifica indirizzo spedizione'
+                disallow_shipping_method_edit:
+                    label: 'Non consentire modifica metodo spedizione'
+                remove_source:
+                    label: 'Rimuovi Entità Sorgente'
+                clear_source:
+                    label: 'Cancella Entità Sorgente'
+                auto_remove_source:
+                    label: 'Rimuovi sempre automaticamente entità sorgente'
+                source_remove_label:
+                    label: 'Etichetta per rimuovere sorgente'
+                edit_order_link:
+                    label: 'Link Modifica Ordine'
+                payment_in_progress:
+                    label: 'Flag indica che il pagamento è in corso'
+                payment_save_for_later:
+                    label: 'Salva dati pagamento per uso futuro'
+                save_state_url:
+                    label: 'Salva url stato'
+                order:
+                    label: 'Istanza entità Ordine'
+                visitor:
+                    label: Visitatore
+                email:
+                    label: Email
+                late_registration:
+                    label: 'Registrazione Tardiva Abilitata'
+                customer_consents:
+                    label: 'Consensi cliente'
+                consents_available:
+                    label: 'I consensi sono disponibili'
+                shipping_data_ready:
+                    label: 'I dati spedizione sono pronti'
+                captcha:
+                    label: CAPTCHA
+                state_token:
+                    label: 'Token per tracciare lo stato del checkout'
+                internal_state_token:
+                    label: 'Token stato checkout interno'
+            transition:
+                __start__:
+                    label: 'Avvia Checkout (Sistema)'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote:
+                    label: 'Avvia Checkout da Preventivo'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quote_as_guest:
+                    label: 'Avvia Checkout da Preventivo come Ospite'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                start_from_shoppinglist:
+                    label: 'Avvia Checkout da Lista Spesa'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                start_from_quickorderform:
+                    label: 'Avvia Checkout da Modulo Ordine Rapido'
+                    button_label: 'Crea Ordine'
+                    button_title: ''
+                    warning_message: ''
+                save_state:
+                    label: 'Salva Stato'
+                    button_label: ''
+                    button_title: ''
+                    warning_message: ''
+                create_order:
+                    label: 'Invia Ordine'
+                    button_label: ''
+                    button_title: ''
+                    warning_message: ''
+                purchase:
+                    label: Acquista
+                    button_label: ''
+                    button_title: ''
+                    warning_message: ''
+                finish_checkout:
+                    label: 'Completa checkout'
+                    warning_message: ''
+                payment_error:
+                    label: 'Errore pagamento'
+                    warning_message: ''
+                paid_partially:
+                    label: 'Pagato parzialmente'
+        b2b_quote_backoffice_default:
+            label: 'Flusso Gestione Preventivo'
+            step:
+                draft:
+                    label: Bozza
+                sent_to_customer:
+                    label: 'Inviato al Cliente'
+                closed:
+                    label: Chiuso
+                deleted:
+                    label: Eliminato
+            attribute:
+                copy_notes:
+                    label: 'Copia Tutte le Note'
+                expire_quote:
+                    label: 'Fai Scadere Preventivo Esistente'
+                    'no':
+                        label: 'Non Far Scadere'
+                    'yes':
+                        label: Immediatamente
+                    after_accept:
+                        label: 'All''Accettazione'
+                original_quote:
+                    label: 'Preventivo Originale'
+                email:
+                    label: Email
+                append_signature:
+                    label: 'Aggiungi Firma Email'
+                has_empty_price:
+                    label: 'Ha prezzo vuoto'
+            transition:
+                edit_transition:
+                    label: Modifica
+                    warning_message: ''
+                clone_transition:
+                    label: Clona
+                    warning_message: ''
+                delete_transition:
+                    label: Elimina
+                    warning_message: ''
+                undelete_transition:
+                    label: Ripristina
+                    warning_message: ''
+                send_to_customer_transition:
+                    label: 'Invia al Cliente'
+                    warning_message: ''
+                    attribute:
+                        email:
+                            label: Email
+                cancel_transition:
+                    label: Annulla
+                    warning_message: ''
+                expire_transition:
+                    label: Fai Scadere
+                    warning_message: ''
+                auto_expire_transition:
+                    label: 'Fai Scadere Automaticamente'
+                    warning_message: ''
+                create_new_quote_transition:
+                    label: 'Crea nuovo Preventivo'
+                    warning_message: ''
+                    attribute:
+                        copy_notes:
+                            label: 'Copia Tutte le Note'
+                        expire_quote:
+                            label: 'Fai Scadere Preventivo Esistente'
+                accept_transition:
+                    label: Accetta
+                    warning_message: ''
+                decline_transition:
+                    label: Rifiuta
+                    warning_message: ''
+                decline_by_customer_transition:
+                    label: 'Rifiutato dal Cliente'
+                    warning_message: ''
+                reopen_transition:
+                    label: Riapri
+                    warning_message: ''
+                verify_transition:
+                    label: Modifica
+        b2b_quote_backoffice_approvals:
+            label: 'Flusso Preventivo Backoffice con Approvazioni'
+            step:
+                draft:
+                    label: Bozza
+                submitted_for_review:
+                    label: 'Inviato per Revisione'
+                under_review:
+                    label: 'In Revisione'
+                approved:
+                    label: Approvato
+                not_approved:
+                    label: 'Non Approvato'
+                sent_to_customer:
+                    label: 'Inviato al Cliente'
+                closed:
+                    label: Chiuso
+                deleted:
+                    label: Eliminato
+            attribute:
+                copy_notes:
+                    label: 'Copia Tutte le Note'
+                expire_quote:
+                    label: 'Fai Scadere Preventivo Esistente'
+                    'no':
+                        label: 'Non Far Scadere'
+                    'yes':
+                        label: Immediatamente
+                    after_accept:
+                        label: 'All''Accettazione'
+                original_quote:
+                    label: 'Preventivo Originale'
+                email:
+                    label: Email
+                append_signature:
+                    label: 'Aggiungi Firma Email'
+                comment:
+                    label: Commento
+                approved:
+                    label: Approvato
+                has_empty_price:
+                    label: 'Ha prezzo vuoto'
+            transition:
+                __start__:
+                    label: Avvia
+                    warning_message: ''
+                edit_transition:
+                    label: Modifica
+                    warning_message: ''
+                clone_transition:
+                    label: Clona
+                    warning_message: ''
+                delete_transition:
+                    label: Elimina
+                    warning_message: ''
+                undelete_transition:
+                    label: Ripristina
+                    warning_message: ''
+                submit_for_review_transition:
+                    label: 'Invia per Revisione'
+                    warning_message: ''
+                review_transition:
+                    label: Revisiona
+                    warning_message: ''
+                return_transition:
+                    label: Restituisci
+                    warning_message: ''
+                decline_by_reviewer_transition:
+                    label: Rifiuta
+                    warning_message: ''
+                approve_and_send_to_customer_transition:
+                    label: 'Approva e Invia al Cliente'
+                    warning_message: ''
+                approve_transition:
+                    label: Approva
+                    warning_message: ''
+                decline_transition:
+                    label: Rifiuta
+                    warning_message: ''
+                decline_by_customer_transition:
+                    label: 'Rifiutato dal Cliente'
+                    warning_message: ''
+                reopen_transition:
+                    label: Riapri
+                    warning_message: ''
+                send_to_customer_transition:
+                    label: 'Invia al Cliente'
+                    warning_message: ''
+                    attribute:
+                        email:
+                            label: Email
+                cancel_transition:
+                    label: Annulla
+                    warning_message: ''
+                accept_transition:
+                    label: Accetta
+                    warning_message: ''
+                expire_transition:
+                    label: Fai Scadere
+                    warning_message: ''
+                auto_expire_transition:
+                    label: 'Fai Scadere Automaticamente'
+                    warning_message: ''
+                create_new_quote_transition:
+                    label: 'Crea nuovo Preventivo'
+                    warning_message: ''
+                    attribute:
+                        copy_notes:
+                            label: 'Copia Tutte le Note'
+                        expire_quote:
+                            label: 'Fai Scadere Preventivo Esistente'
+                verify_transition:
+                    label: Modifica
+            variable:
+                price_override_triggers_approval:
+                    label: 'La modifica del prezzo richiede approvazione'
+                    tooltip: 'Se il prezzo di un Preventivo è stato modificato, questo flag attiverà il requisito di approvazione della revisione per il Preventivo.'
+        quote_flow:
+            label: 'Flusso preventivo'
+            step:
+                open:
+                    label: Aperto
+                quote_created:
+                    label: 'Preventivo creato'
+            attribute:
+                status:
+                    label: Stato
+                quote:
+                    label: Preventivo
+                customer:
+                    label: Cliente
+            transition:
+                quote_send:
+                    label: 'Al Passaggio Preventivo Inviato'
+                    warning_message: ''
+                quote_create:
+                    label: 'Crea Preventivo'
+                    warning_message: ''
+                quote_add:
+                    label: 'Crea Preventivo'
+                    warning_message: ''
+        commerce_opportunity_flow:
+            label: 'Flusso Opportunità OroCommerce'
+            step:
+                'step:starting_point':
+                    label: 'Avvia Flusso Gestione Opportunità'
+                open:
+                    label: Aperto
+                quote_created:
+                    label: 'Preventivo creato'
+                won:
+                    label: Vinto
+                lost:
+                    label: Perso
+            attribute:
+                opportunity_name:
+                    label: 'Nome opportunità'
+                notes:
+                    label: Note
+                contact:
+                    label: Contatto
+                probability:
+                    label: Probabilità
+                budget_amount:
+                    label: 'Importo Budget'
+                customer_need:
+                    label: Cliente
+                proposed_solution:
+                    label: 'Soluzione Proposta'
+                close_reason_name:
+                    label: 'Nome motivo chiusura'
+                close_reason:
+                    label: 'Motivo Chiusura'
+                close_revenue:
+                    label: 'Ricavo chiusura'
+                close_date:
+                    label: 'Data Chiusura'
+                status:
+                    label: Stato
+                quote:
+                    label: Preventivo
+                customer:
+                    label: Cliente
+            transition:
+                __start__:
+                    label: 'Avvia Flusso Gestione Opportunità'
+                    warning_message: ''
+                    attribute:
+                        probability:
+                            label: Probabilità
+                        status:
+                            label: Stato
+                develop:
+                    label: Sviluppa
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Importo Budget'
+                        close_date:
+                            label: 'Data Chiusura'
+                        contact:
+                            label: Contatto
+                        customer_need:
+                            label: Cliente
+                        probability:
+                            label: Probabilità
+                        proposed_solution:
+                            label: 'Soluzione Proposta'
+                        status:
+                            label: Stato
+                close_won:
+                    label: 'Chiudi come vinto'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Data Chiusura'
+                        close_revenue:
+                            label: 'Ricavo chiusura'
+                close_lost:
+                    label: 'Chiudi come perso'
+                    warning_message: ''
+                    attribute:
+                        close_date:
+                            label: 'Data Chiusura'
+                        close_reason_name:
+                            label: 'Nome motivo chiusura'
+                reopen:
+                    label: Riapri
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Importo Budget'
+                        close_date:
+                            label: 'Data Chiusura'
+                        contact:
+                            label: Contatto
+                        customer_need:
+                            label: Cliente
+                        notes:
+                            label: Note
+                        probability:
+                            label: Probabilità
+                        proposed_solution:
+                            label: 'Soluzione Proposta'
+                        status:
+                            label: Stato
+                quote_create:
+                    label: 'Crea preventivo'
+                    warning_message: ''
+                quote_develop:
+                    label: Sviluppa
+                    warning_message: ''
+                    attribute:
+                        budget_amount:
+                            label: 'Importo Budget'
+                        close_date:
+                            label: 'Data Chiusura'
+                        contact:
+                            label: Contatto
+                        customer_need:
+                            label: Cliente
+                        probability:
+                            label: Probabilità
+                        proposed_solution:
+                            label: 'Soluzione Proposta'
+                        status:
+                            label: Stato
+        conversation_flow:
+            step:
+                active:
+                    label: Attivo
+                closed:
+                    label: Chiuso
+            transition:
+                activate:
+                    label: Attiva
+                close:
+                    label: Chiudi
+                reopen:
+                    label: Riapri
+            label: 'Flusso Conversazione'
+'Billing Information': 'Informazioni Fatturazione'
+Payment: Pagamento
+'Shipping Information': 'Informazioni Spedizione'
+'Shipping Method': 'Metodo Spedizione'
+'Order Review': 'Riepilogo Ordine'
+'Alternative Checkout': 'Checkout Alternativo'
+Checkout: Checkout
