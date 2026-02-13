@@ -1,2 +1,4 @@
 /.castor.stub.php
 /.idea
+/vendor/
+/composer.lock
