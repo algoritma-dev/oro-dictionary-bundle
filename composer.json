@@ -13,12 +13,6 @@
     "require": {
         "oro/platform": "^4.2 || ^5.0 || ^5.1 || ^6.0 || ^6.1 || ^7.0"
     },
-    "repositories": {
-        "composer": {
-            "type": "composer",
-            "url": "https://packagist.orocrm.com"
-        }
-    },
     "autoload": {
         "psr-4": {
             "Algoritma\\Bundle\\DictionaryBundle\\": ""
