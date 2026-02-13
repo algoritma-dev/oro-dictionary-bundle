@@ -26,4 +26,4 @@ jobs:
         run: composer install --no-interaction --no-scripts --no-progress
 
       - name: Lint YAML translations
-        run: php bin/console lint:yaml src/Algoritma/Bundle/DictionaryBundle/Resources/translations
+        run: php vendor/bin/yaml-lint src/Algoritma/Bundle/DictionaryBundle/Resources/translations
