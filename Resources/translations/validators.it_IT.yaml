@@ -47,21 +47,21 @@
 'The file is too large.': 'Il file è troppo grande.'
 'The file could not be uploaded.': 'Il file non può essere caricato.'
 'This value should be a valid number.': 'Questo valore deve essere un numero valido.'
-'This file is not a valid image.': 'Questo file non è un\'immagine valida.'
+'This file is not a valid image.': 'Questo file non è un''immagine valida.'
 'This is not a valid IP address.': 'Questo valore non è un indirizzo IP valido.'
 'This value is not a valid language.': 'Questo valore non è una lingua valida.'
 'This value is not a valid locale.': 'Questo valore non è una localizzazione valida.'
 'This value is not a valid country.': 'Questo valore non è un paese valido.'
 'This value is already used.': 'Questo valore è già in uso.'
-'The size of the image could not be detected.': 'Non è stato possibile rilevare la dimensione dell\'immagine.'
+'The size of the image could not be detected.': 'Non è stato possibile rilevare la dimensione dell''immagine.'
 'The image width is too big ({{ width }}px)':
-    ' Allowed maximum width is {{ max_width }}px.': 'La larghezza dell\'immagine è troppo grande ({{ width }}px). La larghezza massima consentita è {{ max_width }}px.'
+    ' Allowed maximum width is {{ max_width }}px.': 'La larghezza dell''immagine è troppo grande ({{ width }}px). La larghezza massima consentita è {{ max_width }}px.'
 'The image width is too small ({{ width }}px)':
-    ' Minimum width expected is {{ min_width }}px.': 'La larghezza dell\'immagine è troppo piccola ({{ width }}px). La larghezza minima prevista è {{ min_width }}px.'
+    ' Minimum width expected is {{ min_width }}px.': 'La larghezza dell''immagine è troppo piccola ({{ width }}px). La larghezza minima prevista è {{ min_width }}px.'
 'The image height is too big ({{ height }}px)':
-    ' Allowed maximum height is {{ max_height }}px.': 'L\'altezza dell\'immagine è troppo grande ({{ height }}px). L\'altezza massima consentita è {{ max_height }}px.'
+    ' Allowed maximum height is {{ max_height }}px.': 'L''altezza dell''immagine è troppo grande ({{ height }}px). L''altezza massima consentita è {{ max_height }}px.'
 'The image height is too small ({{ height }}px)':
-    ' Minimum height expected is {{ min_height }}px.': 'L\'altezza dell\'immagine è troppo piccola ({{ height }}px). L\'altezza minima prevista è {{ min_height }}px.'
+    ' Minimum height expected is {{ min_height }}px.': 'L''altezza dell''immagine è troppo piccola ({{ height }}px). L''altezza minima prevista è {{ min_height }}px.'
 "This value should be the user's current password.": "Questo valore deve essere la password corrente dell'utente."
 'This value should have exactly {{ limit }} character':
     '|This value should have exactly {{ limit }} characters.': 'Questo valore deve avere esattamente {{ limit }} carattere.|Questo valore deve avere esattamente {{ limit }} caratteri.'
@@ -70,7 +70,7 @@
 'No temporary folder was configured in php':
     ini.: 'Nessuna cartella temporanea è stata configurata in php.ini, o la cartella configurata non esiste.'
 'Cannot write temporary file to disk.': 'Impossibile scrivere il file temporaneo su disco.'
-'A PHP extension caused the upload to fail.': 'Un\'estensione PHP ha causato il fallimento del caricamento.'
+'A PHP extension caused the upload to fail.': 'Un''estensione PHP ha causato il fallimento del caricamento.'
 'This collection should contain {{ limit }} element or more':
     '|This collection should contain {{ limit }} elements or more.': 'Questa raccolta deve contenere {{ limit }} elemento o più.|Questa raccolta deve contenere {{ limit }} elementi o più.'
 'This collection should contain {{ limit }} element or less':
@@ -94,23 +94,23 @@
 'This value should not be equal to {{ compared_value }}.': 'Questo valore non deve essere uguale a {{ compared_value }}.'
 'This value should not be identical to {{ compared_value_type }} {{ compared_value }}.': 'Questo valore non deve essere identico a {{ compared_value_type }} {{ compared_value }}.'
 'The image ratio is too big ({{ ratio }})':
-    ' Allowed maximum ratio is {{ max_ratio }}.': 'Il rapporto dell\'immagine è troppo grande ({{ ratio }}). Il rapporto massimo consentito è {{ max_ratio }}.'
+    ' Allowed maximum ratio is {{ max_ratio }}.': 'Il rapporto dell''immagine è troppo grande ({{ ratio }}). Il rapporto massimo consentito è {{ max_ratio }}.'
 'The image ratio is too small ({{ ratio }})':
-    ' Minimum ratio expected is {{ min_ratio }}.': 'Il rapporto dell\'immagine è troppo piccolo ({{ ratio }}). Il rapporto minimo previsto è {{ min_ratio }}.'
+    ' Minimum ratio expected is {{ min_ratio }}.': 'Il rapporto dell''immagine è troppo piccolo ({{ ratio }}). Il rapporto minimo previsto è {{ min_ratio }}.'
 'The image is square ({{ width }}x{{ height }}px)':
-    ' Square images are not allowed.': 'L\'immagine è quadrata ({{ width }}x{{ height }}px). Le immagini quadrate non sono consentite.'
+    ' Square images are not allowed.': 'L''immagine è quadrata ({{ width }}x{{ height }}px). Le immagini quadrate non sono consentite.'
 'The image is landscape oriented ({{ width }}x{{ height }}px)':
-    ' Landscape oriented images are not allowed.': 'L\'immagine è orientata orizzontalmente ({{ width }}x{{ height }}px). Le immagini orientate orizzontalmente non sono consentite.'
+    ' Landscape oriented images are not allowed.': 'L''immagine è orientata orizzontalmente ({{ width }}x{{ height }}px). Le immagini orientate orizzontalmente non sono consentite.'
 'The image is portrait oriented ({{ width }}x{{ height }}px)':
-    ' Portrait oriented images are not allowed.': 'L\'immagine è orientata verticalmente ({{ width }}x{{ height }}px). Le immagini orientate verticalmente non sono consentite.'
+    ' Portrait oriented images are not allowed.': 'L''immagine è orientata verticalmente ({{ width }}x{{ height }}px). Le immagini orientate verticalmente non sono consentite.'
 'An empty file is not allowed.': 'Un file vuoto non è consentito.'
-'The host could not be resolved.': 'L\'host non può essere risolto.'
+'The host could not be resolved.': 'L''host non può essere risolto.'
 'This value does not match the expected {{ charset }} charset.': 'Questo valore non corrisponde al set di caratteri previsto {{ charset }}.'
 'This is not a valid Business Identifier Code (BIC).': 'Questo valore non è un codice identificativo bancario (BIC) valido.'
 Error: Errore
 'This is not a valid UUID.': 'Questo valore non è un UUID valido.'
 'This value should be a multiple of {{ compared_value }}.': 'Questo valore deve essere un multiplo di {{ compared_value }}.'
-'This Business Identifier Code (BIC) is not associated with IBAN {{ iban }}.': 'Questo codice identificativo bancario (BIC) non è associato all\'IBAN {{ iban }}.'
+'This Business Identifier Code (BIC) is not associated with IBAN {{ iban }}.': 'Questo codice identificativo bancario (BIC) non è associato all''IBAN {{ iban }}.'
 'This value should be valid JSON.': 'Questo valore deve essere un JSON valido.'
 'This collection should contain only unique elements.': 'Questa raccolta deve contenere solo elementi unici.'
 'This value should be positive.': 'Questo valore deve essere positivo.'
@@ -119,14 +119,14 @@ Error: Errore
 'This value should be either negative or zero.': 'Questo valore deve essere negativo o zero.'
 'This value is not a valid timezone.': 'Questo valore non è un fuso orario valido.'
 'This password has been leaked in a data breach, it must not be used':
-    ' Please use another password.': 'Questa password è stata compromessa in una violazione dei dati, non deve essere utilizzata. Si prega di utilizzare un\'altra password.'
+    ' Please use another password.': 'Questa password è stata compromessa in una violazione dei dati, non deve essere utilizzata. Si prega di utilizzare un''altra password.'
 'This value should be between {{ min }} and {{ max }}.': 'Questo valore deve essere compreso tra {{ min }} e {{ max }}.'
 'This value is not a valid hostname.': 'Questo valore non è un nome host valido.'
 'The number of elements in this collection should be a multiple of {{ compared_value }}.': 'Il numero di elementi in questa raccolta deve essere un multiplo di {{ compared_value }}.'
 'This value should satisfy at least one of the following constraints:': 'Questo valore deve soddisfare almeno uno dei seguenti vincoli:'
 'Each element of this collection should satisfy its own set of constraints.': 'Ogni elemento di questa raccolta deve soddisfare il proprio insieme di vincoli.'
 'This value is not a valid International Securities Identification Number (ISIN).': 'Questo valore non è un numero di identificazione dei titoli internazionale (ISIN) valido.'
-'This value should be a valid expression.': 'Questo valore deve essere un\'espressione valida.'
+'This value should be a valid expression.': 'Questo valore deve essere un''espressione valida.'
 'This value is not a valid CSS color.': 'Questo valore non è un colore CSS valido.'
 'This value is not a valid CIDR notation.': 'Questo valore non è una notazione CIDR valida.'
 'The value of the netmask should be between {{ min }} and {{ max }}.': 'Il valore della netmask deve essere compreso tra {{ min }} e {{ max }}.'
@@ -137,11 +137,11 @@ Error: Errore
 'The password strength is too low':
     ' Please use a stronger password.': 'La sicurezza della password è troppo bassa. Si prega di utilizzare una password più forte.'
 'This value contains characters that are not allowed by the current restriction-level.': 'Questo valore contiene caratteri non consentiti dal livello di restrizione corrente.'
-'Using invisible characters is not allowed.': 'L\'uso di caratteri invisibili non è consentito.'
+'Using invisible characters is not allowed.': 'L''uso di caratteri invisibili non è consentito.'
 'Mixing numbers from different scripts is not allowed.': 'Non è consentito mescolare numeri da script diversi.'
-'Using hidden overlay characters is not allowed.': 'L\'uso di caratteri sovrapposti nascosti non è consentito.'
+'Using hidden overlay characters is not allowed.': 'L''uso di caratteri sovrapposti nascosti non è consentito.'
 'The extension of the file is invalid ({{ extension }})':
-    ' Allowed extensions are {{ extensions }}.': 'L\'estensione del file non è valida ({{ extension }}). Le estensioni consentite sono {{ extensions }}.'
+    ' Allowed extensions are {{ extensions }}.': 'L''estensione del file non è valida ({{ extension }}). Le estensioni consentite sono {{ extensions }}.'
 'The detected character encoding is invalid ({{ detected }})':
     ' Allowed encodings are {{ encodings }}.': 'La codifica dei caratteri rilevata non è valida ({{ detected }}). Le codifiche consentite sono {{ encodings }}.'
 'This value is not a valid MAC address.': 'Questo valore non è un indirizzo MAC valido.'
@@ -158,9 +158,9 @@ Error: Errore
 'The video width is too small ({{ width }}px)':
     ' Minimum width expected is {{ min_width }}px.': 'La larghezza del video è troppo piccola ({{ width }}px). La larghezza minima prevista è {{ min_width }}px.'
 'The video height is too big ({{ height }}px)':
-    ' Allowed maximum height is {{ max_height }}px.': 'L\'altezza del video è troppo grande ({{ height }}px). L\'altezza massima consentita è {{ max_height }}px.'
+    ' Allowed maximum height is {{ max_height }}px.': 'L''altezza del video è troppo grande ({{ height }}px). L''altezza massima consentita è {{ max_height }}px.'
 'The video height is too small ({{ height }}px)':
-    ' Minimum height expected is {{ min_height }}px.': 'L\'altezza del video è troppo piccola ({{ height }}px). L\'altezza minima prevista è {{ min_height }}px.'
+    ' Minimum height expected is {{ min_height }}px.': 'L''altezza del video è troppo piccola ({{ height }}px). L''altezza minima prevista è {{ min_height }}px.'
 'The video has too few pixels ({{ pixels }} pixels)':
     ' Minimum amount expected is {{ min_pixels }} pixels.': 'Il video ha troppo pochi pixel ({{ pixels }} pixel). Il numero minimo previsto è {{ min_pixels }} pixel.'
 'The video has too many pixels ({{ pixels }} pixels)':
@@ -182,9 +182,9 @@ Error: Errore
 'Unsupported video container "{{ container }}".': 'Contenitore video non supportato "{{ container }}".'
 'The image file is corrupted.': 'Il file immagine è corrotto.'
 'The image has too few pixels ({{ pixels }} pixels)':
-    ' Minimum amount expected is {{ min_pixels }} pixels.': 'L\'immagine ha troppo pochi pixel ({{ pixels }} pixel). Il numero minimo previsto è {{ min_pixels }} pixel.'
+    ' Minimum amount expected is {{ min_pixels }} pixels.': 'L''immagine ha troppo pochi pixel ({{ pixels }} pixel). Il numero minimo previsto è {{ min_pixels }} pixel.'
 'The image has too many pixels ({{ pixels }} pixels)':
-    ' Maximum amount expected is {{ max_pixels }} pixels.': 'L\'immagine ha troppi pixel ({{ pixels }} pixel). Il numero massimo previsto è {{ max_pixels }} pixel.'
+    ' Maximum amount expected is {{ max_pixels }} pixels.': 'L''immagine ha troppi pixel ({{ pixels }} pixel). Il numero massimo previsto è {{ max_pixels }} pixel.'
 'This filename does not match the expected charset.': 'Questo nome di file non corrisponde al set di caratteri previsto.'
 'This form should not contain extra fields.': 'Questo modulo non deve contenere campi extra.'
 'The uploaded file was too large':
@@ -199,7 +199,7 @@ Error: Errore
 'Please select a valid country.': 'Si prega di selezionare un paese valido.'
 'Please select a valid currency.': 'Si prega di selezionare una valuta valida.'
 'Please choose a valid date interval.': 'Si prega di scegliere un intervallo di date valido.'
-'Please enter a valid date and time.': 'Si prega di inserire una data e un\'ora valide.'
+'Please enter a valid date and time.': 'Si prega di inserire una data e un''ora valide.'
 'Please enter a valid date.': 'Si prega di inserire una data valida.'
 'Please select a valid file.': 'Si prega di selezionare un file valido.'
 'The hidden field is invalid.': 'Il campo nascosto non è valido.'
@@ -218,12 +218,12 @@ Error: Errore
 'Please provide a valid phone number.': 'Si prega di fornire un numero di telefono valido.'
 'The checkbox has an invalid value.': 'La casella di controllo ha un valore non valido.'
 'Please enter a valid email address.': 'Si prega di inserire un indirizzo email valido.'
-'Please select a valid option.': 'Si prega di selezionare un\'opzione valida.'
+'Please select a valid option.': 'Si prega di selezionare un''opzione valida.'
 'Please select a valid range.': 'Si prega di selezionare un intervallo valido.'
 'Please enter a valid week.': 'Si prega di inserire una settimana valida.'
-'The given value {{ value }} cannot be set as {{ owner }} for given entity for security reason.': 'Il valore fornito {{ value }} non può essere impostato come {{ owner }} per l\'entità data per motivi di sicurezza.'
+'The given value {{ value }} cannot be set as {{ owner }} for given entity for security reason.': 'Il valore fornito {{ value }} non può essere impostato come {{ owner }} per l''entità data per motivi di sicurezza.'
 "Business Unit can't set self as Parent.": "L'unità aziendale non può impostare se stessa come genitore."
-'Business Unit cannot have a child as a Parent Business Unit.': 'L\'unità aziendale non può avere un figlio come unità aziendale genitore.'
+'Business Unit cannot have a child as a Parent Business Unit.': 'L''unità aziendale non può avere un figlio come unità aziendale genitore.'
 oro:
     organization:
         validation:
@@ -247,29 +247,29 @@ oro:
             files: 'Non è consentito più di {{max}} file in questo campo.|Non sono consentiti più di {{max}} file in questo campo.'
             images: 'Non è consentita più di {{max}} immagine in questo campo.|Non sono consentite più di {{max}} immagini in questo campo.'
         mimetypes:
-            not_allowed: 'Il tipo MIME {{ notAllowedMimeTypes }} non è consentito, contattare l\'amministratore di sistema.|I tipi MIME {{ notAllowedMimeTypes }} non sono consentiti, contattare l\'amministratore di sistema.'
+            not_allowed: 'Il tipo MIME {{ notAllowedMimeTypes }} non è consentito, contattare l''amministratore di sistema.|I tipi MIME {{ notAllowedMimeTypes }} non sono consentiti, contattare l''amministratore di sistema.'
             invalid_mime_type: 'Il tipo MIME del file non è valido ({{ type }}). I tipi MIME consentiti sono {{ types }}.'
         external_file:
-            invalid_url: 'L\'URL specificato non è accessibile. Motivo: "{{ reason }}"'
+            invalid_url: 'L''URL specificato non è accessibile. Motivo: "{{ reason }}"'
             invalid_mime_type: 'Il tipo MIME del file non è valido ({{ type }}). I tipi MIME consentiti sono {{ types }}.'
-            does_not_match_regexp: 'L\'URL fornito non corrisponde agli URL consentiti nella configurazione di sistema.'
-            empty_regexp: 'Non sono consentiti file e immagini esterni. L\'espressione regolare degli URL consentiti può essere configurata nella seguente pagina: Sistema -> Configurazione -> Configurazione generale -> Impostazioni di caricamento.'
-            invalid_regexp: 'L\'espressione regolare degli URL consentiti non è valida. Cercare il codice {{ code }} nei log dell\'applicazione per ulteriori dettagli.'
+            does_not_match_regexp: 'L''URL fornito non corrisponde agli URL consentiti nella configurazione di sistema.'
+            empty_regexp: 'Non sono consentiti file e immagini esterni. L''espressione regolare degli URL consentiti può essere configurata nella seguente pagina: Sistema -> Configurazione -> Configurazione generale -> Impostazioni di caricamento.'
+            invalid_regexp: 'L''espressione regolare degli URL consentiti non è valida. Cercare il codice {{ code }} nei log dell''applicazione per ulteriori dettagli.'
         incompatible_field:
             external_file: 'Il file esterno specificato non è compatibile con il campo {{ field }} che è configurato per caricare file.'
             regular_file: 'Il file specificato non è compatibile con il campo {{ field }} che è configurato per archiviare file esternamente.'
         filename_with_path:
             not_allowed: 'Il nome del file non deve avere un percorso.'
         parent:
-            change_not_allowed: 'Questo file è già utilizzato in un\'altra entità.'
+            change_not_allowed: 'Questo file è già utilizzato in un''altra entità.'
         sort_order:
-            invalid_type: 'L\'ordine di ordinamento deve essere un numero intero.'
-            not_in_range: 'L\'ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}.'
+            invalid_type: 'L''ordine di ordinamento deve essere un numero intero.'
+            not_in_range: 'L''ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}.'
     email:
         message_id_conflict:
-            message: 'L\'email con questo Message-ID esiste già.'
+            message: 'L''email con questo Message-ID esiste già.'
         attachments_without_body:
-            message: 'Gli allegati non possono essere aggiunti a un\'email senza corpo.'
+            message: 'Gli allegati non possono essere aggiunti a un''email senza corpo.'
         body_remove_not_allowed:
             message: 'Non è consentito rimuovere il corpo.'
         body_change_not_allowed:
@@ -289,7 +289,7 @@ oro:
                 message: 'Gli intervalli di pianificazione non devono sovrapporsi'
     user:
         message:
-            user_without_role: 'Non puoi rimuovere l\'ultimo ruolo da {{ userName }}'
+            user_without_role: 'Non puoi rimuovere l''ultimo ruolo da {{ userName }}'
             password_mismatch: 'Le password devono corrispondere.'
             invalid_username: 'Questa email è già registrata da un altro utente. Si prega di fornire un indirizzo email univoco.'
             invalid_password:
@@ -372,24 +372,24 @@ oro:
             options_error:
                 message: 'Opzioni enum non valide fornite'
             options_duplicates:
-                message: 'L\'opzione {{ value }} è duplicata.|Le opzioni {{ value }} sono duplicate.'
+                message: 'L''opzione {{ value }} è duplicata.|Le opzioni {{ value }} sono duplicate.'
         change_type_not_allowed:
             message: 'Non è consentito modificare il nome o il tipo del campo esistente {{ field }}.'
         attribute_field:
             message: 'Il campo esistente "{{ field }}" non è un attributo.'
         validator:
             attribute_configuration:
-                error_configuration: 'L\'attributo con tipo {{ type }} non può essere {{ option }}.'
+                error_configuration: 'L''attributo con tipo {{ type }} non può essere {{ option }}.'
             not_less_than_original: 'Il valore non deve essere inferiore al valore originale {{ originalValue }}.'
             scale:
                 range:
                     not_in_range: 'Questo valore deve essere compreso tra "{{ min }}" e {{ max }}.'
             enum_option:
-                not_found: 'Il valore "{{ value }}" non è un\'opzione enum valida.'
+                not_found: 'Il valore "{{ value }}" non è un''opzione enum valida.'
     digitalasset:
         validator:
             mime_type_cannot_be_non_image:
-                message: 'Impossibile caricare il file non immagine "%file_name%" perché la risorsa digitale corrente è già utilizzata nel campo immagine "%field_name%" dell\'entità "%entity_class%" con id "%entity_id%".'
+                message: 'Impossibile caricare il file non immagine "%file_name%" perché la risorsa digitale corrente è già utilizzata nel campo immagine "%field_name%" dell''entità "%entity_class%" con id "%entity_id%".'
             mime_type_cannot_be_non_image_in_entity:
                 message: 'Impossibile caricare il file non immagine "%file_name%" perché la risorsa digitale corrente è già utilizzata nel campo immagine "%field_name%" di questa <a href="%entity_url%" target="_blank">entità</a>.'
             digital_asset:
@@ -409,7 +409,7 @@ oro:
             invalid_country_region: 'La regione {{ region }} non appartiene al paese {{ country }}'
             invalid_region_text: 'La regione personalizzata può essere utilizzata solo per paesi senza regioni predefinite.'
             invalid_customer_and_address_organization: 'Il cliente e il suo indirizzo appartengono a organizzazioni diverse.'
-            owner_changed: 'Il proprietario dell\'indirizzo non può essere modificato una volta impostato.'
+            owner_changed: 'Il proprietario dell''indirizzo non può essere modificato una volta impostato.'
             contains_primary: 'Uno degli indirizzi deve essere impostato come principale.'
             emails:
                 contains_primary: 'Una delle email deve essere impostata come principale.'
@@ -428,10 +428,10 @@ oro:
             invalid_entity_type: 'Tipo di entità non valido.'
             invalid_entity_id: 'Identificativo entità non valido.'
             no_acceptable_entities: 'Non ci sono entità accettabili.'
-            not_acceptable_entity: 'L\'entità non è accettabile.'
+            not_acceptable_entity: 'L''entità non è accettabile.'
             not_manageable_entity: 'Tipo di entità inatteso.'
-            load_entity_failed: 'L\'entità non può essere caricata.'
-            entity_does_not_exist: 'L\'entità non esiste.'
+            load_entity_failed: 'L''entità non può essere caricata.'
+            entity_does_not_exist: 'L''entità non esiste.'
         new_entity_in_includes: 'La creazione di una nuova entità inclusa che può portare a una dipendenza circolare è vietata.'
         openapi_public_slug:
             regex: 'Questo valore deve contenere solo simboli alfabetici, trattino basso, trattino e numeri.'
@@ -450,7 +450,7 @@ oro:
             min: 'Il valore non deve essere precedente a {{ limit }}.'
             max: 'Il valore non deve essere successivo a {{ limit }}.'
         regexp_syntax:
-            error: 'Questo valore non è un\'espressione regolare valida. Motivo: {{ reason }}'
+            error: 'Questo valore non è un''espressione regolare valida. Motivo: {{ reason }}'
         captcha:
             captcha_not_verified: 'Il modulo non può essere inviato perché non hai superato la validazione anti-bot. Se sei un essere umano, contattaci.'
         unchangeable_field:
@@ -474,26 +474,26 @@ oro:
             not_accessible: 'La classe %className% non è accessibile.'
         columns:
             not_empty: 'È necessario specificare almeno una colonna.'
-            duplicates: 'Stai cercando di aggiungere più copie di colonna/e %duplicates%. È possibile aggiungere solo una copia della colonna. Rivedi l\'elenco delle colonne per rimuovere i duplicati.'
+            duplicates: 'Stai cercando di aggiungere più copie di colonna/e %duplicates%. È possibile aggiungere solo una copia della colonna. Rivedi l''elenco delle colonne per rimuovere i duplicati.'
             not_accessible: 'La colonna %columnName% di %className% non è accessibile.'
         grouping:
             column_exists: 'La/e colonna/e %columns% deve essere aggiunta alla sezione "Raggruppamento".'
         date_grouping:
             group_by:
-                not_blank: 'Il filtro di raggruppamento per data richiede la configurazione di una colonna di raggruppamento. Specificare una colonna univoca (es. id) dall\'entità principale nella sezione "Raggruppamento".'
+                not_blank: 'Il filtro di raggruppamento per data richiede la configurazione di una colonna di raggruppamento. Specificare una colonna univoca (es. id) dall''entità principale nella sezione "Raggruppamento".'
             date_field:
                 not_blank: 'Specificare un campo su cui può essere applicato il filtro di raggruppamento per data.'
         invalid_query: 'Query non valida.'
     report:
         date_grouping:
-            group_by_mandatory: 'Il filtro di raggruppamento per data richiede la configurazione di una colonna di raggruppamento. Si prega di selezionare una colonna univoca (es. id) dall\'entità principale nella sezione "Raggruppamento"'
+            group_by_mandatory: 'Il filtro di raggruppamento per data richiede la configurazione di una colonna di raggruppamento. Si prega di selezionare una colonna univoca (es. id) dall''entità principale nella sezione "Raggruppamento"'
             date_field:
                 mandatory: 'Si prega di selezionare un campo su cui può essere applicato il filtro di raggruppamento per data'
     segment:
         validation:
-            sorting: 'Si prega di specificare l\'ordinamento per almeno una colonna.'
+            sorting: 'Si prega di specificare l''ordinamento per almeno una colonna.'
             unique:
-                name: 'C\'è un altro segmento con un nome simile.'
+                name: 'C''è un altro segmento con un nome simile.'
     theme:
         themeconfiguration:
             message:
@@ -503,10 +503,10 @@ oro:
         validator:
             entity:
                 message:
-                    update: 'L\'entità non può essere modificata a causa delle restrizioni del flusso di lavoro.'
+                    update: 'L''entità non può essere modificata a causa delle restrizioni del flusso di lavoro.'
             field:
                 message:
-                    create: 'Impossibile creare l\'entità con questo valore a causa delle restrizioni del flusso di lavoro.'
+                    create: 'Impossibile creare l''entità con questo valore a causa delle restrizioni del flusso di lavoro.'
                     update: 'Il campo non può essere modificato a causa delle restrizioni del flusso di lavoro.'
             transition:
                 unknown: '"La transizione {{ transition }}" non esiste nel flusso di lavoro.'
@@ -561,7 +561,7 @@ oro:
                 not_dangerous_protocol:
                     message: 'Il pseudo-protocollo "{{ protocol }}" non è consentito negli URI dei menu.'
                 max_nested_level:
-                    message: 'L\'elemento {{ label }} non può essere salvato. È stato raggiunto il livello massimo di annidamento.'
+                    message: 'L''elemento {{ label }} non può essere salvato. È stato raggiunto il livello massimo di annidamento.'
     webcatalog:
         scope:
             unique:
@@ -571,7 +571,7 @@ oro:
         contentnode:
             slug_prototype:
                 unique:
-                    message: 'Lo slug dell\'URL deve essere univoco all\'interno dello stesso nodo di contenuto genitore'
+                    message: 'Lo slug dell''URL deve essere univoco all''interno dello stesso nodo di contenuto genitore'
             scope:
                 empty:
                     message: 'Il nodo di contenuto deve avere almeno una restrizione'
@@ -604,7 +604,7 @@ oro:
             logical_expression_disallowed:
                 message: 'Le espressioni logiche non sono consentite'
             division_by_zero:
-                message: 'L\'espressione contiene una divisione per zero'
+                message: 'L''espressione contiene una divisione per zero'
             field_is_not_allowed:
                 message: 'Il campo "%fieldName%" non è consentito per essere utilizzato'
             field_is_not_allowed_as:
@@ -612,7 +612,7 @@ oro:
             only_product_kit_can_have_kit_items:
                 message: "La colonna 'Articoli Kit' deve essere elaborata solo per i prodotti classificati come tipo 'Kit'."
             product_kit_line_item_contains_required_kit_items:
-                missing_required_kit_item: 'Il kit prodotto {{ product_kit_sku }} manca dell\'articolo kit richiesto {{ product_kit_item_label }}'
+                missing_required_kit_item: 'Il kit prodotto {{ product_kit_sku }} manca dell''articolo kit richiesto {{ product_kit_item_label }}'
         product_variant_links:
             unique_variants_combination:
                 message: "Impossibile salvare le varianti di prodotto. Le combinazioni di attributi configurabili devono essere uniche."
@@ -637,7 +637,7 @@ oro:
         product_variant_field:
             unique_variants_combination_simple_product:
                 message: 'I valori dei campi aggiuntivi forniti non possono essere salvati perché violeranno il vincolo univoco dei campi varianti in questi prodotti configurabili: %products%'
-            message: 'Impossibile salvare l\'attributo configurabile. Il campo "{{ field }}" non esiste nel prodotto'
+            message: 'Impossibile salvare l''attributo configurabile. Il campo "{{ field }}" non esiste nel prodotto'
             unique_variant_links_when_empty_variant_field_in_simple: 'Il campo "%variantField%" non può essere vuoto. È utilizzato nei seguenti prodotti configurabili: %products%'
         product_by_sku:
             not_found: 'SKU non trovato'
@@ -646,12 +646,12 @@ oro:
             blank: 'Lo SKU non deve essere vuoto.'
             not_match_regex: 'Questo valore deve contenere solo lettere latine, numeri e simboli "-" o "_".'
         type:
-            not_allowed: '{1} Il tipo {{ type }} non è consentito. L\'unico tipo consentito è {{ allowed_types }}.|]1,Inf[ Il tipo {{ type }} non è consentito. I tipi consentiti sono {{ allowed_types }}.'
+            not_allowed: '{1} Il tipo {{ type }} non è consentito. L''unico tipo consentito è {{ allowed_types }}.|]1,Inf[ Il tipo {{ type }} non è consentito. I tipi consentiti sono {{ allowed_types }}.'
         shipping_calculation_method:
-            not_allowed: 'Il metodo di calcolo {{ method }} non è consentito per {{ type }}. L\'unico metodo consentito è {{ allowed_methods }}.'
+            not_allowed: 'Il metodo di calcolo {{ method }} non è consentito per {{ type }}. L''unico metodo consentito è {{ allowed_methods }}.'
         kit_items:
-            not_owned: 'L\'articolo kit {{ kit_item_label }} non può essere utilizzato perché appartiene già al kit prodotto {{ product_kit_sku }}.'
-            last_one: 'L\'articolo kit {{ kit_item_label }} non può essere eliminato perché è l\'ultimo nel kit prodotto {{ product_kit_sku }}.'
+            not_owned: 'L''articolo kit {{ kit_item_label }} non può essere utilizzato perché appartiene già al kit prodotto {{ product_kit_sku }}.'
+            last_one: 'L''articolo kit {{ kit_item_label }} non può essere eliminato perché è l''ultimo nel kit prodotto {{ product_kit_sku }}.'
         names:
             blank: 'Il nome del prodotto non deve essere vuoto.'
             default:
@@ -659,35 +659,35 @@ oro:
         productlineitem:
             quantity:
                 greaterThanZero: 'La quantità deve essere maggiore di 0'
-                invalid_precision: 'La precisione per l\'unità "{{ unit }}" non è valida.'
+                invalid_precision: 'La precisione per l''unità "{{ unit }}" non è valida.'
         productunit:
-            invalid: 'L\'unità prodotto non esiste per il prodotto.'
+            invalid: 'L''unità prodotto non esiste per il prodotto.'
             precision:
                 blank: 'La precisione non deve essere vuota.'
             unit:
-                blank: 'L\'unità non deve essere vuota.'
-                referenced_by_product_kits: 'L\'unità non può essere modificata perché è utilizzata nei seguenti kit prodotto: {{ product_kits_skus }}.'
+                blank: 'L''unità non deve essere vuota.'
+                referenced_by_product_kits: 'L''unità non può essere modificata perché è utilizzata nei seguenti kit prodotto: {{ product_kits_skus }}.'
         unit_precisions_items:
             blank: 'Si prega di aggiungere una o più unità di prodotto.'
-            primary_precision_not_in_collection: 'Una precisione dell\'unità di prodotto primaria deve essere nella raccolta di precisioni dell\'unità di prodotto.'
-            referenced_by_product_kits: 'L\'unità prodotto "{{ product_unit }}" non può essere rimossa perché è utilizzata nei seguenti kit prodotto: {{ product_kits_skus }}.'
+            primary_precision_not_in_collection: 'Una precisione dell''unità di prodotto primaria deve essere nella raccolta di precisioni dell''unità di prodotto.'
+            referenced_by_product_kits: 'L''unità prodotto "{{ product_unit }}" non può essere rimossa perché è utilizzata nei seguenti kit prodotto: {{ product_kits_skus }}.'
         referenced_by_product_kits: 'Il prodotto "{{ product_sku }}" non può essere eliminato perché è utilizzato nei seguenti kit prodotto: {{ product_kits_skus }}.'
         productkititem:
             product_unit:
-                not_empty: 'L\'unità di quantità non può essere vuota.'
+                not_empty: 'L''unità di quantità non può essere vuota.'
             products:
                 not_empty: 'Ogni opzione kit deve avere almeno un prodotto specificato.'
                 only_simple: 'Solo i prodotti semplici possono essere utilizzati nelle opzioni kit.'
             kititemproducts:
-                invalid_message: 'Impossibile elaborare i dati dei prodotti dell\'articolo kit.'
+                invalid_message: 'Impossibile elaborare i dati dei prodotti dell''articolo kit.'
             collection:
                 not_empty: 'Il kit prodotto deve avere almeno un articolo kit completamente specificato.'
             unit:
-                available_for_all_specified_products: 'L\'unità di quantità deve essere disponibile per tutti i prodotti specificati.'
+                available_for_all_specified_products: 'L''unità di quantità deve essere disponibile per tutti i prodotti specificati.'
             minimum_quantity:
-                invalid_precision: 'La quantità minima {{ value }} non corrisponde alla precisione consentita dell\'unità prodotto {{ precision }}.'
+                invalid_precision: 'La quantità minima {{ value }} non corrisponde alla precisione consentita dell''unità prodotto {{ precision }}.'
             maximum_quantity:
-                invalid_precision: 'La quantità massima {{ value }} non corrisponde alla precisione consentita dell\'unità prodotto {{ precision }}.'
+                invalid_precision: 'La quantità massima {{ value }} non corrisponde alla precisione consentita dell''unità prodotto {{ precision }}.'
         productkititemproduct:
             product:
                 not_found: 'Il prodotto #%product_id% non è stato trovato.'
@@ -697,10 +697,10 @@ oro:
                     message: 'Il prodotto selezionato non è consentito'
             unit:
                 not_available:
-                    message: 'L\'unità prodotto selezionata non è consentita'
+                    message: 'L''unità prodotto selezionata non è consentita'
             quantity:
                 invalid_precision:
-                    message: '{0} Sono consentiti solo numeri interi per l\'unità {{ unit }}|{1} È consentita solo %count% cifra decimale per l\'unità {{ unit }}|]1,Inf[ Sono consentite solo %count% cifre decimali per l\'unità {{ unit }}'
+                    message: '{0} Sono consentiti solo numeri interi per l''unità {{ unit }}|{1} È consentita solo %count% cifra decimale per l''unità {{ unit }}|]1,Inf[ Sono consentite solo %count% cifre decimali per l''unità {{ unit }}'
         frontend:
             quick_add:
                 invalid_file_type: 'Questo tipo di file non è consentito'
@@ -710,13 +710,13 @@ oro:
                     not_found: 'Il numero articolo non può essere trovato.'
                     product_not_found: 'Il numero articolo non può essere trovato.'
                     invalid_precision: "Precisione non valida per l'unità '{{ unit }}'."
-                    unit_not_blank: 'L\'unità non può essere vuota.'
+                    unit_not_blank: 'L''unità non può essere vuota.'
                     invalid_unit: "L'unità '{{ unit }}' non esiste per il prodotto {{ sku }}."
                     quantity_min: 'La quantità deve essere maggiore di 0.'
                     quantity_max: 'La quantità deve essere inferiore a {{ compared_value }}.'
                     not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}.'
                     component_not_accessible: "Impossibile elaborare la richiesta, componente non accessibile"
-                    invalid_product_type: 'Questo prodotto non può essere aggiunto tramite il modulo d\'ordine rapido. Utilizzare invece la pagina dei dettagli del prodotto.'
+                    invalid_product_type: 'Questo prodotto non può essere aggiunto tramite il modulo d''ordine rapido. Utilizzare invece la pagina dei dettagli del prodotto.'
                     component:
                         oro_shopping_list_to_checkout_quick_add_processor:
                             error: 'Alcuni articoli selezionati necessitano di una revisione rapida. Aggiornali o rimuovili per procedere al checkout.'
@@ -733,14 +733,14 @@ oro:
             type_restriction: 'Non puoi scegliere più tipi con lo stesso valore "%type%"'
         product_collection:
             unique_segment_name:
-                message: 'C\'è un altro segmento con un nome simile.'
+                message: 'C''è un altro segmento con un nome simile.'
             blank_filters_or_included: 'Devono essere specificati filtri o aggiunti alcuni prodotti manualmente.'
             blank_condition_item: 'Le condizioni nei filtri non devono essere vuote.'
             blank_condition_group: 'I gruppi di condizioni nei filtri non devono essere vuoti.'
             invalid_content_variant_type: 'La variante di contenuto deve essere una raccolta di prodotti'
-            append_products_invalid: 'I prodotti specificati per l\'aggiunta non possono essere trovati'
+            append_products_invalid: 'I prodotti specificati per l''aggiunta non possono essere trovati'
             remove_products_invalid: 'I prodotti specificati per la rimozione non possono essere trovati'
-            sort_order_invalid: 'I valori dell\'ordine di ordinamento specificati non possono essere elaborati'
+            sort_order_invalid: 'I valori dell''ordine di ordinamento specificati non possono essere elaborati'
         related_items:
             related_product:
                 relation_already_exists: 'La relazione tra i prodotti esiste già.'
@@ -753,34 +753,34 @@ oro:
                 self_relation: 'Non è possibile creare relazioni dal prodotto a se stesso.'
                 max_relations: 'Non è possibile aggiungere più articoli, a causa del limite di relazioni.'
             kit_item:
-                not_found: 'L\'articolo kit prodotto con ID #%id% non è stato trovato.'
-                unknown_fields: 'L\'articolo kit prodotto alla riga %line% ha campi sconosciuti: "{{ fields }}".'
+                not_found: 'L''articolo kit prodotto con ID #%id% non è stato trovato.'
+                unknown_fields: 'L''articolo kit prodotto alla riga %line% ha campi sconosciuti: "{{ fields }}".'
                 invalid_value:
-                    optional: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "optional": previsto booleano (true, false, yes, no, 1, 0), ottenuto "{{ value }}".'
-                    id: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "id": previsto valore vuoto o intero, ottenuto "{{ value }}".'
-                    min_qty: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "min_qty": previsto valore vuoto o float (1, 0, 1.0, 0.0), ottenuto "{{ value }}".'
-                    max_qty: 'L\'articolo kit prodotto alla riga %line% ha un valore errato per il campo "max_qty": previsto valore vuoto o float (1, 0, 1.0, 0.0), ottenuto "{{ value }}".'
+                    optional: 'L''articolo kit prodotto alla riga %line% ha un valore errato per il campo "optional": previsto booleano (true, false, yes, no, 1, 0), ottenuto "{{ value }}".'
+                    id: 'L''articolo kit prodotto alla riga %line% ha un valore errato per il campo "id": previsto valore vuoto o intero, ottenuto "{{ value }}".'
+                    min_qty: 'L''articolo kit prodotto alla riga %line% ha un valore errato per il campo "min_qty": previsto valore vuoto o float (1, 0, 1.0, 0.0), ottenuto "{{ value }}".'
+                    max_qty: 'L''articolo kit prodotto alla riga %line% ha un valore errato per il campo "max_qty": previsto valore vuoto o float (1, 0, 1.0, 0.0), ottenuto "{{ value }}".'
     catalog:
         category:
             title:
                 blank: 'Il titolo della categoria non deve essere vuoto.'
             products:
-                append_products_invalid: 'I prodotti specificati per l\'aggiunta non possono essere trovati'
+                append_products_invalid: 'I prodotti specificati per l''aggiunta non possono essere trovati'
                 remove_products_invalid: 'I prodotti specificati per la rimozione non possono essere trovati'
-                sort_order_invalid: 'I valori dell\'ordine di ordinamento specificati non possono essere elaborati'
+                sort_order_invalid: 'I valori dell''ordine di ordinamento specificati non possono essere elaborati'
             parent_category:
-                parent_category_id_same_as_id: 'L\'id genitore della categoria è uguale all\'id della categoria'
+                parent_category_id_same_as_id: 'L''id genitore della categoria è uguale all''id della categoria'
     marketinglist:
         contact_information_required: 'Almeno una colonna deve contenere informazioni di contatto'
         contact_information_type: 'Almeno una colonna deve contenere informazioni di contatto di tipo %type%'
     customer:
         message:
-            owner: 'L\'utente cliente non appartiene al cliente.'
+            owner: 'L''utente cliente non appartiene al cliente.'
             password_mismatch: 'I campi password devono corrispondere.'
             circular_customer_reference: "Riferimento circolare rilevato. '{{ parentName }}' non può essere un genitore di '{{ customerName }}' perché è suo figlio."
             circular_child_customer_reference: "Riferimento circolare rilevato. '{{ childName }}' non può essere un figlio di '{{ customerName }}' perché è suo genitore."
             customer_reference_to_itself: "Riferimento circolare rilevato. '{{ customerName }}' non può essere il proprio genitore."
-            user_without_role: 'Si prega di selezionare almeno un ruolo prima di abilitare l\'utente cliente.'
+            user_without_role: 'Si prega di selezionare almeno un ruolo prima di abilitare l''utente cliente.'
             user_customer_exists: 'Questa email è già in uso.'
             scope_with_customer_and_group: 'Deve essere scelto solo un campo. Gruppo clienti o Cliente.'
             no_permission_for_customer_related_entities: "Impossibile modificare il cliente perché non hai i permessi per aggiornare le seguenti entità correlate: {{ entityNames }}"
@@ -805,7 +805,7 @@ oro:
         wrong_type:
             message: 'Il valore deve essere uno di {{ available_types }}.'
         conflict:
-            message: 'L\'entità di visibilità esiste già.'
+            message: 'L''entità di visibilità esiste già.'
     call:
         phone:
             required:
@@ -834,7 +834,7 @@ oro:
             customer_identity_selected_not_correctly:
                 label: 'Identità cliente selezionata in modo non corretto'
             integration_invalid:
-                label: 'L\'integrazione è richiesta per il tipo di canale scelto'
+                label: 'L''integrazione è richiesta per il tipo di canale scelto'
     payment:
         number:
             error: 'Questo valore deve essere un numero.'
@@ -861,7 +861,7 @@ oro:
                 notBlank: 'Questo valore non deve essere vuoto.'
         synonym:
             synonyms_arrow_notation: 'La notazione con freccia (=>) può essere utilizzata solo una volta nel campo elenco sinonimi.'
-            synonym_aware_entity_aliases: '{1} L\'entità con alias {{ not_synonym_aware }} non supporta i sinonimi di ricerca. I sinonimi di ricerca sono supportati da {{ synonym_aware }}.|]1,Inf[ Le entità con alias {{ not_synonym_aware }} non supportano i sinonimi di ricerca. I sinonimi di ricerca sono supportati da {{ synonym_aware }}.'
+            synonym_aware_entity_aliases: '{1} L''entità con alias {{ not_synonym_aware }} non supporta i sinonimi di ricerca. I sinonimi di ricerca sono supportati da {{ synonym_aware }}.|]1,Inf[ Le entità con alias {{ not_synonym_aware }} non supportano i sinonimi di ricerca. I sinonimi di ricerca sono supportati da {{ synonym_aware }}.'
             websites:
                 empty: 'Si prega di specificare almeno un sito web.'
     analytics:
@@ -891,7 +891,7 @@ oro:
                     message: 'Il pseudo-protocollo "{{ protocol }}" non è consentito negli URI delle diapositive.'
             image:
                 has_at_least_one_size_image:
-                    message: 'È richiesta almeno un\'immagine. [{{ fields }}]'
+                    message: 'È richiesta almeno un''immagine. [{{ fields }}]'
         wysiwyg:
             field_name_exist: 'Questo nome di campo non può essere utilizzato.'
             not_permitted_content:
@@ -902,8 +902,8 @@ oro:
                 message: 'Il contenuto inserito contiene costrutti twig non validi.'
     paypal:
         express_checkout_name:
-            differs_from_integration_name: 'Express Checkout non può avere lo stesso nome dell\'integrazione stessa.'
-            unique_integration_name: 'I nomi dei metodi di pagamento devono essere univoci. "%name%" è utilizzato da un\'integrazione di pagamento diversa.'
+            differs_from_integration_name: 'Express Checkout non può avere lo stesso nome dell''integrazione stessa.'
+            unique_integration_name: 'I nomi dei metodi di pagamento devono essere univoci. "%name%" è utilizzato da un''integrazione di pagamento diversa.'
     pricing:
         validators:
             price_attribute_price_list:
@@ -920,16 +920,16 @@ oro:
                     message: 'I segmenti di pianificazione del listino prezzi non devono intersecarsi'
             product_price:
                 unique_entity:
-                    message: 'Il prodotto ha una duplicazione dei prezzi del prodotto. L\'insieme dei campi "Listino prezzi", "Quantità", "Unità" e "Valuta" deve essere univoco.'
+                    message: 'Il prodotto ha una duplicazione dei prezzi del prodotto. L''insieme dei campi "Listino prezzi", "Quantità", "Unità" e "Valuta" deve essere univoco.'
                 currency:
                     message: 'La valuta "%invalidCurrency%" non è valida per il listino prezzi corrente.'
                     blank: 'La valuta non deve essere vuota.'
                 not_allowed_unit:
-                    message: 'L\'unità "%unit%" non è consentita per il prodotto "%product%".'
+                    message: 'L''unità "%unit%" non è consentita per il prodotto "%product%".'
                 not_existing_product:
                     message: 'Il prodotto non esiste.'
                 not_existing_unit:
-                    message: 'L\'unità prodotto non esiste.'
+                    message: 'L''unità prodotto non esiste.'
                 quantity:
                     blank: 'La quantità non deve essere vuota.'
                 expression_is_invalid:
@@ -938,7 +938,7 @@ oro:
                 unique_entity:
                     message: 'Questo valore è utilizzato. Vincolo univoco: {{ unique_key }}'
             default_currency:
-                message: 'La valuta "%invalidCurrency%" non è una valuta predefinita valida. La valuta selezionata deve essere nell\'elenco abilitato'
+                message: 'La valuta "%invalidCurrency%" non è una valuta predefinita valida. La valuta selezionata deve essere nell''elenco abilitato'
             price_for_product_unit_exists:
                 message: "Le unità: '%units%', sono utilizzate nei prezzi degli attributi di prezzo e non possono essere rimosse"
             field_is_not_allowed_as:
@@ -955,9 +955,9 @@ oro:
             only_price_relations_available:
                 message: 'Solo le relazioni di prezzo sono disponibili nel campo "%fieldName%"'
             one_expression_allowed:
-                message: 'È consentito un solo elemento nell\'espressione per il campo "%fieldName%"'
+                message: 'È consentito un solo elemento nell''espressione per il campo "%fieldName%"'
             too_many_relations:
-                message: 'Troppe relazioni nell\'espressione per il campo "%fieldName%"'
+                message: 'Troppe relazioni nell''espressione per il campo "%fieldName%"'
     rfp:
         requestproduct:
             product:
@@ -977,7 +977,7 @@ oro:
                     message: 'Il prodotto richiesto non deve essere vuoto'
             kit_item:
                 blank:
-                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+                    message: 'L''articolo kit prodotto non deve essere vuoto'
                 required:
                     message: 'La selezione originale non è più disponibile'
             product:
@@ -1001,19 +1001,19 @@ oro:
                     not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}'
             product_unit:
                 blank:
-                    message: 'L\'unità prodotto non deve essere vuota'
+                    message: 'L''unità prodotto non deve essere vuota'
             price:
                 blank:
                     message: 'Il prezzo non deve essere vuoto'
             sort_order:
                 blank:
-                    message: 'L\'ordine di ordinamento non deve essere vuoto'
+                    message: 'L''ordine di ordinamento non deve essere vuoto'
                 type:
-                    message: 'L\'ordine di ordinamento deve essere un numero intero'
+                    message: 'L''ordine di ordinamento deve essere un numero intero'
                 range:
-                    min_message: 'L\'ordine di ordinamento deve essere {{ limit }} o superiore'
-                    max_message: 'L\'ordine di ordinamento deve essere {{ limit }} o inferiore'
-                    not_in_range_message: 'L\'ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}'
+                    min_message: 'L''ordine di ordinamento deve essere {{ limit }} o superiore'
+                    max_message: 'L''ordine di ordinamento deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'L''ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}'
     sales:
         validation:
             lead:
@@ -1036,37 +1036,37 @@ oro:
         total:
             max:
                 error:
-                    label: 'L\'importo totale non può superare {{ limit }}.'
+                    label: 'L''importo totale non può superare {{ limit }}.'
             min:
                 error:
-                    label: 'L\'importo totale non può essere inferiore a {{ limit }}.'
+                    label: 'L''importo totale non può essere inferiore a {{ limit }}.'
             range:
-                not_in_range_message: 'L\'importo totale deve essere compreso tra {{ min }} e {{ max }}'
+                not_in_range_message: 'L''importo totale deve essere compreso tra {{ min }} e {{ max }}'
         subtotal:
             max:
                 error:
-                    label: 'L\'importo del subtotale non può superare {{ limit }}.'
+                    label: 'L''importo del subtotale non può superare {{ limit }}.'
             min:
                 error:
-                    label: 'L\'importo del subtotale non può essere inferiore a {{ limit }}.'
+                    label: 'L''importo del subtotale non può essere inferiore a {{ limit }}.'
             range:
-                not_in_range_message: 'L\'importo del subtotale deve essere compreso tra {{ min }} e {{ max }}'
+                not_in_range_message: 'L''importo del subtotale deve essere compreso tra {{ min }} e {{ max }}'
         discounts:
             sum:
                 error:
                     not_in_range:
-                        label: 'La somma di tutti gli sconti non può superare l\'importo totale dell\'ordine. Si prega di rivedere alcuni sconti sopra e apportare le modifiche necessarie.'
+                        label: 'La somma di tutti gli sconti non può superare l''importo totale dell''ordine. Si prega di rivedere alcuni sconti sopra e apportare le modifiche necessarie.'
                     single_discount:
-                        label: 'La somma di tutti gli sconti non può superare l\'importo totale dell\'ordine. Si prega di rivedere l\'importo dello sconto.'
-                    label: 'La somma di tutti gli sconti non può superare l\'importo totale dell\'ordine. Si prega di rivedere alcuni sconti sopra e apportare le modifiche necessarie.'
+                        label: 'La somma di tutti gli sconti non può superare l''importo totale dell''ordine. Si prega di rivedere l''importo dello sconto.'
+                    label: 'La somma di tutti gli sconti non può superare l''importo totale dell''ordine. Si prega di rivedere alcuni sconti sopra e apportare le modifiche necessarie.'
             item:
                 error:
-                    label: 'L\'importo dello sconto non può superare l\'importo totale dell\'ordine.'
+                    label: 'L''importo dello sconto non può superare l''importo totale dell''ordine.'
             type:
                 error:
                     label: 'Il tipo di sconto non è valido. I tipi validi sono: %valid_types%.'
             range:
-                not_in_range_message: 'L\'importo dello sconto deve essere compreso tra {{ min }} e {{ max }}'
+                not_in_range_message: 'L''importo dello sconto deve essere compreso tra {{ min }} e {{ max }}'
             order:
                 changed: 'Lo sconto non può essere spostato in un altro ordine.'
         orderlineitem:
@@ -1079,10 +1079,10 @@ oro:
             currency:
                 not_match: 'La valuta specificata deve essere uguale a "{{ expected_value }}".'
             order:
-                changed: 'L\'ordine della voce non può essere modificato una volta impostato.'
+                changed: 'L''ordine della voce non può essere modificato una volta impostato.'
         orderaddress:
-            multiple: 'Possono essere impostati solo i campi dell\'indirizzo dell\'ordine, un indirizzo utente cliente o un indirizzo cliente.'
-            not_allowed: 'Non è consentito utilizzare questo indirizzo per l\'ordine.'
+            multiple: 'Possono essere impostati solo i campi dell''indirizzo dell''ordine, un indirizzo utente cliente o un indirizzo cliente.'
+            not_allowed: 'Non è consentito utilizzare questo indirizzo per l''ordine.'
         order:
             ship_until:
                 type:
@@ -1097,8 +1097,8 @@ oro:
                 not_match: 'La valuta specificata deve essere uguale a "{{ expected_value }}".'
             kit_item:
                 blank:
-                    message: 'L\'articolo kit prodotto non deve essere vuoto'
-                changed: 'L\'articolo kit della voce articolo kit prodotto non può essere modificato una volta impostato.'
+                    message: 'L''articolo kit prodotto non deve essere vuoto'
+                changed: 'L''articolo kit della voce articolo kit prodotto non può essere modificato una volta impostato.'
             product:
                 blank:
                     message: 'Si prega di scegliere un prodotto'
@@ -1112,13 +1112,13 @@ oro:
                     max_message: 'La quantità deve essere {{ limit }} o inferiore'
                     not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}'
         inventory_status:
-            not_supported: 'Lo stato dell\'inventario specificato non è supportato.'
+            not_supported: 'Lo stato dell''inventario specificato non è supportato.'
         status:
             unchangeable:
-                message: 'Lo stato dell\'ordine non può essere modificato quando l\'opzione di configurazione "Abilita gestione stato esterno" è disabilitata.'
+                message: 'Lo stato dell''ordine non può essere modificato quando l''opzione di configurazione "Abilita gestione stato esterno" è disabilitata.'
         order_limits:
-            minimum_order_amount: 'È richiesto un subtotale minimo dell\'ordine di %amount% per procedere al checkout. Si prega di aggiungere %difference% in più per procedere.'
-            maximum_order_amount: 'Il subtotale dell\'ordine non può superare %amount%. Si prega di rimuovere almeno %difference% per procedere.'
+            minimum_order_amount: 'È richiesto un subtotale minimo dell''ordine di %amount% per procedere al checkout. Si prega di aggiungere %difference% in più per procedere.'
+            maximum_order_amount: 'Il subtotale dell''ordine non può superare %amount%. Si prega di rimuovere almeno %difference% per procedere.'
     shoppinglist:
         lineitem:
             inventory_status:
@@ -1135,23 +1135,23 @@ oro:
                 message: 'La voce deve essere assegnata alla lista della spesa o alla lista salvata per dopo.'
         validators:
             product_kit_item_collection_is_available_for_purchase:
-                required_not_available: 'Il kit prodotto {{ product_kit_sku }} non è disponibile per l\'acquisto: {{ reason }}'
-                no_available: 'Il kit prodotto non è disponibile per l\'acquisto: non ci sono articoli kit disponibili'
+                required_not_available: 'Il kit prodotto {{ product_kit_sku }} non è disponibile per l''acquisto: {{ reason }}'
+                no_available: 'Il kit prodotto non è disponibile per l''acquisto: non ci sono articoli kit disponibili'
             product_kit_item_product_collection_is_available_for_purchase:
-                message: 'Non ci sono prodotti disponibili per l\'acquisto nell\'articolo kit {{ product_kit_item_label }}'
-                empty_message: 'Non ci sono prodotti disponibili per l\'acquisto nell\'articolo kit'
+                message: 'Non ci sono prodotti disponibili per l''acquisto nell''articolo kit {{ product_kit_item_label }}'
+                empty_message: 'Non ci sono prodotti disponibili per l''acquisto nell''articolo kit'
             line_item_has_price:
                 message: "Questo articolo non può essere aggiunto al checkout perché il prezzo non è disponibile"
-        not_empty: 'L\'etichetta della lista della spesa non deve essere vuota'
+        not_empty: 'L''etichetta della lista della spesa non deve essere vuota'
         subtotal:
             range:
-                not_in_range_message: 'L\'importo del subtotale della lista della spesa deve essere compreso tra {{ min }} e {{ max }}.'
+                not_in_range_message: 'L''importo del subtotale della lista della spesa deve essere compreso tra {{ min }} e {{ max }}.'
             max:
                 error:
-                    label: 'L\'importo del subtotale della lista della spesa non può superare {{ limit }}.'
+                    label: 'L''importo del subtotale della lista della spesa non può superare {{ limit }}.'
             min:
                 error:
-                    label: 'L\'importo del subtotale della lista della spesa non può essere inferiore a {{ limit }}.'
+                    label: 'L''importo del subtotale della lista della spesa non può essere inferiore a {{ limit }}.'
         create_not_allowed: 'Non è consentito creare una nuova lista della spesa.'
         product_kit_is_available_for_purchase:
             product:
@@ -1169,10 +1169,10 @@ oro:
             line_item:
                 kit_item_line_items:
                     count:
-                        min_message: 'Questo kit prodotto non contiene articoli disponibili per l\'acquisto.'
+                        min_message: 'Questo kit prodotto non contiene articoli disponibili per l''acquisto.'
         product_kit_line_item:
             general_error:
-                message: 'La configurazione kit selezionata non è disponibile per l\'acquisto. Si prega di modificare o rimuovere questa configurazione dalla lista della spesa.'
+                message: 'La configurazione kit selezionata non è disponibile per l''acquisto. Si prega di modificare o rimuovere questa configurazione dalla lista della spesa.'
         product_kit_item_line_item:
             quantity:
                 not_blank:
@@ -1191,8 +1191,8 @@ oro:
     tax:
         validator:
             constraints:
-                single_or_range: 'Il codice postale deve avere solo il codice o l\'intervallo'
-                range_start_and_end_required: 'L\'intervallo del codice postale deve avere inizio e fine'
+                single_or_range: 'Il codice postale deve avere solo il codice o l''intervallo'
+                range_start_and_end_required: 'L''intervallo del codice postale deve avere inizio e fine'
                 only_numeric_ranges_supported: 'Gli intervalli sono supportati solo per i codici postali numerici'
                 zip_code_can_not_be_empty: "Il codice postale non può essere vuoto"
                 tax_rate_to_many_decimal_places: "L'aliquota fiscale non può avere più di 4 cifre decimali"
@@ -1209,7 +1209,7 @@ oro:
                 message: 'La voce kit prodotto deve contenere solo voci articolo kit univoche.'
             kit_item:
                 blank:
-                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+                    message: 'L''articolo kit prodotto non deve essere vuoto'
             product:
                 blank:
                     message: 'Si prega di scegliere un prodotto'
@@ -1225,7 +1225,7 @@ oro:
         validator:
             start_transition:
                 captcha_not_verified:
-                    message: 'Verifica fallita: Il tuo invio non ha superato il controllo anti-bot. Si prega di riprovare o contattare l\'assistenza se si continua a riscontrare problemi.'
+                    message: 'Verifica fallita: Il tuo invio non ha superato il controllo anti-bot. Si prega di riprovare o contattare l''assistenza se si continua a riscontrare problemi.'
             order_line_items_not_empty:
                 allow_rfp:
                     message: 'Nessun prodotto può essere aggiunto a questo ordine. Si prega di creare una RFQ per richiedere il prezzo.'
@@ -1246,15 +1246,15 @@ oro:
             has_applicable_shipping_rules:
                 message: 'Il metodo di spedizione selezionato non è disponibile.'
             allowed_by_checkout_validation_event:
-                message: 'Si è verificato un errore durante l\'elaborazione dell\'ordine.'
+                message: 'Si è verificato un errore durante l''elaborazione dell''ordine.'
             invalid_checkout_addresses:
                 message: 'Gli indirizzi di checkout non sono validi.'
         workflow:
             condition:
                 invalid_billing_address:
-                    message: 'Si prega di inserire l\'indirizzo di fatturazione corretto.'
+                    message: 'Si prega di inserire l''indirizzo di fatturazione corretto.'
                 invalid_shipping_address:
-                    message: 'Si prega di inserire l\'indirizzo di spedizione corretto.'
+                    message: 'Si prega di inserire l''indirizzo di spedizione corretto.'
         system_configuration:
             order_limits:
                 message: 'Sono consentiti solo valori numerici positivi'
@@ -1271,7 +1271,7 @@ oro:
                     message: 'Alcuni consensi sono stati modificati. Si prega di ricaricare la pagina.'
     sale:
         quoteaddress:
-            multiple: 'Possono essere impostati solo i campi dell\'indirizzo, un indirizzo utente cliente o un indirizzo cliente.'
+            multiple: 'Possono essere impostati solo i campi dell''indirizzo, un indirizzo utente cliente o un indirizzo cliente.'
         quoteproduct:
             product:
                 blank: 'Il prodotto non può essere vuoto.'
@@ -1284,12 +1284,12 @@ oro:
         quoteproductoffer:
             configurable:
                 offer:
-                    blank: 'Si prega di inserire una quantità valida secondo le opzioni dell\'offerta'
+                    blank: 'Si prega di inserire una quantità valida secondo le opzioni dell''offerta'
                 quantity:
                     equal: 'La quantità deve essere uguale alla quantità offerta'
                     less: 'La quantità deve essere maggiore o uguale alla quantità offerta'
             quote_product:
-                unchangeable: 'L\'offerta non può essere spostata in un altro prodotto preventivo.'
+                unchangeable: 'L''offerta non può essere spostata in un altro prodotto preventivo.'
         quoteproductrequest:
             quote_product:
                 unchangeable: 'La richiesta non può essere spostata in un altro prodotto preventivo.'
@@ -1301,7 +1301,7 @@ oro:
                     message: 'Il prodotto preventivo non deve essere vuoto'
             kit_item:
                 blank:
-                    message: 'L\'articolo kit prodotto non deve essere vuoto'
+                    message: 'L''articolo kit prodotto non deve essere vuoto'
                 required:
                     message: 'La selezione originale non è più disponibile'
             product:
@@ -1322,16 +1322,16 @@ oro:
                     not_in_range_message: 'La quantità deve essere compresa tra {{ min }} e {{ max }}'
             product_unit:
                 blank:
-                    message: 'L\'unità prodotto non deve essere vuota'
+                    message: 'L''unità prodotto non deve essere vuota'
             sort_order:
                 blank:
-                    message: 'L\'ordine di ordinamento non deve essere vuoto'
+                    message: 'L''ordine di ordinamento non deve essere vuoto'
                 type:
-                    message: 'L\'ordine di ordinamento deve essere un numero intero'
+                    message: 'L''ordine di ordinamento deve essere un numero intero'
                 range:
-                    min_message: 'L\'ordine di ordinamento deve essere {{ limit }} o superiore'
-                    max_message: 'L\'ordine di ordinamento deve essere {{ limit }} o inferiore'
-                    not_in_range_message: 'L\'ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}'
+                    min_message: 'L''ordine di ordinamento deve essere {{ limit }} o superiore'
+                    max_message: 'L''ordine di ordinamento deve essere {{ limit }} o inferiore'
+                    not_in_range_message: 'L''ordine di ordinamento deve essere compreso tra {{ min }} e {{ max }}'
         quote:
             ship_until:
                 type:
@@ -1350,7 +1350,7 @@ oro:
                 max_message: 'Non puoi ordinare più di %limit% unità del prodotto "%sku%".'
                 min_message: 'Non puoi ordinare meno di %limit% unità del prodotto "%sku%".'
         has_enough_inventory_level:
-            not_enough_quantity: 'Non c\'è abbastanza quantità per questo prodotto'
+            not_enough_quantity: 'Non c''è abbastanza quantità per questo prodotto'
         reorder:
             quantity_to_order:
                 max_message: 'Non puoi ordinare più di %limit% unità del prodotto "%sku%".'
@@ -1360,7 +1360,7 @@ oro:
             validators:
                 max_possible_code_length_exceeded: "I codici coupon non devono essere più lunghi di {{ maxAllowedLength }} simboli, inclusi prefisso, suffisso e trattini. Con le impostazioni correnti, i codici coupon sono {{ actualLength }} simboli più lunghi.\nSi prega di regolare i valori dei campi Lunghezza codice, Prefisso codice, Suffisso codice e/o Aggiungi trattini ogni X simboli per ridurre la lunghezza del codice coupon al massimo consentito.\n"
                 case_insensitive_duplicates_found: 'I codici coupon senza distinzione tra maiuscole e minuscole non possono essere abilitati a causa di codici duplicati esistenti con casi di lettere diversi.'
-                case_insensitive_duplicate_found: 'Un codice coupon con gli stessi caratteri ma diverse maiuscole/minuscole esiste già a causa dell\'impostazione Case-Insensitive abilitata.'
+                case_insensitive_duplicate_found: 'Un codice coupon con gli stessi caratteri ma diverse maiuscole/minuscole esiste già a causa dell''impostazione Case-Insensitive abilitata.'
             valid_from:
                 type:
                     message: 'Questo valore non è una data valida.'
@@ -1371,7 +1371,7 @@ oro:
         validators:
             address_book:
                 unique_entity:
-                    message: 'L\'integrazione ha una duplicazione di rubriche. Il campo "Nome" deve essere univoco.'
+                    message: 'L''integrazione ha una duplicazione di rubriche. Il campo "Nome" deve essere univoco.'
             data_field_mapping:
                 unique_entity:
                     message: 'La mappatura per questa entità esiste già in questa integrazione dotdigital'
@@ -1379,7 +1379,7 @@ oro:
         client:
             name:
                 unique:
-                    message: 'L\'applicazione con il nome specificato esiste già.'
+                    message: 'L''applicazione con il nome specificato esiste già.'
             grants:
                 count:
                     message: 'Deve essere specificata una concessione.'
@@ -1411,7 +1411,7 @@ oro:
                 blank:
                     message: 'Deve essere selezionato almeno un servizio di spedizione.'
                 wrong_country:
-                    message: '"%shipping_service%" il servizio di spedizione si riferisce a %shipping_service_country%. Il paese dell\'integrazione Ups è %settings_country%'
+                    message: '"%shipping_service%" il servizio di spedizione si riferisce a %shipping_service_country%. Il paese dell''integrazione Ups è %settings_country%'
 'The template for {{ field }} ({{ locale }}) has syntax error: {{ error }}': 'Il template per {{ field }} ({{ locale }}) ha un errore di sintassi: {{ error }}'
 'This value contains not valid email address.': 'Questo valore contiene un indirizzo email non valido.'
 'Recipient can not be empty': 'Il destinatario non può essere vuoto'
@@ -1444,11 +1444,11 @@ oro:
 'Value should not contain HTML tags.': 'Il valore non deve contenere tag HTML.'
 'You need minimum {{ limit }} entities to merge.': 'Hai bisogno di almeno {{ limit }} entità da unire.'
 'You can merge only {{ limit }} entities at once.': 'Puoi unire solo {{ limit }} entità alla volta.'
-'Add entity before setting it as master.': 'Aggiungi l\'entità prima di impostarla come principale.'
-'Add entity before setting it as a source entity for {{ field }} field.': 'Aggiungi l\'entità prima di impostarla come entità di origine per il campo {{ field }}.'
+'Add entity before setting it as master.': 'Aggiungi l''entità prima di impostarla come principale.'
+'Add entity before setting it as a source entity for {{ field }} field.': 'Aggiungi l''entità prima di impostarla come entità di origine per il campo {{ field }}.'
 'Merge entities should be unique.': 'Le entità da unire devono essere univoche.'
 'This value should be entity class or alias.': 'Questo valore deve essere una classe di entità o un alias.'
-'The entity was not found.': 'L\'entità non è stata trovata.'
+'The entity was not found.': 'L''entità non è stata trovata.'
 'This value should be an integer number.': 'Questo valore deve essere un numero intero.'
 "This date can't be earlier than {{ field }} date.": "Questa data non può essere precedente alla data {{ field }}."
 'This value should be a multiple of {{ multiple_of_value }}.': 'Questo valore deve essere un multiplo di {{ multiple_of_value }}.'
@@ -1456,7 +1456,7 @@ oro:
 'One or more of the given values is not one of the values: {{ allowed_values }}.': 'Uno o più dei valori forniti non sono tra i valori: {{ allowed_values }}.'
 "Parameter 'recurringEventId' can't have the same value as calendar event ID.": "Il parametro 'recurringEventId' non può avere lo stesso valore dell'ID dell'evento calendario."
 "Parameter 'recurringEventId' can be set only for recurring calendar events.": "Il parametro 'recurringEventId' può essere impostato solo per eventi calendario ricorrenti."
-'Calendar of calendar event exception can not be changed.': 'Il calendario dell\'eccezione evento calendario non può essere modificato.'
+'Calendar of calendar event exception can not be changed.': 'Il calendario dell''eccezione evento calendario non può essere modificato.'
 'Unexpected error was occurred': 'Si è verificato un errore inaspettato'
 oro_frontend:
     regex:
@@ -1465,12 +1465,12 @@ oro_frontend:
         css_color: 'Questo valore deve essere un colore CSS valido'
         css_background: 'Questo valore deve essere uno sfondo CSS valido'
         css_border_radius: 'Questo valore deve essere un raggio del bordo CSS valido'
-        css_box_shadow: 'Questo valore deve essere un\'ombra CSS valida'
+        css_box_shadow: 'Questo valore deve essere un''ombra CSS valida'
         css_font_size: 'Questo valore deve essere una dimensione del carattere CSS valida'
         css_gap: 'Questo valore deve essere un gap CSS valido'
         css_length: 'Questo valore deve essere una lunghezza CSS valida'
-        css_line_height: 'Questo valore deve essere un\'altezza di riga CSS valida'
-        css_min_height: 'Questo valore deve essere un\'altezza minima CSS valida'
+        css_line_height: 'Questo valore deve essere un''altezza di riga CSS valida'
+        css_min_height: 'Questo valore deve essere un''altezza minima CSS valida'
         css_outline: 'Questo valore deve essere un contorno CSS valido'
         css_padding: 'Questo valore deve essere un padding CSS valido'
 'This value should contain only latin letters.': 'Questo valore deve contenere solo lettere latine.'
@@ -1486,7 +1486,7 @@ oro_frontend:
 payplug:
     constraints:
         payment_rule:
-            euro_currency: 'Può essere selezionato solo l\'EURO (€) come valuta'
+            euro_currency: 'Può essere selezionato solo l''EURO (€) come valuta'
 'Related Items functionality is disabled.': 'La funzionalità articoli correlati è disabilitata.'
 'It is not possible to create relations from product to itself.': 'Non è possibile creare relazioni dal prodotto a se stesso.'
 'It is not possible to add more items, because of the limit of relations.': 'Non è possibile aggiungere più articoli, a causa del limite di relazioni.'
