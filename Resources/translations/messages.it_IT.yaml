@@ -81,14 +81,14 @@ oro:
         debug_block_info:
           label: Includi informazioni di debug del blocco nell'HTML
           choices:
-            'no': Da
+            'no': No
             'yes': Sì
         debug_developer_toolbar:
           label: Genera dump dell'albero di layout per la barra degli strumenti dello
             sviluppatore
           tooltip: Questa opzione funziona solo con la modalità debug abilitata.
           choices:
-            'no': Da
+            'no': No
             'yes': Sì
     feature:
       development_settings:
@@ -492,7 +492,7 @@ oro:
           label: Abilita la raccolta delle decisioni degli elettori nella barra degli
             strumenti di debug
           choices:
-            'no': Da
+            'no': No
             'yes': Sì
   attachment:
     entity_label: Allegato
@@ -2788,7 +2788,7 @@ oro:
         tooltip: Se verrà utilizzata un'etichetta vuota
       identity:
         label: Utilizzo come campo identità
-        'no': Da
+        'no': No
         only_when_not_empty: Solo quando non è vuoto
         always: Sempre
         tooltip: Se impostato su "Solo quando non vuoto", il campo può essere omesso
@@ -10133,14 +10133,14 @@ oro:
       label: È in primo piano
       description: Specifica se il prodotto è in evidenza o meno.
       'yes': Sì
-      'no': Da
+      'no': No
     new_arrival:
       label: Nuovi arrivi
       description: Specifica se il prodotto è un nuovo arrivo.
       tooltip: Se impostato su "Sì", il prodotto verrà evidenziato nella vetrina del
         negozio.
       'yes': Sì
-      'no': Da
+      'no': No
     time_period:
       label: Periodo di tempo
     page_template:
@@ -10474,7 +10474,7 @@ oro:
           o se può essere ignorato dal cliente.
         choices:
           'yes': Sì
-          'no': Da
+          'no': No
       product_kit:
         label: Kit prodotto
         description: Il prodotto di tipo "kit" che possiede l'articolo kit del prodotto.
@@ -11444,7 +11444,7 @@ oro:
             tooltip: Quando lo slider è abilitato, i contenuti del widget occuperanno
               meno spazio sullo schermo, mostrando immagini dei prodotti più grandi.
             value:
-              'no': Da
+              'no': No
               'yes': Sì
           show_add_button:
             label: Mostra pulsante Aggiungi
@@ -11453,7 +11453,7 @@ oro:
               deve aprire la pagina dei dettagli del prodotto prima di poterlo aggiungere
               alla lista della spesa.
             value:
-              'no': Da
+              'no': No
               'yes': Sì
           labels:
             label: Etichette
@@ -15913,7 +15913,7 @@ oro:
       priceattributepricelist:
         enabled_in_export:
           'yes': Sì
-          'no': Da
+          'no': No
     grid:
       action:
         view:
@@ -21421,7 +21421,7 @@ oro:
         inactive: Inattivo
       stop_processing:
         'yes': Sì
-        'no': Da
+        'no': No
       expression:
         toggle:
           hide: Nascondi
@@ -21467,7 +21467,7 @@ oro:
     discount:
       free_shipping:
         label: Spedizione gratuita
-        'no': Da
+        'no': No
         for_matching_items_only: Solo per articoli corrispondenti
         for_shipment_with_matching_items: Per la spedizione con articoli corrispondenti
       strategy:
@@ -22912,7 +22912,7 @@ oro:
           se questa opzione non è selezionata.
         value:
           'yes': Sì
-          'no': Da
+          'no': No
       plain_text_pkce_allowed:
         label: Sfida con codice PKCE semplice consentita
         description: Indica se la richiesta del codice PKCE può essere inviata come
@@ -22923,7 +22923,7 @@ oro:
           saltare la schermata di consenso all'accesso dell'utente.
         value:
           'yes': Sì
-          'no': Da
+          'no': No
       action:
         add: Aggiungi applicazione
         activate: Attivare
@@ -24568,7 +24568,7 @@ Required: Obbligatorio
 Add: Aggiungi
 Info: Informazioni
 'Yes': Sì
-'No': Da
+'no': No
 Update field: Campo di aggiornamento
 Delete field: Elimina campo
 Update this transition: Aggiorna questa transizione
