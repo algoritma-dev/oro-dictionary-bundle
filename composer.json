@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Algoritma\\Bundle\\AlgoritmaDictionaryBundle\\": ""
+            "Algoritma\\Bundle\\DictionaryBundle\\": ""
         }
     },
     "prefer-stable": true,
