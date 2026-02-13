@@ -3,7 +3,6 @@
 The **AlgoritmaDictionaryBundle** is an OroCommerce bundle designed to manage dictionaries and custom translations within the platform.
 
 Languages supported:
-- English (en)
 - Italian (it_IT)
 
 **Contribution are welcome!**
