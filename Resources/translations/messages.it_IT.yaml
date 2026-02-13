@@ -110,7 +110,7 @@ oro:
     entity_plural_label: Ambito di applicazione
     entity_grid_all_view_label: Tutti i %entity_plural_label%
     id:
-      label: Identità
+      label: ID
     row_hash:
       label: Hash
     organization:
