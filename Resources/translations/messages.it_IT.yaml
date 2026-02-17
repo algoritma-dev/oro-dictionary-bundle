@@ -14345,9 +14345,8 @@ oro:
         not_have_available: Non hai carrelli disponibili
         empty: I tuoi carrelli sono vuoti
         empty_single: Il tuo carrello è vuoto
-        view_details:
-          label: Visualizza dettagli
-          title: Clicca per visualizzare tutti gli articoli, gli sconti, le tasse
+        view_details.label: Visualizza dettagli
+        view_details.title: Clicca per visualizzare tutti gli articoli, gli sconti, le tasse
             e le altre spese applicabili
         view_list:
           label: Elenco aperto
