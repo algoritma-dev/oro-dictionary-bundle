@@ -25419,223 +25419,223 @@ Alternative Checkout: Checkout alternativo
 Checkout: Cassa
 USD: USD
 EUR: Euro
-Aggiorna: __Aggiorna
-Watch Video: __Guarda il video
+Aggiorna: Aggiorna
+Watch Video: Guarda il video
 Select: Seleziona
-'%title%': __%title%
+'%title%': %title%
 '%title% - oro':
   ui:
-    edit: __%title% - gold.ui.edit
-    view_entity: __%title% - oro.ui.view_entity
-    update_entity: __%title% - oro.ui.update_entity
-Create Category: __Crea categoria
-'%title% - Edit': __%title% - Modifica
+    edit: %title% - gold.ui.edit
+    view_entity: %title% - oro.ui.view_entity
+    update_entity: %title% - oro.ui.update_entity
+Create Category: Crea categoria
+'%title% - Edit': %title% - Modifica
 '%step_label% - oro':
   checkout:
     open_order:
-      label: __%step_label% - preoccupazione.checkout.open_order.label
-Create Consent: __Creare il consenso
-'%name% - Edit': __%name% - Modifica
-'%name%': __%name%
-Create Payment Rule: __Crea regola di pagamento
-'%label%': __%label%
+      label: %step_label% - preoccupazione.checkout.open_order.label
+Create Consent: Creare il consenso
+'%name% - Edit': %name% - Modifica
+'%name%': %name%
+Create Payment Rule: Crea regola di pagamento
+'%label%': %label%
 Payment Rule %id% - Edit: Regola di pagamento PH0 - Modifica
-'%entityLabel%': __%entityLabel%
-'%sku% - %name%': __%sku% - %name%
+'%entityLabel%': %entityLabel%
+'%sku% - %name%': %sku% - %name%
 '%sku% - %name% - oro':
   ui:
-    edit: __%sku% - %name% - gold.ui.edit
+    edit: %sku% - %name% - gold.ui.edit
 '%name% - oro':
   ui:
-    edit: __%name% - gold.ui.edit
-    view: __%name% - aria.ui.view
+    edit: %name% - gold.ui.edit
+    view: %name% - aria.ui.view
 '%code% - oro':
   ui:
-    edit: __%code% - gold.ui.edit
-    view: __%code% - aria.ui.view
+    edit: %code% - gold.ui.edit
+    view: %code% - aria.ui.view
 'RFQ #%title%': Richiesta di preventivo
 'RFQ #%title% - oro':
   ui:
-    edit: '__RFQ #%title% - gold.ui.edit'
+    edit: 'RFQ #%title% - gold.ui.edit'
 'RFQ #%id%: %firstName% %lastName%': 'Richiesta di preventivo n. %id%: %firstName%
   %lastName%'
 'RFQ #%id% - oro':
   ui:
-    edit: '__RFQ #%id% - gold.ui.edit'
-' Grazie per la tua richiesta di preventivo!': __ Grazie per la tua richiesta di preventivo!
-Create Shipping Rule: __Crea regola di spedizione
-Shipping Rule %id% - Edit: __Regola di spedizione %id% - Modifica
+    edit: 'RFQ #%id% - gold.ui.edit'
+' Grazie per la tua richiesta di preventivo!':  Grazie per la tua richiesta di preventivo!
+Create Shipping Rule: Crea regola di spedizione
+Shipping Rule %id% - Edit: Regola di spedizione %id% - Modifica
 '%taxCode% - oro':
   ui:
-    view: __%taxCode% - aria.ui.view
-    edit: __%taxCode% - gold.ui.edit
+    view: %taxCode% - aria.ui.view
+    edit: %taxCode% - gold.ui.edit
 '%id% - oro':
   ui:
-    view: __%id% - aria.ui.view
-    edit: __%id% - gold.ui.edit
-'%sku% - %name% - Edit': __%sku% - %name% - Modifica
-'%webCatalogName%': __%webCatalogName%
+    view: %id% - aria.ui.view
+    edit: %id% - gold.ui.edit
+'%sku% - %name% - Edit': %sku% - %name% - Modifica
+'%webCatalogName%': %webCatalogName%
 '%entity':
-  name%: __%entity.name%
-  name% - Edit: __%entity.name% - Modifica
-  subject%: __%entity.subject%
-  subject% - Edit: __%entity.subject% - Modifica
+  name%: %entity.name%
+  name% - Edit: %entity.name% - Modifica
+  subject%: %entity.subject%
+  subject% - Edit: %entity.subject% - Modifica
   subject% - oro:
     ui:
-      edit: __%entity.subject% - gold.ui.edit
+      edit: %entity.subject% - gold.ui.edit
 '%account':
-  name%: __%account.name%
-  name% - Edit: __%account.name% - Modifica
-Create Account: __Crea account
-Create Channel: __Crea canale
+  name%: %account.name%
+  name% - Edit: %account.name% - Modifica
+Create Account: Crea account
+Create Channel: Crea canale
 '%channel':
-  name% - Edit: __%channel.name% - Modifica
-  name%: __%channel.name%
+  name% - Edit: %channel.name% - Modifica
+  name%: %channel.name%
 '%contact':
-  name%: __%contact.name%
-  name% - Edit: __%contact.name% - Modifica
-Create Contact: __Crea contatto
-Create Contact Group: __Crea gruppo di contatti
+  name%: %contact.name%
+  name% - Edit: %contact.name% - Modifica
+Create Contact: Crea contatto
+Create Contact Group: Crea gruppo di contatti
 '%group':
-  label% - Edit: __%group.label% - Modifica
+  label% - Edit: %group.label% - Modifica
 '%request':
-  clientName%: __%request.clientName%
-  clientName% - Edit: __%request.clientName% - Modifica
-Create contact request: __Crea richiesta di contatto
-Create contact reason: __Crea motivo del contatto
+  clientName%: %request.clientName%
+  clientName% - Edit: %request.clientName% - Modifica
+Create contact request: Crea richiesta di contatto
+Create contact reason: Crea motivo del contatto
 Edit contact reason: Modifica motivo del contatto
-'%reportName% - %reportGroup%': __%reportName% - %reportGroup%
+'%reportName% - %reportGroup%': %reportName% - %reportGroup%
 '%b2bcustomer':
-  name%: __%b2bcustomer.name%
-  name% - Edit: __%b2bcustomer.name% - Modifica
-Create Business Customer: __Crea cliente aziendale
+  name%: %b2bcustomer.name%
+  name% - Edit: %b2bcustomer.name% - Modifica
+Create Business Customer: Crea cliente aziendale
 '%lead':
-  name%: __%lead.name%
-  name% - Edit: __%lead.name% - Modifica
-  name% - Convert To Opportunity: __%lead.name% - Converti in opportunità
-Create Lead: __Crea lead
+  name%: %lead.name%
+  name% - Edit: %lead.name% - Modifica
+  name% - Convert To Opportunity: %lead.name% - Converti in opportunità
+Create Lead: Crea lead
 '%opportunity':
-  name%: __%opportunity.name%
-  name% - Edit: __%opportunity.name% - Modifica
-Create Opportunity: __Creare opportunità
-Storefront Menus - %customerGroup%: __Menu vetrina - %customerGroup%
-'%title% - Storefront Menus - %customerGroup%': __%title% - Menu vetrina - %customerGroup%
-Create Menu Item - Storefront Menus - %customerGroup%: __Crea voce di menu - Menu
+  name%: %opportunity.name%
+  name% - Edit: %opportunity.name% - Modifica
+Create Opportunity: Creare opportunità
+Storefront Menus - %customerGroup%: Menu vetrina - %customerGroup%
+'%title% - Storefront Menus - %customerGroup%': %title% - Menu vetrina - %customerGroup%
+Create Menu Item - Storefront Menus - %customerGroup%: Crea voce di menu - Menu
   vetrina - %customerGroup%
-'%title% - Edit - Storefront Menus - %customerGroup%': __%title% - Modifica - Menu
+'%title% - Edit - Storefront Menus - %customerGroup%': %title% - Modifica - Menu
   vetrina - %customerGroup%
-Storefront Menus - %customer%: __Menu vetrina - %customer%
-'%title% - Storefront Menus - %customer%': __%title% - Menu vetrina - %customer%
-Create Menu Item - Storefront Menus - %customer%: __Crea voce di menu - Menu vetrina
+Storefront Menus - %customer%: Menu vetrina - %customer%
+'%title% - Storefront Menus - %customer%': %title% - Menu vetrina - %customer%
+Create Menu Item - Storefront Menus - %customer%: Crea voce di menu - Menu vetrina
   - %customer%
-'%title% - Edit - Storefront Menus - %customer%': __%title% - Modifica - Menu vetrina
+'%title% - Edit - Storefront Menus - %customer%': %title% - Modifica - Menu vetrina
   - %customer%
-Storefront Menus: __Menu vetrina
-'%title% - Storefront Menus': __%title% - Menu del negozio
-Create Menu Item - Storefront Menus: __Crea voce di menu - Menu vetrina
-'%title% - Edit - Storefront Menus': __%title% - Modifica - Menu vetrina
+Storefront Menus: Menu vetrina
+'%title% - Storefront Menus': %title% - Menu del negozio
+Create Menu Item - Storefront Menus: Crea voce di menu - Menu vetrina
+'%title% - Edit - Storefront Menus': %title% - Modifica - Menu vetrina
 '%customerName% - oro':
   ui:
-    edit: __%customerName% - gold.ui.edit
+    edit: %customerName% - gold.ui.edit
 '%customerGroupName% - oro':
   ui:
-    edit: __%customerGroupName% - gold.ui.edit
-'%email%': __%email%
+    edit: %customerGroupName% - gold.ui.edit
+'%email%': %email%
 '%email% - oro':
   ui:
-    edit: __%email% - gold.ui.edit
+    edit: %email% - gold.ui.edit
 '%label% - oro':
   ui:
-    view: __%label% - aria.ui.view
-    edit: __%label% - gold.ui.edit
-'%user%': __%user%
+    view: %label% - aria.ui.view
+    edit: %label% - gold.ui.edit
+'%user%': %user%
 '%user% - oro':
   ui:
-    edit: __%user% - gold.ui.edit
-'%entityName%': __%entityName%
-'%entityName% - Edit': __%entityName% - Modifica
+    edit: %user% - gold.ui.edit
+'%entityName%': %entityName%
+'%entityName% - Edit': %entityName% - Modifica
 '%application':
   name% - oro:
     ui:
-      view: __%application.name% - aria.ui.view
-      edit: __%application.name% - gold.ui.edit
+      view: %application.name% - aria.ui.view
+      edit: %application.name% - gold.ui.edit
 '%form':
-  title%: __%form.title%
-  title% - Edit: __%form.title% - Modifica
+  title%: %form.title%
+  title% - Edit: %form.title% - Modifica
 Dashboard: Pannello di controllo
-'%label% - Edit': __%label% - Modifica
-'%subject% - My Emails - %username%': __%subject% - Le mie e-mail - %username%
-'%subject% - My Emails': __%subject% - Le mie e-mail
-My Emails - %username%: __Le mie e-mail - %username%
+'%label% - Edit': %label% - Modifica
+'%subject% - My Emails - %username%': %subject% - Le mie e-mail - %username%
+'%subject% - My Emails': %subject% - Le mie e-mail
+My Emails - %username%: Le mie e-mail - %username%
 Template %name% - Edit: Modello PH0 - Modifica
-Create Email Template: __Crea modello di email
-Clone Email Template: __Clona modello e-mail
-Mailbox %label% - Edit: __Casella postale %label% - Modifica
-Create Mailbox: __Crea casella postale
-'%entityName% - Entities - System': __%entityName% - Entità - Sistema
-'%recordName% - %entityName% - Entities - System': __%recordName% - %entityName% -
+Create Email Template: Crea modello di email
+Clone Email Template: Clona modello e-mail
+Mailbox %label% - Edit: Casella postale %label% - Modifica
+Create Mailbox: Crea casella postale
+'%entityName% - Entities - System': %entityName% - Entità - Sistema
+'%recordName% - %entityName% - Entities - System': %recordName% - %entityName% -
   Entità - Sistema
 '%attributeName% - oro':
   ui:
-    edit: __%attributeName% - gold.ui.edit
+    edit: %attributeName% - gold.ui.edit
 '%familyName% - oro':
   ui:
-    edit: __%familyName% - gold.ui.edit
-'%fieldName% - %entityName%': __%fieldName% - %entityName%
-New Entity: __Nuova entità
-New Field - %entityName%: __Nuovo campo - %entityName%
-'%fieldName% - New Field - %entityName%': __%fieldName% - Nuovo campo - %entityName%
-Create Integration: __Crea integrazione
+    edit: %familyName% - gold.ui.edit
+'%fieldName% - %entityName%': %fieldName% - %entityName%
+New Entity: Nuova entità
+New Field - %entityName%: Nuovo campo - %entityName%
+'%fieldName% - New Field - %entityName%': %fieldName% - Nuovo campo - %entityName%
+Create Integration: Crea integrazione
 '%integration':
-  name%: __%integration.name%
-Job "%name%": __Lavoro "%name%"
-Menus: __Menu
-'%title% - Menus': __%title% - Menu
-Create Menu Item - Menus: __Crea voce di menu - Menu
-'%title% - Edit - Menus': __%title% - Modifica - Menu
+  name%: %integration.name%
+Job "%name%": Lavoro "%name%"
+Menus: Menu
+'%title% - Menus': %title% - Menu
+Create Menu Item - Menus: Crea voce di menu - Menu
+'%title% - Edit - Menus': %title% - Modifica - Menu
 Shortcut Actions List: Elenco delle azioni rapide
 Menus - %username%: Menu - PH0
-'%title% - Menus - %username%': __%title% - Menu - %username%
-Create Menu Item - Menus - %username%: __Crea voce di menu - Menu - %username%
-'%title% - Edit - Menus - %username%': __%title% - Modifica - Menu - %username%
+'%title% - Menus - %username%': %title% - Menu - %username%
+Create Menu Item - Menus - %username%: Crea voce di menu - Menu - %username%
+'%title% - Edit - Menus - %username%': %title% - Modifica - Menu - %username%
 Notification Rule %id% - Edit: Regola di notifica PH0 - Modifica
-Add Notification Rule: __Aggiungi regola di notifica
-Create Business Unit: __Creare unità aziendale
+Add Notification Rule: Aggiungi regola di notifica
+Create Business Unit: Creare unità aziendale
 '%business_unit':
-  name%: __%business_unit.name%
-  name% - Edit: __%business_unit.name% - Modifica
+  name%: %business_unit.name%
+  name% - Edit: %business_unit.name% - Modifica
 '%organization':
-  name% - Edit: __%organization.name% - Modifica
-'%keyword% - Search Results': __%keyword% - Risultati della ricerca
+  name% - Edit: %organization.name% - Modifica
+'%keyword% - Search Results': %keyword% - Risultati della ricerca
 '%segment':
   name% - %segment:
-    group%: __%segment.name% - %segment.group%
-  name% - Edit: __%segment.name% - Modifica
-Create segment: __Crea segmento
-Create Tag: __Crea tag
+    group%: %segment.name% - %segment.group%
+  name% - Edit: %segment.name% - Modifica
+Create segment: Crea segmento
+Create Tag: Crea tag
 '%tag':
-  name% Tag - Edit: __%tag.name% Tag - Modifica
+  name% Tag - Edit: %tag.name% Tag - Modifica
 Records tagged as "%tag:
-  name%": __Record contrassegnati come "%tag.name%"
+  name%": Record contrassegnati come "%tag.name%"
 '%group% - oro':
   ui:
-    edit: __%group% - gold.ui.edit
-Password Reset - Check Email: __Reimpostazione password - Controlla l'e-mail
+    edit: %group% - gold.ui.edit
+Password Reset - Check Email: Reimpostazione password - Controlla l'e-mail
 '%role% - oro':
   ui:
-    view: __%role% - aria.ui.view
-    edit: __%role% - gold.ui.edit
+    view: %role% - aria.ui.view
+    edit: %role% - gold.ui.edit
 '%username% - oro':
   ui:
-    view: __%username% - aria.ui.view
-    edit: __%username% - gold.ui.edit
+    view: %username% - aria.ui.view
+    edit: %username% - gold.ui.edit
   user:
     configure:
-      label: __%username% - oro.user.configure.label
+      label: %username% - oro.user.configure.label
 '%process_definition':
-  label%: __%process_definition.label%
-'%workflow_title%': __%workflow_title%
+  label%: %process_definition.label%
+'%workflow_title%': %workflow_title%
 '%workflow_definition':
-  label% - Edit: __%workflow_definition.label% - Modifica
-  label% - Configuration: __%workflow_definition.label% - Configurazione
-  label%: __%workflow_definition.label%
+  label% - Edit: %workflow_definition.label% - Modifica
+  label% - Configuration: %workflow_definition.label% - Configurazione
+  label%: %workflow_definition.label%
