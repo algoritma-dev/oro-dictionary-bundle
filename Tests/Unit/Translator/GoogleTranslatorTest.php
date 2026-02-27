@@ -39,7 +39,7 @@ class GoogleTranslatorTest extends TestCase
         $this->clientMock->expects(self::once())->method('translate')
             ->with('Hello, World!', ['target' => 'id', 'source' => 'en'])
             ->willReturn(['text' => 'Hello, World!'])
-            ->willThrowException(new ServiceException())
+            ->willThrowException(new \Exception())
         ;
 
         $result = $this->translator->trans('Hello, World!', 'en', 'id');
@@ -52,7 +52,7 @@ class GoogleTranslatorTest extends TestCase
         $this->clientMock->expects(self::once())->method('translate')
             ->with('Hello, World!', ['target' => 'id', 'source' => 'en'])
             ->willReturn(['text' => 'Hello, World!'])
-            ->willThrowException(new ServiceException('Message to be logged'))
+            ->willThrowException(new \Exception())
         ;
 
         $this->logger->expects(self::once())->method('error');

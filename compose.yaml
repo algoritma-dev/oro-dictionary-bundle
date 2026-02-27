@@ -1,0 +1,57 @@
+networks:
+    app-network:
+
+services:
+    workspace:
+        image: docker.algoritma.it/algoritma/workspace:oro6.1-alpine3.22
+        extra_hosts:
+            - host.docker.internal:host-gateway
+        environment:
+            - PHP_MEMORY_LIMIT=2G
+            - SSH_AUTH_SOCK=${SSH_AUTH_SOCK}
+            - PHP_IDE_CONFIG="serverName=localhost"
+            - XDEGUB_ENABLED=0
+        working_dir: /application
+        volumes:
+            - ~/.composer:/home/algoritma/.composer
+            - .:/application
+            - ${SSH_AUTH_SOCK}:${SSH_AUTH_SOCK}
+        networks:
+            - app-network
+
+    workspace-test:
+        build:
+            context: .
+            dockerfile: .docker/Dockerfile
+        entrypoint: '/entrypoint.sh bin/console oro:install --env=test --timeout=900000'
+        depends_on:
+            -   db-test
+        extra_hosts:
+            - host.docker.internal:host-gateway
+        environment:
+            - PHP_MEMORY_LIMIT=2G
+            - SSH_AUTH_SOCK=${SSH_AUTH_SOCK}
+            - ORO_ENV=test
+            - ORO_DB_URL=postgres://root@db-test/b2b_crm_dev_test
+            - PHP_IDE_CONFIG="serverName=localhost"
+            - XDEGUB_ENABLED=0
+        working_dir: /application
+        volumes:
+            - ~/.composer:/home/algoritma/.composer
+            - .:/application/lib/app
+            - ${SSH_AUTH_SOCK}:${SSH_AUTH_SOCK}
+        networks:
+            - app-network
+
+    db-test:
+        image: docker.algoritma.it/algoritma/psql:17.2-alpine
+        ports:
+            - '5433:5432'
+        tmpfs:
+            - /var/lib/postgresql:uid=999,gid=999
+        environment:
+            - POSTGRES_DB=b2b_crm_dev_test
+            - POSTGRES_USER=root
+            - POSTGRES_HOST_AUTH_METHOD=trust
+        networks:
+            - app-network

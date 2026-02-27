@@ -32,7 +32,7 @@ class GoogleTranslator implements TranslatorInterface
             }
 
             $result = $translation['text'] ?? $text;
-        } catch (ServiceException $e) {
+        } catch (\Exception $e) {
             $this->logger->error($e->getMessage());
         }
 

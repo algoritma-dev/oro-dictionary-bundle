@@ -1,1 +1,11 @@
-services: []
+services:
+  algoritma_dictionary.translator.performer:
+    class: Algoritma\Bundle\DictionaryBundle\Translator\TranslationPerformer
+
+  algoritma_dictionary.translator.registry:
+    class: Algoritma\Bundle\DictionaryBundle\Translator\TranslatorRegistry
+
+  algoritma_dictionary.translator.google:
+    class: Algoritma\Bundle\DictionaryBundle\Translator\GoogleTranslator
+    tags:
+      - { name: algoritma_dictionary.translator, key: google }
