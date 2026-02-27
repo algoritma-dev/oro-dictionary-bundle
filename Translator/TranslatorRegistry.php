@@ -10,7 +10,7 @@ class TranslatorRegistry
 
     public function getTranslator(string $code): TranslatorInterface
     {
-        return $this->translators[$code] ?? throw new \InvalidArgumentException('Translator not found');
+        return $this->translators[$code] ?? throw new \InvalidArgumentException(sprintf('Translator %s not found', $code));
     }
 
     public function addTranslator(string $code, TranslatorInterface $translator)

@@ -1,11 +1,22 @@
 services:
-  algoritma_dictionary.translator.performer:
-    class: Algoritma\Bundle\DictionaryBundle\Translator\TranslationPerformer
+    algoritma_dictionary.translate.command:
+        class: Algoritma\Bundle\DictionaryBundle\Command\TranslateFallbackValueCommand
+        arguments:
+            - '@oro_entity.doctrine_helper'
+            - '@algoritma_dictionary.translator.performer'
+        tags:
+            - { name: console.command }
 
-  algoritma_dictionary.translator.registry:
-    class: Algoritma\Bundle\DictionaryBundle\Translator\TranslatorRegistry
+    algoritma_dictionary.translator.performer:
+        class: Algoritma\Bundle\DictionaryBundle\Translator\TranslationPerformer
+        arguments:
+            - '@algoritma_dictionary.translator.registry'
 
-  algoritma_dictionary.translator.google:
-    class: Algoritma\Bundle\DictionaryBundle\Translator\GoogleTranslator
-    tags:
-      - { name: algoritma_dictionary.translator, key: google }
+    algoritma_dictionary.translator.registry:
+        public: true
+        class: Algoritma\Bundle\DictionaryBundle\Translator\TranslatorRegistry
+
+    algoritma_dictionary.translator.google:
+        class: Algoritma\Bundle\DictionaryBundle\Translator\GoogleTranslator
+        tags:
+            - { name: algoritma_dictionary.translator, key: google }

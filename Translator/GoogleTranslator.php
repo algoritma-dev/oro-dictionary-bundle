@@ -2,7 +2,6 @@
 
 namespace Algoritma\Bundle\DictionaryBundle\Translator;
 
-use Google\Cloud\Core\Exception\ServiceException;
 use Google\Cloud\Translate\V2\TranslateClient;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
