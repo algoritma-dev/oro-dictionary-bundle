@@ -71,6 +71,30 @@ class GoogleTranslatorTest extends TestCase
         self::assertEquals('Halo, Dunia!', $result);
     }
 
+    public function testTrans_TransPeformClientTransInvalidResponseShouldReturnSameEntryText():void
+    {
+        $this->clientMock->expects(self::once())->method('translate')
+            ->with('Hello, World!', ['target' => 'id', 'source' => 'en'])
+            ->willReturn('invalid response');
+
+        $result = $this->translator->trans('Hello, World!', 'en', 'id');
+
+        self::assertEquals('Hello, World!', $result);
+    }
+
+    public function testTrans_TransPeformClientTransInvalidResponseShouldLogError():void
+    {
+        $this->clientMock->expects(self::once())->method('translate')
+            ->with('Hello, World!', ['target' => 'id', 'source' => 'en'])
+            ->willReturn('invalid response');
+
+        $this->logger->expects(self::once())->method('error');
+
+        $result = $this->translator->trans('Hello, World!', 'en', 'id');
+
+        self::assertEquals('Hello, World!', $result);
+    }
+
     protected function setUp(): void
     {
         parent::setUp();

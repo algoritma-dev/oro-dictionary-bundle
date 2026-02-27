@@ -22,14 +22,20 @@ class GoogleTranslator implements TranslatorInterface
             return '';
         }
 
+        $result = $text;
+
         try {
             $translation = $this->client->translate($text, ['source' => $sourceLanguage, 'target' => $targetLanguage]);
 
-            return $translation['text'];
+            if(!is_array($translation) || ! array_key_exists('text', $translation)) {
+                $this->logger->error('Invalid response from Google Translate API', ['response' => $translation, 'text' => $text, 'source' => $sourceLanguage, 'target' => $targetLanguage]);
+            }
+
+            $result = $translation['text'] ?? $text;
         } catch (ServiceException $e) {
             $this->logger->error($e->getMessage());
-
-            return $text;
         }
+
+        return $result;
     }
 }
