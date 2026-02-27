@@ -11,7 +11,8 @@
     ],
     "license": "MIT",
     "require": {
-        "oro/platform": "^4.2 || ^5.0 || ^5.1 || ^6.0 || ^6.1 || ^7.0"
+        "oro/platform": "^4.2 || ^5.0 || ^5.1 || ^6.0 || ^6.1 || ^7.0",
+        "google/cloud-translate": "^1.15.2"
     },
     "autoload": {
         "psr-4": {
@@ -25,10 +26,26 @@
         }
     },
     "config": {
+        "audit": {
+            "ignore": [
+                "PKSA-y2cr-5h3j-g3ys",
+                "PKSA-2kqm-ps5x-s4f5",
+                "PKSA-w2tw-kmfg-rt9s",
+                "PKSA-yhcn-xrg3-68b1",
+                "PKSA-2wrf-1xmk-1pky",
+                "PKSA-6319-ffpf-gx66",
+                "PKSA-csyb-yc4p-mnbs"
+            ]
+        },
         "allow-plugins": {
             "symfony/runtime": true,
             "symfony/flex": true,
             "php-http/discovery": true
         }
+    },
+    "require-dev": {
+        "symfony/browser-kit": "^8.0",
+        "symfony/css-selector": "^8.0",
+        "symfony/phpunit-bridge": "^8.0"
     }
 }
