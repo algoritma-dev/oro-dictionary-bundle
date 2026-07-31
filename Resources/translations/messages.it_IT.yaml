@@ -20587,9 +20587,9 @@ oro:
       set_current: Imposta come corrente
       choose_list: Scegli elenco
       view: visualizza lista della spesa
-      add_to_shopping_list: <i class='fa fa-shopping-cart'>Aggiungi</i>
+      add_to_shopping_list: "<i class='fa fa-shopping-cart'>Aggiungi</i>"
       add_to_shopping_list_short: Aggiungi a
-      update_shopping_list: <i class='fa fa-shopping-cart'>Aggiungi</i>
+      update_shopping_list: "<i class='fa fa-shopping-cart'>Aggiungi</i>"
       update_shopping_list_short: Aggiornamento
       add_to_current_shopping_list: Aggiungi alla lista della spesa attuale
       remove_from_shopping_list: Rimuovi da {{ shoppingList }}
